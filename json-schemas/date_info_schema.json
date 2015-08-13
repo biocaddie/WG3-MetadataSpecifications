@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "ISA identifier information schema",
+    "description": "JSON-schema representing an identifier and its scheme in the ISA model v2.0",
+    "type": "object",
+    "properties": {
+        "date": {
+            "description": "a property used to specify any date relevant to the dataset",
+            "type" :  "string",
+            "format": "date-time"
+        },
+        "dateType": {
+                 "description": "a property qualifier to the 'data' attribute. The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
+                 "type" : "string",
+                 "format": "uri"
+        }
+    }
+}

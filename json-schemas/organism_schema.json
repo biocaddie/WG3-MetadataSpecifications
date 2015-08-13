@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI organism schema",
+    "description": "JSON-schema representing an organism in the DDI model. A living entity",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the scientific name of an organism",
+            "type" :  "string"
+        }
+    },
+    "required" : ["name"]
+}

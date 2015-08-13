@@ -1,0 +1,304 @@
+{
+        "identifierInfo":
+            [
+                {
+                    "identifier": "GSE46964",
+                    "identifierScheme": "GEO"
+                },
+                 {
+                    "identifier": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48964",
+                    "identifierScheme": "GEO"
+                }
+            ],
+
+        "title" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
+
+        "description" : "The adipose tissue is an endocrine regulator and a risk factor for atherosclerosis and cardiovascular disease when by excessive accumulation induces obesity. Although the adipose tissue is also a reservoir for stem cells (ASC) their function and “stemcellness” has been questioned. Our aim was to investigate the mechanisms by which obesity affects subcutaneous white adipose tissue (WAT) stem cells. We used microarrays to analyze differences in transcriptomic profiles between the adipose stem cells from morbidly obese and non-obese individuals.",
+
+        "dataType" : [
+                   "Expression profiling by array"
+                ],
+
+      "downloadURL" : [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964/miniml/",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964/soft/"
+      ],
+     "size": "28.1 Mb",
+    "creator": [
+        {
+           "firstName": "Lina",
+            "lastName": "Badimon",
+            "email": "lbadimon@csic-iccc.org"
+        }
+    ],
+
+        "conformsTo": [
+            {
+                 "identifierInfo": [
+                    {
+                    "identifier": "https://www.biosharing.org/bsg-000076",
+                    "identifierScheme": "BioSharing"
+                    }
+                ],
+                "name": "MINiML – MIAME Notation in Markup Language",
+                "dataStandardType": "format"
+
+            },
+             {
+                 "identifierInfo": [
+                    {
+                    "identifier": "https://www.biosharing.org/bsg-000077",
+                    "identifierScheme": "BioSharing"
+                    }
+                ],
+                "name": "SOFT – Simple Omnibus Format in Text",
+                "dataStandardType": "format"
+            }
+        ],
+
+      "isCitedBy" : [
+          {
+              "identifierInfo": [
+                    {
+                    "identifier": "24040759",
+                    "identifierScheme": "PMID"
+                    }
+                ],
+            "title": "Stem cells isolated from adipose tissue of obese patients show changes in their transcriptomic profile that indicate loss in stemcellness and increased commitment to an adipocyte-like phenotype. BMC Genomics 2013 Sep 16;14:625.",
+            "publicationType" : "article",
+            "date" : "2013",
+            "author" : [
+                {
+                    "firstName": "B.",
+                    "lastName": "Onate"
+                },
+                {
+                    "firstName": "G.",
+                    "lastName": "Vilahur"
+                },
+                {
+                    "firstName": "S.",
+                    "lastName": "Camino-López"
+                },
+                {
+                    "firstName": "A.",
+                    "lastName": "Díez-Caballero"
+                },
+                 {
+                    "firstName": "C.",
+                    "lastName": "Ballesta-López"
+                },
+                {
+                    "firstName": "J.",
+                    "lastName": "Ybarra"
+                },
+                {
+                    "firstName": "F.",
+                    "lastName": "Moscatiello"
+                },
+                {
+                    "firstName": "J.",
+                    "lastName": "Herrero"
+                },
+                 {
+                    "firstName": "L.",
+                    "lastName": "Badimon"
+                }
+            ]
+          }
+
+      ],
+      "license": [
+          {
+           "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+          }
+      ],
+
+        "storedIn" : [
+            {
+                "identifierInfo": [
+                    {
+                    "identifier": "https://www.biosharing.org/biodbcore-000441",
+                    "identifierScheme": "BioSharing"
+                    }
+                ],
+                "name": "Gene Expression Omnibus",
+                "homepage": "http://www.ncbi.nlm.nih.gov/geo/",
+                "license" : [
+                    {
+                       "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+                    }
+                ],
+                "dataRepositoryDataType": [],
+                "version": ""
+            }
+        ],
+        "isAboutBiologicalProcess": [
+            {
+                "name": "endocrine regulation"
+            },
+            {
+               "name": "obese"
+            }
+        ],
+        "size" : 0,
+        "producedBy" : {
+             "title" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
+             "recruits": [
+                  {
+                      "name": "ASC_morbidly-obese_biological rep1",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Morbidly obese patient"
+                         }
+                     ]
+                 },
+                  {
+                      "name": "ASC_lean_biological rep1",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Non-obese individual"
+                         }
+                     ]
+                 },
+                 {
+                      "name": "ASC_morbidly-obese_biological rep2",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Morbidly obese patient"
+                         }
+                     ]
+                 },
+                  {
+                      "name": "ASC_lean_biological rep2",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Non-obese individual"
+                         }
+                     ]
+                 },
+                 {
+                      "name": "ASC_morbidly-obese_biological rep3",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Morbidly obese patient"
+                         }
+                     ]
+                 },
+                  {
+                      "name": "ASC_lean_biological rep3",
+                      "instanceOfOrganism" : [
+                          {
+                              "name":  "Homo sapiens"
+                          }
+                      ],
+                      "anatomicalPart" : [
+                          {
+                              "name":  "subcutaneous white adipose tissue"
+                          }
+                      ],
+                     "hasCharacteristic" : [
+                         {
+                          "name" : "Non-obese individual"
+                         }
+                     ]
+                 }
+             ],
+            "schedulesDataAcquisition": [
+                {
+                    "title" : "DNA microarray hybridization",
+                    "startDate": "17-SEP-13",
+                    "endDate": "21-MAY-15",
+                    "uses": [
+                        {
+                            "name": "Affymetrix Expression Console"
+                        },
+                        {
+                            "name": "Affymetrix GeneChip Scanner 3000"
+                        },
+                        {
+                            "name": "Affymetrix Human Gene 1.0 ST Array"
+                        }
+                    ]
+                }
+            ],
+            "schedulesActivity":{
+                 "title" : "RMA Normalization",
+                 "measures": [
+                     {
+                         "name": "log2-rma"
+                     }
+                 ]
+            },
+            "hasStudyGroup": [
+                {
+                "name": "lean",
+                "size": 3,
+                "selectionCriteria": [
+                        "patients that are lean; BMI<25 kg/m2 (ASCn)"
+                ],
+                "member": []
+                },
+                {
+                "name": "obese",
+                "size": 3,
+                "selectionCriteria": [
+                        "patients that are obese; BMI>40 kg/m2 (ASCmo)"
+                ],
+                "member": []
+                }
+            ]
+
+
+        }
+}

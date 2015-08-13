@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI instrument schema",
+    "description": "JSON-schema representing an instrument in the DDI model. A physical entity produced by humans to perform specific tasks or functions",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the name of the instrument",
+            "type" :  "string"
+        },  
+        "instrumentType": {
+            "description": "a property to specify the type of the instrument/technology",
+            "type" :  "string"
+        },  
+     
+        "isUsedBy" : {
+            "description": "a property to specify the activity that makes use of this instrument",
+            "type" : "array",
+            "items" : {
+                  "$ref": "data_acquisition_schema.json#"
+            }            
+        },
+        "manufacturer" : {
+            "description": "a property to specify the organisation which produced the instrument",
+            "type" : "array",
+            "items" : {               
+               "oneOf": [
+                    {"$ref" : "person_schema.json#"},
+                    {"$ref" : "organization_schema.json#"}                
+               ]
+            }            
+        }
+    }
+}

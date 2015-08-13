@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI biological process schema",
+    "description": "JSON-schema representing a biological process in the DDI model. A biological process is a recognized series of events or molecular functions (from: http://geneontology.org/page/biological-process-ontology-guidelines)",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the name of the biological process",
+            "type" :  "string"
+        }
+    },
+    "required" : ["name"]
+}

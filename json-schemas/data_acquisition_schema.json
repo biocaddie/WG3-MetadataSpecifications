@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI data acquisition schema",
+    "description": "JSON-schema representing an data acquisition in the DDI model. Process of generating data through measurement made with specific techniques.",
+
+    "allOf": [
+        {"$ref": "activity_schema.json#"},
+        {
+            "type": "object",
+            "properties": {
+                "uses": {
+                    "description": "a property to specify the instrument(s) used to acquire the signal",
+                    "oneOf": [
+                        {"$ref": "instrument_schema.json#"},
+                        {"$ref": "software_schema.json#"}
+                    ]
+                },
+                "measures": {
+                    "description": "a property to specify the dimension(s) being acquired as signal",
+                    "type": "array",
+                    "items": {
+                        "$ref": "dimension_schema.json#"
+                    },
+                    "minItems": 1
+                }
+            }
+        }
+
+    ]
+
+}

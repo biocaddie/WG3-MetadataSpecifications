@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI molecular entity schema",
+    "description": "JSON-schema representing an molecular entity in the DDI model",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the name of the molecular entity",
+            "type" :  "string"
+        },  
+        "structure": {
+            "description": "a property to specify the primary sequence of the molecular entity",
+            "type" :  "number"
+        },  
+     
+        "role" : {
+            "description": "a property to specify the role played by a molecular entity in a study",
+            "type" : "array",
+            "items" : {                                            
+               "type" : "string",
+                "format": "uri"
+            }            
+        }
+    },
+     "required": ["name"]
+}

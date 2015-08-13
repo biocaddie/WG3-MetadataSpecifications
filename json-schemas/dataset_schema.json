@@ -1,0 +1,120 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI Dataset Schema",
+    "description": "JSON-schema representing a dataset in the DDI model. A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset)",
+    "type": "object",
+    "properties": {
+        "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "title" : {
+            "description" : "one sentence, usually short description of an entity, here the dataset",
+            "type" : "string"
+        },
+        "description" : {
+            "description": "a textual narrative, comprised of one or more statements describing the dataset",
+            "type" : "string"
+        },
+        "dataType" : {
+            "description": "a term, ideally from a controlled terminology, identifying the nature of the data, placing it in a typology",
+            "type" : "array",
+            "items" : {
+                "type" : "string",
+                "format": "uri"
+            },
+             "minItems" : 1
+        },
+        "conformsTo" : {
+            "description" : "a property used to indicate if the dataset meets the requirements and constraints defined by specific community data standard",
+            "type": "array",
+            "items": {
+                "$ref": "data_standard_schema.json#"
+            }
+        },
+        "storedIn" : {
+            "description": "a property used to specify the data repository(ies) hosting the dataset",
+             "type": "array",
+             "items": {
+                "$ref": "data_repository_schema.json#"
+            }
+        },
+        "hasPartDimension" : {
+            "description": "a property used to identify, specify and list the different dimensions (granular components)  making up a dataset.",
+            "type" : "array",
+             "items" : {
+                 "$ref" : "dimension_schema.json#"
+             },
+             "minItems" : 1
+        },
+        "isCitedBy" : {
+            "description": "a property used to specify links to relevant publication(s)",
+            "type" : "array",
+            "items" : {
+                "$ref" : "publication_schema.json#"
+            }
+        },
+        "license" : {
+            "description": "a property used to specify relevant terms of usage and license",
+            "type" : "array",
+            "items" : {
+                "$ref" : "license_schema.json#"
+            }
+        },
+        "downloadURL" : {
+            "description": "a property used to specify a URL where the dataset can be obtained",
+            "type" : "array",
+            "items" : {
+                "type" : "string",
+                "format": "uri"
+            }         
+        },
+        "producedBy" : {
+            "description": "a property used to associate a study process which generated a given dataset, if any",
+            "$ref" : "study_schema.json#"
+        },
+        "isAboutBiologicalProcess": {
+            "description" : "a property used to specify the biological processes relevant to the study, ideally from a controlled vocabulary/ontology",
+            "type": "array",
+            "items": {
+                 "$ref" : "biological_process_schema.json#"
+            }
+        },
+        "creator" : {
+            "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
+            "type" : "array",
+            "items" : {               
+               "oneOf": [
+                    {"$ref" : "person_schema.json#"},
+                    {"$ref" : "organization_schema.json#"}                
+               ]
+            },
+            "minItems" : 1
+        },
+        "date_info" : {
+            "type" : "array",
+            "items" : {
+                "$ref" : "date_info_schema.json#"
+            },
+            "minItems": 1
+        },
+        "version" : {
+            "description": "an optional property used to specify a release point for the dataset when applicable",
+            "type": "string"
+        },
+        "relatedDataset": {
+            "description": "a property to indicate if the dataset relies on other dataset(s)",
+            "type": "array",
+            "items": {
+                "$ref" : "dataset_schema.json#"
+            }
+        },
+        "size" : {
+            "description": "a property used to specify the size of the dataset",
+            "type" : "number"
+        }
+    },   
+    "required" : [ "title"  ]
+}

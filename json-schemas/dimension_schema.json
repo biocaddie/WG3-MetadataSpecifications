@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI dimension schema",
+    "description": "JSON-schema representing a dimension in the DDI model",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name" : {
+          "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
+          "type": "string"
+        },
+        "dimensionType": {
+            "description": "a term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology",
+            "type" : "string",
+            "format": "uri"
+        },
+        "values": {
+            "description": "a property used to specify the actual collections of values collected for that dimension",
+            "type": "array"
+        },
+        "unit": {
+          "description": "an optional property used to specify a reference measurement unit associated with scalar dimensions. Ideally, unit should be coming from a reference controlled terminology.",
+           "type" : "string",
+            "format": "uri"
+        },
+        "partOf" : {
+            "dimension": "a property used to specify the dataset(s) this dimension belongs to",
+            "type" : "array",
+            "items" : {
+                  "$ref": "dataset_schema.json#"
+            }
+        },
+        "isAbout" : {
+            "description": "an optional property used to specify what the dimension is about, it could be about material (the heights of the patients) or about a dataset (the standard deviation or the set of outliers or a quality indicator of a dataset)",
+            "type" : "array",
+            "items" : {
+                 "oneOf": [
+                    {"$ref" : "material_schema.json#"},
+                    {"$ref" : "dataset_schema.json#"}
+               ]
+            }
+        }
+    }
+}

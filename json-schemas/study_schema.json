@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI study schema",
+    "description": "JSON-schema representing an study in the DDI model. Process to acquire data on a sample and attempt to draw conclusions about the population the sample has been selected from, executing a plan and design.",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "activity_schema.json#"
+        },
+        {
+            "schedulesActivity": {
+                "description": "a property used to specify the activities scheduled by the study",
+                "type": "array",
+                "items": {
+                    "$ref": "activity_schema.json#"
+                }
+            },
+             "schedulesDataAcquisition": {
+                "description": "a property used to specific the kind of techniques and response variables used during a study for acquiring signal",
+                "type": "array",
+                "items": {
+                    "$ref": "data_acquisition_schema.json#"
+                },
+                "minItems": 1
+            },
+            "studyType": {
+                "description": "a property used to specify the type of study, e.g. intervention or observation or meta-analysis",
+                "type": "string",
+                "format": "uri"
+            },
+            "hasStudyGroup": {
+                "description": "a property used to list the different study groups associated with a study",
+                "type": "array",
+                "items": {
+                    "$ref": "study_group.json#"
+                }
+            },
+            "recruits": {
+                "description": "a property used to specify which materials are the subjects and participants of the study",
+                "type": "array",
+                "items": {
+                    "$ref": "material_schema.json#"
+                }
+            },
+            "usesReagent": {
+                "description": "a property used to specify which materials are used as reagents (but not subjects) of the study",
+                "type": "array",
+                "items": {
+                    "$ref": "material_schema.json#"
+                }
+            },
+            "isAboutBiologicalProcess": {
+                "description": "a property used to specify the biological processes relevant to the study (ideally from a controlled vocabulary/ontology)",
+                "type": "string",
+                "format": "uri"
+            },
+            "resultsIn": {
+                "description": "a property used to specify the collection of data during assays over the course of a study",
+                "type": "array",
+                "items": {
+                    "$ref": "dataset_schema.json#"
+                },
+                "minItems": 1
+            }
+        }
+    ]
+}
+
+           
+        

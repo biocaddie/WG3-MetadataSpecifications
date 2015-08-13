@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI data analysis schema",
+    "description": "JSON-schema representing an data analysis in the DDI model. Process of transforming data and producing data",
+     "allOf": [
+        {
+            "$ref": "activity_schema.json#"
+        },
+        {
+            "uses": {
+                "description": "a property to specify any software package that may have been using in the data analysis process",
+                "type": "array",
+                "items": {
+                    "$ref": "software_schema.json#"
+                }
+            },
+         "input": {
+                "description": "a property to specify the dataset used as input",
+                "type": "array",
+                "items": {
+                    "$ref": "dataset_schema.json#"
+                },
+                "minItems" : 1
+            },
+            "output": {
+                "description": "a property to specify the dataset resulting from applying the technology",
+                "type": "array",
+                    "items": {
+                        "$ref": "dataset_schema.json#"
+                    },
+                "minItems" : 1
+            }
+        }
+    ]
+}

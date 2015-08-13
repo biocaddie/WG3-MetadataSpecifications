@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI anatomical part schema",
+    "description": "JSON-schema representing an anatomical part in the DDI model",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the name of the anatomical entity or anatomical part",
+            "type" :  "string"
+        }
+    },
+    "required" : ["name"]
+}

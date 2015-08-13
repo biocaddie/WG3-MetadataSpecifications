@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI person schema",
+    "description": "JSON-schema representing a person in the DDI model. A human being",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "firstName": {
+            "description": "a string denoting the given name of a person",
+            "type" :  "string"
+        },  
+        "lastName": {
+            "description": "a string denoting the family name of a person",
+            "type" :  "string"
+        },  
+        "email": {
+            "description": "a string denoting an SMTP electronic mail address, contains @ character",
+            "type" :  "string",
+            "format": "email"
+        },       
+         "affiliation" : {
+             "description": "a string or crossreference denoting a legal entity or physical entity corresponding to a business or administration",
+            "type" : "array",
+            "items" : {                                            
+                    "$ref" : "organization_schema.json#"                               
+            }            
+        },
+        "role" : {
+            "description": "roles assumed by a person, defined in an external resource",
+            "type" : "array",
+            "items" : {                                            
+                "type" : "string",
+                "format": "uri"
+            }            
+        }
+    },
+     "required": ["firstName","lastName"]
+}

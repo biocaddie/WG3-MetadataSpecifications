@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DDI organization schema",
+    "description": "JSON-schema representing an organization in the DDI model. Legal or physical entity corresponding to a business or administration.",
+    "type": "object",
+    "properties": {
+         "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "a property to specify the name of the organization",
+            "type" :  "string"
+        },  
+        "abbreviation": {
+            "description": "a property to specify the shortname, abbreviation associated to the organization",
+            "type" :  "string"
+        },  
+        "postalAddress": {
+            "description": "a property to specify the postal, street address associated to an organization",
+            "type" :  "string"
+        },
+        "role" : {
+            "description": "A property that identifies the role of the organization (ideally from a controlled vocabulary/ontology)",
+            "type" : "array",
+            "items" : {                                            
+                 "type" : "string",
+                 "format": "uri"
+            }            
+        }
+    },
+     "required": ["name"]
+}

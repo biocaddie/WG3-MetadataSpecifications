@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title" : "DDI publication schema",
+    "description" : "JSON-schema representing a publication in the DDI model",
+    "type" : "object",
+    "properties" : {
+      "identifierInfo": {
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "title": {
+            "description": "A  digital document made available by a publisher.",
+            "type" :  "string"
+        },        
+        "publicationType" : {
+             "description": "type of publication type, delegated to an external vocabulary/resource",
+             "type" : "string",
+             "format": "uri"
+        },
+        "date" : {
+            "description": "a property to specify the date of the publication",
+            "type" : "string",
+            "format": "date-time"
+        },
+         "author" : {
+            "description": "a property to specify the person(s) responsible for the publication",
+            "type" : "array",
+            "items" : {               
+               "oneOf": [
+                    {"$ref" : "person_schema.json#"},
+                    {"$ref" : "organization_schema.json#"}                
+               ]
+            },
+            "minItems" : 1
+        },
+        "acknowledges" : {
+               "description": "a property to specify the grant(s) which funded and supported the work reported by the publication",
+               "type" : "array",
+                    "items" : {
+                        "$ref" : "grant_schema.json#"
+                    }
+        },
+         "cites" : {
+               "description": "a property to specify a reference to a dataset or publication",
+               "type" : "array",
+                "items" : {
+                 "oneOf": [
+                    {"$ref" : "dateset_schema.json#"},
+                    {"$ref" : "publication_schema.json#"}                
+               ]
+            }
+        },
+        "license" : {
+            "description": "a property used to specify to the terms of use of the publication",
+            "type" : "array",
+            "items" : {
+                "$ref" : "license_schema.json#"
+            }
+        }
+    }
+}
