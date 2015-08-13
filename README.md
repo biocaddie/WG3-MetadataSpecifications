@@ -6,7 +6,7 @@ The original working files, the presentations and notes from the WG3 activities 
 
 * [Metadata Specification - version 1 (PDF file)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/WG3MetadataSpecificationv1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.pdf) - READ FIRST
 * [Appendix 1 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixI-WG3MetadataMappingFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
-* [Appendix 2 (Spreadsheet](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixII-WG3MetadataElementsFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
+* [Appendix 2 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixII-WG3MetadataElementsFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
 
 
 
