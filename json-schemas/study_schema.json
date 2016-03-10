@@ -9,7 +9,7 @@
         },
         {
             "type": "object",
-            "properities": {
+            "properties": {
                 "schedulesActivity": {
                     "description": "a property used to specify the activities scheduled by the study",
                     "type": "array",
