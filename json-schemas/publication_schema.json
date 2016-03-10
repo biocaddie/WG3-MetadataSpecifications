@@ -47,7 +47,7 @@
                "type" : "array",
                 "items" : {
                  "oneOf": [
-                    {"$ref" : "dateset_schema.json#"},
+                    {"$ref" : "dataset_schema.json#"},
                     {"$ref" : "publication_schema.json#"}                
                ]
             }
