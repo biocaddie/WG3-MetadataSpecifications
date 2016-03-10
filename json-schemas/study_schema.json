@@ -32,7 +32,7 @@
                 "description": "a property used to list the different study groups associated with a study",
                 "type": "array",
                 "items": {
-                    "$ref": "study_group.json#"
+                    "$ref": "study_group_schema.json#"
                 }
             },
             "recruits": {
