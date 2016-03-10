@@ -29,7 +29,7 @@
             "format": "uri"
         },
         "partOf" : {
-            "dimension": "a property used to specify the dataset(s) this dimension belongs to",
+            "description": "a property used to specify the dataset(s) this dimension belongs to",
             "type" : "array",
             "items" : {
                   "$ref": "dataset_schema.json#"
