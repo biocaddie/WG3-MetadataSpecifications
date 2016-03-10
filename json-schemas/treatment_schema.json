@@ -11,25 +11,13 @@
                 "agent": {
                     "description": "a property used to specify the nature of the perturbation or intervention used in the study",
                     "oneOf": [
-                        {
-                            "type": {
-                                "$ref": "molecular_entity_schema.json#"
-                            }
-                        },
-                        {
-                            "type": {
-                                "$ref": "material_schema.json#"
-                            }
-                        },
-                        {
-                            "type": {
-                                "$ref": "activity_schema.json#"
-                            }
-                        },
-                        {
-                            "type": "string",
-                            "format": "uri"
-                        }
+                      {"$ref": "molecular_entity_schema.json#"},
+                      {"$ref": "material_schema.json#"},
+                      {"$ref": "activity_schema.json#"},
+                      {
+                        "type": "string",
+                        "format": "uri"
+                      }
                     ]
                 },
                 "intensity": {
@@ -37,8 +25,8 @@
                     "type": "array",
                     "items": {
                         "oneOf": [
-                            "string",
-                            "number"
+                           {"type": "string"},
+                           {"type": "number"}
                         ]
                     }
                 },
