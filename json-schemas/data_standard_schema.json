@@ -14,11 +14,6 @@
             "description": "the name of the standard",
             "type" :  "string"
         },
-        "homepage" : {
-            "description": "URL of the homepage of the standard",
-            "type" : "string",
-            "format": "uri"
-        },
         "dataStandardType" : {
             "description": "a descriptor (ideally from a controlled vocabulary) providing information about the nature of the information resource",
             "type" : "string",
