@@ -13,11 +13,19 @@
         "firstName": {
             "description": "a string denoting the given name of a person",
             "type" :  "string"
-        },  
+        },
+        "midInitial": {
+            "description": "a string denoting the mid initial of a person",
+            "type" :  "string"
+        },
         "lastName": {
             "description": "a string denoting the family name of a person",
             "type" :  "string"
-        },  
+        },
+        "fullName": {
+            "description": "a string denoting the full name of a person",
+            "type" :  "string"
+        },
         "email": {
             "description": "a string denoting an SMTP electronic mail address, contains @ character",
             "type" :  "string",
