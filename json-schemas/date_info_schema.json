@@ -9,7 +9,7 @@
             "type" :  "string",
             "format": "date-time"
         },
-        "dateType": {
+        "type": {
                  "description": "a property qualifier to the 'data' attribute. The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
                  "type" : "string",
                  "format": "uri"

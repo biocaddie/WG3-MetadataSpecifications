@@ -14,7 +14,7 @@
             "description": "a property to specify the name of the instrument",
             "type" :  "string"
         },  
-        "instrumentType": {
+        "type": {
             "description": "a property to specify the type of the instrument/technology",
             "type" :  "string"
         },  

@@ -25,7 +25,7 @@
                     },
                     "minItems": 1
                 },
-                "studyType": {
+                "type": {
                     "description": "a property used to specify the type of study, e.g. intervention or observation or meta-analysis",
                     "type": "string",
                     "format": "uri"

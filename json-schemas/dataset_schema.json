@@ -18,7 +18,7 @@
             "description": "a textual narrative, comprised of one or more statements describing the dataset",
             "type" : "string"
         },
-        "dataType" : {
+        "type" : {
             "description": "a term, ideally from a controlled terminology, identifying the nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {

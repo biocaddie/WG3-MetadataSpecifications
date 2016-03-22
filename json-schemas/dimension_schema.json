@@ -14,7 +14,7 @@
           "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
           "type": "string"
         },
-        "dimensionType": {
+        "type": {
             "description": "a term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology",
             "type" : "string",
             "format": "uri"

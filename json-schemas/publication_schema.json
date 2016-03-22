@@ -14,7 +14,7 @@
             "description": "A  digital document made available by a publisher.",
             "type" :  "string"
         },        
-        "publicationType" : {
+        "type" : {
              "description": "type of publication type, delegated to an external vocabulary/resource",
              "type" : "string",
              "format": "uri"
