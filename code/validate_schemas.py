@@ -12,8 +12,8 @@ files = [ f for f in listdir(path) if isfile(join(path,f)) ]
 #Draft4Validator.check_schema(schema)
 
 for schemaFile in files:
-    print "Validating schema ", schemaFile, "..."
+    print("Validating schema ", schemaFile, "...")
     schema = json.load(open(join(path,schemaFile)))
     Draft4Validator.check_schema(schema)
-    print "done."
+    print("done.")
 
