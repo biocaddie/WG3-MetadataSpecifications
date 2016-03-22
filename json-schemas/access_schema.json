@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS access schema",
+  "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
+  "type": "object",
+  "properties": {
+    "landingPage": {
+      "description": "A web page that contains information about the associated dataset or other research object and a direct link to the object itself.",
+      "type" :  "string",
+      "format": "uri"
+    },
+    "accessURL": {
+      "description": "A URL from which the resource (dataset or other research object) can be retrieved.",
+      "type" :  "string",
+      "format": "uri"
+    },
+    "type": {
+      "description": "Method to obtain the resource, ideally specified from a controlled vocabulary or ontology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    },
+    "authorization": {
+      "description": "Types of verification that accesing the resource is allowed. Authorization occurs after successful authentication. Ideally specified from a controlled vocabulary or ontology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    },
+    "authentication" : {
+      "description": "Types of verification of the credentials for accessing the resource, ideally specified from a controlled vocabulary or ontology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    },
+    "licences": {
+      "description": "Terms of usage as specified on a license or data use agreement.",
+      "type": "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "license_schema.json#"},
+          {
+            "type" : "string",
+            "format": "uri"
+          }
+        ]
+      }
+    }
+  }
+}
