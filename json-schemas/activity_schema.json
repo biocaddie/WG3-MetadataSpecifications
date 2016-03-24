@@ -1,48 +1,48 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI activity schema",
-    "description": "JSON-schema representing an activity/process in the DDI model. A type of process scheduled in a study",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-        "title": {
-            "description": "a property to specify the title/name of the process",
-            "type" :  "string"
-        },  
-        "startDate": {
-            "description": "a timestamp to record the starting point of the process",
-            "type" :  "string",
-            "format": "date-time"
-        },  
-        "endDate": {
-           "description": "a timestamp to record the ending point of the process",
-           "type" :  "string",
-           "format": "date-time"
-        },
-        "duration": {
-            "description": "a property to specify the duration of the activity",
-            "type" :  "string"
-        },
-        "location" : {
-            "description": "a property to specify where the process is performed",
-             "type" : "string",
-              "format": "uri"
-        },
-         "performedBy" : {
-             "description": "a property to specify the person(s) or organisation(s) responsible for executing the process",
-            "type" : "array",
-            "items" : {
-               "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}
-               ]
-            }
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS activity schema",
+  "description": "JSON-schema representing an activity/process in the DATS model. A type of process scheduled in a study",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-    "required": ["title"]
+    "title": {
+      "description": "a property to specify the title/name of the process",
+      "type" :  "string"
+    },
+    "startDate": {
+      "description": "a timestamp to record the starting point of the process",
+      "type" :  "string",
+      "format": "date-time"
+    },
+    "endDate": {
+      "description": "a timestamp to record the ending point of the process",
+      "type" :  "string",
+      "format": "date-time"
+    },
+    "duration": {
+      "description": "a property to specify the duration of the activity",
+      "type" :  "string"
+    },
+    "location" : {
+      "description": "a property to specify where the process is performed",
+      "type" : "string",
+      "format": "uri"
+    },
+    "performedBy" : {
+      "description": "a property to specify the person(s) or organisation(s) responsible for executing the process",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
+      }
+    }
+  },
+  "required": ["title"]
 }

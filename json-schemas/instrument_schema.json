@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI instrument schema",
-    "description": "JSON-schema representing an instrument in the DDI model. A physical entity produced by humans to perform specific tasks or functions",
+    "title": "DATS instrument schema",
+    "description": "JSON-schema representing an instrument in the DATS model. A physical entity produced by humans to perform specific tasks or functions",
     "type": "object",
     "properties": {
          "identifierInfo": {
@@ -16,7 +16,15 @@
         },  
         "type": {
             "description": "The type of the instrument/technology.",
-            "type" :  "string"
+             "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string",
+                  "format" : "uri"
+                }
+             ]
         },  
      
         "isUsedBy" : {

@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI license schema",
-    "description": "JSON-schema representing a license in the DDI model",
+    "title": "DATS license schema",
+    "description": "JSON-schema representing a license in the DATS model",
     "type": "object",
     "properties": {
          "identifierInfo": {

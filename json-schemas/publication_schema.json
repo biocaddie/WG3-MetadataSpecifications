@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title" : "DDI publication schema",
-    "description" : "JSON-schema representing a publication in the DDI model",
+    "title" : "DATS publication schema",
+    "description" : "JSON-schema representing a publication in the DATS model",
     "type" : "object",
     "properties" : {
       "identifierInfo": {

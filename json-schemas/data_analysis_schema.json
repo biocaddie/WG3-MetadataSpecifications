@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI data analysis schema",
-    "description": "JSON-schema representing an data analysis in the DDI model. Process of transforming data and producing data",
+    "title": "DATS data analysis schema",
+    "description": "JSON-schema representing an data analysis in the DATS model. Process of transforming data and producing data",
      "allOf": [
         {
             "$ref": "activity_schema.json#"

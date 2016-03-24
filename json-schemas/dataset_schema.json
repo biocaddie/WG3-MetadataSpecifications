@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI Dataset Schema",
-    "description": "JSON-schema representing a dataset in the DDI model. A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset)",
+    "title": "DATS Dataset Schema",
+    "description": "JSON-schema representing a dataset in the DATS model. A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset)",
     "type": "object",
     "properties": {
         "identifierInfo": {
