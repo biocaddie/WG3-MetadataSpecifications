@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI organism schema",
-    "description": "JSON-schema representing an organism in the DDI model. A living entity",
+    "title": "DATS organism schema",
+    "description": "JSON-schema representing an organism in the DATS model. A living entity",
     "type": "object",
     "properties": {
          "identifierInfo": {
@@ -11,7 +11,7 @@
             }
         },
         "name": {
-            "description": "a property to specify the scientific name of an organism",
+            "description": "The scientific name of an organism.",
             "type" :  "string"
         }
     },

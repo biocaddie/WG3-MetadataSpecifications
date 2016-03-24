@@ -11,23 +11,23 @@
             }
         },
         "name": {
-            "description": "a property to specify the name of the instrument",
+            "description": "The name of the instrument.",
             "type" :  "string"
         },  
         "type": {
-            "description": "a property to specify the type of the instrument/technology",
+            "description": "The type of the instrument/technology.",
             "type" :  "string"
         },  
      
         "isUsedBy" : {
-            "description": "a property to specify the activity that makes use of this instrument",
+            "description": "The data acquisition activity that makes use of this instrument.",
             "type" : "array",
             "items" : {
                   "$ref": "data_acquisition_schema.json#"
             }            
         },
         "manufacturer" : {
-            "description": "a property to specify the organisation which produced the instrument",
+            "description": "The person or organisation that produced the instrument.",
             "type" : "array",
             "items" : {               
                "oneOf": [

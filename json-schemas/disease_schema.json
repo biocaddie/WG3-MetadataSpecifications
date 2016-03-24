@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI disease schema",
-    "description": "JSON-schema representing a disease in the DDI model",
+    "title": "DATS disease schema",
+    "description": "JSON-schema representing a disease in the DATS model.",
     "type": "object",
     "properties": {
          "identifierInfo": {
@@ -11,7 +11,7 @@
             }
         },
         "name": {
-            "description": "a property to specify the name of the disease",
+            "description": "The name of the disease.",
             "type" :  "string"
         }
     },

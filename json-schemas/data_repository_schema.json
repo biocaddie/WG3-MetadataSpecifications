@@ -14,7 +14,7 @@
             "description": "the name of the data repository ",
             "type" :  "string"
         },
-        "dataRepositoryDataType" : {
+        "type" : {
             "description": "a descriptor (ideally from a controlled vocabulary) providing information about the nature of the datasets",
             "type": "array",
             "items": {

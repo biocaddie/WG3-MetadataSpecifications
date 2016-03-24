@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI anatomical part schema",
-    "description": "JSON-schema representing an anatomical part in the DDI model",
+    "title": "DATS anatomical part schema",
+    "description": "JSON-schema representing an anatomical part in the DATS model.",
     "type": "object",
     "properties": {
          "identifierInfo": {
@@ -11,7 +11,7 @@
             }
         },
         "name": {
-            "description": "a property to specify the name of the anatomical entity or anatomical part",
+            "description": "The name of the anatomical entity or anatomical part.",
             "type" :  "string"
         }
     },
