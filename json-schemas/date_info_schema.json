@@ -1,18 +1,25 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "ISA identifier information schema",
-    "description": "JSON-schema representing an identifier and its scheme in the ISA model v2.0",
+    "title": "DATS date information schema.",
+    "description": "JSON-schema representing a date in the DATS model.",
     "type": "object",
     "properties": {
         "date": {
-            "description": "a property used to specify any date relevant to the dataset",
+            "description": "A date following the ISO8601 standard.",
             "type" :  "string",
             "format": "date-time"
         },
         "type": {
-                 "description": "a property qualifier to the 'data' attribute. The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
-                 "type" : "string",
-                 "format": "uri"
+            "description": "The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "string",
+                    "format" : "uri"
+                }
+            ]
         }
     }
 }
