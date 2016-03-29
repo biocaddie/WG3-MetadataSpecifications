@@ -1,49 +1,49 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI grant schema",
-    "description": "JSON-schema representing a grant in the DDI model. An allocated sum of funds given by a government or other organization for a particular purpose",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-        "name": {
-            "description": "An allocated sum of funds given by a government or other organization for a particular purpose",
-            "type" :  "string"
-        },                   
-         "funder" : {
-            "description": "a property to specify the organization(s) which has awarded the funds supporting the project",
-            "type" : "array",
-            "items" : {               
-               "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}                
-               ]
-            },
-            "minItems" : 1
-        },
-         "awardee" : {
-            "description": "a property to specify the person(s) or organization(s) which received the funds supporting the project",
-            "type" : "array",
-            "items" : {
-                "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}
-               ]
-            }          
-        },
-         "funds" : {
-            "description": "a property to specify the study (or dataset) supported by the grant",
-            "type" : "array",
-            "items" : {
-                "oneOf": [
-                    {"$ref" : "study_schema.json#"},
-                    {"$ref" : "dataset_schema.json#"}
-               ]
-            }
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS grant schema",
+  "description": "An allocated sum of funds given by a government or other organization for a particular purpose.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "An allocated sum of funds given by a government or other organization for a particular purpose",
+      "type" :  "string"
+    },
+    "funder" : {
+      "description": "a property to specify the organization(s) which has awarded the funds supporting the project",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
+      },
+      "minItems" : 1
+    },
+    "awardee" : {
+      "description": "a property to specify the person(s) or organization(s) which received the funds supporting the project",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
+      }
+    },
+    "funds" : {
+      "description": "a property to specify the study (or dataset) supported by the grant",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "study_schema.json#"},
+          {"$ref" : "dataset_schema.json#"}
+        ]
+      }
     }
+  }
 }

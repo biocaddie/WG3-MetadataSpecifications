@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS person schema",
-  "description": "JSON-schema representing a person in the DATS model. A human being",
+  "description": "A human being",
   "type": "object",
   "properties": {
     "identifierInfo": {

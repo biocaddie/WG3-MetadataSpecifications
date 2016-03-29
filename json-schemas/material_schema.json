@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI material schema",
-    "description": "JSON-schema representing an material in the DDI model",
+    "title": "DATS material schema",
+    "description": "A physical entity, part of collection or used in a study.",
     "type": "object",
     "properties": {
         "identifierInfo": {
@@ -18,21 +18,21 @@
             "description": "a property to indicate that this material originated from another material",
             "type" : "array",
             "items" : {
-                    "$ref": "material_schema.json#"
+                "$ref": "material_schema.json#"
             }
         },
         "anatomicalPart" : {
             "description": "a property to indicate that this material originated from an anatomical part (ideally from a controlled vocabulary/ontology)",
             "type": "array",
-             "items" : {
-                    "$ref": "anatomical_part_schema.json#"
+            "items" : {
+                "$ref": "anatomical_part_schema.json#"
             }
 
         },
         "hasCharacteristic" : {
             "type" : "array",
             "items" : {
-                    "$ref": "dimension_schema.json#"
+                "$ref": "dimension_schema.json#"
             }
         },
         "instanceOfOrganism" : {
@@ -47,16 +47,22 @@
             "description": "a property to specify the organism this material derives from - for instance when samples are taken from an organism (ideally from a controlled vocabulary/ontology)",
             "type" : "array",
             "items" : {
-                "type" : "string",
-                "format": "uri"
+                "type": "string"
             }
         },
         "involvedInBiologicalProcess": {
             "description": "a property to specify that the material is involved in a particular biological process (ideally from a controlled vocabulary/ontology)",
             "type" : "array",
             "items" : {
-                "type" : "string",
-                "format": "uri"
+                "oneOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "string",
+                        "format" : "uri"
+                    }
+                ]
             }
         },
         "bearerOfDisease": {
@@ -78,8 +84,15 @@
             "description": "a property to specify the role played by a material in a study",
             "type" : "array",
             "items" : {
-                "type" : "string",
-                "format": "uri"
+                "oneOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "string",
+                        "format" : "uri"
+                    }
+                ]
             }
         }
     },

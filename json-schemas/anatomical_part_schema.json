@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
     "title": "DATS anatomical part schema",
-    "description": "JSON-schema representing an anatomical part in the DATS model.",
+    "description": "A structure that is part of a multicellular organism.",
     "type": "object",
     "properties": {
          "identifierInfo": {

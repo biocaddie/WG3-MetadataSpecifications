@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS organization schema",
-  "description": "JSON-schema representing an organization in the DATS model. Legal or physical entity corresponding to a business or administration.",
+  "description": "Legal or physical entity corresponding to a business or administration.",
   "type": "object",
   "properties": {
     "identifierInfo": {

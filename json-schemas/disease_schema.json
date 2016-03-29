@@ -1,19 +1,19 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DATS disease schema",
-    "description": "JSON-schema representing a disease in the DATS model.",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-        "name": {
-            "description": "The name of the disease.",
-            "type" :  "string"
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS disease schema",
+  "description": "A disorder of structure or function in a human, animal, or plant, that produces specific symptoms or that affects a specific location.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-    "required" : ["name"]
+    "name": {
+      "description": "The name of the disease.",
+      "type" :  "string"
+    }
+  },
+  "required" : ["name"]
 }

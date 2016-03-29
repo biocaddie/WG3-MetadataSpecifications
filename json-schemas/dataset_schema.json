@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
     "title": "DATS Dataset Schema",
-    "description": "JSON-schema representing a dataset in the DATS model. A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset)",
+    "description": "A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset).",
     "type": "object",
     "properties": {
         "identifierInfo": {
@@ -25,7 +25,7 @@
                 "type" : "string",
                 "format": "uri"
             },
-             "minItems" : 1
+            "minItems" : 1
         },
         "conformsTo" : {
             "description" : "a property used to indicate if the dataset meets the requirements and constraints defined by specific community data standard",
@@ -36,18 +36,18 @@
         },
         "storedIn" : {
             "description": "a property used to specify the data repository(ies) hosting the dataset",
-             "type": "array",
-             "items": {
+            "type": "array",
+            "items": {
                 "$ref": "data_repository_schema.json#"
             }
         },
         "hasPartDimension" : {
             "description": "a property used to identify, specify and list the different dimensions (granular components)  making up a dataset.",
             "type" : "array",
-             "items" : {
-                 "$ref" : "dimension_schema.json#"
-             },
-             "minItems" : 1
+            "items" : {
+                "$ref" : "dimension_schema.json#"
+            },
+            "minItems" : 1
         },
         "isCitedBy" : {
             "description": "a property used to specify links to relevant publication(s)",
@@ -69,7 +69,7 @@
             "items" : {
                 "type" : "string",
                 "format": "uri"
-            }         
+            }
         },
         "producedBy" : {
             "description": "a property used to associate a study process which generated a given dataset, if any",
@@ -79,17 +79,17 @@
             "description" : "a property used to specify the biological processes relevant to the study, ideally from a controlled vocabulary/ontology",
             "type": "array",
             "items": {
-                 "$ref" : "biological_process_schema.json#"
+                "$ref" : "biological_process_schema.json#"
             }
         },
         "creator" : {
             "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
             "type" : "array",
-            "items" : {               
-               "oneOf": [
+            "items" : {
+                "oneOf": [
                     {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}                
-               ]
+                    {"$ref" : "organization_schema.json#"}
+                ]
             },
             "minItems" : 1
         },
@@ -115,6 +115,6 @@
             "description": "a property used to specify the size of the dataset",
             "type" : "number"
         }
-    },   
+    },
     "required" : [ "title"  ]
 }

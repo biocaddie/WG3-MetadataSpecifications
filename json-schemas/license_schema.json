@@ -1,34 +1,34 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DATS license schema",
-    "description": "JSON-schema representing a license in the DATS model",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-        "name": {
-            "description": "a property to specify the name of the license",
-            "type" :  "string"
-        },  
-        "version": {
-            "description": "an optional property used to specify the version of the license",
-            "type" :  "string"
-        },  
-         "creator" : {
-             "description": "a property to specify the person(s) or organization(s) responsible for writing the license",
-            "type" : "array",
-            "items" : {               
-               "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}                
-               ]
-            },
-            "minItems" : 1
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS license schema",
+  "description": "A legal document giving official permission to do something with a Resource. It is assumed that an external vocabulary will describe with sufficient granularity the permission for redistribution, modification, derivation, reuse, etc. and conditions for citation/acknowledgment.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-     "required": ["name"]
+    "name": {
+      "description": "a property to specify the name of the license",
+      "type" :  "string"
+    },
+    "version": {
+      "description": "an optional property used to specify the version of the license",
+      "type" :  "string"
+    },
+    "creator" : {
+      "description": "a property to specify the person(s) or organization(s) responsible for writing the license",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
+      },
+      "minItems" : 1
+    }
+  },
+  "required": ["name"]
 }

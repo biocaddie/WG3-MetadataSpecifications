@@ -1,17 +1,17 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "ISA identifier information schema",
-    "description": "JSON-schema representing an identifier and its scheme in the ISA model v2.0",
-    "type": "object",
-    "properties": {
-        "identifier": {
-           "description": "a code uniquely identifying the dataset",
-           "type" : "string",
-           "format": "uri"
-        },
-        "identifierScheme": {
-            "description": "if an identifier is supplied, the identifier scheme represent information about how identifiers are formed, maintained and minted",
-            "type" : "string"
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "ISA identifier information schema",
+  "description": "Identifiers.",
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "description": "a code uniquely identifying the dataset",
+      "type" : "string",
+      "format": "uri"
+    },
+    "identifierScheme": {
+      "description": "if an identifier is supplied, the identifier scheme represent information about how identifiers are formed, maintained and minted",
+      "type" : "string"
     }
+  }
 }

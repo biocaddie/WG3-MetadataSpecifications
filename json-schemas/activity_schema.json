@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
-  "title": "DATS activity schema",
-  "description": "JSON-schema representing an activity/process in the DATS model. A type of process scheduled in a study",
+  "title": "DATS activity (or process) schema.",
+  "description": "A type of process scheduled in a study.",
   "type": "object",
   "properties": {
     "identifierInfo": {

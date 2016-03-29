@@ -1,44 +1,44 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI treatment schema",
-    "description": "JSON-schema representing an treatment in the DDI model. Process, part of a study, consisting in exposing participants to the study to different conditions or group those participants into different categories based on specific criteria and compare their outcomes",
-    "type": "object",
-    "allOf": [
-        {   "$ref": "activity_schema.json#" },
-        {
-            "type": "object",
-            "properties": {
-                "agent": {
-                    "description": "a property used to specify the nature of the perturbation or intervention used in the study",
-                    "oneOf": [
-                      {"$ref": "molecular_entity_schema.json#"},
-                      {"$ref": "material_schema.json#"},
-                      {"$ref": "activity_schema.json#"},
-                      {
-                        "type": "string",
-                        "format": "uri"
-                      }
-                    ]
-                },
-                "intensity": {
-                    "description": "a property used to specify how acute the perturbation is",
-                    "type": "array",
-                    "items": {
-                        "oneOf": [
-                           {"type": "string"},
-                           {"type": "number"}
-                        ]
-                    }
-                },
-                "concomitance": {
-                    "description": "a property used to specify if more that one perturbations are applied at the same time to the same subject",
-                    "type": "boolean"
-                },
-                "order": {
-                    "description": "a property used to specify the rank in which perturbations are being applied to study subjects",
-                    "type": "number"
-                }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS treatment schema",
+  "description": "Process, part of a study, consisting in exposing participants to the study to different conditions or group those participants into different categories based on specific criteria and compare their outcomes",
+  "type": "object",
+  "allOf": [
+    {   "$ref": "activity_schema.json#" },
+    {
+      "type": "object",
+      "properties": {
+        "agent": {
+          "description": "a property used to specify the nature of the perturbation or intervention used in the study",
+          "oneOf": [
+            {"$ref": "molecular_entity_schema.json#"},
+            {"$ref": "material_schema.json#"},
+            {"$ref": "activity_schema.json#"},
+            {
+              "type": "string",
+              "format": "uri"
             }
+          ]
+        },
+        "intensity": {
+          "description": "a property used to specify how acute the perturbation is",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"type": "number"}
+            ]
+          }
+        },
+        "concomitance": {
+          "description": "a property used to specify if more that one perturbations are applied at the same time to the same subject",
+          "type": "boolean"
+        },
+        "order": {
+          "description": "a property used to specify the rank in which perturbations are being applied to study subjects",
+          "type": "number"
         }
-    ]
+      }
+    }
+  ]
 }

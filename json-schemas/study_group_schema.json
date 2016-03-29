@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS study group schema",
-  "description": "JSON-schema representing an study group in the DATS model. A collection of entities known as study subjects based on a set of specified criteria and rules; synonyms: population, cohort.",
+  "description": "A collection of entities known as study subjects based on a set of specified criteria and rules; synonyms: population, cohort.",
   "type": "object",
   "properties": {
     "identifierInfo": {

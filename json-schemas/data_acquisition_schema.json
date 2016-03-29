@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DDI data acquisition schema",
-    "description": "JSON-schema representing an data acquisition in the DDI model. Process of generating data through measurement made with specific techniques.",
+    "title": "DATS data acquisition schema.",
+    "description": "Process (or activity) of generating data through measurement made with specific techniques.",
 
     "allOf": [
         {"$ref": "activity_schema.json#"},

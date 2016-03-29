@@ -1,48 +1,47 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DATS instrument schema",
-    "description": "JSON-schema representing an instrument in the DATS model. A physical entity produced by humans to perform specific tasks or functions",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS instrument schema",
+  "description": "An instrument in the DATS model. A physical entity produced by humans to perform specific tasks or functions",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "The name of the instrument.",
+      "type" :  "string"
+    },
+    "type": {
+      "description": "The type of the instrument/technology.",
+      "oneOf": [
+        {
+          "type": "string"
         },
-        "name": {
-            "description": "The name of the instrument.",
-            "type" :  "string"
-        },  
-        "type": {
-            "description": "The type of the instrument/technology.",
-             "oneOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "string",
-                  "format" : "uri"
-                }
-             ]
-        },  
-     
-        "isUsedBy" : {
-            "description": "The data acquisition activity that makes use of this instrument.",
-            "type" : "array",
-            "items" : {
-                  "$ref": "data_acquisition_schema.json#"
-            }            
-        },
-        "manufacturer" : {
-            "description": "The person or organisation that produced the instrument.",
-            "type" : "array",
-            "items" : {               
-               "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}                
-               ]
-            }            
+        {
+          "type": "string",
+          "format" : "uri"
         }
+      ]
+    },
+    "isUsedBy" : {
+      "description": "The data acquisition activity that makes use of this instrument.",
+      "type" : "array",
+      "items" : {
+        "$ref": "data_acquisition_schema.json#"
+      }
+    },
+    "manufacturer" : {
+      "description": "The person or organisation that produced the instrument.",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
+      }
     }
+  }
 }

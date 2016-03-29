@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
     "title": "DATS study schema",
-    "description": "JSON-schema representing an study in the DATS model. Process to acquire data on a sample and attempt to draw conclusions about the population the sample has been selected from, executing a plan and design.",
+    "description": "Process to acquire data on a sample and attempt to draw conclusions about the population the sample has been selected from, executing a plan and design.",
     "type": "object",
     "allOf": [
         {

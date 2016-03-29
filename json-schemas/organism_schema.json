@@ -1,19 +1,19 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DATS organism schema",
-    "description": "JSON-schema representing an organism in the DATS model. A living entity",
-    "type": "object",
-    "properties": {
-         "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-        "name": {
-            "description": "The scientific name of an organism.",
-            "type" :  "string"
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS organism schema",
+  "description": "An organism in the DATS model. A living entity.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-    "required" : ["name"]
+    "name": {
+      "description": "The scientific name of an organism.",
+      "type" :  "string"
+    }
+  },
+  "required" : ["name"]
 }
