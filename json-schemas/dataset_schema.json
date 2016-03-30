@@ -11,78 +11,38 @@
             }
         },
         "title" : {
-            "description" : "one sentence, usually short description of an entity, here the dataset",
+            "description" : "The name of the dataset, usually one sentece or short description of the dataset.",
             "type" : "string"
         },
         "description" : {
-            "description": "a textual narrative, comprised of one or more statements describing the dataset",
+            "description": "A textual narrative, comprised of one or more statements describing the dataset.",
             "type" : "string"
         },
+        "date_info" : {
+            "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
+            "type" : "array",
+            "items" : {
+                "$ref" : "date_info_schema.json#"
+            },
+            "minItems": 1
+        },
         "type" : {
-            "description": "a term, ideally from a controlled terminology, identifying the nature of the data, placing it in a typology",
+            "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {
-                "type" : "string",
-                "format": "uri"
+                "oneOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "string",
+                        "format" : "uri"
+                    }
+                ]
             },
             "minItems" : 1
         },
-        "conformsTo" : {
-            "description" : "a property used to indicate if the dataset meets the requirements and constraints defined by specific community data standard",
-            "type": "array",
-            "items": {
-                "$ref": "data_standard_schema.json#"
-            }
-        },
-        "storedIn" : {
-            "description": "a property used to specify the data repository(ies) hosting the dataset",
-            "type": "array",
-            "items": {
-                "$ref": "data_repository_schema.json#"
-            }
-        },
-        "hasPartDimension" : {
-            "description": "a property used to identify, specify and list the different dimensions (granular components)  making up a dataset.",
-            "type" : "array",
-            "items" : {
-                "$ref" : "dimension_schema.json#"
-            },
-            "minItems" : 1
-        },
-        "isCitedBy" : {
-            "description": "a property used to specify links to relevant publication(s)",
-            "type" : "array",
-            "items" : {
-                "$ref" : "publication_schema.json#"
-            }
-        },
-        "license" : {
-            "description": "a property used to specify relevant terms of usage and license",
-            "type" : "array",
-            "items" : {
-                "$ref" : "license_schema.json#"
-            }
-        },
-        "downloadURL" : {
-            "description": "a property used to specify a URL where the dataset can be obtained",
-            "type" : "array",
-            "items" : {
-                "type" : "string",
-                "format": "uri"
-            }
-        },
-        "producedBy" : {
-            "description": "a property used to associate a study process which generated a given dataset, if any",
-            "$ref" : "study_schema.json#"
-        },
-        "isAboutBiologicalProcess": {
-            "description" : "a property used to specify the biological processes relevant to the study, ideally from a controlled vocabulary/ontology",
-            "type": "array",
-            "items": {
-                "$ref" : "biological_process_schema.json#"
-            }
-        },
-        "creator" : {
+        "creators" : {
             "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
             "type" : "array",
             "items" : {
@@ -93,15 +53,48 @@
             },
             "minItems" : 1
         },
-        "date_info" : {
+        "conformsTo" : {
+            "description" : "A data standard whose requirements and constraints are met by the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "data_standard_schema.json#"
+            }
+        },
+        "storedIn" : {
+            "description": "The data repository(ies) hosting the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "data_repository_schema.json#"
+            }
+        },
+        "hasPartDimension" : {
+            "description": "The different dimensions (granular components)  making up a dataset.",
             "type" : "array",
             "items" : {
-                "$ref" : "date_info_schema.json#"
+                "$ref" : "dimension_schema.json#"
             },
-            "minItems": 1
+            "minItems" : 1
+        },
+        "isCitedBy" : {
+            "description": "Links to relevant publication(s).",
+            "type" : "array",
+            "items" : {
+                "$ref" : "publication_schema.json#"
+            }
+        },
+        "producedBy" : {
+            "description": "A study process which generated a given dataset, if any.",
+            "$ref" : "study_schema.json#"
+        },
+        "isAboutBiologicalProcess": {
+            "description" : "The biological processes relevant to the study, ideally from a controlled vocabulary/ontology.",
+            "type": "array",
+            "items": {
+                "$ref" : "biological_process_schema.json#"
+            }
         },
         "version" : {
-            "description": "an optional property used to specify a release point for the dataset when applicable",
+            "description": "A release point for the dataset when applicable.",
             "type": "string"
         },
         "access": {
@@ -112,8 +105,30 @@
             }
         },
         "size" : {
-            "description": "a property used to specify the size of the dataset",
+            "description": "The size of the dataset.",
             "type" : "number"
+        },
+        "hasPart" : {
+            "description": "A Dataset that is a subset of this Dataset; Datasets declaring the 'hasPart' relationship are considered a collection of Datasets, the aggregation criteria could be included in the 'description' field.",
+            "type": "array",
+            "items": {
+                "$ref" : "dataset_schema.json#"
+            }
+        },
+        "keywords" : {
+            "description": "Tags associated with the dataset, which will help in its discovery.",
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "string",
+                        "format" : "uri"
+                    }
+                ]
+            }
         }
     },
     "required" : [ "title"  ]

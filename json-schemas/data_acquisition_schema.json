@@ -10,7 +10,7 @@
             "properties": {
                 "uses": {
                     "description": "a property to specify the instrument(s) used to acquire the signal",
-                    "oneOf": [
+                    "anyOf": [
                         {"$ref": "instrument_schema.json#"},
                         {"$ref": "software_schema.json#"}
                     ]
