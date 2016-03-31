@@ -34,6 +34,22 @@
           "description": "a property used to specify if more that one perturbations are applied at the same time to the same subject",
           "type": "boolean"
         },
+        "input": {
+          "description": "a property to specify the dataset used as input",
+          "type": "array",
+          "items": {
+            "$ref": "study_group_schema.json#"
+          },
+          "minItems": 1
+        },
+        "output": {
+          "description": "a property to specify the dataset resulting from applying the technology",
+          "type": "array",
+          "items": {
+            "$ref": "study_group_schema.json#"
+          },
+          "minItems": 0
+        },        
         "order": {
           "description": "a property used to specify the rank in which perturbations are being applied to study subjects",
           "type": "number"
