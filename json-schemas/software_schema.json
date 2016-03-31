@@ -14,7 +14,7 @@
       "description": "a property to specify the name of the software program",
       "type" :  "string"
     },
-    "license" : {
+    "licenses" : {
       "description": "a property used to specify to the terms of use of the software",
       "type" : "array",
       "items" : {
