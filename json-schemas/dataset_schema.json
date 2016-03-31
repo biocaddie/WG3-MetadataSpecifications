@@ -97,11 +97,11 @@
             "description": "A release point for the dataset when applicable.",
             "type": "string"
         },
-        "accessModalities": {
-            "description": "The information about access modalities for the dataset.",
+        "distributions": {
+            "description": "the distribution by which datasets are made available (for example: )",
             "type": "array",
             "items": {
-                "$ref" : "access_schema.json#"
+                "$ref" : "dataset_distribution_schema.json#"
             }
         },
         "size" : {
