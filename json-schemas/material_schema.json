@@ -80,7 +80,7 @@
             },
             "minItems" : 1
         },
-        "role" : {
+        "roles" : {
             "description": "a property to specify the role played by a material in a study",
             "type" : "array",
             "items" : {
