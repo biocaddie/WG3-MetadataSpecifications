@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS dataset distribution schema",
+  "description": "(From DCAT) Represents a specific available form of a dataset. Each dataset might be available in different forms, these forms might represent different formats of the dataset or different endpoints. Examples of distributions include a downloadable CSV file, an API or an RSS feed.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "name" : {
+      "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
+      "type": "string"
+    },
+    "type": {
+      "description": "a term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology",
+      "type" : "string",
+      "format": "uri"
+    },
+    "size": {
+      "description": "a property used to specify the size of the dataset.",
+      "type": "array"
+    },
+    "unit": {
+      "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, unit should be coming from a reference controlled terminology.",
+      "type" : "string",
+      "format": "uri"
+    },
+    "accessModalities" : {
+      "description": "The information about access modality for the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "access_schema.json#"
+      },
+      "minItems": 1      
+    },
+    "version" : {
+      "description": "an optional property used to specify a release point for the repository when applicable",
+      "type" : "string"
+    }    
+    "storedIn" : {
+      "description": "a property used to specify the data repository(ies) hosting the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref": "dataset_repository_schema.json#"
+      }
+    },
+    "conformsTo" : {
+      "description": "a property used to specify the data standard whose requirements and constraints are met by the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref": "data_standard_schema.json#"
+      }
+    },
+    "date_info" : {
+        "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
+        "type" : "array",
+        "items" : {
+            "$ref" : "date_info_schema.json#"
+        },
+        "minItems": 1
+    }
+  }
+}
