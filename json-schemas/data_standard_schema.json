@@ -19,7 +19,7 @@
       "type" : "string",
       "format": "uri"
     },
-    "license" : {
+    "licenses" : {
       "description": "a property used to specify to the terms of use of the standard",
       "type" : "array",
       "items" : {
