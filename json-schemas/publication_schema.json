@@ -24,7 +24,7 @@
       "type" : "string",
       "format": "date-time"
     },
-    "author" : {
+    "authors" : {
       "description": "a property to specify the person(s) responsible for the publication",
       "type" : "array",
       "items" : {
@@ -52,7 +52,7 @@
         ]
       }
     },
-    "license" : {
+    "licenses" : {
       "description": "a property used to specify to the terms of use of the publication",
       "type" : "array",
       "items" : {
