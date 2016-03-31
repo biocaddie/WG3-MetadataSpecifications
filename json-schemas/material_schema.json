@@ -30,10 +30,14 @@
 
         },
         "hasCharacteristic" : {
-            "type" : "array",
-            "items" : {
-                "$ref": "dimension_schema.json#"
-            }
+          "description": "a property to specify the property information or attributes denoting the material.",
+          "type" : "array",
+          "items" : {
+            "oneOf": [
+              {"$ref" : "dimension_schema.json#"},
+              {"$ref" : "material_schema.json#"}
+            ]
+          }
         },
         "instanceOfOrganism" : {
             "description": "a property to specify the organism this is an instance of - when the whole organism is considered and participates in the study (ideally from a controlled vocabulary/ontology)",
