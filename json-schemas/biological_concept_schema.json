@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS biological concept schema",
+  "description": "A biological concept is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/).",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "a property to specify the name of the biological concept",
+      "type" :  "string"
+    }
+  },
+  "required" : ["name"]
+}
