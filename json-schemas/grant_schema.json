@@ -14,7 +14,7 @@
       "description": "An allocated sum of funds given by a government or other organization for a particular purpose",
       "type" :  "string"
     },
-    "funder" : {
+    "funders" : {
       "description": "a property to specify the organization(s) which has awarded the funds supporting the project",
       "type" : "array",
       "items" : {
@@ -25,7 +25,7 @@
       },
       "minItems" : 1
     },
-    "awardee" : {
+    "awardees" : {
       "description": "a property to specify the person(s) or organization(s) which received the funds supporting the project",
       "type" : "array",
       "items" : {
