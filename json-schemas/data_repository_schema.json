@@ -22,6 +22,14 @@
         "format": "uri"
       }
     },
+    "scopes" : {
+      "description": "Information about the nature of the datasets in the repository, ideally from a controlled vocabulary or ontology.",
+      "type" : "array",
+      "items" : {
+        "type": "string",
+        "format": "uri"
+      }
+    },
     "licenses" : {
       "description": "a property used to specify to the terms of use of the standard",
       "type" : "array",
@@ -33,7 +41,7 @@
       "description": "an optional property used to specify a release point for the repository when applicable",
       "type" : "string"
     },
-    "creator" : {
+    "publishers" : {
       "description": "a property used to specify the person(s) or organization(s) responsible for the repository",
       "type" : "array",
       "items" : {
