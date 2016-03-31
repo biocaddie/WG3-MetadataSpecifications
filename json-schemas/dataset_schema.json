@@ -86,11 +86,11 @@
             "description": "A study process which generated a given dataset, if any.",
             "$ref" : "study_schema.json#"
         },
-        "isAboutBiologicalProcess": {
-            "description" : "The biological processes relevant to the study, ideally from a controlled vocabulary/ontology.",
+        "isAboutBiologicalConcept": {
+            "description" : "The biological concept relevant to the study, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
             "type": "array",
             "items": {
-                "$ref" : "biological_process_schema.json#"
+                "$ref" : "biological_concept_schema.json#"
             }
         },
         "version" : {
