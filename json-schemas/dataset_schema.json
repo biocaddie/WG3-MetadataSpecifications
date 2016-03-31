@@ -97,8 +97,8 @@
             "description": "A release point for the dataset when applicable.",
             "type": "string"
         },
-        "access": {
-            "description": "The information about access level for the dataset.",
+        "accessModalities": {
+            "description": "The information about access modalities for the dataset.",
             "type": "array",
             "items": {
                 "$ref" : "access_schema.json#"
