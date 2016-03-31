@@ -24,7 +24,17 @@
     "version" : {
       "description": "an optional property used to specify a release point for the software when applicable",
       "type" : "string"
-    }
+    },
+    "isUsedBy" : {
+      "description": "The data acquisition activity that makes use of this instrument.",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref": "data_acquisition_schema.json#"},
+          {"$ref": "data_analysis_schema.json#"}
+        ]
+      }
+    },    
     "manufacturer" : {
       "description": "The person or organisation that produced the instrument.",
       "type" : "array",
