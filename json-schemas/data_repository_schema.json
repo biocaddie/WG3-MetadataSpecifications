@@ -30,6 +30,13 @@
         "format": "uri"
       }
     },
+   "aggregatorOf" : {
+      "description": "The DataRepositories aggregated by this repository. This property will be empty for primary repositories.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "data_repository_schema.json#"
+      }
+    },
     "licenses" : {
       "description": "a property used to specify to the terms of use of the standard",
       "type" : "array",
