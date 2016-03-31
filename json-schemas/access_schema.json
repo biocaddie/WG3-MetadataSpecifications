@@ -26,8 +26,8 @@
         }
       ]
     },
-    "authorization": {
-      "description": "Types of verification that accesing the resource is allowed. Authorization occurs after successful authentication. Ideally specified from a controlled vocabulary or ontology.",
+    "authorizations": {
+      "description": "Types of verification that accessing the resource is allowed. Authorization occurs after successful authentication. Ideally specified from a controlled vocabulary or ontology.",
       "oneOf": [
         {
           "type": "string"
@@ -38,7 +38,7 @@
         }
       ]
     },
-    "authentication" : {
+    "authentications" : {
       "description": "Types of verification of the credentials for accessing the resource, ideally specified from a controlled vocabulary or ontology.",
       "oneOf": [
         {
