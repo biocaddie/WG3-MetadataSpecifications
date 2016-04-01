@@ -5,9 +5,9 @@ The original working files, the presentations and notes from the WG3 activities 
 
 ## Version 1.1 
 
-* [Metadata Specification - version 1.1 - Draft open for comments] (https://docs.google.com/document/d/12FS-yW0B4unZEVOZhe7wQ-eWBUwecUpVs-EU28jso9I/edit#) - READ FIRST
+* [Metadata Specification - version 1.1 - Draft open for comments (Google Document)] (https://docs.google.com/document/d/12FS-yW0B4unZEVOZhe7wQ-eWBUwecUpVs-EU28jso9I/edit#) - READ FIRST
 * [Appendix 1 - Metadata Mapping File v1.1 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixI-WG3MetadataMappingFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
-* [Appendix 2 - Metadata Elements File v1.1 (Spreadsheet)] (https://docs.google.com/spreadsheets/d/1aHj_Qvlr7Sf4DlU4uc37PQEOPha8jTxMEdyL_Q7geLQ/edit#gid=0)
+* [Appendix 2 - Metadata Elements File v1.1 (Google Spreadsheet)] (https://docs.google.com/spreadsheets/d/1aHj_Qvlr7Sf4DlU4uc37PQEOPha8jTxMEdyL_Q7geLQ/edit#gid=0)
 
 
 
