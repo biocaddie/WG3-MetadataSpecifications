@@ -16,13 +16,11 @@
     },
     "startDate": {
       "description": "A timestamp to record the starting point of the activity.",
-      "type" :  "string",
-      "format": "date-time"
+      "$ref": "date_info_schema.json#"
     },
     "endDate": {
       "description": "A timestamp to record the end point of the activity.",
-      "type" :  "string",
-      "format": "date-time"
+      "$ref": "date_info_schema.json#"
     },
     "duration": {
       "description": "The time during which the activity takes place.",
