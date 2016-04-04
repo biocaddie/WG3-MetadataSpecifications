@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS organism schema",
-  "description": "An organism in the DATS model. A living entity.",
+  "description": "A living entity.",
   "type": "object",
   "properties": {
     "identifierInfo": {
