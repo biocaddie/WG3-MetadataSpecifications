@@ -18,7 +18,7 @@
             "description": "A textual narrative, comprised of one or more statements describing the dataset.",
             "type" : "string"
         },
-        "date_info" : {
+        "dates" : {
             "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
             "type" : "array",
             "items" : {
@@ -53,25 +53,19 @@
             },
             "minItems" : 1
         },
-        "conformsTo" : {
-            "description" : "A data standard whose requirements and constraints are met by the dataset.",
-            "type": "array",
-            "items": {
-                "$ref": "data_standard_schema.json#"
-            }
-        },
-        "storedIn" : {
-            "description": "The data repository(ies) hosting the dataset.",
-            "type": "array",
-            "items": {
-                "$ref": "data_repository_schema.json#"
-            }
-        },
-        "hasPartDimension" : {
+        "dimensions" : {
             "description": "The different dimensions (granular components)  making up a dataset.",
             "type" : "array",
             "items" : {
                 "$ref" : "dimension_schema.json#"
+            },
+            "minItems" : 1
+        },
+         "distributions" : {
+            "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
+            "type" : "array",
+            "items" : {
+                "$ref" : "dataset_distribution_schema.json#"
             },
             "minItems" : 1
         },
@@ -96,17 +90,6 @@
         "version" : {
             "description": "A release point for the dataset when applicable.",
             "type": "string"
-        },
-        "distributions": {
-            "description": "the distribution by which datasets are made available (for example: )",
-            "type": "array",
-            "items": {
-                "$ref" : "dataset_distribution_schema.json#"
-            }
-        },
-        "size" : {
-            "description": "The size of the dataset.",
-            "type" : "number"
         },
         "hasPart" : {
             "description": "A Dataset that is a subset of this Dataset; Datasets declaring the 'hasPart' relationship are considered a collection of Datasets, the aggregation criteria could be included in the 'description' field.",
