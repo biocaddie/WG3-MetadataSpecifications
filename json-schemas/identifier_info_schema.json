@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
-  "title": "ISA identifier information schema",
+  "title": "DATS identifier information schema",
   "description": "Identifiers.",
   "type": "object",
   "properties": {

@@ -10,23 +10,24 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "name" : {
-      "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
-      "type": "string"
+    "storedIn" : {
+      "description": "The data repository(ies) hosting the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref": "dataset_repository_schema.json#"
+      }
     },
-    "type": {
-      "description": "a term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology",
-      "type" : "string",
-      "format": "uri"
+    "dates" : {
+        "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
+        "type" : "array",
+        "items" : {
+            "$ref" : "date_info_schema.json#"
+        },
+        "minItems": 1
     },
-    "size": {
-      "description": "a property used to specify the size of the dataset.",
-      "type": "array"
-    },
-    "unit": {
-      "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, unit should be coming from a reference controlled terminology.",
-      "type" : "string",
-      "format": "uri"
+     "version" : {
+      "description": "A release point for the dataset when applicable.",
+      "type" : "string"
     },
     "accessModalities" : {
       "description": "The information about access modality for the dataset.",
@@ -34,33 +35,23 @@
       "items" : {
         "$ref" : "access_schema.json#"
       },
-      "minItems": 1      
-    },
-    "version" : {
-      "description": "an optional property used to specify a release point for the repository when applicable",
-      "type" : "string"
-    }    
-    "storedIn" : {
-      "description": "a property used to specify the data repository(ies) hosting the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref": "dataset_repository_schema.json#"
-      }
+      "minItems": 1
     },
     "conformsTo" : {
-      "description": "a property used to specify the data standard whose requirements and constraints are met by the dataset.",
+      "description": "A data standard whose requirements and constraints are met by the dataset.",
       "type" : "array",
       "items" : {
         "$ref": "data_standard_schema.json#"
       }
     },
-    "date_info" : {
-        "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
-        "type" : "array",
-        "items" : {
-            "$ref" : "date_info_schema.json#"
-        },
-        "minItems": 1
+    "size": {
+      "description": "The size of the dataset.",
+      "type": "array"
+    },
+    "unit": {
+      "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology.",
+      "type" : "string",
+      "format": "uri"
     }
   }
 }
