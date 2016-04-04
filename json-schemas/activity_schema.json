@@ -11,37 +11,57 @@
       }
     },
     "title": {
-      "description": "a property to specify the title/name of the process",
+      "description": "The name of the activity, usually one sentece or short description of the activity.",
       "type" :  "string"
     },
     "startDate": {
-      "description": "a timestamp to record the starting point of the process",
+      "description": "A timestamp to record the starting point of the activity.",
       "type" :  "string",
       "format": "date-time"
     },
     "endDate": {
-      "description": "a timestamp to record the ending point of the process",
+      "description": "A timestamp to record the end point of the activity.",
       "type" :  "string",
       "format": "date-time"
     },
     "duration": {
-      "description": "a property to specify the duration of the activity",
+      "description": "The time during which the activity takes place.",
       "type" :  "string"
     },
     "location" : {
-      "description": "a property to specify where the process is performed",
+      "description": "The time during which the activity takes place.",
       "type" : "string",
       "format": "uri"
     },
     "performedBy" : {
-      "description": "a property to specify the person(s) or organisation(s) responsible for executing the process",
+      "description": "The person(s) or organisation(s) responsible for executing the process.",
       "type" : "array",
       "items" : {
-        "oneOf": [
+        "anyOf": [
           {"$ref" : "person_schema.json#"},
           {"$ref" : "organization_schema.json#"}
         ]
       }
+    }
+  },
+  "input" : {
+    "description": "The entities used as input.",
+    "type": "array",
+    "items":{
+      "anyOf": [
+          {"$ref" : "dataset_schema.json#"},
+          {"$ref" : "material_schema.json#"}
+        ]
+    }
+  },
+  "output" : {
+    "description": "The entities resulting from applying the activity.",
+    "type": "array",
+    "items":{
+      "anyOf": [
+          {"$ref" : "dataset_schema.json#"},
+          {"$ref" : "material_schema.json#"}
+        ]
     }
   },
   "required": ["title"]
