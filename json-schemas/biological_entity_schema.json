@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS biological entity schema",
+  "description": "A biological entity is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/).",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "The name of the biological entity (ideally specified from a controlled vocabulary/ontology).",
+      "type" :  "string"
+    }
+  },
+  "required" : ["name"]
+}
