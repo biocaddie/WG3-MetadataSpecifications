@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS alternate identifier information schema",
+  "description": "alternate Identifiers.",
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "description": "An identifier or identifiers other than the primary Identifier applied to the resource being registered. (definition from DataCite)",
+      "type" : "string",
+      "format": "uri"
+    },
+    "identifierScheme": {
+      "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
+      "type" : "string"
+    }
+  }
+}
