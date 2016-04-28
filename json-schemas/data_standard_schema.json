@@ -10,6 +10,18 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+   "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },    
     "name": {
       "description": "the name of the standard",
       "type" :  "string"
@@ -30,5 +42,6 @@
       "description": "an optional property used to specify a release point for the repository when applicable",
       "type" : "string"
     }
-  }
+  },
+  "required":["name"]
 }

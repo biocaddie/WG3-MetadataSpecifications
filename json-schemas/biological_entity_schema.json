@@ -10,6 +10,18 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+    "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    }, 
     "name": {
       "description": "The name of the biological entity (ideally specified from a controlled vocabulary/ontology).",
       "type" :  "string"

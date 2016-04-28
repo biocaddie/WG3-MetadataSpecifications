@@ -10,6 +10,18 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+    "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },        
     "name" : {
       "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
       "type": "string"
@@ -45,5 +57,6 @@
         ]
       }
     }
-  }
+  },
+    "required": ["name", "partOf"]
 }

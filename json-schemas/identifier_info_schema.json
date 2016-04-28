@@ -5,12 +5,12 @@
   "type": "object",
   "properties": {
     "identifier": {
-      "description": "a code uniquely identifying the dataset",
+      "description": "a code uniquely identifying an entity locally to a system or globally",
       "type" : "string",
       "format": "uri"
     },
     "identifierScheme": {
-      "description": "if an identifier is supplied, the identifier scheme represent information about how identifiers are formed, maintained and minted",
+      "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
       "type" : "string"
     }
   }

@@ -25,7 +25,6 @@
                 }
             }
         }
-
-    ]
-
+    ],
+    "required" : ["input","output"]
 }

@@ -4,6 +4,25 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
+     "identifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
+    },
+    "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },
+     
     "landingPage": {
       "description": "A web page that contains information about the associated dataset or other research object and a direct link to the object itself.",
       "type" :  "string",
@@ -63,5 +82,6 @@
         ]
       }
     }
-  }
+  },
+    "required": ["landingPage"]
 }

@@ -10,18 +10,31 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+   "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },       
     "name": {
       "description": "The name of the molecular entity.",
       "type" :  "string"
     },
    "hasCharacteristic" : {
+       "description": "The characteristic information or attributes denoting the material.",
      "type" : "array",
      "items" : {
         "$ref": "dimension_schema.json#"
         }
     },
     "structure": {
-      "description": "The primary sequence of the molecular entity.",
+      "description": "The primary sequence of the molecular entity (e.g. inchi code;DNA sequence in FASTA format)",
       "type" :  "string"
     },
 
