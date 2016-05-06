@@ -114,5 +114,5 @@
             }
         }
     },
-    "required" : [ "title" ,"creators", "type", "distributions", ]
+    "required" : [ "title" ,"creators", "type", "distributions" ]
 }
