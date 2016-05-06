@@ -10,12 +10,24 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+    "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },    
     "name": {
-      "description": "An allocated sum of funds given by a government or other organization for a particular purpose",
+      "description": "The name of the grant and its funding program.",
       "type" :  "string"
     },
     "funders" : {
-      "description": "a property to specify the organization(s) which has awarded the funds supporting the project",
+      "description": "a property to specify the person(s) or organization(s) which has awarded the funds supporting the project.",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -26,7 +38,7 @@
       "minItems" : 1
     },
     "awardees" : {
-      "description": "a property to specify the person(s) or organization(s) which received the funds supporting the project",
+      "description": "a property to specify the person(s) or organization(s) which received the funds supporting the project.",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -36,7 +48,7 @@
       }
     },
     "funds" : {
-      "description": "a property to specify the study (or dataset) supported by the grant",
+      "description": "a property to specify the study or dataset supported by the grant.",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -45,5 +57,6 @@
         ]
       }
     }
-  }
+  },
+    "required": ["name"]
 }

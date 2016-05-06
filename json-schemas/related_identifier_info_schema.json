@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS related identifier information schema",
+  "description": "related Identifiers.",
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "description": "An identifier of a related resource.",
+      "type" : "string",
+      "format": "uri"
+    },
+    "identifierScheme": {
+      "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
+      "type" : "string"
+    },
+     "relationType": {
+      "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
+      "type" : "string",
+      "format": "uri"
+    }
+  }
+}

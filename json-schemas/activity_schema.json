@@ -10,6 +10,18 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
+   "alternateIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },    
     "title": {
       "description": "The name of the activity, usually one sentece or short description of the activity.",
       "type" :  "string"

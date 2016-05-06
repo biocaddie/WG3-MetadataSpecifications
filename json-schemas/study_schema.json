@@ -57,10 +57,18 @@
           "items": {
             "$ref" : "biological_entity_schema.json#"
           }
-        }
+        },
+        "resultsIn": {
+          "description": "a property used to specify the collection of data during assays over the course of a study",
+          "type": "array",
+          "items": {
+            "$ref": "dataset_schema.json#"
+          }
+        }        
       }
     }
-  ]
+  ],
+  "required": ["type", "resultsIn"]
 }
 
            
