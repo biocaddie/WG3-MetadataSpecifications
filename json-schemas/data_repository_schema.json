@@ -10,7 +10,7 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
-       "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
@@ -23,54 +23,60 @@
       }
     },
     "name": {
-      "description": "the name of the data repository ",
-      "type" :  "string"
+      "description": "The name of the data repository.",
+      "type": "string"
     },
-    "type" : {
-      "description": "a descriptor (ideally from a controlled vocabulary) providing information about the nature of the datasets",
+    "scopes": {
+      "description": "Information about the nature of the datasets in the repository, ideally from a controlled vocabulary or ontology (e.g. transcription profile, sequence reads, molecular structure, image, DNA sequence, NMR spectra).",
       "type": "array",
       "items": {
         "type": "string",
         "format": "uri"
       }
     },
-    "scopes" : {
-      "description": "Information about the nature of the datasets in the repository, ideally from a controlled vocabulary or ontology.",
-      "type" : "array",
-      "items" : {
+    "type": {
+      "description": "A descriptor (ideally from a controlled vocabulary) providing information about the type of repository, such as primary resource or aggregator.",
+      "type": "array",
+      "items": {
         "type": "string",
         "format": "uri"
       }
     },
-   "aggregatorOf" : {
-      "description": "The DataRepositories aggregated by this repository. This property will be empty for primary repositories.",
-      "type" : "array",
-      "items" : {
-        "$ref" : "data_repository_schema.json#"
+    "licenses": {
+      "description": "The terms of use of the data repository.",
+      "type": "array",
+      "items": {
+        "$ref": "license_schema.json#"
       }
     },
-    "licenses" : {
-      "description": "a property used to specify to the terms of use of the standard",
-      "type" : "array",
-      "items" : {
-        "$ref" : "license_schema.json#"
-      }
+    "version": {
+      "description": "A release point for the repository, when applicable.",
+      "type": "string"
     },
-    "version" : {
-      "description": "an optional property used to specify a release point for the repository when applicable",
-      "type" : "string"
-    },
-    "publishers" : {
-      "description": "a property used to specify the person(s) or organization(s) responsible for the repository",
-      "type" : "array",
-      "items" : {
+    "publishers": {
+      "description": "The person(s) or organization(s) responsible for the repository and its availability.",
+      "type": "array",
+      "items": {
         "oneOf": [
-          {"$ref" : "person_schema.json#"},
-          {"$ref" : "organization_schema.json#"}
+          {
+            "$ref": "person_schema.json#"
+          },
+          {
+            "$ref": "organization_schema.json#"
+          }
         ]
       },
-      "minItems" : 1
+      "minItems": 1
+    },
+    "aggregatorOf": {
+      "description": "The DataRepositories aggregated by this repository. This property will be empty for primary repositories.",
+      "type": "array",
+      "items": {
+        "$ref": "data_repository_schema.json#"
+      }
     }
   },
-  "required":["name"]
+  "required": [
+    "name"
+  ]
 }
