@@ -57,14 +57,11 @@
             },
             "minItems" : 1
         },
-        "creators" : {
-            "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
+        "distributions" : {
+            "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
             "type" : "array",
             "items" : {
-                "oneOf": [
-                    {"$ref" : "person_schema.json#"},
-                    {"$ref" : "organization_schema.json#"}
-                ]
+                "$ref" : "dataset_distribution_schema.json#"
             },
             "minItems" : 1
         },
@@ -76,16 +73,8 @@
             },
             "minItems" : 1
         },
-         "distributions" : {
-            "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
-            "type" : "array",
-            "items" : {
-                "$ref" : "dataset_distribution_schema.json#"
-            },
-            "minItems" : 1
-        },
         "isCitedBy" : {
-            "description": "Links to relevant publication(s).",
+            "description": "Links to the relevant publication(s) describing how the dataset was produced or used.",
             "type" : "array",
             "items" : {
                 "$ref" : "publication_schema.json#"
@@ -95,16 +84,23 @@
             "description": "A study process which generated a given dataset, if any.",
             "$ref" : "study_schema.json#"
         },
+        "creators" : {
+            "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
+            "type" : "array",
+            "items" : {
+                "oneOf": [
+                    {"$ref" : "person_schema.json#"},
+                    {"$ref" : "organization_schema.json#"}
+                ]
+            },
+            "minItems" : 1
+        },
         "isAboutBiologicalEntity": {
-            "description" : "The biological entity relevant to the dataset, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
+            "description" : "A biological entity (.i.e. is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/)) this dataset is about.",
             "type": "array",
             "items": {
                 "$ref" : "biological_entity_schema.json#"
             }
-        },
-        "version" : {
-            "description": "A release point for the dataset when applicable.",
-            "type": "string"
         },
         "hasPart" : {
             "description": "A Dataset that is a subset of this Dataset; Datasets declaring the 'hasPart' relationship are considered a collection of Datasets, the aggregation criteria could be included in the 'description' field.",
@@ -129,5 +125,5 @@
             }
         }
     },
-    "required" : [ "version", "dates" ]
+    "required" : [ "dates" ]
 }
