@@ -19,6 +19,19 @@
                    "protein 3D structure"
                 ],
 
+      "dates": [
+        {
+          "date": "2015/01/05",
+          "type": ""
+        },
+        {
+          "date": "2015/06/24",
+          "type": "release date"
+        }
+      ],
+
+    "types": [],
+
       "downloadURL" : [
           "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=5AEM",
           "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId=5AEM",
@@ -130,9 +143,7 @@
                  {
                      "name": "N-TERMINAL TPR ARRAY, RESIDUES 123-566",
                       "derivesFromOrganism" : [
-                          {
-                              "name":  "Saccharomyces cerevisiae S288c"
-                          }
+                          ""
                       ],
                      "hasCharacteristic" : [
                          {

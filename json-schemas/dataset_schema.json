@@ -41,7 +41,7 @@
             },
             "minItems": 1
         },
-        "type" : {
+        "types" : {
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {
@@ -124,5 +124,5 @@
             }
         }
     },
-    "required" : [ "title", "dates", "type", "distributions", "creators" ]
+    "required" : [ "title", "dates", "types", "distributions", "creators" ]
 }

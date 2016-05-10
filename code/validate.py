@@ -10,13 +10,14 @@ schemasPath = os.path.abspath("../json-schemas")
 path = "../examples"
 
 datasetSchema = json.load(open(join(schemasPath,"dataset_schema.json")))
+instrumentSchema = json.load(open(join(schemasPath,"instrument_schema.json")))
 
 resolver = RefResolver('file://'+schemasPath+'/'+"dataset_schema.json", datasetSchema) #, base_uri=schemasPath)
 
 validator = Draft4Validator(datasetSchema, resolver=resolver)
 
-validator.validate(json.load(open(join(path,"5AEM.json"))), datasetSchema) #, format_checker=FormatChecker())
+validator.validate(json.load(open(join(path,"PDB-5AEM.json"))), datasetSchema) #, format_checker=FormatChecker())
 
-validator.validate(json.load(open(join(path,"GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
+#validator.validate(json.load(open(join(path,"GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
 
 
