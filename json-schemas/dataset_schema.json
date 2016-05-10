@@ -30,7 +30,7 @@
             "type" : "string"
         },
         "description" : {
-            "description": "A textual narrative, comprised of one or more statements describing the dataset.",
+            "description": "A textual narrative comprised of one or more statements describing the dataset.",
             "type" : "string"
         },
         "dates" : {
@@ -70,11 +70,10 @@
             "type" : "array",
             "items" : {
                 "$ref" : "dimension_schema.json#"
-            },
-            "minItems" : 1
+            }
         },
         "isCitedBy" : {
-            "description": "Links to the relevant publication(s) describing how the dataset was produced or used.",
+            "description": "The relevant publication(s) describing how the dataset was produced or used.",
             "type" : "array",
             "items" : {
                 "$ref" : "publication_schema.json#"
@@ -85,7 +84,7 @@
             "$ref" : "study_schema.json#"
         },
         "creators" : {
-            "description": "a property to list the person(s) or organization(s) which contributed to the creation of the dataset.",
+            "description": "The person(s) or organization(s) which contributed to the creation of the dataset.",
             "type" : "array",
             "items" : {
                 "oneOf": [
@@ -125,5 +124,5 @@
             }
         }
     },
-    "required" : [ "dates" ]
+    "required" : [ "title", "dates", "type", "distributions", "creators" ]
 }
