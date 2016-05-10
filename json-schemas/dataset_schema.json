@@ -4,10 +4,25 @@
     "description": "A set of dimensions about an entity being observed. A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset). A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset).",
     "type": "object",
     "properties": {
-        "identifierInfo": {
+        "identifiersInfo": {
+            "description": "Primary identifiers for the dataset.",
             "type": "array",
             "items": {
                 "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "alternateIdentifiersInfo": {
+            "description": "Alternate identifiers for the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "alt_identifier_info_schema.json#"
+            }
+        },
+        "relatedIdentifiersInfo": {
+            "description": "Related identifiers for the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "related_identifier_info_schema.json#"
             }
         },
         "title" : {
@@ -114,5 +129,5 @@
             }
         }
     },
-    "required" : [ "title" ,"creators", "type", "distributions" ]
+    "required" : [ "version", "dates" ]
 }
