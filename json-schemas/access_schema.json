@@ -4,33 +4,32 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
-     "identifierInfo": {
+    "identifiersInfo": {
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiersInfo": {
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiersInfo": {
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
     },
-     
     "landingPage": {
       "description": "A web page that contains information about the associated dataset or other research object and a direct link to the object itself.",
-      "type" :  "string",
+      "type": "string",
       "format": "uri"
     },
     "accessURL": {
       "description": "A URL from which the resource (dataset or other research object) can be retrieved.",
-      "type" :  "string",
+      "type": "string",
       "format": "uri"
     },
     "type": {
@@ -41,7 +40,7 @@
         },
         {
           "type": "string",
-          "format" : "uri"
+          "format": "uri"
         }
       ]
     },
@@ -53,11 +52,11 @@
         },
         {
           "type": "string",
-          "format" : "uri"
+          "format": "uri"
         }
       ]
     },
-    "authentications" : {
+    "authentications": {
       "description": "Types of verification of the credentials for accessing the resource, ideally specified from a controlled vocabulary or ontology.",
       "oneOf": [
         {
@@ -65,23 +64,27 @@
         },
         {
           "type": "string",
-          "format" : "uri"
+          "format": "uri"
         }
       ]
     },
     "licences": {
       "description": "Terms of usage as specified on a license or data use agreement.",
       "type": "array",
-      "items" : {
+      "items": {
         "oneOf": [
-          {"$ref" : "license_schema.json#"},
           {
-            "type" : "string",
+            "$ref": "license_schema.json#"
+          },
+          {
+            "type": "string",
             "format": "uri"
           }
         ]
       }
     }
   },
-    "required": ["landingPage"]
+  "required": [
+    "landingPage"
+  ]
 }
