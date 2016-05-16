@@ -18,6 +18,6 @@ validator = Draft4Validator(datasetSchema, resolver=resolver)
 
 validator.validate(json.load(open(join(path,"PDB-5AEM.json"))), datasetSchema) #, format_checker=FormatChecker())
 
-#validator.validate(json.load(open(join(path,"GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
+#validator.validate(json.load(open(join(path,"GEO-GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
 
 

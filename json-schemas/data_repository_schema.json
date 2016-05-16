@@ -1,22 +1,25 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS data repository schema",
-  "description": "A repository or catalog of dataset.",
+  "description": "A repository or catalog of datasets. It could be a primary repository or a repository that aggregates data existing in other repositories.",
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the data repository.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
     "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the data repository.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the data repository.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
@@ -76,7 +79,5 @@
       }
     }
   },
-  "required": [
-    "name"
-  ]
+  "required": [ "name", "publishers"]
 }
