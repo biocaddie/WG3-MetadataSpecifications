@@ -5,24 +5,27 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the person.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the person.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the person.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
-    
+    },
+
     "fullName": {
       "description": "The first name, any middle names, and surname of a person.",
       "type" :  "string"
@@ -52,7 +55,7 @@
       }
     },
     "roles" : {
-      "description": "The roles assumed by a person, ideally from a controlled vocabulary/ontology (e.g. author, creator, contributor, awardee, submitter, researcher, patient).",
+      "description": "The roles assumed by a person, ideally from a controlled vocabulary/ontology.",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -67,5 +70,5 @@
       }
     }
   },
-  "required": ["firstName","lastName"]
+  "required": [ "firstName", "lastName"]
 }

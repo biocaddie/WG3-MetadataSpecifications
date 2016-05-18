@@ -1,117 +1,96 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "title": "DATS material schema",
-    "description": "A physical entity, part of collection or used in a study.",
-    "type": "object",
-    "properties": {
-        "identifierInfo": {
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
-        },
-      "alternateIdentifierInfo": {
-         "type": "array",
-         "items": {
-           "$ref": "alternate_identifier_info_schema.json#"
-         }
-       },
-       "relatedIdentifierInfo": {
-         "type": "array",
-         "items": {
-           "$ref": "related_identifier_info_schema.json#"
-         }
-       },         
-        
-        "name": {
-            "description": "a property to specify the name of the material",
-            "type" :  "string"
-        },
-        "derivesFrom" : {
-            "description": "a property to indicate that this material originated from another material",
-            "type" : "array",
-            "items" : {
-                "$ref": "material_schema.json#"
-            }
-        },
-        "anatomicalPart" : {
-            "description": "a property to indicate that this material originated from an anatomical part (ideally from a controlled vocabulary/ontology)",
-            "type": "array",
-            "items" : {
-                "$ref": "anatomical_part_schema.json#"
-            }
-
-        },
-        "hasCharacteristic" : {
-          "description": "a property to specify the property information or attributes denoting the material.",
-          "type" : "array",
-          "items" : {
-            "oneOf": [
-              {"$ref" : "dimension_schema.json#"},
-              {"$ref" : "material_schema.json#"}
-            ]
-          }
-        },
-        "instanceOfOrganism" : {
-            "description": "a property to specify the organism this is an instance of - when the whole organism is considered and participates in the study (ideally from a controlled vocabulary/ontology)",
-            "type" : "array",
-            "items" : {
-                "type" : "string",
-                "format": "uri"
-            }
-        },
-        "derivesFromOrganism" : {
-            "description": "a property to specify the organism this material derives from - for instance when samples are taken from an organism (ideally from a controlled vocabulary/ontology)",
-            "type" : "array",
-            "items" : {
-                "type": "string"
-            }
-        },
-        "involvedInBiologicalProcess": {
-            "description": "a property to specify that the material is involved in a particular biological process (ideally from a controlled vocabulary/ontology)",
-            "type" : "array",
-            "items" : {
-                "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "string",
-                        "format" : "uri"
-                    }
-                ]
-            }
-        },
-        "bearerOfDisease": {
-            "description": "a property to specify the pathology affecting the material used in the study or refered to in the dataset (ideally from a controlled vocabulary/ontology)",
-            "type" : "array",
-            "items" : {
-                "$ref" : "disease_schema.json#"
-            }
-        },
-        "inputOf" : {
-            "description": "a property to specify the pathology affected the material used in the study or refered to in the dataset",
-            "type" : "array",
-            "items" : {
-                "$ref" : "data_acquisition_schema.json#"
-            },
-            "minItems" : 1
-        },
-        "roles" : {
-            "description": "a property to specify the role played by a material in a study",
-            "type" : "array",
-            "items" : {
-                "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "string",
-                        "format" : "uri"
-                    }
-                ]
-            }
-        }
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS material schema",
+  "description": "A physical entity, part of collection or used in a study.",
+  "type": "object",
+  "properties": {
+    "identifierInfo": {
+      "description": "Primary identifiers for the material.",
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-    "required": ["name"]
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the material.",
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "description": "Related identifiers for the material.",
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "The name of the material.",
+      "type" :  "string"
+    },
+    "derivesFrom" : {
+      "description": "A material from which this material originated.",
+      "type" : "array",
+      "items" : {
+        "$ref": "material_schema.json#"
+      }
+    },
+    "bearerOfDisease": {
+      "description": "The pathology affecting the material used in the study or refered to in the dataset (ideally from a controlled vocabulary/ontology).",
+      "type" : "array",
+      "items" : {
+        "$ref" : "disease_schema.json#"
+      }
+    },
+    "instanceOfOrganism" : {
+      "description": "a property to specify the organism this is an instance of - when the whole organism is considered and participates in the study (ideally from a controlled vocabulary/ontology)",
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "format": "uri"
+      }
+    },
+    "involvedInBiologicalProcess": {
+      "description": "a property to specify that the material is involved in a particular biological process (ideally from a controlled vocabulary/ontology)",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "string",
+            "format" : "uri"
+          }
+        ]
+      }
+    },
+    "characteristics" : {
+      "description": "The characteristic information or attributes denoting the material.",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "dimension_schema.json#"},
+          {"$ref" : "material_schema.json#"}
+        ]
+      }
+    },
+    "roles" : {
+      "description": "The roles played by a material.",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "string",
+            "format" : "uri"
+          }
+        ]
+      }
+    }
+  },
+  "required": [ "name" ]
 }

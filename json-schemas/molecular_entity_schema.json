@@ -5,33 +5,39 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the molecular entity.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the molecular entity.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the molecular entity.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },       
+    },
     "name": {
       "description": "The name of the molecular entity.",
       "type" :  "string"
     },
-   "hasCharacteristic" : {
-       "description": "The characteristic information or attributes denoting the material.",
-     "type" : "array",
-     "items" : {
-        "$ref": "dimension_schema.json#"
-        }
+    "charactersitics" : {
+      "description": "The characteristic information or attributes denoting the material.",
+      "type" : "array",
+      "items" : {
+        "oneOf": [
+          {"$ref": "dimension_schema.json#"},
+          {"$ref": "material_schema.json#"}
+        ]
+      }
     },
     "structure": {
       "description": "The primary sequence of the molecular entity (e.g. inchi code;DNA sequence in FASTA format)",
@@ -39,7 +45,7 @@
     },
 
     "roles" : {
-      "description": "a property to specify the role played by a molecular entity in a study",
+      "description": "The roles played by the molecular entity.",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -54,5 +60,5 @@
       }
     }
   },
-  "required": ["name"]
+  "required": [ "name" ]
 }

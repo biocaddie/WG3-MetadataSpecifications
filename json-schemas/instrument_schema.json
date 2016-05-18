@@ -1,27 +1,30 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS instrument schema",
-  "description": "A physical entity produced by humans to perform specific tasks or functions",
+  "description": "A physical entity produced by humans to perform specific tasks or functions.",
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the instrument.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the instrument.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the instrument.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
+    },
     "name": {
       "description": "The name of the instrument.",
       "type" :  "string"
@@ -47,13 +50,10 @@
     },
     "manufacturer" : {
       "description": "The person or organisation that produced the instrument.",
-      "type" : "array",
-      "items" : {
-        "oneOf": [
-          {"$ref" : "person_schema.json#"},
-          {"$ref" : "organization_schema.json#"}
-        ]
-      }
+      "oneOf": [
+        {"$ref" : "person_schema.json#"},
+        {"$ref" : "organization_schema.json#"}
+      ]
     }
   },
   "required":["name"]

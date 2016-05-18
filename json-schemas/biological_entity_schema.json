@@ -5,27 +5,30 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the biological entity.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
     "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the biological entity.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the biological entity.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    }, 
+    },
     "name": {
       "description": "The name of the biological entity (ideally specified from a controlled vocabulary/ontology).",
       "type" :  "string"
     }
   },
-  "required" : ["name"]
+  "required" : [ "name" ]
 }

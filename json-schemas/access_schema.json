@@ -84,7 +84,5 @@
       }
     }
   },
-  "required": [
-    "landingPage"
-  ]
+  "required": [ "landingPage" ]
 }

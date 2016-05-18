@@ -5,23 +5,26 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the organism.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the organism.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the organism.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
+    },
     "name": {
       "description": "The scientific name of an organism.",
       "type" :  "string"

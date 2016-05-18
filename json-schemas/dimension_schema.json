@@ -5,50 +5,68 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the dimension.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
     "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the dimension.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the dimension.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },        
+    },
     "name" : {
-      "description": "the name of the dimension measured or observed during the data acquisition process (e.g. signal intensity, standard deviation), ideally from a controlled terminology",
-      "type": "string"
+      "description": "The name of the dimension measured or observed during the data acquisition process, ideally from a controlled terminology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
     },
     "type": {
-      "description": "a term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology",
-      "type" : "string",
-      "format": "uri"
+      "description": "A term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
     },
     "values": {
-      "description": "a property used to specify the actual collections of values collected for that dimension",
+      "description": "The actual collections of values collected for that dimension.",
       "type": "array"
     },
     "unit": {
-      "description": "an optional property used to specify a reference measurement unit associated with scalar dimensions. Ideally, unit should be coming from a reference controlled terminology.",
-      "type" : "string",
-      "format": "uri"
-    },
-    "partOf" : {
-      "description": "a property used to specify the dataset(s) this dimension belongs to",
-      "type" : "array",
-      "items" : {
-        "$ref": "dataset_schema.json#"
-      }
+      "description": "A reference measurement unit associated with scalar dimensions, ideally from a reference controlled terminology.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
     },
     "isAbout" : {
-      "description": "an optional property used to specify what the dimension is about, it could be about material (the heights of the patients) or about a dataset (the standard deviation or the set of outliers or a quality indicator of a dataset)",
+      "description": "A material or a dataset, which is the object of this dimension (this dimension is about the material - e.g. the heights of the patients - or the dataset - e.g. the standard deviation or the set of outliers or a quality indicator of a dataset).",
       "type" : "array",
       "items" : {
         "oneOf": [
@@ -56,7 +74,14 @@
           {"$ref" : "dataset_schema.json#"}
         ]
       }
+    },
+    "partOf" : {
+      "description": "The dataset(s) this dimension belongs to.",
+      "type" : "array",
+      "items" : {
+        "$ref": "dataset_schema.json#"
+      }
     }
   },
-    "required": ["name", "partOf"]
+  "required": [ "name", "partOf" ]
 }
