@@ -52,6 +52,21 @@
       },
       "minItems": 1
     },
+    "curationStatus": {
+      "description": "The level of curation of the dataset distribution.",
+      "type": "array",
+      "items": {
+         "oneOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "string",
+                        "format" : "uri"
+                    }
+                ]
+      }
+    },
     "conformsTo" : {
       "description": "A data standard whose requirements and constraints are met by the dataset.",
       "type" : "array",

@@ -26,7 +26,7 @@
       }
     },
     "name": {
-      "description": "The name of the biological entity (ideally specified from a controlled vocabulary/ontology).",
+      "description": "The name of the biological entity.",
       "type" :  "string"
     }
   },

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS instrument schema",
-  "description": "A physical entity produced by humans to perform specific tasks or functions.",
+  "description": "An entity that helps an agent perform an activity.",
   "type": "object",
   "properties": {
     "identifierInfo": {
@@ -56,5 +56,5 @@
       ]
     }
   },
-  "required":["name"]
+  "required":[ "name" ]
 }

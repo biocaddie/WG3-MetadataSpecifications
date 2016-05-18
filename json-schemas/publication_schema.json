@@ -5,31 +5,41 @@
   "type" : "object",
   "properties" : {
     "identifierInfo": {
+      "description": "Primary identifiers for the publication.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-       "alternateIdentifierInfo": {
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the publication.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the publication.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
     },
     "title": {
-      "description": "A  digital document made available by a publisher.",
+      "description": "Publication type, ideally delegated to an external vocabulary/resource.",
       "type" :  "string"
     },
     "type" : {
       "description": "type of publication type, delegated to an external vocabulary/resource",
-      "type" : "string",
-      "format": "uri"
+      "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "string",
+            "format" : "uri"
+          }
+        ]
     },
     "date" : {
       "description": "a property to specify the date of the publication",

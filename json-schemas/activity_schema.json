@@ -5,12 +5,14 @@
   "type": "object",
   "properties": {
     "identifierInfo": {
+      "description": "Primary identifiers for the activity.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
    "alternateIdentifierInfo": {
+
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"

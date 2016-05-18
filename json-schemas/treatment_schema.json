@@ -49,7 +49,7 @@
             "$ref": "study_group_schema.json#"
           },
           "minItems": 0
-        },        
+        },
         "order": {
           "description": "a property used to specify the rank in which perturbations are being applied to study subjects",
           "type": "number"
