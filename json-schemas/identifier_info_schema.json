@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "identifier": {
-      "description": "a code uniquely identifying an entity locally to a system or globally",
+      "description": "A code uniquely identifying an entity locally to a system or globally.",
       "type" : "string",
       "format": "uri"
     },
