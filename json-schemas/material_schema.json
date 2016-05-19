@@ -43,16 +43,12 @@
         "$ref" : "disease_schema.json#"
       }
     },
-    "instanceOfOrganism" : {
-      "description": "a property to specify the organism this is an instance of - when the whole organism is considered and participates in the study (ideally from a controlled vocabulary/ontology)",
-      "type" : "array",
-      "items" : {
-        "type" : "string",
-        "format": "uri"
-      }
+    "taxonomy" : {
+      "description": "The taxonomic information for this material (ideally specified from a controlled vocabulary/ontology).",
+      "$ref": "taxonomic_info_schema.json#"
     },
     "involvedInBiologicalProcess": {
-      "description": "a property to specify that the material is involved in a particular biological process (ideally from a controlled vocabulary/ontology)",
+      "description": "A biological process (ideally specified from a controlled vocabulary/ontology) in which the material is involved.",
       "type" : "array",
       "items" : {
         "oneOf": [

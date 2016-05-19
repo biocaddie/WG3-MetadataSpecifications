@@ -23,15 +23,15 @@
       }
     },        
     "name": {
-      "description": "a property to specify the name of the license",
+      "description": "The name of the license.",
       "type" :  "string"
     },
     "version": {
-      "description": "an optional property used to specify the version of the license",
+      "description": "The version of the license.",
       "type" :  "string"
     },
     "creators" : {
-      "description": "a property to specify the person(s) or organization(s) responsible for writing the license",
+      "description": "The person(s) or organization(s) responsible for writing the license.",
       "type" : "array",
       "items" : {
         "oneOf": [
