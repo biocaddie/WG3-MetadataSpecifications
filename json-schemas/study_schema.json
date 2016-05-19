@@ -3,72 +3,159 @@
   "title": "DATS study schema",
   "description": "Process to acquire data on a sample and attempt to draw conclusions about the population the sample has been selected from, executing a plan and design.",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "activity_schema.json#"
+  "properties": {
+    "identifierInfo": {
+      "description": "Primary identifiers for the activity.",
+      "type": "array",
+      "items": {
+        "$ref": "identifier_info_schema.json#"
+      }
     },
-    {
-      "type": "object",
-      "properties": {
-        "schedulesActivity": {
-          "description": "The activities scheduled by the study.",
-          "type": "array",
-          "items": {
-            "$ref": "activity_schema.json#"
-          }
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the activity.",
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifierInfo": {
+      "description": "Related identifiers for the activity.",
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },
+    "name": {
+      "description": "The name of the activity, usually one sentece or short description of the activity.",
+      "type" :  "string"
+    },
+    "type": {
+    "description": "The type of study, e.g. intervention or observation or meta-analysis.",
+    "oneOf": [
+        {
+          "type": "string"
         },
-        "schedulesDataAcquisition": {
-          "description": "The kind of techniques and response variables used during a study for acquiring data.",
-          "type": "array",
-          "items": {
-            "$ref": "data_acquisition_schema.json#"
-          },
-          "minItems": 1
-        },
-        "type": {
-          "description": "The type of study, e.g. intervention or observation or meta-analysis.",
+        {
           "type": "string",
-          "format": "uri"
+          "format" : "uri"
+        }
+      ]
+    },
+    "startDate": {
+      "description": "A timestamp to record the starting point of the activity.",
+      "$ref": "date_info_schema.json#"
+    },
+    "endDate": {
+      "description": "A timestamp to record the end point of the activity.",
+      "$ref": "date_info_schema.json#"
+    },
+    "duration": {
+      "description": "The time during which the activity takes place.",
+      "type" :  "string"
+    },
+    "location" : {
+      "description": "The location where the activity takes place.",
+      "oneOf": [
+        {
+          "type": "string"
         },
-        "hasStudyGroup": {
-          "description": "The different study groups associated with a study.",
-          "type": "array",
-          "items": {
-            "$ref": "study_group_schema.json#"
-          }
-        },
-        "recruits": {
-          "description": "The materials that are the subjects and participants of the study.",
-          "type": "array",
-          "items": {
-            "$ref": "material_schema.json#"
-          }
-        },
-        "usesReagent": {
-          "description": "The materials that are used as reagents (but not subjects) of the study.",
-          "type": "array",
-          "items": {
-            "$ref": "material_schema.json#"
-          }
-        },
-        "isAboutBiologicalEntity": {
-          "description" : "The biological entity relevant to the study, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
-          "type": "array",
-          "items": {
-            "$ref" : "biological_entity_schema.json#"
-          }
-        },
-        "resultsIn": {
-          "description": "a property used to specify the collection of data during assays over the course of a study",
-          "type": "array",
-          "items": {
-            "$ref": "dataset_schema.json#"
-          }
-        }        
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    },
+    "performedBy" : {
+      "description": "The person(s) or organisation(s) responsible for executing the process.",
+      "type" : "array",
+      "items" : {
+        "anyOf": [
+          {"$ref" : "person_schema.json#"},
+          {"$ref" : "organization_schema.json#"}
+        ]
       }
     }
-  ],
-  "required": ["type", "resultsIn"]
+  },
+  "keywords": {
+    "description": "Tags associated with the activity, which will help in its discovery.",
+    "type": "array",
+    "items": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    }
+  },
+  "input" : {
+    "description": "The entities used as input.",
+    "type": "array",
+    "items":{
+      "anyOf": [
+        {"$ref" : "dataset_schema.json#"},
+        {"$ref" : "material_schema.json#"}
+      ]
+    }
+  },
+  "output" : {
+    "description": "The entities resulting from applying the activity.",
+    "type": "array",
+    "items":{
+      "anyOf": [
+        {"$ref" : "dataset_schema.json#"},
+        {"$ref" : "material_schema.json#"}
+      ]
+    },
+    "minItems": 1
+  },
+  "schedulesActivity": {
+    "description": "The activities scheduled by the study.",
+    "type": "array",
+    "items": {
+      "$ref": "activity_schema.json#"
+    }
+  },
+  "schedulesDataAcquisition": {
+    "description": "The kind of techniques and response variables used during a study for acquiring data.",
+    "type": "array",
+    "items": {
+      "$ref": "data_acquisition_schema.json#"
+    },
+    "minItems": 1
+  },
+  "studyGroups": {
+    "description": "The different study groups associated with a study.",
+    "type": "array",
+    "items": {
+      "$ref": "study_group_schema.json#"
+    }
+  },
+  "recruits": {
+    "description": "The materials that are the subjects and participants of the study.",
+    "type": "array",
+    "items": {
+      "$ref": "material_schema.json#"
+    }
+  },
+  "usesReagent": {
+    "description": "The materials that are used as reagents (but not subjects) of the study.",
+    "type": "array",
+    "items": {
+      "$ref": "material_schema.json#"
+    }
+  },
+  "isAboutBiologicalEntity": {
+    "description" : "The biological entities relevant to the study, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
+    "type": "array",
+    "items": {
+      "$ref" : "biological_entity_schema.json#"
+    }
+  },
+"required": ["name", "type", "output"]
 }
 
            

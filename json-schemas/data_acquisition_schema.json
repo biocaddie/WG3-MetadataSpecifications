@@ -2,29 +2,111 @@
     "$schema": "http://json-schema.org/draft-04/schema",
     "title": "DATS data acquisition schema.",
     "description": "Process (or activity) of generating data through measurement made with specific techniques.",
-
-    "allOf": [
-        {"$ref": "activity_schema.json#"},
-        {
-            "type": "object",
-            "properties": {
-                "uses": {
-                    "description": "a property to specify the instrument(s) used to acquire the signal",
-                    "anyOf": [
-                        {"$ref": "instrument_schema.json#"},
-                        {"$ref": "software_schema.json#"}
-                    ]
+    "type": "object",
+    "properties": {
+        "identifierInfo": {
+            "description": "Primary identifiers for the activity.",
+            "type": "array",
+            "items": {
+                "$ref": "identifier_info_schema.json#"
+            }
+        },
+        "alternateIdentifierInfo": {
+            "description": "Alternate identifiers for the activity.",
+            "type": "array",
+            "items": {
+                "$ref": "alternate_identifier_info_schema.json#"
+            }
+        },
+        "relatedIdentifierInfo": {
+            "description": "Related identifiers for the activity.",
+            "type": "array",
+            "items": {
+                "$ref": "related_identifier_info_schema.json#"
+            }
+        },
+        "name": {
+            "description": "The name of the activity, usually one sentece or short description of the activity.",
+            "type" :  "string"
+        },
+        "startDate": {
+            "description": "A timestamp to record the starting point of the activity.",
+            "$ref": "date_info_schema.json#"
+        },
+        "endDate": {
+            "description": "A timestamp to record the end point of the activity.",
+            "$ref": "date_info_schema.json#"
+        },
+        "duration": {
+            "description": "The time during which the activity takes place.",
+            "type" :  "string"
+        },
+        "location" : {
+            "description": "The location where the activity takes place.",
+            "oneOf": [
+                {
+                    "type": "string"
                 },
-                "measures": {
-                    "description": "a property to specify the dimension(s) being acquired as signal",
-                    "type": "array",
-                    "items": {
-                        "$ref": "dimension_schema.json#"
-                    },
-                    "minItems": 1
+                {
+                    "type": "string",
+                    "format" : "uri"
                 }
+            ]
+        },
+        "performedBy" : {
+            "description": "The person(s) or organisation(s) responsible for executing the process.",
+            "type" : "array",
+            "items" : {
+                "anyOf": [
+                    {"$ref" : "person_schema.json#"},
+                    {"$ref" : "organization_schema.json#"}
+                ]
             }
         }
-    ],
-    "required" : ["input","output"]
+    },
+    "keywords": {
+        "description": "Tags associated with the activity, which will help in its discovery.",
+        "type": "array",
+        "items": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "string",
+                    "format" : "uri"
+                }
+            ]
+        }
+    },
+    "input" : {
+        "description": "The entities used as input.",
+        "type": "array",
+        "items":{
+            "$ref" : "material_schema.json#"
+        }
+    },
+    "output" : {
+        "description": "The entities resulting from applying the activity.",
+        "type": "array",
+        "items":{
+            "$ref" : "dataset_schema.json#"
+        }
+    },
+    "uses": {
+        "description": "The instrument(s) or software(s) used to acquire the signal.",
+        "anyOf": [
+            {"$ref": "instrument_schema.json#"},
+            {"$ref": "software_schema.json#"}
+        ]
+    },
+    "measures": {
+        "description": "The dimension(s) being acquired as signal.",
+        "type": "array",
+        "items": {
+            "$ref": "dimension_schema.json#"
+        },
+        "minItems": 1
+    },
+    "required" : ["name", "input","output"]
 }
