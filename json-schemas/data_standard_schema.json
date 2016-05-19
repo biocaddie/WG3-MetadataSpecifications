@@ -31,8 +31,7 @@
     },
     "type" : {
       "description": "The nature of the information resource, ideally specified with a controlled vocabulary or ontology (.e.g model or format, vocabulary, reporting guideline).",
-      "type" : "string",
-      "format": "uri"
+      "$ref" : "annotation_schema.json#"
     },
     "licenses" : {
       "description": "The terms of use of the data standard.",

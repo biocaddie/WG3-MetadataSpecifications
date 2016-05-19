@@ -11,15 +11,7 @@
         },
         "type": {
             "description": "The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
-            "oneOf": [
-                {
-                    "type": "string"
-                },
-                {
-                    "type": "string",
-                    "format" : "uri"
-                }
-            ]
+             "$ref" : "annotation_schema.json#"
         }
     },
       "required": ["date","type"]

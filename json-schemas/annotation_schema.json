@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS annotation schema",
+  "description": "A pair of value (string or numeric) with a corresponding ontology term (IRI), if applicable.",
+  "type": "object",
+  "properties": {
+    "value": {
+      "oneOf": [
+                { "type": "string" },
+                { "type": "number"}
+            ]
+    },
+    "ontologyTerm": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

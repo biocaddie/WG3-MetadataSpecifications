@@ -45,15 +45,7 @@
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {
-                "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "string",
-                        "format" : "uri"
-                    }
-                ]
+                 "$ref" : "annotation_schema.json#"
             },
             "minItems" : 1
         },
@@ -112,15 +104,7 @@
             "description": "Tags associated with the dataset, which will help in its discovery.",
             "type": "array",
             "items": {
-                "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "string",
-                        "format" : "uri"
-                    }
-                ]
+                "$ref" : "annotation_schema.json#"
             }
         }
     },
