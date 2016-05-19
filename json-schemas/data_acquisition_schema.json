@@ -4,21 +4,21 @@
     "description": "Process (or activity) of generating data through measurement made with specific techniques.",
     "type": "object",
     "properties": {
-        "identifierInfo": {
+        "identifiers": {
             "description": "Primary identifiers for the activity.",
             "type": "array",
             "items": {
                 "$ref": "identifier_info_schema.json#"
             }
         },
-        "alternateIdentifierInfo": {
+        "alternateIdentifiers": {
             "description": "Alternate identifiers for the activity.",
             "type": "array",
             "items": {
                 "$ref": "alternate_identifier_info_schema.json#"
             }
         },
-        "relatedIdentifierInfo": {
+        "relatedIdentifiers": {
             "description": "Related identifiers for the activity.",
             "type": "array",
             "items": {

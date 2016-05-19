@@ -4,21 +4,21 @@
   "description": "A collection of entities known as study subjects based on a set of specified criteria and rules; synonyms: population, cohort.",
   "type": "object",
   "properties": {
-    "identifierInfo": {
+    "identifiers": {
       "description": "Primary identifiers for the study group.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the study group.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiers": {
       "description": "",
       "type": "array",
       "items": {

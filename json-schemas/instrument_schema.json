@@ -4,21 +4,21 @@
   "description": "An entity that helps an agent perform an activity.",
   "type": "object",
   "properties": {
-    "identifierInfo": {
+    "identifiers": {
       "description": "Primary identifiers for the instrument.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the instrument.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiers": {
       "description": "Related identifiers for the instrument.",
       "type": "array",
       "items": {

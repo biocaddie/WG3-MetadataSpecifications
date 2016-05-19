@@ -4,21 +4,21 @@
   "description": "A disorder of structure or function in a human, animal, or plant, that produces specific symptoms or that affects a specific location.",
   "type": "object",
   "properties": {
-    "identifierInfo": {
+    "identifiers": {
       "description": "Primary identifiers for the disease.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the disease.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiers": {
       "description": "Related identifiers for the disease.",
       "type": "array",
       "items": {

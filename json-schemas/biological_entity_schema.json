@@ -4,21 +4,21 @@
   "description": "A biological entity is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/).",
   "type": "object",
   "properties": {
-    "identifierInfo": {
+    "identifiers": {
       "description": "Primary identifiers for the biological entity.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the biological entity.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiers": {
       "description": "Related identifiers for the biological entity.",
       "type": "array",
       "items": {

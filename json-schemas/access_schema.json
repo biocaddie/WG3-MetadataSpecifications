@@ -4,19 +4,19 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
-    "identifiersInfo": {
+    "identifiers": {
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifiersInfo": {
+    "alternateIdentifiers": {
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifiersInfo": {
+    "relatedIdentifiers": {
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"

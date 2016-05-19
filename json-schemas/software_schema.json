@@ -4,21 +4,21 @@
   "description": "A digital entity containing sets of instructions and operation, which allows computation and operation of and by computer.",
   "type": "object",
   "properties": {
-    "identifierInfo": {
+    "identifiers": {
       "description": "Primary identifiers for the software.",
       "type": "array",
       "items": {
         "$ref": "identifier_info_schema.json#"
       }
     },
-    "alternateIdentifierInfo": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the software.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
-    "relatedIdentifierInfo": {
+    "relatedIdentifiers": {
       "description": "Related identifiers for the software.",
       "type": "array",
       "items": {

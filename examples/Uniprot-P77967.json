@@ -1,5 +1,5 @@
 {
-  "identifiersInformation":
+  "identifiers":
   [
     {
       "identifier": "P77967",
@@ -184,7 +184,7 @@
       "taxonomy" : [
         {
           "name":  "Synechocystis sp. (strain PCC 6803 / Kazusa)",
-          "identifiersInformation":
+          "identifiers":
           [
             {
               "identifier" : "1111708",
@@ -228,7 +228,7 @@
 
   "distributions" : [
     {
-      "identifiersInformation":
+      "identifiers":
       [
         {
           "identifier" : "1",
@@ -243,7 +243,7 @@
 
       "conformsTo": [
         {
-          "identifiersInformation": [
+          "identifiers": [
             {
               "identifier": "https://biosharing.org/bsg-000228",
               "identifierScheme": "BioSharing"
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "identifiersInformation":
+      "identifiers":
       [
         {
           "identifier" : "2",
@@ -271,7 +271,7 @@
 
       "conformsTo": [
         {
-          "identifiersInformation": [
+          "identifiers": [
             {
               "identifier": "https://www.biosharing.org/bsg-000235",
               "identifierScheme": "BioSharing"
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "identifiersInformation":
+      "identifiers":
       [
         {
           "identifier" : "3",
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "identifiersInformation":
+      "identifiers":
       [
         {
           "identifier" : "4",
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "identifiersInformation":
+      "identifiers":
       [
         {
           "identifier" : "5",
@@ -331,7 +331,7 @@
 
   "isCitedBy" : [
     {
-      "identifiersInformation": [
+      "identifiers": [
         {
           "identifier": "26060179",
           "identifierScheme": "PubMed"
@@ -425,7 +425,7 @@
       ]
     },
     {
-      "identifiersInformation": [
+      "identifiers": [
         {
           "identifier": "10871367",
           "identifierScheme": "PubMed"
@@ -475,7 +475,7 @@
       ]
     },
     {
-      "identifiersInformation": [
+      "identifiers": [
         {
           "identifier": "12878596",
           "identifierScheme": "PubMed"
@@ -513,7 +513,7 @@
       ]
     },
     {
-      "identifiersInformation": [
+      "identifiers": [
         {
           "identifier": "12535521",
           "identifierScheme": "PubMed"
@@ -580,7 +580,7 @@
 
   "storedIn" : [
     {
-      "identifiersInformation": [
+      "identifiers": [
         {
           "identifier": "https://www.biosharing.org/biodbcore-000544",
           "identifierScheme": "BioSharing"
