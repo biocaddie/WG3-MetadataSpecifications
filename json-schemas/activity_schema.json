@@ -11,20 +11,21 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifierInfo": {
-
+    "alternateIdentifierInfo": {
+      "description": "Alternate identifiers for the activity.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
       }
     },
     "relatedIdentifierInfo": {
+      "description": "Related identifiers for the activity.",
       "type": "array",
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
-    "title": {
+    },
+    "name": {
       "description": "The name of the activity, usually one sentece or short description of the activity.",
       "type" :  "string"
     },
@@ -41,9 +42,16 @@
       "type" :  "string"
     },
     "location" : {
-      "description": "The time during which the activity takes place.",
-      "type" : "string",
-      "format": "uri"
+      "description": "The location where the activity takes place.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
     },
     "performedBy" : {
       "description": "The person(s) or organisation(s) responsible for executing the process.",
@@ -56,14 +64,29 @@
       }
     }
   },
+  "keywords": {
+    "description": "Tags associated with the activity, which will help in its discovery.",
+    "type": "array",
+    "items": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
+    }
+  },
   "input" : {
     "description": "The entities used as input.",
     "type": "array",
     "items":{
       "anyOf": [
-          {"$ref" : "dataset_schema.json#"},
-          {"$ref" : "material_schema.json#"}
-        ]
+        {"$ref" : "dataset_schema.json#"},
+        {"$ref" : "material_schema.json#"}
+      ]
     }
   },
   "output" : {
@@ -71,10 +94,10 @@
     "type": "array",
     "items":{
       "anyOf": [
-          {"$ref" : "dataset_schema.json#"},
-          {"$ref" : "material_schema.json#"}
-        ]
+        {"$ref" : "dataset_schema.json#"},
+        {"$ref" : "material_schema.json#"}
+      ]
     }
   },
-  "required": ["title"]
+  "required": [ "name" ]
 }

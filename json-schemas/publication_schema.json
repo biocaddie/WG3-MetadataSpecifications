@@ -41,6 +41,10 @@
           }
         ]
     },
+    "journalName": {
+      "description": "The name of the journal where the article is published if applicable.",
+      "type": "string"
+    },
     "date" : {
       "description": "a property to specify the date of the publication",
       "type" : "string",
@@ -56,6 +60,10 @@
         ]
       },
       "minItems" : 1
+    },
+    "authorsList": {
+      "description": "The list of authors made available as a string (does not allow disambiguation).",
+      "type": "string"
     },
     "acknowledges" : {
       "description": "a property to specify the grant(s) which funded and supported the work reported by the publication",
