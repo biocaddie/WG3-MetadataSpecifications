@@ -109,7 +109,7 @@
     "items" : {
       "$ref": "annotation_schema.json#"
     }
-  }
+  },
   "studyGroups": {
     "description": "The different study groups associated with a study.",
     "type": "array",
