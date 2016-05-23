@@ -167,17 +167,6 @@
   "description" : "Cryptochrome DASH",
   "creators": [ { "name": "UniProt" } ],
 
-  "dates": [
-    {
-      "date": "2006-05-16",
-      "type": { "value": "creation" }
-    },
-    {
-      "date": "2016-04-13",
-      "type": { "value": "modification" }
-    }
-  ],
-
   "isAbout" : [
     {
       "name": "Cryptochrome DASH",
@@ -204,26 +193,60 @@
         }
       ],
       "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA",
-      "roles" : [ "","",""]
+      "roles" : [ 
+            {"name" : "","ontologyTermIRI" : "" },
+            {"name" : "","ontologyTermIRI" : "" },
+            {"name" : "","ontologyTermIRI" : "" }
+            ]
     }
   ],
 
   "types": [
     {
-      "value": "protein information"
+      "value": "protein",
+      "ontologyTermIRI" : "" 
     }
   ],
   "keywords": [
-    { "value": "3D-structure"},
-    { "value": "Chromophore" },
-    { "value": "Complete proteome"},
-    { "value": "DNA-binding" },
-    { "value": "FAD"},
-    { "value": "Flavoprotein"},
-    { "value": "Reference proteome"},
-    { "value": "Repressor"},
-    { "value": "Transcription"},
-    { "value": "Transcription regulation"}
+    { 
+      "value": "3D-structure",
+      "ontologyTermIRI" : "" 
+    },
+    { 
+      "value": "Chromophore",
+      "ontologyTermIRI" : ""     
+    },
+    {
+       "value": "Complete proteome",
+       "ontologyTermIRI" : "" 
+    },
+    {
+        "value": "DNA-binding"
+    },
+    { 
+        "value": "FAD",
+        "ontologyTermIRI" : "" 
+    },
+    { 
+        "value": "Flavoprotein",
+        "ontologyTermIRI" : "" 
+    },
+    { 
+        "value": "Reference proteome",
+        "ontologyTermIRI" : "" 
+    },
+    {  
+        "value": "Repressor",
+        "ontologyTermIRI" : "" 
+    },
+    { 
+        "value": "Transcription",
+        "ontologyTermIRI" : "" 
+    },
+    { 
+        "value": "Transcription regulation",
+        "ontologyTermIRI" : ""
+    }
   ],
 
   "distributions" : [
@@ -235,6 +258,22 @@
           "identifierScheme": ""
         }
       ],
+     "dates": [
+        {
+        "date": "2006-05-16",
+         "type": { 
+            "value": "creation",
+            "ontologyTermIRI" : "" 
+            }
+         },
+        {
+        "date": "2016-04-13",
+        "type": { 
+            "value": "modification",
+            "ontologyTermIRI" : "" 
+            }
+    }
+  ],
       "accessModalities" : [
         {
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
@@ -250,7 +289,10 @@
             }
           ],
           "name": "FASTA",
-          "type": { "value": "format" }
+          "type": { 
+            "value": "format",
+            "ontologyTermIRI" : "" 
+            }
         }
       ]
     },
@@ -278,7 +320,11 @@
             }
           ],
           "name": "GFF",
-          "dataStandardType": "format"
+          "type" : 
+          {
+             "name": "format",
+             "ontologyTermIRI" : "" 
+          }
         }
       ]
     },
@@ -295,6 +341,22 @@
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.txt"
         }
+      ],
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000235",
+              "identifierScheme": "BioSharing"
+            }
+          ],
+          "name": "txt",
+          "type" : 
+          {
+             "name": "format",
+             "ontologyTermIRI" : "" 
+          }
+        }
       ]
     },
     {
@@ -309,6 +371,22 @@
         {
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.rdf"
+        }
+      ],
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000235",
+              "identifierScheme": "BioSharing"
+            }
+          ],
+          "name": "RDF",
+          "type" : 
+          {
+             "name": "format",
+             "ontologyTermIRI" : "" 
+          }
         }
       ]
     },
@@ -325,7 +403,23 @@
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.xml"
         }
-      ]
+      ],
+ "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000235",
+              "identifierScheme": "BioSharing"
+            }
+          ],
+          "name": "XML",
+          "type" : 
+          {
+             "name": "format",
+             "ontologyTermIRI" : "" 
+          }
+        }
+      ]     
     }
   ],
 
@@ -333,20 +427,25 @@
     {
       "identifiers": [
         {
-          "identifier": "26060179",
-          "identifierScheme": "PubMed"
+          "identifier": "8905231",
+          "identifierScheme": "pubmed"
         },
         {
           "identifier": "10.1093/dnares/3.3.109",
-          "identifierScheme": "DOI"
+          "identifierScheme": "doi"
         }
       ],
       "title": "Sequence analysis of the genome of the unicellular cyanobacterium Synechocystis sp. strain PCC6803. II. Sequence determination of the entire genome and assignment of potential protein-coding regions.",
-      "publicationType" : "article",
-      "journal" : "DNA Res.",
+      "publicationType" : { 
+            "name" : "article",
+            "ontologyTermIRI" : "" 
+            },
+      "publicationVenue" : "DNA Res.",
       "date" : "1996",
-      "author" : [
+      "authorsList" : "Kaneko T, Sato S, Kotani H, Tanaka A, Asamizu E, Nakamura Y, Miyajima N, Hirosawa M, Sugiura M, Sasamoto S, Kimura T, Hosouchi T, Matsuno A, Muraki A, Nakazaki N, Naruo K, Okumura S, Shimpo S, Takeuchi C, Wada T, Watanabe A, Yamada M, Yasuda M, Tabata S.",      
+      "authors" : [
         {
+          "fullName" : "T. Kaneko",
           "firstName": " T.",
           "lastName": "Kaneko"
         },
@@ -428,47 +527,59 @@
       "identifiers": [
         {
           "identifier": "10871367",
-          "identifierScheme": "PubMed"
+          "identifierScheme": "pubmed"
         },
         {
           "identifier": "10.1093/nar/28.12.2353",
-          "identifierScheme": "DOI"
+          "identifierScheme": "doi"
         }
       ],
       "title": "Bacterial cryptochrome and photolyase: characterization of two photolyase-like genes of Synechocystis sp. PCC6803",
-      "publicationType" : "article",
-      "journal" : "Nucleic Acids Res.",
+      "publicationType" : { 
+            "name" : "article",
+            "ontologyTermIRI" : "" 
+            },
+      "publicationVenue" : "Nucleic Acids Res.",
       "date" : "2000",
+      "authorsList" : "Hitomi K, Okamoto K, Daiyasu H, Miyashita H, Iwai S, Toh H, Ishiura M, Todo T.",
       "author" : [
         {
+          "fullName" : "K. Hitomi",
           "firstName": " K.",
           "lastName": "Hitomi"
         },
         {
+          "fullName" : "K. Okamoto",
           "firstName": "K.",
           "lastName": "Okamoto"
         },
         {
+          "fullName" : "H. Daiyasu",
           "firstName": "H.",
           "lastName": "Daiyasu"
         },
         {
+          "fullName" : "H. Miyashita",
           "firstName": "H.",
           "lastName": "Miyashita"
         },
         {
+          "fullName" : "S. Iwai",
           "firstName": "S.",
           "lastName": "Iwai"
         },
         {
+          "fullName" : "H. Toh",
           "firstName": "H.",
           "lastName": "Toh"
         },
         {
+          "fullName" : "M. Ishiura",
           "firstName": "M.",
           "lastName": "Ishiura"
         },
         {
+          "fullName" : "T. Todo",
           "firstName": "T.",
           "lastName": "Todo"
         }
@@ -478,17 +589,21 @@
       "identifiers": [
         {
           "identifier": "12878596",
-          "identifierScheme": "PubMed"
+          "identifierScheme": "pubmed"
         },
         {
           "identifier": "10.1074/jbc.M305792200",
-          "identifierScheme": "DOI"
+          "identifierScheme": "doi"
         }
       ],
       "title": "Purification and characterization of three members of the photolyase/cryptochrome family blue-light photoreceptors from Vibrio cholerae.  ",
-      "publicationType" : "article",
-      "journal" : "J. Biol. Chem.",
+      "publicationType" : { 
+            "name" : "article",
+            "ontologyTermIRI" : "" 
+            },
+      "publicationVenue" : "J. Biol. Chem.",
       "date" : "2003",
+      "authorsList" : "Worthington EN, Kavakli IH, Berrocal-Tito G, Bondo BE, Sancar A.",
       "author" : [
         {
           "firstName": " E.N.",
@@ -516,17 +631,21 @@
       "identifiers": [
         {
           "identifier": "12535521",
-          "identifierScheme": "PubMed"
+          "identifierScheme": "pubmed"
         },
         {
           "identifier": "10.1016/S1097-2765(03)00008-X",
-          "identifierScheme": "DOI"
+          "identifierScheme": "doi"
         }
       ],
       "title": "Identification of a new cryptochrome class. Structure, function, and evolution.",
-      "publicationType" : "article",
-      "journal" : "Mol. Cell",
+      "publicationType" : { 
+            "name" : "article",
+            "ontologyTermIRI" : "" 
+            },
+      "publicationVenue" : "Mol. Cell",
       "date" : "2003",
+      "authorsList" : "Brudler R, Hitomi K, Daiyasu H, Toh H, Kucho K, Ishiura M, Kanehisa M, Roberts VA, Todo T, Tainer JA, Getzoff ED.",
       "author" : [
         {
           "firstName": " R.",
@@ -579,24 +698,40 @@
   ],
 
   "storedIn" : [
-    {
-      "identifiers": [
+    { 
+        "identifiers": [
+        {
+          "identifier": "http://uniprot.org/uniprot",
+          "identifierScheme": "http"
+        }
+       ],
+      "relatedIdentifiers": [
         {
           "identifier": "https://www.biosharing.org/biodbcore-000544",
           "identifierScheme": "BioSharing"
         }
       ],
       "name": "the Uniprot Knowledge Base",
-      "homepage": "http://uniprot.org/uniprot",
+      "homepage" : "http://www.uniprot.org",
       "license" : [
         {
           "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
         }
       ],
-      "dataRepositoryType": "knowledge base",
+      "types" :[
+        { 
+            "name" : "knowledge base",
+            "ontologyTermIRI" : "" 
+            } 
+            ],
       "version": "116"
     }
   ],
   "isAboutBiologicalProcess": []  ,
-  "size" : 0
+  "size" : 0,
+  "unit" : {
+            "name" : "kbytes",
+            "ontologyTermIRI" : "" 
+            }
+  }
 }
