@@ -10,7 +10,7 @@
                 { "type": "number"}
             ]
     },
-    "ontologyTerm": {
+    "ontologyTermIRI": {
       "type": "string",
       "format": "uri"
     }
