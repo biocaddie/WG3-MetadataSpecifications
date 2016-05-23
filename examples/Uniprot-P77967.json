@@ -194,9 +194,9 @@
       ],
       "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA",
       "roles" : [ 
-            {"value" : "","ontologyTermIRI" : "" },
-            {"value" : "","ontologyTermIRI" : "" },
-            {"value" : "","ontologyTermIRI" : "" }
+            {"value" : "" , "ontologyTermIRI" : "" },
+            {"value" : "" , "ontologyTermIRI" : "" },
+            {"value" : "" , "ontologyTermIRI" : "" }
             ]
     }
   ],
@@ -294,7 +294,42 @@
             "ontologyTermIRI" : "" 
             }
         }
-      ]
+      ],
+   "storedIn" : [
+        { 
+        "identifiers": [
+            {
+              "identifier": "http://uniprot.org/uniprot",
+              "identifierScheme": "http"
+            }
+           ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://www.biosharing.org/biodbcore-000544",
+              "identifierScheme": "BioSharing"
+            }
+        ],
+        "name": "the Uniprot Knowledge Base",
+        "homepage" : "http://www.uniprot.org",
+        "license" : [
+            {
+                "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+            }
+        ],
+        "types" :[
+                { 
+                  "value" : "knowledge base",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+        "version": "116"
+      }
+    ],
+    "size" : "12",
+    "unit" : {
+            "value" : "kilobyte",
+            "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234" 
+            }
     },
     {
       "identifiers":
@@ -326,7 +361,42 @@
              "ontologyTermIRI" : "" 
           }
         }
-      ]
+            ],
+   "storedIn" : [
+        { 
+        "identifiers": [
+            {
+              "identifier": "http://uniprot.org/uniprot",
+              "identifierScheme": "http"
+            }
+           ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://www.biosharing.org/biodbcore-000544",
+              "identifierScheme": "BioSharing"
+            }
+        ],
+        "name": "the Uniprot Knowledge Base",
+        "homepage" : "http://www.uniprot.org",
+        "license" : [
+            {
+                "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+            }
+        ],
+        "types" :[
+                { 
+                  "value" : "knowledge base",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+        "version": "116"
+      }
+    ],
+    "size" : "12",
+    "unit" : {
+            "value" : "kilobyte",
+            "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234" 
+            }
     },
     {
       "identifiers":
@@ -357,7 +427,42 @@
              "ontologyTermIRI" : "" 
           }
         }
-      ]
+           ],
+   "storedIn" : [
+        { 
+        "identifiers": [
+            {
+              "identifier": "http://uniprot.org/uniprot",
+              "identifierScheme": "http"
+            }
+           ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://www.biosharing.org/biodbcore-000544",
+              "identifierScheme": "BioSharing"
+            }
+        ],
+        "name": "the Uniprot Knowledge Base",
+        "homepage" : "http://www.uniprot.org",
+        "license" : [
+            {
+                "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+            }
+        ],
+        "types" :[
+                { 
+                  "value" : "knowledge base",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+        "version": "116"
+      }
+    ],
+    "size" : "12",
+    "unit" : {
+            "value" : "kilobyte",
+            "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234" 
+            }
     },
     {
       "identifiers":
@@ -388,7 +493,42 @@
              "ontologyTermIRI" : "" 
           }
         }
-      ]
+      ],
+   "storedIn" : [
+        { 
+        "identifiers": [
+            {
+              "identifier": "http://uniprot.org/uniprot",
+              "identifierScheme": "http"
+            }
+           ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://www.biosharing.org/biodbcore-000544",
+              "identifierScheme": "BioSharing"
+            }
+        ],
+        "name": "the Uniprot Knowledge Base",
+        "homepage" : "http://www.uniprot.org",
+        "license" : [
+            {
+                "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+            }
+        ],
+        "types" :[
+                { 
+                  "value" : "knowledge base",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+        "version": "116"
+      }
+    ],
+    "size" : "12",
+    "unit" : {
+            "value" : "kilobyte",
+            "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234" 
+            }
     },
     {
       "identifiers":
@@ -404,7 +544,7 @@
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.xml"
         }
       ],
- "conformsTo": [
+    "conformsTo": [
         {
           "identifiers": [
             {
@@ -419,7 +559,42 @@
              "ontologyTermIRI" : "" 
           }
         }
-      ]     
+      ],    
+    "storedIn" : [
+    { 
+        "identifiers": [
+        {
+          "identifier": "http://uniprot.org/uniprot",
+          "identifierScheme": "http"
+        }
+       ],
+      "relatedIdentifiers": [
+        {
+          "identifier": "https://www.biosharing.org/biodbcore-000544",
+          "identifierScheme": "BioSharing"
+        }
+      ],
+      "name": "the Uniprot Knowledge Base",
+      "homepage" : "http://www.uniprot.org",
+      "license" : [
+        {
+          "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+        }
+      ],
+      "types" :[
+                { 
+                  "value" : "knowledge base",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+      "version": "116"
+    }
+  ],  
+  "size" : "12",
+  "unit" : {
+            "value" : "kilobyte",
+            "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234" 
+            }
     }
   ],
 
@@ -697,41 +872,6 @@
     }
   ],
 
-  "storedIn" : [
-    { 
-        "identifiers": [
-        {
-          "identifier": "http://uniprot.org/uniprot",
-          "identifierScheme": "http"
-        }
-       ],
-      "relatedIdentifiers": [
-        {
-          "identifier": "https://www.biosharing.org/biodbcore-000544",
-          "identifierScheme": "BioSharing"
-        }
-      ],
-      "name": "the Uniprot Knowledge Base",
-      "homepage" : "http://www.uniprot.org",
-      "license" : [
-        {
-          "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
-        }
-      ],
-      "types" :[
-        { 
-            "value" : "knowledge base",
-            "ontologyTermIRI" : "" 
-            } 
-            ],
-      "version": "116"
-    }
-  ],
-  "isAboutBiologicalProcess": []  ,
-  "size" : 0,
-  "unit" : {
-            "value" : "kbytes",
-            "ontologyTermIRI" : "" 
-            }
-  }
+  "isAboutBiologicalProcess": []
+
 }
