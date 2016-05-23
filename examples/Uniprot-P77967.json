@@ -166,7 +166,6 @@
   "title" : "CRYD_SYNY3",
   "description" : "Cryptochrome DASH",
   "creators": [ { "name": "UniProt" } ],
-
   "isAbout" : [
     {
       "name": "Cryptochrome DASH",
@@ -187,16 +186,17 @@
           "name":  ""
         }
       ],
-      "hasCharacteristic" : [
+      "characteristics" : [
         {
-          "name" : ""
+          "name" : "",
+          "ontologyTermIRI" : ""
         }
       ],
       "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA",
       "roles" : [ 
-            {"name" : "","ontologyTermIRI" : "" },
-            {"name" : "","ontologyTermIRI" : "" },
-            {"name" : "","ontologyTermIRI" : "" }
+            {"value" : "","ontologyTermIRI" : "" },
+            {"value" : "","ontologyTermIRI" : "" },
+            {"value" : "","ontologyTermIRI" : "" }
             ]
     }
   ],
@@ -221,7 +221,8 @@
        "ontologyTermIRI" : "" 
     },
     {
-        "value": "DNA-binding"
+        "value": "DNA-binding",
+        "ontologyTermIRI" : "" 
     },
     { 
         "value": "FAD",
@@ -279,7 +280,6 @@
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.fasta"}
       ],
-
       "conformsTo": [
         {
           "identifiers": [
@@ -322,7 +322,7 @@
           "name": "GFF",
           "type" : 
           {
-             "name": "format",
+             "value": "format",
              "ontologyTermIRI" : "" 
           }
         }
@@ -353,7 +353,7 @@
           "name": "txt",
           "type" : 
           {
-             "name": "format",
+             "value": "format",
              "ontologyTermIRI" : "" 
           }
         }
@@ -384,7 +384,7 @@
           "name": "RDF",
           "type" : 
           {
-             "name": "format",
+             "value": "format",
              "ontologyTermIRI" : "" 
           }
         }
@@ -415,7 +415,7 @@
           "name": "XML",
           "type" : 
           {
-             "name": "format",
+             "value": "format",
              "ontologyTermIRI" : "" 
           }
         }
@@ -437,7 +437,7 @@
       ],
       "title": "Sequence analysis of the genome of the unicellular cyanobacterium Synechocystis sp. strain PCC6803. II. Sequence determination of the entire genome and assignment of potential protein-coding regions.",
       "publicationType" : { 
-            "name" : "article",
+            "value" : "article",
             "ontologyTermIRI" : "" 
             },
       "publicationVenue" : "DNA Res.",
@@ -536,7 +536,7 @@
       ],
       "title": "Bacterial cryptochrome and photolyase: characterization of two photolyase-like genes of Synechocystis sp. PCC6803",
       "publicationType" : { 
-            "name" : "article",
+            "value" : "article",
             "ontologyTermIRI" : "" 
             },
       "publicationVenue" : "Nucleic Acids Res.",
@@ -598,7 +598,7 @@
       ],
       "title": "Purification and characterization of three members of the photolyase/cryptochrome family blue-light photoreceptors from Vibrio cholerae.  ",
       "publicationType" : { 
-            "name" : "article",
+            "value" : "article",
             "ontologyTermIRI" : "" 
             },
       "publicationVenue" : "J. Biol. Chem.",
@@ -640,7 +640,7 @@
       ],
       "title": "Identification of a new cryptochrome class. Structure, function, and evolution.",
       "publicationType" : { 
-            "name" : "article",
+            "value" : "article",
             "ontologyTermIRI" : "" 
             },
       "publicationVenue" : "Mol. Cell",
@@ -720,7 +720,7 @@
       ],
       "types" :[
         { 
-            "name" : "knowledge base",
+            "value" : "knowledge base",
             "ontologyTermIRI" : "" 
             } 
             ],
@@ -730,7 +730,7 @@
   "isAboutBiologicalProcess": []  ,
   "size" : 0,
   "unit" : {
-            "name" : "kbytes",
+            "value" : "kbytes",
             "ontologyTermIRI" : "" 
             }
   }
