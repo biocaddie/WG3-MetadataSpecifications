@@ -33,16 +33,14 @@
       "description": "Information about the nature of the datasets in the repository, ideally from a controlled vocabulary or ontology (e.g. transcription profile, sequence reads, molecular structure, image, DNA sequence, NMR spectra).",
       "type": "array",
       "items": {
-        "type": "string",
-        "format": "uri"
+       "$ref": "annotation_schema.json#"
       }
     },
     "type": {
       "description": "A descriptor (ideally from a controlled vocabulary) providing information about the type of repository, such as primary resource or aggregator.",
       "type": "array",
       "items": {
-        "type": "string",
-        "format": "uri"
+       "$ref": "annotation_schema.json#"
       }
     },
     "licenses": {

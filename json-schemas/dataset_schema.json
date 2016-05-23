@@ -33,14 +33,6 @@
             "description": "A textual narrative comprised of one or more statements describing the dataset.",
             "type" : "string"
         },
-        "dates" : {
-            "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
-            "type" : "array",
-            "items" : {
-                "$ref" : "date_info_schema.json#"
-            },
-            "minItems": 1
-        },
         "types" : {
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",

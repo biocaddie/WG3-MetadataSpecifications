@@ -33,7 +33,7 @@
       }
     },
     "dates" : {
-        "description": "Relevant dates for the datasets, at a minimum, creation date needs to be added",
+        "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
         "type" : "array",
         "items" : {
             "$ref" : "date_info_schema.json#"
@@ -56,16 +56,7 @@
       "description": "The level of curation of the dataset distribution.",
       "type": "array",
       "items": {
-         "oneOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "string",
-                        "format" : "uri"
-                    }
-                ]
-      }
+        "$ref" : "annotation_schema.json#"
     },
     "conformsTo" : {
       "description": "A data standard whose requirements and constraints are met by the dataset.",
