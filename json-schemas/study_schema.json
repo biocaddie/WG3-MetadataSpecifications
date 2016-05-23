@@ -30,16 +30,8 @@
       "type" :  "string"
     },
     "type": {
-    "description": "The type of study, e.g. intervention or observation or meta-analysis.",
-    "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "description": "The type of study, e.g. intervention or observation or meta-analysis.",
+      "$ref" : "annotation_schema.json#"
     },
     "startDate": {
       "description": "A timestamp to record the starting point of the activity.",
@@ -55,15 +47,7 @@
     },
     "location" : {
       "description": "The location where the activity takes place.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "performedBy" : {
       "description": "The person(s) or organisation(s) responsible for executing the process.",
@@ -80,15 +64,7 @@
     "description": "Tags associated with the activity, which will help in its discovery.",
     "type": "array",
     "items": {
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     }
   },
   "input" : {
@@ -155,7 +131,7 @@
       "$ref" : "biological_entity_schema.json#"
     }
   },
-"required": ["name", "type", "output"]
+  "required": ["name", "type", "output"]
 }
 
            

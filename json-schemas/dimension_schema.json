@@ -27,27 +27,11 @@
     },
     "name" : {
       "description": "The name of the dimension measured or observed during the data acquisition process, ideally from a controlled terminology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "type": {
       "description": "A term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "values": {
       "description": "The actual collections of values collected for that dimension.",
@@ -55,15 +39,7 @@
     },
     "unit": {
       "description": "A reference measurement unit associated with scalar dimensions, ideally from a reference controlled terminology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "isAbout" : {
       "description": "A material or a dataset, which is the object of this dimension (this dimension is about the material - e.g. the heights of the patients - or the dataset - e.g. the standard deviation or the set of outliers or a quality indicator of a dataset).",
@@ -83,5 +59,5 @@
       }
     }
   },
-  "required": [ "name", "partOf" ]
+  "required": [ "name", "type", "partOf" ]
 }

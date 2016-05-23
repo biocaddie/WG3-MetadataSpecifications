@@ -58,15 +58,7 @@
       "description": "The roles assumed by a person, ideally from a controlled vocabulary/ontology.",
       "type" : "array",
       "items" : {
-        "oneOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "string",
-            "format" : "uri"
-          }
-        ]
+        "$ref" : "annotation_schema.json#"
       }
     }
   },

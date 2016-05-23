@@ -43,15 +43,7 @@
     },
     "location" : {
       "description": "The location where the activity takes place.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "performedBy" : {
       "description": "The person(s) or organisation(s) responsible for executing the process.",
@@ -68,22 +60,14 @@
     "description": "Tags associated with the activity, which will help in its discovery.",
     "type": "array",
     "items": {
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     }
   },
   "input" : {
     "description": "The entities used as input.",
     "type": "array",
     "items":{
-        "$ref" : "dataset_schema.json#"
+      "$ref" : "dataset_schema.json#"
     },
     "minItems": 1
   },
@@ -91,7 +75,7 @@
     "description": "The entities resulting from applying the activity.",
     "type": "array",
     "items":{
-        "$ref" : "dataset_schema.json#"
+      "$ref" : "dataset_schema.json#"
     },
     "minItems": 1
   },
