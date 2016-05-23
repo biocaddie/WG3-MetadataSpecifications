@@ -48,15 +48,7 @@
       "description": "The roles played by the molecular entity.",
       "type" : "array",
       "items" : {
-        "oneOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "string",
-            "format" : "uri"
-          }
-        ]
+        "$ref": "annotation_schema.json#"
       }
     }
   },

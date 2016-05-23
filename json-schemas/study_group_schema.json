@@ -40,14 +40,6 @@
         "$ref" : "material_schema.json#"
       },
       "minItems" : 1
-    },
-    "selectionCriteria" : {
-      "description": "The attributes and values that the material should meet in order to be part of the group.",
-      "type" : "array",
-      "items" : {
-        "type" : "string",
-        "format": "uri"
-      }
     }
   },
   "required": ["name", "members"]

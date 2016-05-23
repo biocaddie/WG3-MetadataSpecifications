@@ -31,15 +31,7 @@
     },
     "type": {
       "description": "The type of the instrument/technology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format" : "uri"
-        }
-      ]
+      "$ref" : "annotation_schema.json#"
     },
     "isUsedBy" : {
       "description": "The data acquisition activity that makes use of this instrument.",
