@@ -100,5 +100,5 @@
             }
         }
     },
-    "required" : [ "title", "dates", "types", "distributions", "creators" ]
+    "required" : [ "title", "types", "distributions", "creators" ]
 }

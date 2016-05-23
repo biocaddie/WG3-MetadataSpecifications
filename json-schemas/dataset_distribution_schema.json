@@ -11,7 +11,7 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifiers": {
+    "alternateIdentifiers": {
       "description": "Alternate identifiers for the dataset distribution.",
       "type": "array",
       "items": {
@@ -24,7 +24,7 @@
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
+    },
     "storedIn" : {
       "description": "The data repository(ies) hosting the dataset.",
       "type" : "array",
@@ -33,14 +33,14 @@
       }
     },
     "dates" : {
-        "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
-        "type" : "array",
-        "items" : {
-            "$ref" : "date_info_schema.json#"
-        },
-        "minItems": 1
+      "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "date_info_schema.json#"
+      },
+      "minItems": 1
     },
-     "version" : {
+    "version" : {
       "description": "A release point for the dataset when applicable.",
       "type" : "string"
     },
@@ -57,22 +57,24 @@
       "type": "array",
       "items": {
         "$ref" : "annotation_schema.json#"
-    },
-    "conformsTo" : {
-      "description": "A data standard whose requirements and constraints are met by the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref": "data_standard_schema.json#"
+      },
+      "conformsTo" : {
+        "description": "A data standard whose requirements and constraints are met by the dataset.",
+        "type" : "array",
+        "items" : {
+          "$ref": "data_standard_schema.json#"
+        }
+      },
+      "size": {
+        "description": "The size of the dataset.",
+        "type": "array"
+      },
+      "unit": {
+        "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology.",
+        "type" : "string",
+        "format": "uri"
       }
-    },
-    "size": {
-      "description": "The size of the dataset.",
-      "type": "array"
-    },
-    "unit": {
-      "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology.",
-      "type" : "string",
-      "format": "uri"
     }
-  }
+  },
+  "required": [ "dates" ]
 }
