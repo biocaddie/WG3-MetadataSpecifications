@@ -32,23 +32,26 @@
     "type" : {
       "description": "Publication type, ideally delegated to an external vocabulary/resource.",
       "oneOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "string",
-            "format" : "uri"
-          }
-        ]
+        {
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "format" : "uri"
+        }
+      ]
     },
-    "journalName": {
-      "description": "The name of the journal where the article is published if applicable.",
+    "publicationVenue": {
+      "description": "The name of the publication venue where the document is published if applicable.",
       "type": "string"
     },
-    "date" : {
-      "description": "The date of the publication.",
-      "type" : "string",
-      "format": "date-time"
+    "dates" : {
+      "description": "Relevant dates, the date of the publication must be provided.",
+      "type" : "array",
+      "items": {
+        "$ref" : "date_schema.json#"
+      },
+      "minItems": 1
     },
     "authors" : {
       "description": "The person(s) and/or organisation(s) responsible for the publication.",
@@ -80,5 +83,5 @@
       }
     }
   },
-  "required": ["title","date"]
+  "required": [ "title", "dates"]
 }

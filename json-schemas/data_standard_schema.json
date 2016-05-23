@@ -11,8 +11,8 @@
         "$ref": "identifier_info_schema.json#"
       }
     },
-   "alternateIdentifiers": {
-     "description": "Alternate identifiers for the standard.",
+    "alternateIdentifiers": {
+      "description": "Alternate identifiers for the standard.",
       "type": "array",
       "items": {
         "$ref": "alternate_identifier_info_schema.json#"
@@ -24,7 +24,7 @@
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
+    },
     "name": {
       "description": "The name of the standard (e.g. FASTQ, CDISC STDM, ISO8601).",
       "type" :  "string"

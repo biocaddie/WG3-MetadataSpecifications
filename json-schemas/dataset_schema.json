@@ -37,7 +37,7 @@
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {
-                 "$ref" : "annotation_schema.json#"
+                "$ref" : "annotation_schema.json#"
             },
             "minItems" : 1
         },
