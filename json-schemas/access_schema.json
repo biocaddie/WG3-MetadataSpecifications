@@ -32,41 +32,26 @@
       "type": "string",
       "format": "uri"
     },
-    "type": {
+    "types": {
       "description": "Method to obtain the resource, ideally specified from a controlled vocabulary or ontology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "type": "array",
+      "items": {
+        "$ref": "annotation_schema.json#"
+      }
     },
     "authorizations": {
       "description": "Types of verification that accessing the resource is allowed. Authorization occurs after successful authentication. Ideally specified from a controlled vocabulary or ontology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "type": "array",
+      "items": {
+        "$ref": "annotation_schema.json#"
+      }
     },
     "authentications": {
       "description": "Types of verification of the credentials for accessing the resource, ideally specified from a controlled vocabulary or ontology.",
-      "oneOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "format": "uri"
-        }
-      ]
+      "type": "array",
+      "items": {
+        "$ref": "annotation_schema.json#"
+      }
     },
     "licences": {
       "description": "Terms of usage as specified on a license or data use agreement.",
