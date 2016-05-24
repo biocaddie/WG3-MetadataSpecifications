@@ -61,6 +61,5 @@
         "$ref" : "annotation_schema.json#"
       }
     }
-  },
-  "required": [ "firstName", "lastName"]
+  }
 }

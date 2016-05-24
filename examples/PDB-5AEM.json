@@ -13,6 +13,15 @@
 
         "title" : "Structure of t131 N-terminal TPR array",
 
+        "creators": [
+          {
+            "fullName" : "N.M.I.Taylor"
+          },
+          {
+            "fullName": "C.W.Muller"
+          }
+        ],
+
         "description" : "TRANSCRIPTION FACTOR TAU 131 KDA SUBUNIT",
 
         "dataType" : [
@@ -30,7 +39,12 @@
         }
       ],
 
-    "types": [],
+    "types": [
+      {
+        "value": "transcription",
+        "ontologyTermIRI": ""
+      }
+    ],
 
       "downloadURL" : [
           "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=5AEM",
@@ -72,7 +86,14 @@
                 ],
             "title": "Architecture of Tfiiic and its Role in RNA Polymerase III Pre-Initiation Complex Assembly.",
             "publicationType" : "article",
-            "date" : "2015",
+            "dates" : [
+              {
+                "date": "2015",
+                "type": {
+                  "value": "publication date"
+                }
+              }
+            ],
             "author" : [
                 {
                     "firstName": "G.",
@@ -138,7 +159,7 @@
         "isAboutBiologicalProcess": [],
         "size" : 0,
         "producedBy" : {
-             "title" : "crystallography study",
+             "name" : "crystallography study",
              "recruits": [
                  {
                      "name": "N-TERMINAL TPR ARRAY, RESIDUES 123-566",
