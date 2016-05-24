@@ -28,6 +28,11 @@
                         "email": "lbadimon@csic-iccc.org"
                     }
          ],
+     "types": [
+       {
+         "value": "clinical trial"
+       }
+     ],
     "keywords": [
         {    "value": "Systemic Lupus Erythematosus",         "ontologyTermIRI" : "" },
         {    "value": "Natural History",         "ontologyTermIRI" : "" },
@@ -50,7 +55,12 @@
                                     "ontologyTermIRI" : "" 
                                  },
             "publicationVenue" : "Ann Intern Med. ",
-            "date" : "1994",
+            "dates" : [
+              {
+                "date": "1994",
+                "type": { "value": "publication date"}
+              }
+            ],
             "authorsList" : "Boumpas DT, Fessler BJ, Austin HA 3rd, Balow JE, Klippel JH, Lockshin MD.",
             "author" : [
                 {
@@ -92,7 +102,12 @@
                                     "ontologyTermIRI" : "" 
                                  },
             "publicationVenue" : "J Immunol.",
-            "date" : "1994",
+             "dates" : [
+              {
+                "date": "1994",
+                "type": { "value": "publication date"}
+              }
+            ],
             "authorsList" : "Emlen W, Niebur J, Kadera R.",
             "author" : [
                 {
@@ -122,7 +137,14 @@
                                     "ontologyTermIRI" : "" 
                                  },
             "publicationVenue" : "J Exp Med.",
-            "date" : "1994",
+
+            "dates": [
+              {
+                "date": "1994",
+                "type": { "value": "publication date"}
+              }
+            ],
+
             "authorsList" : "asciola-Rosen LA, Anhalt G, Rosen A.",
             "author" : [
                 {
@@ -225,12 +247,14 @@
                     }                    
                     
                ],
-               "location" :  [{ 
-                                "name" : "National Institutes of Health Clinical Center, 9000 Rockville Pike",
-                                "postalAddress" : "concatenate (<city>Bethesda</city><state>Maryland</state><zip>20892</zip><country>United States</country>)"
-                              }] ,
-               "startDate" : "February 1994",
-               "endDate" : "N/A"
+               "location" :{
+                  "value" : "National Institutes of Health Clinical Center, 9000 Rockville Pike, United States"
+                  },
+               "startDate" : {
+                 "date": "February 1994",
+                 "type": {}
+               },
+               "endDate" : { "date": "", "type": {}}
                },
                
     "distributions" : [
