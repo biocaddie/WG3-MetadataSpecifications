@@ -21,7 +21,7 @@
            {
               "identifier": "24040759",
               "identifierScheme": "pubmed"
-            },         
+            }
     ],
         "title" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
         "description" : "The adipose tissue is an endocrine regulator and a risk factor for atherosclerosis and cardiovascular disease when by excessive accumulation induces obesity. Although the adipose tissue is also a reservoir for stem cells (ASC) their function and “stemcellness” has been questioned. Our aim was to investigate the mechanisms by which obesity affects subcutaneous white adipose tissue (WAT) stem cells. We used microarrays to analyze differences in transcriptomic profiles between the adipose stem cells from morbidly obese and non-obese individuals.",
@@ -208,7 +208,7 @@
          "value" : "megabyte",
          "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
      }
-    },
+    }
     ],
     
 "isCitedBy" : [
