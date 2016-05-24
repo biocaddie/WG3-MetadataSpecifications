@@ -41,7 +41,7 @@
       "description": "Relevant dates, the date of the publication must be provided.",
       "type" : "array",
       "items": {
-        "$ref" : "date_schema.json#"
+        "$ref" : "date_info_schema.json#"
       },
       "minItems": 1
     },

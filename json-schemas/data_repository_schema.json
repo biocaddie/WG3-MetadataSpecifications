@@ -66,8 +66,7 @@
             "$ref": "organization_schema.json#"
           }
         ]
-      },
-      "minItems": 1
+      }
     },
     "aggregatorOf": {
       "description": "The DataRepositories aggregated by this repository. This property will be empty for primary repositories.",
@@ -77,5 +76,5 @@
       }
     }
   },
-  "required": [ "name", "publishers"]
+  "required": [ "name" ]
 }

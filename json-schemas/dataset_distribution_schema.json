@@ -29,7 +29,7 @@
       "description": "The data repository(ies) hosting the dataset.",
       "type" : "array",
       "items" : {
-        "$ref": "dataset_repository_schema.json#"
+        "$ref": "data_repository_schema.json#"
       }
     },
     "dates" : {

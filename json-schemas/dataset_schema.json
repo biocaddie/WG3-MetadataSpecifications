@@ -46,8 +46,7 @@
             "type" : "array",
             "items" : {
                 "$ref" : "dataset_distribution_schema.json#"
-            },
-            "minItems" : 1
+            }
         },
         "dimensions" : {
             "description": "The different dimensions (granular components)  making up a dataset.",
@@ -100,5 +99,5 @@
             }
         }
     },
-    "required" : [ "title", "types", "distributions", "creators" ]
+    "required" : [ "title", "types", "creators" ]
 }

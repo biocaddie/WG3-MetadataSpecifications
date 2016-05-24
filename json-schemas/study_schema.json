@@ -29,9 +29,13 @@
       "description": "The name of the activity, usually one sentece or short description of the activity.",
       "type" :  "string"
     },
-    "type": {
-      "description": "The type of study, e.g. intervention or observation or meta-analysis.",
-      "$ref" : "annotation_schema.json#"
+    "types": {
+      "description": "The types of study (e.g. intervention or observation or meta-analysis or clinical trials, or behavioural study, or the study design).",
+      "type": "array",
+      "items":
+      {
+        "$ref": "annotation_schema.json#"
+      }
     },
     "startDate": {
       "description": "A timestamp to record the starting point of the activity.",
@@ -85,8 +89,7 @@
         {"$ref" : "dataset_schema.json#"},
         {"$ref" : "material_schema.json#"}
       ]
-    },
-    "minItems": 1
+    }
   },
   "schedulesActivity": {
     "description": "The activities scheduled by the study.",
@@ -138,7 +141,7 @@
       "$ref" : "biological_entity_schema.json#"
     }
   },
-  "required": ["name", "type", "output"]
+  "required": [ "name" ]
 }
 
            
