@@ -96,7 +96,7 @@
         { 
         "identifiers": [
             {
-              "identifier": "http://uniprot.org/uniprot",
+              "identifier": "http://www.ncbi.nlm.nih.gov/geo/",
               "identifierScheme": "http"
             }
            ],
@@ -298,9 +298,9 @@
              "name" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
              "selectionCriteria": [
                     { "value" : "patients that are lean; BMI<25 kg/m2 (ASCn)" },
-                    { "value" : "patients that are lean; BMI<25 kg/m2 (ASCn)" }
+                    { "value" : "patients that are obese; BMI>35 kg/m2 (ASCn)" }
              ],
-             "recruits": [
+             "input": [
                   {
                       "name": "ASC_morbidly-obese_biological rep1",
                       "identifiers": [
@@ -602,6 +602,14 @@
                 }
             ]
         }
-      ]
-}
+             ]
+        },
+        "hasPart" : [
+                {
+                 "identifiers" : [
+                 
+                 { "identifiers" : "http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE48964&format=file"}
+                 ]
+                }
+             ]
 }
