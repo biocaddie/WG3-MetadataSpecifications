@@ -53,7 +53,7 @@
         "$ref": "annotation_schema.json#"
       }
     },
-    "licences": {
+    "licenses": {
       "description": "Terms of usage as specified on a license or data use agreement.",
       "type": "array",
       "items": {

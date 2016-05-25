@@ -27,13 +27,12 @@
     },
     "name": {
       "description": "The name of the activity, usually one sentece or short description of the activity.",
-      "type" :  "string"
+      "type": "string"
     },
     "types": {
       "description": "The types of study (e.g. intervention or observation or meta-analysis or clinical trials, or behavioural study, or the study design).",
       "type": "array",
-      "items":
-      {
+      "items": {
         "$ref": "annotation_schema.json#"
       }
     },
@@ -47,100 +46,115 @@
     },
     "duration": {
       "description": "The time during which the activity takes place.",
-      "type" :  "string"
+      "type": "string"
     },
-    "location" : {
+    "location": {
       "description": "The location where the activity takes place.",
-      "$ref" : "annotation_schema.json#"
+      "$ref": "annotation_schema.json#"
     },
-    "performedBy" : {
+    "performedBy": {
       "description": "The person(s) or organisation(s) responsible for executing the process.",
-      "type" : "array",
-      "items" : {
+      "type": "array",
+      "items": {
         "anyOf": [
-          {"$ref" : "person_schema.json#"},
-          {"$ref" : "organization_schema.json#"}
+          {
+            "$ref": "person_schema.json#"
+          },
+          {
+            "$ref": "organization_schema.json#"
+          }
         ]
+      }
+    },
+    "keywords": {
+      "description": "Tags associated with the activity, which will help in its discovery.",
+      "type": "array",
+      "items": {
+        "$ref": "annotation_schema.json#"
+      }
+    },
+    "input": {
+      "description": "The entities used as input.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "dataset_schema.json#"
+          },
+          {
+            "$ref": "material_schema.json#"
+          }
+        ]
+      }
+    },
+    "output": {
+      "description": "The entities resulting from applying the activity.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "dataset_schema.json#"
+          },
+          {
+            "$ref": "material_schema.json#"
+          }
+        ]
+      }
+    },
+    "schedulesActivity": {
+      "description": "The activities scheduled by the study.",
+      "type": "array",
+      "items": {
+        "$ref": "activity_schema.json#"
+      }
+    },
+    "schedulesDataAcquisition": {
+      "description": "The kind of techniques and response variables used during a study for acquiring data.",
+      "type": "array",
+      "items": {
+        "$ref": "data_acquisition_schema.json#"
+      },
+      "minItems": 1
+    },
+    "selectionCriteria": {
+      "description": "The attributes and values that the material should meet in order to be part of the group.",
+      "type": "array",
+      "items": {
+        "$ref": "annotation_schema.json#"
+      }
+    },
+    "studyGroups": {
+      "description": "The different study groups associated with a study.",
+      "type": "array",
+      "items": {
+        "$ref": "study_group_schema.json#"
+      }
+    },
+    "recruits": {
+      "description": "The materials that are the subjects and participants of the study.",
+      "type": "array",
+      "items": {
+        "$ref": "material_schema.json#"
+      }
+    },
+    "usesReagent": {
+      "description": "The materials that are used as reagents (but not subjects) of the study.",
+      "type": "array",
+      "items": {
+        "$ref": "material_schema.json#"
+      }
+    },
+    "isAboutBiologicalEntity": {
+      "description": "The biological entities relevant to the study, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
+      "type": "array",
+      "items": {
+        "$ref": "biological_entity_schema.json#"
       }
     }
   },
-  "keywords": {
-    "description": "Tags associated with the activity, which will help in its discovery.",
-    "type": "array",
-    "items": {
-      "$ref" : "annotation_schema.json#"
-    }
-  },
-  "input" : {
-    "description": "The entities used as input.",
-    "type": "array",
-    "items":{
-      "anyOf": [
-        {"$ref" : "dataset_schema.json#"},
-        {"$ref" : "material_schema.json#"}
-      ]
-    }
-  },
-  "output" : {
-    "description": "The entities resulting from applying the activity.",
-    "type": "array",
-    "items":{
-      "anyOf": [
-        {"$ref" : "dataset_schema.json#"},
-        {"$ref" : "material_schema.json#"}
-      ]
-    }
-  },
-  "schedulesActivity": {
-    "description": "The activities scheduled by the study.",
-    "type": "array",
-    "items": {
-      "$ref": "activity_schema.json#"
-    }
-  },
-  "schedulesDataAcquisition": {
-    "description": "The kind of techniques and response variables used during a study for acquiring data.",
-    "type": "array",
-    "items": {
-      "$ref": "data_acquisition_schema.json#"
-    },
-    "minItems": 1
-  },
-  "selectionCriteria" : {
-    "description": "The attributes and values that the material should meet in order to be part of the group.",
-    "type" : "array",
-    "items" : {
-      "$ref": "annotation_schema.json#"
-    }
-  },
-  "studyGroups": {
-    "description": "The different study groups associated with a study.",
-    "type": "array",
-    "items": {
-      "$ref": "study_group_schema.json#"
-    }
-  },
-  "recruits": {
-    "description": "The materials that are the subjects and participants of the study.",
-    "type": "array",
-    "items": {
-      "$ref": "material_schema.json#"
-    }
-  },
-  "usesReagent": {
-    "description": "The materials that are used as reagents (but not subjects) of the study.",
-    "type": "array",
-    "items": {
-      "$ref": "material_schema.json#"
-    }
-  },
-  "isAboutBiologicalEntity": {
-    "description" : "The biological entities relevant to the study, ideally from a controlled vocabulary/ontology such as Gene Ontology.",
-    "type": "array",
-    "items": {
-      "$ref" : "biological_entity_schema.json#"
-    }
-  },
   "additionalProperties": false,
-  "required": [ "name" ]
+  "required": [
+    "name"
+  ]
+
 }
