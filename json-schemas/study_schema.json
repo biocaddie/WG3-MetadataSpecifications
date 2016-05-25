@@ -105,7 +105,11 @@
       "description": "The activities scheduled by the study.",
       "type": "array",
       "items": {
-        "$ref": "activity_schema.json#"
+        "anyOf":[
+          {"$ref": "activity_schema.json#"},
+          {"$ref": "data_acquisition_schema.json#"},
+          {"$ref": "data_analysis_schema.json#"}
+          ]
       }
     },
     "schedulesDataAcquisition": {

@@ -72,8 +72,7 @@
     },
     "unit": {
       "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology.",
-      "type" : "string",
-      "format": "uri"
+      "$ref": "annotation_schema.json#"
     }
   },
   "additionalProperties": false,

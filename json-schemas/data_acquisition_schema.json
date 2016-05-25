@@ -54,43 +54,43 @@
                     {"$ref" : "organization_schema.json#"}
                 ]
             }
-        }
-    },
-    "keywords": {
-        "description": "Tags associated with the activity, which will help in its discovery.",
-        "type": "array",
-        "items": {
-            "$ref" : "annotation_schema.json#"
-        }
-    },
-    "input" : {
-        "description": "The entities used as input.",
-        "type": "array",
-        "items":{
-            "$ref" : "material_schema.json#"
-        }
-    },
-    "output" : {
-        "description": "The entities resulting from applying the activity.",
-        "type": "array",
-        "items":{
-            "$ref" : "dataset_schema.json#"
-        }
-    },
-    "uses": {
-        "description": "The instrument(s) or software(s) used to acquire the signal.",
-        "anyOf": [
-            {"$ref": "instrument_schema.json#"},
-            {"$ref": "software_schema.json#"}
-        ]
-    },
-    "measures": {
-        "description": "The dimension(s) being acquired as signal.",
-        "type": "array",
-        "items": {
-            "$ref": "dimension_schema.json#"
         },
-        "minItems": 1
+        "keywords": {
+            "description": "Tags associated with the activity, which will help in its discovery.",
+            "type": "array",
+            "items": {
+                "$ref" : "annotation_schema.json#"
+            }
+        },
+        "input" : {
+            "description": "The entities used as input.",
+            "type": "array",
+            "items":{
+                "$ref" : "material_schema.json#"
+            }
+        },
+        "output" : {
+            "description": "The entities resulting from applying the activity.",
+            "type": "array",
+            "items":{
+                "$ref" : "dataset_schema.json#"
+            }
+        },
+        "uses": {
+            "description": "The instrument(s) or software(s) used to acquire the signal.",
+            "anyOf": [
+                {"$ref": "instrument_schema.json#"},
+                {"$ref": "software_schema.json#"}
+            ]
+        },
+        "measures": {
+            "description": "The dimension(s) being acquired as signal.",
+            "type": "array",
+            "items": {
+                "$ref": "dimension_schema.json#"
+            },
+            "minItems": 1
+        }
     },
     "additionalProperties": false,
     "required" : ["name", "input","output"]
