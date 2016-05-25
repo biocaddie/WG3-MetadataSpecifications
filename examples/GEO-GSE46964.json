@@ -398,7 +398,7 @@
             "identifierScheme": "geo"
           }
         ],
-        "taxonomy" : [
+        "taxonomicInformation" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -440,7 +440,7 @@
             "identifierScheme": "geo"
           }
         ],
-        "taxonomy" : [
+        "taxonomicInformation" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -483,7 +483,7 @@
           }
         ],
 
-        "taxonomy" : [
+        "taxonomicInformation" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -525,7 +525,7 @@
             "identifierScheme": "geo"
           }
         ],
-        "taxonomy" : [
+        "taxonomicInformation" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -563,27 +563,26 @@
     "schedulesDataAcquisition": [
       {
         "name" : "DNA microarray hybridization",
-        "startDate": "17-SEP-13",
-        "endDate": { "date": "21-MAY-15"},
+        "startDate": {
+          "date": "17-SEP-13",
+          "type": { "value": "startDate" }
+        },
+        "endDate": {
+          "date": "21-MAY-15",
+          "type": { "value": "endDate"}
+        },
         "uses": [
           {
-            "name": "Affymetrix Expression Console"
+            "name": "Affymetrix Expression Console",
+            "type": { "name": "console"}
           },
           {
-            "name": "Affymetrix GeneChip Scanner 3000"
+            "name": "Affymetrix GeneChip Scanner 3000",
+            "type": { "name": "scanner"}
           },
           {
-            "name": "Affymetrix Human Gene 1.0 ST Array"
-          }
-        ]
-      }
-    ],
-    "schedulesActivity": [
-      {
-        "name" : "RMA Normalization",
-        "measures": [
-          {
-            "name": "log2-rma"
+            "name": "Affymetrix Human Gene 1.0 ST Array",
+            "type": { "name": "array"}
           }
         ]
       }
