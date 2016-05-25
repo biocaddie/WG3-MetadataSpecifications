@@ -41,9 +41,10 @@
       "description": "The roles of the organization (ideally from a controlled vocabulary/ontology).",
       "type" : "array",
       "items" : {
-         "$ref" : "annotation_schema.json#"
+        "$ref" : "annotation_schema.json#"
       }
     }
   },
+  "additionalProperties": false,
   "required": [ "name" ]
 }

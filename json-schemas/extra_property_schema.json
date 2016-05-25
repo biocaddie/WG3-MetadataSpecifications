@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS extension mechanism",
+  "description": "Extension mechanism for DATS, which allows to add extra properties to the entities. It should be used only for cases where there are no specific properties to deal with the desired property.",
+  "type": "object",
+  "properties": {
+    "category": {"type": "string"},
+    "categoryIRI": {"type": "string", "format": "uri"},
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "valuesIRI": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  },
+  "additionalProperties": false
+}

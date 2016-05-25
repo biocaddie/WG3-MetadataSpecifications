@@ -6,13 +6,14 @@
   "properties": {
     "value": {
       "oneOf": [
-                { "type": "string" },
-                { "type": "number"}
-            ]
+        { "type": "string" },
+        { "type": "number"}
+      ]
     },
     "ontologyTermIRI": {
       "type": "string",
       "format": "uri"
     }
-  }
+  },
+  "additionalProperties": false
 }

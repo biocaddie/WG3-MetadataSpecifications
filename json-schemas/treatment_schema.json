@@ -108,5 +108,6 @@
     "description": "The rank in which perturbations are being applied to study subjects.",
     "type": "number"
   },
+  "additionalProperties": false,
   "required": [ "name", "input" ]
 }

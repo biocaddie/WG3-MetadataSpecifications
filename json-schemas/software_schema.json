@@ -61,5 +61,6 @@
       }
     }
   },
+  "additionalProperties": false,
   "required":[ "name" ]
 }

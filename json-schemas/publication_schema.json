@@ -31,7 +31,7 @@
     },
     "type" : {
       "description": "Publication type, ideally delegated to an external vocabulary/resource.",
-       "$ref" : "annotation_schema.json#"
+      "$ref" : "annotation_schema.json#"
     },
     "publicationVenue": {
       "description": "The name of the publication venue where the document is published if applicable.",
@@ -75,5 +75,6 @@
       }
     }
   },
+  "additionalProperties": false,
   "required": [ "title", "dates"]
 }

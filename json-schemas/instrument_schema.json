@@ -48,5 +48,6 @@
       ]
     }
   },
+  "additionalProperties": false,
   "required":[ "name" ]
 }

@@ -141,8 +141,6 @@
       "$ref" : "biological_entity_schema.json#"
     }
   },
+  "additionalProperties": false,
   "required": [ "name" ]
 }
-
-           
-        

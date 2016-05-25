@@ -69,5 +69,6 @@
       }
     }
   },
+  "additionalProperties": false,
   "required": [ "landingPage" ]
 }

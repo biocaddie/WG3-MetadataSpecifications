@@ -24,7 +24,7 @@
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },    
+    },
     "name": {
       "description": "The name of the grant and its funding program.",
       "type" :  "string"
@@ -61,5 +61,6 @@
       }
     }
   },
-    "required": ["name"]
+  "additionalProperties": false,
+  "required": ["name"]
 }

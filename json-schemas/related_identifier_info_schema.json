@@ -13,10 +13,11 @@
       "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
       "type" : "string"
     },
-     "relationType": {
+    "relationType": {
       "description": "The type of the relationship corresponding to this identifier.",
       "type" : "string",
       "format": "uri"
     }
-  }
+  },
+  "additionalProperties": false
 }

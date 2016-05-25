@@ -11,8 +11,9 @@
         },
         "type": {
             "description": "The type of date, used to specify the process which is being timestamped by the date attribute value, ideally comes from a controlled terminology.",
-             "$ref" : "annotation_schema.json#"
+            "$ref" : "annotation_schema.json#"
         }
     },
-      "required": ["date","type"]
+    "additionalProperties": false,
+    "required": ["date","type"]
 }

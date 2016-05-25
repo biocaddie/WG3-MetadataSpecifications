@@ -21,7 +21,7 @@
       "items": {
         "$ref": "related_identifier_info_schema.json#"
       }
-    },        
+    },
     "name": {
       "description": "The name of the license.",
       "type" :  "string"
@@ -42,5 +42,6 @@
       "minItems" : 1
     }
   },
+  "additionalProperties": false,
   "required": ["name"]
 }
