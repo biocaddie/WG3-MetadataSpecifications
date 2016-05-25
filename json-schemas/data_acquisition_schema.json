@@ -88,10 +88,9 @@
             "type": "array",
             "items": {
                 "$ref": "dimension_schema.json#"
-            },
-            "minItems": 1
+            }
         }
     },
     "additionalProperties": false,
-    "required" : ["name", "input","output"]
+    "required" : [ "name" ]
 }

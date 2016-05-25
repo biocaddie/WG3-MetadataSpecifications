@@ -60,5 +60,5 @@
     }
   },
   "additionalProperties": false,
-  "required": [ "name", "type", "partOf" ]
+  "required": [ "name" ]
 }
