@@ -12,7 +12,7 @@ The original working files, the presentations and notes from the WG3 activities 
 
 
 
-## Version 1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.28019.svg)](http://dx.doi.org/10.5281/zenodo.28019)
+## Version 1.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.28019.svg)](http://dx.doi.org/10.5281/zenodo.28019)
 
 
 * [Metadata Specification - version 1 (PDF file)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/WG3MetadataSpecificationv1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.pdf) - READ FIRST
