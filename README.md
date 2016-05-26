@@ -3,7 +3,8 @@ This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for D
 The original working files, the presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links).
 
 
-## Version 1.1 
+## Version 1.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.53078.svg)](http://dx.doi.org/10.5281/zenodo.53078)
+
 
 * [Metadata Specification - version 1.1 - Draft open for comments (Google Document)] (https://docs.google.com/document/d/12FS-yW0B4unZEVOZhe7wQ-eWBUwecUpVs-EU28jso9I/edit#) - READ FIRST
 * [Appendix 1 - Metadata Mapping File v1.1 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixI-WG3MetadataMappingFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx) [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1lbsykpA6p7Zi_yvV0Ilnfe6Kxn-0SglC5jEfccY6eqM/edit#gid=0)
