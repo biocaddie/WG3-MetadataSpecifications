@@ -25,6 +25,10 @@
         "$ref": "related_identifier_info_schema.json#"
       }
     },
+    "title" : {
+      "description" : "The name of the dataset, usually one sentece or short description of the dataset.",
+      "type" : "string"
+    },
     "storedIn" : {
       "description": "The data repository(ies) hosting the dataset.",
       "type" : "array",

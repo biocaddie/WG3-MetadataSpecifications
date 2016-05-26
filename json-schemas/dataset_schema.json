@@ -37,7 +37,7 @@
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
             "items" : {
-                "$ref" : "annotation_schema.json#"
+                "$ref" : "data_type_schema.json#"
             },
             "minItems" : 1
         },
@@ -77,11 +77,18 @@
             },
             "minItems" : 1
         },
-        "isAboutBiologicalEntity": {
-            "description" : "A biological entity (.i.e. is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/)) this dataset is about.",
+        "isAbout": {
+            "description" : "Different entiies (biological entity, taxonomic information, disease, molecular entity, anatomical part, treatment) associated with this dataset.",
             "type": "array",
             "items": {
-                "$ref" : "biological_entity_schema.json#"
+                "anyOf": [
+                    {"$ref" : "biological_entity_schema.json#"},
+                    {"$ref" : "taxonomic_information_schema.json#"},
+                    {"$ref" : "disease_schema.json#"},
+                    {"$ref" : "molecular_entity_schema.json#"},
+                    {"$ref" : "anatomical_part_schema.json#"},
+                    {"$ref" : "treatment_schema.json#"}
+                ]
             }
         },
         "hasPart" : {
@@ -89,6 +96,13 @@
             "type": "array",
             "items": {
                 "$ref" : "dataset_schema.json#"
+            }
+        },
+        "acknowledges" : {
+            "description": "The grant(s) which funded and supported the work reported by the dataset.",
+            "type" : "array",
+            "items" : {
+                "$ref" : "grant_schema.json#"
             }
         },
         "keywords" : {
