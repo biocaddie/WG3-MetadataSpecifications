@@ -9,8 +9,8 @@
       "type" : "string",
       "format": "uri"
     },
-    "identifierScheme": {
-      "description": "The identifier scheme represents information about how identifiers are formed, maintained and minted. It must be provided if the identifier is provided.",
+    "identifierSource": {
+      "description": "The identifier source represents information about the organisation/namespace responsible for minting the identifiers. It must be provided if the identifier is provided.",
       "type" : "string"
     }
   },
