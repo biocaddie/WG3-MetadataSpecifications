@@ -54,59 +54,67 @@
           {"$ref" : "organization_schema.json#"}
         ]
       }
-    }
-  },
-  "keywords": {
-    "description": "Tags associated with the activity, which will help in its discovery.",
-    "type": "array",
-    "items": {
-      "$ref" : "annotation_schema.json#"
-    }
-  },
-  "input" : {
-    "description": "The entities used as input.",
-    "type": "array",
-    "items":{
-      "$ref" : "study_group_schema.json#"
     },
-    "minItems": 1
-  },
-  "output" : {
-    "description": "The entities resulting from applying the activity.",
-    "type": "array",
-    "items":{
-      "$ref" : "study_group_schema.json#"
-    }
-  },
-  "agent": {
-    "description": "The nature of the perturbation or intervention used in the treatment.",
-    "oneOf": [
-      {"$ref": "molecular_entity_schema.json#"},
-      {"$ref": "material_schema.json#"},
-      {"$ref": "activity_schema.json#"},
-      {
-        "type": "string",
-        "format": "uri"
+
+    "keywords": {
+      "description": "Tags associated with the activity, which will help in its discovery.",
+      "type": "array",
+      "items": {
+        "$ref" : "annotation_schema.json#"
       }
-    ]
-  },
-  "intensity": {
-    "description": "A measurement about how acute the perturbation is.",
-    "type": "array",
-    "items": {
+    },
+    "input" : {
+      "description": "The entities used as input.",
+      "type": "array",
+      "items":{
+        "$ref" : "study_group_schema.json#"
+      },
+      "minItems": 1
+    },
+    "output" : {
+      "description": "The entities resulting from applying the activity.",
+      "type": "array",
+      "items":{
+        "$ref" : "study_group_schema.json#"
+      }
+    },
+    "agent": {
+      "description": "The nature of the perturbation or intervention used in the treatment.",
       "oneOf": [
-        {"type": "string"},
-        {"type": "number"}
+        {"$ref": "molecular_entity_schema.json#"},
+        {"$ref": "material_schema.json#"},
+        {"$ref": "activity_schema.json#"},
+        {
+          "type": "string",
+          "format": "uri"
+        }
       ]
+    },
+    "intensity": {
+      "description": "A measurement about how acute the perturbation is.",
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ]
+      }
+    },
+    "concomitance": {
+      "description": "A boolean value to indicate if more that one perturbations are applied at the same time to the same subject.",
+      "type": "boolean"
+    },
+    "order": {
+      "description": "The rank in which perturbations are being applied to study subjects.",
+      "type": "number"
+    },
+    "extraProperties": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "extra_property_schema.json#"
+      }
     }
-  },
-  "concomitance": {
-    "description": "A boolean value to indicate if more that one perturbations are applied at the same time to the same subject.",
-    "type": "boolean"
-  },
-  "order": {
-    "description": "The rank in which perturbations are being applied to study subjects.",
-    "type": "number"
   },
   "additionalProperties": false,
   "required": [ "name", "input" ]

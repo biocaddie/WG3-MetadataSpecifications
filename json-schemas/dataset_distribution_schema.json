@@ -70,6 +70,13 @@
         "$ref": "data_standard_schema.json#"
       }
     },
+    "qualifiers": {
+      "description": "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted).",
+      "type" : "array",
+      "items" : {
+        "$ref": "annotation_schema.json#"
+      }
+    },
     "size": {
       "description": "The size of the dataset.",
       "type": "number"
@@ -77,6 +84,13 @@
     "unit": {
       "description": "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology.",
       "$ref": "annotation_schema.json#"
+    },
+    "extraProperties": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "extra_property_schema.json#"
+      }
     }
   },
   "additionalProperties": false,

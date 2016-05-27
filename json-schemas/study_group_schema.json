@@ -40,6 +40,13 @@
         "$ref" : "material_schema.json#"
       },
       "minItems" : 1
+    },
+    "extraProperties": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "extra_property_schema.json#"
+      }
     }
   },
   "additionalProperties": false,

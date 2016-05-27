@@ -54,33 +54,40 @@
           {"$ref" : "organization_schema.json#"}
         ]
       }
-    }
-  },
-  "keywords": {
-    "description": "Tags associated with the activity, which will help in its discovery.",
-    "type": "array",
-    "items": {
-      "$ref" : "annotation_schema.json#"
-    }
-  },
-  "input" : {
-    "description": "The entities used as input.",
-    "type": "array",
-    "items":{
-      "anyOf": [
-        {"$ref" : "dataset_schema.json#"},
-        {"$ref" : "material_schema.json#"}
-      ]
-    }
-  },
-  "output" : {
-    "description": "The entities resulting from applying the activity.",
-    "type": "array",
-    "items":{
-      "anyOf": [
-        {"$ref" : "dataset_schema.json#"},
-        {"$ref" : "material_schema.json#"}
-      ]
+    },
+    "keywords": {
+      "description": "Tags associated with the activity, which will help in its discovery.",
+      "type": "array",
+      "items": {
+        "$ref" : "annotation_schema.json#"
+      }
+    },
+    "input" : {
+      "description": "The entities used as input.",
+      "type": "array",
+      "items":{
+        "anyOf": [
+          {"$ref" : "dataset_schema.json#"},
+          {"$ref" : "material_schema.json#"}
+        ]
+      }
+    },
+    "output" : {
+      "description": "The entities resulting from applying the activity.",
+      "type": "array",
+      "items":{
+        "anyOf": [
+          {"$ref" : "dataset_schema.json#"},
+          {"$ref" : "material_schema.json#"}
+        ]
+      }
+    },
+    "extraProperties": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "extra_property_schema.json#"
+      }
     }
   },
   "additionalProperties": false,

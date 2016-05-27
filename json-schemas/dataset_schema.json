@@ -111,6 +111,13 @@
             "items": {
                 "$ref" : "annotation_schema.json#"
             }
+        },
+        "extraProperties": {
+            "description": "Extra properties that do not fit in the previous specified attributes. ",
+            "type": "array",
+            "items": {
+                "$ref" : "extra_property_schema.json#"
+            }
         }
     },
     "additionalProperties": false,

@@ -109,7 +109,7 @@
           {"$ref": "activity_schema.json#"},
           {"$ref": "data_acquisition_schema.json#"},
           {"$ref": "data_analysis_schema.json#"}
-          ]
+        ]
       }
     },
     "schedulesDataAcquisition": {
@@ -153,6 +153,13 @@
       "type": "array",
       "items": {
         "$ref": "biological_entity_schema.json#"
+      }
+    },
+    "extraProperties": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "extra_property_schema.json#"
       }
     }
   },
