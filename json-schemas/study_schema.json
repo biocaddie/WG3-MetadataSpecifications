@@ -134,13 +134,6 @@
         "$ref": "study_group_schema.json#"
       }
     },
-    "recruits": {
-      "description": "The materials that are the subjects and participants of the study.",
-      "type": "array",
-      "items": {
-        "$ref": "material_schema.json#"
-      }
-    },
     "usesReagent": {
       "description": "The materials that are used as reagents (but not subjects) of the study.",
       "type": "array",
