@@ -2,25 +2,25 @@
   "identifiers": [
     {
       "identifier": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48964",
-      "identifierScheme": "GEO"
+      "identifierSource": "GEO"
     }
   ],
   "relatedIdentifiers": [
     {
       "identifier": "PRJNA212422",
-      "identifierScheme": "BioProject"
+      "identifierSource": "BioProject"
     },
     {
       "identifier": "[GSM1187673-GSM1187678]",
-      "identifierScheme": "BioSamples"
+      "identifierSource": "BioSamples"
     },
     {
       "identifier": "GPL6244",
-      "identifierScheme": "GEO Platform"
+      "identifierSource": "GEO Platform"
     },
     {
       "identifier": "24040759",
-      "identifierScheme": "pubmed"
+      "identifierSource": "pubmed"
     }
   ],
   "title" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
@@ -51,7 +51,7 @@
       "identifiers": [
         {
           "identifier" : "1",
-          "identifierScheme": ""
+          "identifierSource": ""
         }
       ],
       "dates": [
@@ -86,7 +86,7 @@
           "identifiers": [
             {
               "identifier": "https://www.biosharing.org/bsg-000076",
-              "identifierScheme": "BioSharing"
+              "identifierSource": "BioSharing"
             }
           ],
           "name": "MiniML",
@@ -101,13 +101,13 @@
           "identifiers": [
             {
               "identifier": "http://www.ncbi.nlm.nih.gov/geo/",
-              "identifierScheme": "http"
+              "identifierSource": "http"
             }
           ],
           "relatedIdentifiers": [
             {
               "identifier": "https://biosharing.org/biodbcore-000441",
-              "identifierScheme": "BioSharing"
+              "identifierSource": "BioSharing"
             }
           ],
           "name": "The Gene Expression Omnibus",
@@ -131,7 +131,7 @@
       "identifiers" : [
         {
           "identifier" : "2",
-          "identifierScheme": ""
+          "identifierSource": ""
         }
       ],
       "dates": [
@@ -161,7 +161,7 @@
           "identifiers": [
             {
               "identifier": "https://www.biosharing.org/bsg-000077",
-              "identifierScheme": "BioSharing"
+              "identifierSource": "BioSharing"
             }
           ],
           "name": "SOFT",
@@ -176,13 +176,13 @@
           "identifiers": [
             {
               "identifier": "http://uniprot.org/uniprot",
-              "identifierScheme": "HTTP"
+              "identifierSource": "HTTP"
             }
           ],
           "relatedIdentifiers": [
             {
               "identifier": "https://www.biosharing.org/biodbcore-000544",
-              "identifierScheme": "BioSharing"
+              "identifierSource": "BioSharing"
             }
           ],
           "name": "the Uniprot Knowledge Base",
@@ -213,7 +213,7 @@
       "identifiers": [
         {
           "identifier": "24040759",
-          "identifierScheme": "pubmed"
+          "identifierSource": "pubmed"
         }
       ],
       "title": "Stem cells isolated from adipose tissue of obese patients show changes in their transcriptomic profile that indicate loss in stemcellness and increased commitment to an adipocyte-like phenotype. BMC Genomics 2013 Sep 16;14:625.",
@@ -271,13 +271,13 @@
 
   ],
 
-  "isAboutBiologicalEntity": [
+  "isAbout": [
     {
       "name": "endocrine regulation",
       "identifiers": [
         {
           "identifier": "GO:0044060",
-          "identifierScheme": "go"
+          "identifierSource": "go"
         }
       ]
     },
@@ -286,7 +286,7 @@
       "identifiers": [
         {
           "identifier": "HP:0001513",
-          "identifierScheme": "hpo"
+          "identifierSource": "hpo"
         }
       ]
     }
@@ -303,7 +303,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187673",
-            "identifierScheme": "GEO"
+            "identifierSource": "GEO"
           }
         ],
         "taxonomicInformation": [
@@ -312,7 +312,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -323,7 +323,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -340,7 +340,7 @@
                 "identifiers": [
                   {
                     "identifier": "",
-                    "identifierScheme": ""
+                    "identifierSource": ""
                   }
                 ]
               }
@@ -353,7 +353,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187676",
-            "identifierScheme": "geo"
+            "identifierSource": "geo"
           }
         ],
         "taxonomicInformation" : [
@@ -362,7 +362,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -373,7 +373,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -384,7 +384,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -395,7 +395,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187674",
-            "identifierScheme": "geo"
+            "identifierSource": "geo"
           }
         ],
         "taxonomicInformation" : [
@@ -404,7 +404,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -415,7 +415,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -426,7 +426,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -437,7 +437,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187677",
-            "identifierScheme": "geo"
+            "identifierSource": "geo"
           }
         ],
         "taxonomicInformation" : [
@@ -446,7 +446,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -457,7 +457,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -468,7 +468,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -479,7 +479,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187675",
-            "identifierScheme": "geo"
+            "identifierSource": "geo"
           }
         ],
 
@@ -489,7 +489,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -500,7 +500,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -511,7 +511,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -522,7 +522,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187678",
-            "identifierScheme": "geo"
+            "identifierSource": "geo"
           }
         ],
         "taxonomicInformation" : [
@@ -531,7 +531,7 @@
             "identifiers": [
               {
                 "identifier": "9606",
-                "identifierScheme": "ncbitax"
+                "identifierSource": "ncbitax"
               }
             ]
           }
@@ -542,7 +542,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -553,7 +553,7 @@
             "identifiers": [
               {
                 "identifier": "",
-                "identifierScheme": ""
+                "identifierSource": ""
               }
             ]
           }
@@ -614,7 +614,7 @@
       "identifiers" : [
         {
           "identifier" : "http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE48964&format=file",
-          "identifierScheme": "GEO"
+          "identifierSource": "GEO"
         }
       ],
       "title": "GSE48964_RAW.tar",

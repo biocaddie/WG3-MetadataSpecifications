@@ -2,21 +2,21 @@
   "identifiers": [
     {
       "identifier": "https://clinicaltrials.gov/show/NCT00001372",
-      "identifierScheme": "https://clinicaltrials.gov/show/NCT/\\d+"
+      "identifierSource": "https://clinicaltrials.gov/show/NCT/\\d+"
     }
   ],
   "relatedIdentifiers": [
     {
       "identifier": "940066",
-      "identifierScheme": "internal organization"
+      "identifierSource": "internal organization"
     },
     {
       "identifier": "94-AR-0066",
-      "identifierScheme": "secondary identifier"
+      "identifierSource": "secondary identifier"
     },
     {
       "identifier": "NCT00001372",
-      "identifierScheme": "nct"
+      "identifierSource": "nct"
     }
   ],
   "title" : "Studies of the Pathogenesis and Natural History of Systemic Lupus Erythematosus (SLE)",
@@ -43,14 +43,14 @@
   ],
   "isCitedBy" : [
     {
-      "identifierInfo": [
+      "identifiers": [
         {
           "identifier": "7762914",
-          "identifierScheme": "pubmed"
+          "identifierSource": "pubmed"
         }
       ],
       "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
-      "publicationType" : {
+      "type" : {
         "value" : "Review",
         "ontologyTermIRI" : ""
       },
@@ -62,7 +62,7 @@
         }
       ],
       "authorsList" : "Boumpas DT, Fessler BJ, Austin HA 3rd, Balow JE, Klippel JH, Lockshin MD.",
-      "author" : [
+      "authors" : [
         {
           "firstName": "DT",
           "lastName": "Boumpas"
@@ -90,14 +90,14 @@
       ]
     },
     {
-      "identifierInfo": [
+      "identifiers": [
         {
           "identifier": "8144943",
-          "identifierScheme": "pubmed"
+          "identifierSource": "pubmed"
         }
       ],
       "title": "Accelerated in vitro apoptosis of lymphocytes from patients with systemic lupus erythematosus.",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
@@ -109,7 +109,7 @@
         }
       ],
       "authorsList" : "Emlen W, Niebur J, Kadera R.",
-      "author" : [
+      "authors" : [
         {
           "firstName": "W",
           "lastName": "Emlen"
@@ -125,14 +125,14 @@
       ]
     },
     {
-      "identifierInfo": [
+      "identifiers": [
         {
           "identifier": "7511686",
-          "identifierScheme": "pubmed"
+          "identifierSource": "pubmed"
         }
       ],
       "title": "Autoantigens targeted in systemic lupus erythematosus are clustered in two populations of surface structures on apoptotic keratinocytes.",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
@@ -146,7 +146,7 @@
       ],
 
       "authorsList" : "asciola-Rosen LA, Anhalt G, Rosen A.",
-      "author" : [
+      "authors" : [
         {
           "firstName": "W",
           "lastName": "Emlen"
@@ -164,24 +164,23 @@
   ],
   "producedBy" : {
     "name" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
-    "type" : {
-      "category" : "study type",
+    "types" : [{
       "value" : "Observational",
       "ontologyTermIRI" : ""
-    },
-    "annotations" : [
-      { "category" : "study design", "value" : "N/A" , "ontologyTermIRI" : ""},
-      { "category" : "recruitment status", "value" : "recruiting" , "ontologyTermIRI" : ""},
-      { "category" : "estimated enrollment ", "value" : "100000" , "ontologyTermIRI" : ""}
+    }],
+    "extraProperties" : [
+      { "category" : "study design", "categoryIRI": "", "values" : [ "N/A" ] , "valuesIRI" : []},
+      { "category" : "recruitment status", "values" : ["recruiting"] , "valuesIRI" : [""]},
+      { "category" : "estimated enrollment ", "values" : ["100000"] , "valuesIRI" : [""]}
 
     ],
-    "isAboutBiologicalProcess": [
+    "isAboutBiologicalEntity": [
       {
         "name": "Systemic Lupus Erythematosus",
         "identifiers": [
           {
             "identifier": "HP_0002725",
-            "identifierScheme": "hpo"
+            "identifierSource": "hpo"
           }
         ]
       }
@@ -196,7 +195,8 @@
     "studyGroups" : [
       {
         "name" : "",
-        "size" : "100000"
+        "size" : 100000,
+        "members": []
       }
 
     ],
@@ -263,7 +263,7 @@
       [
         {
           "identifier" : "1",
-          "identifierScheme": ""
+          "identifierSource": ""
         }
       ],
       "dates": [
@@ -293,7 +293,7 @@
           "identifiers": [
             {
               "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
-              "identifierScheme": ""
+              "identifierSource": ""
             }
           ],
           "name": "XSD",
@@ -306,7 +306,7 @@
           "identifiers": [
             {
               "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
-              "identifierScheme": ""
+              "identifierSource": ""
             }
           ],
           "name": "XML",
@@ -321,18 +321,17 @@
           "identifiers": [
             {
               "identifier": "https://clinicaltrials.gov/ct2/home",
-              "identifierScheme": "http"
+              "identifierSource": "http"
             }
           ],
           "relatedIdentifiers": [
             {
               "identifier": "https://biosharing.org/biodbcore-000470",
-              "identifierScheme": "BioSharing"
+              "identifierSource": "BioSharing"
             }
           ],
           "name": "ClinicalTrials.gov",
-          "homepage" : "https://clinicaltrials.gov/ct2/home",
-          "license" : [
+          "licenses" : [
             {
               "name": ""
             }
@@ -346,7 +345,7 @@
           "version": ""
         }
       ],
-      "size": "N/A",
+      "size": -1,
       "unit" : {
         "value" : "megabyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
