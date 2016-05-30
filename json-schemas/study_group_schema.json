@@ -38,8 +38,7 @@
       "type" : "array",
       "items" : {
         "$ref" : "material_schema.json#"
-      },
-      "minItems" : 1
+      }
     },
     "extraProperties": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
@@ -50,5 +49,5 @@
     }
   },
   "additionalProperties": false,
-  "required": ["name", "members"]
+  "required": [ "name" ]
 }
