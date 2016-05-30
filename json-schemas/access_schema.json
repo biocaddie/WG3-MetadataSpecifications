@@ -28,7 +28,7 @@
       "format": "uri"
     },
     "accessURL": {
-      "description": "A URL from which the resource (dataset or other research object) can be retrieved.",
+      "description": "A URL from which the resource (dataset or other research object) can be retrieved, i.e. a direct link to the object itself.",
       "type": "string",
       "format": "uri"
     },

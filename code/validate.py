@@ -16,10 +16,30 @@ resolver = RefResolver('file://'+schemasPath+'/'+"dataset_schema.json", datasetS
 
 validator = Draft4Validator(datasetSchema, resolver=resolver)
 
-#validator.validate(json.load(open(join(path,"PDB-5AEM.json"))), datasetSchema) #, format_checker=FormatChecker())
+#print("Validating GEO-GSE46964.json")
 
-validator.validate(json.load(open(join(path,"GEO-GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
+#validator.validate(json.load(open(join(path,"GEO-GSE46964.json"))), datasetSchema) #, format_checker=FormatChecker())
+
+#print("done")
+
+#print("Validating ClinicalTrials.gov-NCT00001372.json")
+
+#validator.validate(json.load(open(join(path,"ClinicalTrials.gov-NCT00001372.json"))), datasetSchema) #, format_checker=FormatChecker())
+
+#print("done")
+
+print("Validating PDB-5AEM.json")
+
+instance = json.load(open(join(path,"PDB-5AEM.json")))
+
+#validator.validate(instance, datasetSchema) #, format_checker=FormatChecker())
 
 #validator.validate(json.load(open(join(path,"Uniprot-P77967.json"))), datasetSchema) #, format_checker=FormatChecker())
 
+errors = sorted(validator.iter_errors(instance), key=lambda e: e.path)
 
+print("-------ERRORS")
+for error in errors:
+    print(error.message)
+
+print("done")
