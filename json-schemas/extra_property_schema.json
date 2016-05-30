@@ -4,15 +4,24 @@
   "description": "Extension mechanism for DATS, which allows to add extra properties to the entities. It should be used only for cases where there are no specific properties to deal with the desired property.",
   "type": "object",
   "properties": {
-    "category": {"type": "string"},
-    "categoryIRI": {"type": "string", "format": "uri"},
+    "category": {
+      "description": "A characteristic or property about the entity this ExtraProperty is associated with.",
+      "type": "string"
+    },
+    "categoryIRI": {
+      "description": "The IRI corresponding to the category, if associated with an ontology term.",
+      "type": "string",
+      "format": "uri"
+    },
     "values": {
+      "description": "A set of values associated with the cateogory.",
       "type": "array",
       "items": {
         "type": "string"
       }
     },
     "valuesIRI": {
+      "description": "The set of IRIs corresponding to the values, if associated with an ontology term.",
       "type": "array",
       "items": {
         "type": "string",
