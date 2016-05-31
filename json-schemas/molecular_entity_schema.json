@@ -29,7 +29,14 @@
       "description": "The name of the molecular entity.",
       "type" :  "string"
     },
-    "charactersitics" : {
+    "taxonomicInformation" : {
+      "description": "The taxonomic information for this material (ideally specified from a controlled vocabulary/ontology).",
+      "type": "array",
+      "items": {
+        "$ref": "taxonomic_info_schema.json#"
+      }
+    },
+    "characteristics" : {
       "description": "The characteristic information or attributes denoting the material.",
       "type" : "array",
       "items" : {
@@ -43,7 +50,6 @@
       "description": "The primary sequence of the molecular entity (e.g. inchi code;DNA sequence in FASTA format)",
       "type" :  "string"
     },
-
     "roles" : {
       "description": "The roles played by the molecular entity.",
       "type" : "array",
