@@ -37,6 +37,13 @@
       "description": "A timestamp to record the end point of the activity.",
       "$ref": "date_info_schema.json#"
     },
+     "dates" : {
+      "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "date_info_schema.json#"
+      }
+    },
     "duration": {
       "description": "The time during which the activity takes place.",
       "type" :  "string"

@@ -75,6 +75,13 @@
         "$ref": "data_repository_schema.json#"
       }
     },
+    "accessModalities" : {
+      "description": "The information about access modality for the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "access_schema.json#"
+      }
+    },
     "extraProperties": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",

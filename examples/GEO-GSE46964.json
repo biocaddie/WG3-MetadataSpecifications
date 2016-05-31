@@ -336,13 +336,7 @@
             },
             "values": [
               {
-                "name": "Morbidly obese patient",
-                "identifiers": [
-                  {
-                    "identifier": "",
-                    "identifierSource": ""
-                  }
-                ]
+                "name": "Morbidly obese patient"
               }
             ]
           }
