@@ -25,7 +25,7 @@
     "description": "Whole-genome expression analysis across nine major mental disorders with emphasis on schizophrenia (SZ), bipolar disorder (BP) and major depression (MDD) as compared to controls (C), allows examining disease-specific changes and potential common molecular pathogenic mechanisms. Three relevant regions were assessed: hippocampus (mRNA) and dorsolateral prefrontal cortex (mRNA), and in control tissue, dura (mRNA) as well as genotypes, for a large cohort of individuals. We found a pattern of downregulation of gene expression in SZ, differences in expression between SZ and BP, and between the regions. 37 genes were differentially expressed in SZ vs C in both DLPFC and Hippocampus.",
     "creators": [{
         "firstName": "Barbara",
-        "midInitial" : "K.",
+        "middleInitial" : "K.",
         "lastName": "Lipska",
         "email": ""
     }],
@@ -97,10 +97,11 @@
             "ontologyTermIRI": ""
         }
     ],
-    "hasPart" : {
+    "hasPart" : [ 
+        {
         "identifiers": [   
             {
-                "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
+                "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=pht005195.v1.p1",
                 "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
             }
         ],
@@ -114,15 +115,15 @@
         "description": "The dataset provides diagnosis, age at and cause of death, gender, race, height, and weight information of subjects whose brain samples were examined post mortem. In addition, the results of various tests for metabolites of ingested substances (e.g. alcohol, antidepressants, benzodiazepines, cocaine, nicotine, opiates, tetrahydrocannabinol) are provided. Sample information includes brain area sampled, post-mortem interval to sample collection and RNA integrity scores.",
              "creators": [{
                 "firstName": "Barbara",
-                "midInitial" : "K.",
+                "middleInitial" : "K.",
                 "lastName": "Lipska",
                 "email": ""
          }
         ],
         "dimensions": 
             [
-                { 
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                             {
                                 "identifier" : "phv00258258.v1.p1" ,
                                 "identifierSource" : "dbGap"
@@ -133,10 +134,10 @@
                     "type" : [
                             { 
                                 "value" : "string",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ]
                 },
-                { 
+                {
                   "identifiers" : [ 
                         {
                             "identifier" : "phv00258259.v1.1" ,
@@ -148,7 +149,7 @@
                     "type" : [
                         { 
                             "value" : "decimal, encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                     ],
                     "unit" : "years"
                  },
@@ -164,7 +165,7 @@
                     "type" : [
                         { 
                             "value" : "string",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                     ],
                     "values" : ["M=Male",
                             "F=Female"]
@@ -181,7 +182,7 @@
                 "type" : [
                         { 
                             "value" : "string",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                 ],
                 "values" : ["AA=African American",
                             "AS=Asianv",
@@ -189,8 +190,8 @@
                             "HISP=Hispanic",
                             "Multi-Racial"]
                 },
-                {                
-                   "identifiers" : [ 
+                {
+                "identifiers" : [ 
                             {
                                 "identifier" : "phv00258262.v1.p1" ,
                                 "identifierSource" : "dbGap"
@@ -201,7 +202,7 @@
                     "type" : [
                             { 
                                 "value" : "number",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ]
                 },
                 {
@@ -216,7 +217,7 @@
                 "type" : [
                         { 
                             "value" : "decimal, encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                 ], 
                 "unit" : "hours"
                 },
@@ -232,7 +233,7 @@
                 "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                 ]
                 },
                 {
@@ -247,7 +248,7 @@
                 "type" : [
                         { 
                             "value" : "string",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                 ],
                 "values" : [ "Anxiety=Anxiety disorder (includes panic disorder, generalized anxiety disorder and others)",
                             "Autism=Autistic disorder",
@@ -264,8 +265,8 @@
                             "Tics=Tic disorder",
                             "Williams=Williams syndrome " ]
                 },
-                {                    
-                     "identifiers" : [ 
+                {
+                "identifiers" : [ 
                             {
                                 "identifier" : "phv00258266.v1.p1" ,
                                 "identifierSource" : "dbGap"
@@ -276,7 +277,7 @@
                     "type" : [
                             { 
                                 "value" : "encoded value",
-                                "ontologyTermURI" : "" }
+                                "ontologyTermIRI" : "" }
                     ],
                     "values" : [ "1 yr college=One year of college", 
                                 "10th=10th grade",
@@ -310,7 +311,7 @@
                    "type" : [
                            { 
                                "value" : "decimal,encoded value",
-                               "ontologyTermURI" : ""}
+                               "ontologyTermIRI" : ""}
                    ],
                    "unit" : "inch"
                 },
@@ -326,7 +327,7 @@
                     "type" : [
                             { 
                                 "value" : "decimal,encoded value",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ],
                     "unit" : "pound"
                 },
@@ -342,7 +343,7 @@
                     "type" : [
                             { 
                                 "value" : "encoded value",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ]
                 },
                 {
@@ -357,7 +358,7 @@
                     "type" : [
                             { 
                                 "value" : "encoded value",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ]
                 },
                 {
@@ -372,7 +373,7 @@
                     "type" : [
                             { 
                                 "value" : "string",
-                                "ontologyTermURI" : ""}
+                                "ontologyTermIRI" : ""}
                     ]
                 },
                 {
@@ -387,11 +388,11 @@
                    "type" : [
                            { 
                                "value" : "encoded value",
-                               "ontologyTermURI" : ""}
+                               "ontologyTermIRI" : ""}
                    ]
                 },
-                {    
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                             {
                                 "identifier" : "phv00258273.v1.1" ,
                                 "identifierSource" : "dbGap"
@@ -402,11 +403,11 @@
                     "type" : [
                             { 
                                 "value" : "encoded value",
-                                "ontologyTermURI" : ""}
-                    ]
+                                "ontologyTermIRI" : ""}
+                   ]
                 },
-                {   
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                         {
                             "identifier" : "phv00258274.v1.1" ,
                             "identifierSource" : "dbGap"
@@ -417,11 +418,11 @@
                     "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                      ] 
                 },
-                {   
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                         {
                             "identifier" : "phv00258275.v1.1" ,
                             "identifierSource" : "dbGap"
@@ -432,11 +433,11 @@
                     "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                      ] 
                 },
-                {   
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                         {
                             "identifier" : "phv00258276.v1.1" ,
                             "identifierSource" : "dbGap"
@@ -447,11 +448,11 @@
                     "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                      ] 
                 },
-                       {   
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                         {
                             "identifier" : "phv00258277.v1.1" ,
                             "identifierSource" : "dbGap"
@@ -462,11 +463,11 @@
                     "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                      ] 
                 },
-                          {   
-                    "identifiers" : [ 
+                {
+                "identifiers" : [ 
                         {
                             "identifier" : "phv00258278.v1.1" ,
                             "identifierSource" : "dbGap"
@@ -477,10 +478,12 @@
                     "type" : [
                         { 
                             "value" : "encoded value",
-                            "ontologyTermURI" : ""}
+                            "ontologyTermIRI" : ""}
                      ] 
                 }             
-    ], 
+        ]
+        }
+       ],
     "isCitedBy": [],
     "acknowledges" : [
         { 
@@ -511,7 +514,7 @@
             {
             "value": "case-control",
             "ontologyTermIRI": ""
-            },            
+            }           
         ],
         "extraProperties": [
             {
@@ -532,7 +535,7 @@
             "identifiers": [{
                 "identifier": "68012559",
                 "identifierSource": "mesh"
-            },
+            }
             ]
         },
         {
@@ -540,7 +543,7 @@
             "identifiers": [{
                 "identifier": "68001714",
                 "identifierSource": "mesh"
-            },
+            }
             ]
         },        
         {
@@ -548,7 +551,7 @@
             "identifiers": [{
                 "identifier": "68003865",
                 "identifierSource": "mesh"
-            },
+            }
             ]
         }        
         ],
@@ -571,7 +574,7 @@
                 "email": "",
                 "affiliation": [{
                     "name": "National Institutes of Health",
-                    "postalAddress": "concatenate (<city>Bethesda<\/city> <state>Maryland<\/state> <zip>20892<\/zip> <country>United States<\/country>)",
+                    "postalAddress": "Bethesda, Maryland, 20892, United States",
                     "roles": {
                         "value": "sponsor",
                         "ontologyTermIRI": ""
@@ -606,10 +609,11 @@
             {            
             "date": "2015-12-17",
             "type": { "value" : "embargo date"}
-            },
+            }
         ]
     },
-    "distributions": [{
+    "distributions": [
+    {
         "identifiers": [{
             "identifier" : "1",
             "identifierSource" : ""
@@ -636,15 +640,17 @@
             "authorizations" : [
                 {
                     "value" : "public",
-                    "ontologyTermURI" : ""
+                    "ontologyTermIRI" : ""
                 }
             ],
             "licenses" : [
-                {
-                    "name" : "MODEL DATA USE CERTIFICATION AGREEMENT",
-                    "type" : "Data Use Certification Requirements"
-                },
-                
+                {   
+                    "identifiers": [{
+                    "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
+                    "identifierSource": "dbGAP"
+                    }],
+                    "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
+                }
             ]
         }],
         "conformsTo": [
@@ -693,6 +699,6 @@
             "value": "megabyte",
             "ontologyTermIRI": "http://purl.obolibrary.org/obo/UO_0000235"
         }
-    }]
-}
+    }
+    ]
 }
