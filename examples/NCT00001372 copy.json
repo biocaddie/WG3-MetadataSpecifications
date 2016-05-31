@@ -1,0 +1,333 @@
+{
+    "identifiers": [
+             {
+                "identifier": "https://clinicaltrials.gov/show/NCT00001372",
+                "identifierScheme": "https://clinicaltrials.gov/show/NCT/\\d+"
+            }
+     ],
+    "relatedIdentifiers": [
+            {
+              "identifier": "940066",
+              "identifierScheme": "internal organization"
+            },
+            {
+              "identifier": "94-AR-0066",
+              "identifierScheme": "secondary identifier"
+            }, 
+           {
+              "identifier": "NCT00001372",
+              "identifierScheme": "nct"
+            }
+    ],
+    "title" : "Studies of the Pathogenesis and Natural History of Systemic Lupus Erythematosus (SLE)",
+    "description" : "This research protocol will evaluate subjects with systemic lupus erythematosus (SLE) and their relatives to study the pathogenesis and natural history of the disease and the mechanisms leading to enhanced organ damage. Patients will be evaluated by a history and physical examination and routine laboratory studies will be obtained as needed to assess disease activity or complications of the disease and to monitor for drug-related toxicities. Blood, skin or urine specimens may be requested for research purposes, including genetic studies. In addition, a subset of these patients will undergo several tests to understand the pathogenic changes affecting their blood vessels. Patients who are eligible for other research protocols will be offered the opportunity to participate in these studies by signed informed consent. Any medical care recommended or provided to the patient will be consistent with routine standards of practice and provided in consultation with the patient s referring physician. Blood and urine samples and cardiovascular testing will also be collected or performed on healthy volunteers for research purposes and to support the identification and validation of new biomarker candidates.",
+    "creators": [
+                     {
+                        "firstName": "Lina",
+                        "lastName": "Badimon",
+                        "email": "lbadimon@csic-iccc.org"
+                    }
+         ],
+    "keywords": [
+        {    "value": "Systemic Lupus Erythematosus",         "ontologyTermIRI" : "" },
+        {    "value": "Natural History",         "ontologyTermIRI" : "" },
+        {    "value": "Lupus Nephritis",         "ontologyTermIRI" : "" },
+        {    "value": "Lupus",         "ontologyTermIRI" : "" },
+        {    "value": "Systemic Lupus",         "ontologyTermIRI" : "" },
+        {    "value": "SLE",         "ontologyTermIRI" : "" }
+    ],        
+    "isCitedBy" : [
+            {
+              "identifierInfo": [
+                    {
+                    "identifier": "7762914",
+                    "identifierScheme": "pubmed"
+                    }
+                ],
+            "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
+            "publicationType" : { 
+                                    "value" : "Review",
+                                    "ontologyTermIRI" : "" 
+                                 },
+            "publicationVenue" : "Ann Intern Med. ",
+            "date" : "1994",
+            "authorsList" : "Boumpas DT, Fessler BJ, Austin HA 3rd, Balow JE, Klippel JH, Lockshin MD.",
+            "author" : [
+                {
+                    "firstName": "DT",
+                    "lastName": "Boumpas"
+                },
+                {
+                    "firstName": "BJ",
+                    "lastName": "Fessler"
+                },
+                {
+                    "firstName": "HA",
+                    "lastName": "Austin"
+                },
+                {
+                    "firstName": "JE",
+                    "lastName": "Balow"
+                },
+                 {
+                    "firstName": "JH",
+                    "lastName": "Klippel"
+                },
+                {
+                    "firstName": "MD",
+                    "lastName": "Lockshin"
+                }
+            ]
+          },
+            {
+              "identifierInfo": [
+                    {
+                    "identifier": "8144943",
+                    "identifierScheme": "pubmed"
+                    }
+                ],
+            "title": "Accelerated in vitro apoptosis of lymphocytes from patients with systemic lupus erythematosus.",
+            "publicationType" : { 
+                                    "value" : "article",
+                                    "ontologyTermIRI" : "" 
+                                 },
+            "publicationVenue" : "J Immunol.",
+            "date" : "1994",
+            "authorsList" : "Emlen W, Niebur J, Kadera R.",
+            "author" : [
+                {
+                    "firstName": "W",
+                    "lastName": "Emlen"
+                },
+                {
+                    "firstName": "J",
+                    "lastName": "Niebur"
+                },
+                {
+                    "firstName": "R",
+                    "lastName": "Kadera"
+                }
+            ]
+          },
+            {
+              "identifierInfo": [
+                    {
+                    "identifier": "7511686",
+                    "identifierScheme": "pubmed"
+                    }
+                ],
+            "title": "Autoantigens targeted in systemic lupus erythematosus are clustered in two populations of surface structures on apoptotic keratinocytes.",
+            "publicationType" : { 
+                                    "value" : "article",
+                                    "ontologyTermIRI" : "" 
+                                 },
+            "publicationVenue" : "J Exp Med.",
+            "date" : "1994",
+            "authorsList" : "asciola-Rosen LA, Anhalt G, Rosen A.",
+            "author" : [
+                {
+                    "firstName": "W",
+                    "lastName": "Emlen"
+                },
+                {
+                    "firstName": "J",
+                    "lastName": "Niebur"
+                },
+                {
+                    "firstName": "R",
+                    "lastName": "Kadera"
+                }
+            ]
+          }               
+      ],
+    "producedBy" : {
+             "name" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
+             "type" : {
+                "category" : "study type",
+                "value" : "Observational",
+                "ontologyTermIRI" : ""
+             },
+               "annotations" : [
+                           { "category" : "study design", "value" : "N/A" , "ontologyTermIRI" : ""},
+                           { "category" : "recruitment status", "value" : "recruiting" , "ontologyTermIRI" : ""},
+                           { "category" : "estimated enrollment ", "value" : "100000" , "ontologyTermIRI" : ""}
+                  
+              ],             
+            "isAboutBiologicalProcess": [
+                 {
+                    "name": "Systemic Lupus Erythematosus",
+                    "identifiers": [
+                                {
+                              "identifier": "HP_0002725",
+                              "identifierScheme": "hpo"
+                              }
+                    ]
+                  }
+            ],             
+             "selectionCriteria": [
+                    { "category" : "inclusion criteria",  "value" : "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies." , "ontologyTermIRI": "" },
+                    { "category" : "gender", "value" : "BOTH" , "ontologyTermIRI" : ""},
+                    { "category" : "minimum age" , "value" : "N/A" , "ontologyTermIRI" : ""},
+                    { "category" : "maxumum age" , "value" : "N/A" , "ontologyTermIRI" : ""},
+                    { "category" : "healthy volunteers" , "value" : "Accepts Healthy Volunteers" , "ontologyTermIRI" : ""}
+             ],
+             "studyGroups" : [
+                {
+                    "name" : "",
+                    "size" : "100000"
+                }
+             
+             ],
+             "performedBy" : [
+                     {
+                        "fullName" : "Sarfaraz A Hasni, M.D",
+                        "firstName": "Sarfaraz",
+                        "lastName": "Hasni",
+                        "email": "hasnisa@mail.nih.gov",
+                        "affiliation" : [ { 
+                                            "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+                                            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+                                            "roles" : {
+                                                         "value" : "sponsor",
+                                                         "ontologyTermIRI" : ""
+                                                      }
+                                          }],
+                        "roles" : [ 
+                                    { 
+                                      "value" : "principal investigator" ,
+                                      "ontologyTermIRI" : ""
+                                    },
+                                    { 
+                                      "value" : "backup contact" ,
+                                      "ontologyTermIRI" : ""
+                                    }
+                         ]
+                    },
+                    {
+                        "fullName" : "Yenealem Temesgen-Oyelakin, R.N.",
+                        "firstName": "Yenealem",
+                        "lastName": "Temesgen-Oyelakin",
+                        "email": "yenealem.temesgen-oyelakin@nih.gov",
+                        "affiliation" : [ { 
+                                            "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+                                            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+                                            "roles" : {
+                                                         "value" : "sponsor",
+                                                         "ontologyTermIRI" : ""
+                                                      }
+                                          }],
+                        "roles" : [ 
+                                    { 
+                                      "value" : "overall contact" ,
+                                      "ontologyTermIRI" : ""
+                                    }
+                         ]
+                    }                    
+                    
+               ],
+               "location" :  [{ 
+                                "name" : "National Institutes of Health Clinical Center, 9000 Rockville Pike",
+                                "postalAddress" : "concatenate (<city>Bethesda</city><state>Maryland</state><zip>20892</zip><country>United States</country>)"
+                              }] ,
+               "startDate" : "February 1994",
+               "endDate" : "N/A"
+               },
+               
+    "distributions" : [
+    {
+      "identifiers":
+      [
+        {
+          "identifier" : "1",
+          "identifierScheme": ""
+        }
+      ],
+     "dates": [
+        {
+        "date": "1999-11-03",
+         "type": { 
+            "value": "creation",
+            "ontologyTermIRI" : "" 
+            }
+         },
+        {
+        "date": "2016-05-19",
+        "type": { 
+            "value": "modification",
+            "ontologyTermIRI" : "" 
+            }
+        }
+      ],
+      "accessModalities" : [
+        {
+          "landingPage": "https://clinicaltrials.gov/",
+          "accessURL" :  "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
+        }
+      ],
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
+              "identifierScheme": ""
+            }
+          ],
+          "name": "XSD",
+          "type": { 
+            "value": "xml schema",
+            "ontologyTermIRI" : "" 
+          }
+        },
+        {
+          "identifiers": [
+            {
+              "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
+              "identifierScheme": ""
+            }
+          ],
+          "name": "XML",
+          "type": { 
+            "value": "format",
+            "ontologyTermIRI" : "" 
+          }
+        }
+      ],
+   "storedIn" : [
+        { 
+        "identifiers": [
+            {
+              "identifier": "https://clinicaltrials.gov/ct2/home",
+              "identifierScheme": "http"
+            }
+           ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://biosharing.org/biodbcore-000470",
+              "identifierScheme": "BioSharing"
+            }
+        ],
+        "name": "ClinicalTrials.gov",
+        "homepage" : "https://clinicaltrials.gov/ct2/home",
+        "license" : [
+            {
+                "name": ""
+            }
+        ],
+        "types" :[
+                { 
+                  "value" : "primary repository",
+                  "ontologyTermIRI" : "" 
+                } 
+               ],
+        "version": ""
+      }
+    ],
+     "size": "N/A",
+     "unit" : {
+         "value" : "megabyte",
+         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
+     }
+ }
+ ]
+ }
+
