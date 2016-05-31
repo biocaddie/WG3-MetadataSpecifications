@@ -186,11 +186,13 @@
       }
     ],
     "selectionCriteria": [
-      { "category" : "inclusion criteria",  "value" : "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies." , "ontologyTermIRI": "" },
-      { "category" : "gender", "value" : "BOTH" , "ontologyTermIRI" : ""},
-      { "category" : "minimum age" , "value" : "N/A" , "ontologyTermIRI" : ""},
-      { "category" : "maxumum age" , "value" : "N/A" , "ontologyTermIRI" : ""},
-      { "category" : "healthy volunteers" , "value" : "Accepts Healthy Volunteers" , "ontologyTermIRI" : ""}
+      { "category" : "inclusion criteria",  "values" : [
+        "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies."
+      ] },
+      { "category" : "gender", "values" : ["BOTH"] },
+      { "category" : "minimum age" , "values" : ["N/A"] },
+      { "category" : "maxumum age" , "values" : ["N/A"] },
+      { "category" : "healthy volunteers" , "values" : ["Accepts Healthy Volunteers"] }
     ],
     "studyGroups" : [
       {
@@ -206,14 +208,16 @@
         "firstName": "Sarfaraz",
         "lastName": "Hasni",
         "email": "hasnisa@mail.nih.gov",
-        "affiliation" : [ {
-          "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
-          "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
-          "roles" : {
-            "value" : "sponsor",
-            "ontologyTermIRI" : ""
+        "affiliations": [
+          {
+            "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+            "roles" : [{
+              "value": "sponsor",
+              "ontologyTermIRI": ""
+            }]
           }
-        }],
+        ],
         "roles" : [
           {
             "value" : "principal investigator" ,
@@ -230,14 +234,16 @@
         "firstName": "Yenealem",
         "lastName": "Temesgen-Oyelakin",
         "email": "yenealem.temesgen-oyelakin@nih.gov",
-        "affiliation" : [ {
-          "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
-          "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
-          "roles" : {
-            "value" : "sponsor",
-            "ontologyTermIRI" : ""
+        "affiliations" : [
+          {
+            "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+            "roles" : [{
+              "value" : "sponsor",
+              "ontologyTermIRI" : ""
+            }]
           }
-        }],
+        ],
         "roles" : [
           {
             "value" : "overall contact" ,

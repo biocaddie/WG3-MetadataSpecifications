@@ -74,7 +74,10 @@
       "description": "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted).",
       "type" : "array",
       "items" : {
-        "$ref": "annotation_schema.json#"
+         "anyOf": [
+          { "$ref": "annotation_schema.json#"},
+          { "$ref": "category_values_pair_schema.json#"}
+        ]
       }
     },
     "size": {
@@ -89,7 +92,7 @@
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
       "items": {
-        "$ref" : "extra_property_schema.json#"
+        "$ref" : "category_values_pair_schema.json#"
       }
     }
   },

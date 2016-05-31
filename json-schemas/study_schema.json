@@ -131,7 +131,10 @@
       "description": "The attributes and values that the material should meet in order to be part of the group.",
       "type": "array",
       "items": {
-        "$ref": "annotation_schema.json#"
+        "anyOf": [
+          { "$ref": "annotation_schema.json#"},
+          { "$ref": "category_values_pair_schema.json#"}
+        ]
       }
     },
     "studyGroups": {
@@ -159,7 +162,7 @@
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
       "items": {
-        "$ref" : "extra_property_schema.json#"
+        "$ref" : "category_values_pair_schema.json#"
       }
     }
   },

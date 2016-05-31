@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "category": {
-      "description": "A characteristic or property about the entity this ExtraProperty is associated with.",
+      "description": "A characteristic or property about the entity this object is associated with.",
       "type": "string"
     },
     "categoryIRI": {

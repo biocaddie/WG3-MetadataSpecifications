@@ -55,7 +55,7 @@
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
       "items": {
-        "$ref" : "extra_property_schema.json#"
+        "$ref" : "category_values_pair_schema.json#"
       }
     }
   },
