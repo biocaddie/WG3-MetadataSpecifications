@@ -370,7 +370,7 @@
       "@type" : ["sdo:Text", "StudyGroup"]
   },
 
-  "hasCharacteristics" : {
+  "characteristics" : {
       "@id" : "sdo:value",
       "@type" : ["sdo:PropertyValue","sdo:StructuredValue"]
   },  
