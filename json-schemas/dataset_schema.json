@@ -83,7 +83,7 @@
             "items": {
                 "anyOf": [
                     {"$ref" : "biological_entity_schema.json#"},
-                    {"$ref" : "taxonomic_information_schema.json#"},
+                    {"$ref" : "taxonomic_info_schema.json#"},
                     {"$ref" : "disease_schema.json#"},
                     {"$ref" : "molecular_entity_schema.json#"},
                     {"$ref" : "anatomical_part_schema.json#"},
