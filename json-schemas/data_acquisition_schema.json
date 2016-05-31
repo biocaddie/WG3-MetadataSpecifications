@@ -77,11 +77,18 @@
             }
         },
         "uses": {
-            "description": "The instrument(s) or software(s) used to acquire the signal.",
-            "anyOf": [
-                {"$ref": "instrument_schema.json#"},
-                {"$ref": "software_schema.json#"}
-            ]
+            "description": "The i./`;nstrument(s) or software(s) used to acquire the signal.",
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "$ref": "instrument_schema.json#"
+                    },
+                    {
+                        "$ref": "software_schema.json#"
+                    }
+                ]
+            }
         },
         "measures": {
             "description": "The dimension(s) being acquired as signal.",

@@ -367,7 +367,7 @@
             ]
           }
         ],
-        "anatomicalPart" : [
+        "derivesFrom" : [
           {
             "name":  "subcutaneous white adipose tissue",
             "identifiers": [
@@ -395,7 +395,7 @@
         "identifiers": [
           {
             "identifier": "GSM1187674",
-            "identifierSource": "geo"
+            "identifierSource": "GEO"
           }
         ],
         "taxonomicInformation" : [
@@ -409,7 +409,7 @@
             ]
           }
         ],
-        "anatomicalPart" : [
+        "derivesFrom" : [
           {
             "name":  "subcutaneous white adipose tissue",
             "identifiers": [
@@ -451,7 +451,7 @@
             ]
           }
         ],
-        "anatomicalPart" : [
+        "derivesFrom" : [
           {
             "name":  "subcutaneous white adipose tissue",
             "identifiers": [
@@ -494,7 +494,7 @@
             ]
           }
         ],
-        "anatomicalPart" : [
+        "derivesFrom" : [
           {
             "name":  "subcutaneous white adipose tissue",
             "identifiers": [
@@ -536,7 +536,7 @@
             ]
           }
         ],
-        "anatomicalPart" : [
+        "derivesFrom" : [
           {
             "name":  "subcutaneous white adipose tissue",
             "identifiers": [
@@ -574,15 +574,15 @@
         "uses": [
           {
             "name": "Affymetrix Expression Console",
-            "type": { "name": "console"}
+            "type": { "value": "console"}
           },
           {
             "name": "Affymetrix GeneChip Scanner 3000",
-            "type": { "name": "scanner"}
+            "type": { "value": "scanner"}
           },
           {
             "name": "Affymetrix Human Gene 1.0 ST Array",
-            "type": { "name": "array"}
+            "type": { "value": "array"}
           }
         ]
       }

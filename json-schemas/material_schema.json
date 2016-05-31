@@ -45,9 +45,12 @@
     },
     "taxonomicInformation" : {
       "description": "The taxonomic information for this material (ideally specified from a controlled vocabulary/ontology).",
-      "$ref": "taxonomic_info_schema.json#"
+      "type": "array",
+      "items": {
+        "$ref": "taxonomic_info_schema.json#"
+      }
     },
-    "involvedInBiologicalProcess": {
+    "involvedInBiologicalEntity": {
       "description": "A biological process (ideally specified from a controlled vocabulary/ontology) in which the material is involved.",
       "type" : "array",
       "items" : {
