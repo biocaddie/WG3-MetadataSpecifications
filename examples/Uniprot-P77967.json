@@ -312,7 +312,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "subset" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "identifiers":
@@ -393,7 +401,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "subset" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "identifiers":
@@ -474,7 +490,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "identifiers":
@@ -556,7 +580,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+ "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]      
     },
     {
       "identifiers":
@@ -643,7 +675,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+     "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]      
     }
   ],
   "isCitedBy" : [
