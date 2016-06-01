@@ -29,6 +29,10 @@
       "description": "The name of the dimension measured or observed during the data acquisition process, ideally from a controlled terminology.",
       "$ref" : "annotation_schema.json#"
     },
+    "description": {
+      "description": "A textual narrative comprised of one or more statements describing the dimension.",
+      "type": "string"
+    },
     "types": {
       "description": "A term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology.",
       "type": "array",

@@ -1,713 +1,712 @@
 {
-    "identifiers": [{
-        "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
-        "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
-    }],
-    "relatedIdentifiers": [
+  "identifiers": [{
+    "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
+    "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
+  }],
+  "relatedIdentifiers": [
+    {
+      "identifier": "phs000979.v1.p1",
+      "identifierSource": "dbGAP"
+    },
+    {
+      "identifier": "[phv00258258.v1.p1-phv00258278.v1.p1]",
+      "identifierSource": "dbGAP"
+    },
+    {
+      "identifier": "PRJNA293910",
+      "identifierSource": "bioproject"
+    },
+    {
+      "identifier": "[SAMN04031593-SAMN04029216]",
+      "identifierSource": "biosample"
+    }
+  ],
+  "title": "Gene Expression in Postmortem DLPFC and Hippocampus from Schizophrenia and Mood Disorders",
+  "description": "Whole-genome expression analysis across nine major mental disorders with emphasis on schizophrenia (SZ), bipolar disorder (BP) and major depression (MDD) as compared to controls (C), allows examining disease-specific changes and potential common molecular pathogenic mechanisms. Three relevant regions were assessed: hippocampus (mRNA) and dorsolateral prefrontal cortex (mRNA), and in control tissue, dura (mRNA) as well as genotypes, for a large cohort of individuals. We found a pattern of downregulation of gene expression in SZ, differences in expression between SZ and BP, and between the regions. 37 genes were differentially expressed in SZ vs C in both DLPFC and Hippocampus.",
+  "creators": [{
+    "firstName": "Barbara",
+    "middleInitial" : "K.",
+    "lastName": "Lipska",
+    "email": ""
+  }],
+  "types": [
+    {
+      "information": { "value": "Whole Genome Genotyping"},
+      "method"   : { "value": "DNA microarray"},
+      "platform" : { "value": "Illumina"},
+      "instrument" : { "value": "HumanHap650Yv3.0"},
+      "extraProperties" : [
         {
-        "identifier": "phs000979.v1.p1",
-        "identifierSource": "dbGAP"
+          "category" : "Number of Oligos/SNPs",
+          "categoryIRI" : "",
+          "values" : ["660918"],
+          "valuesIRI" : ""
         },
         {
-        "identifier": "[phv00258258.v1.p1-phv00258278.v1.p1]",
-        "identifierSource": "dbGAP"
-        },
-        {
-        "identifier": "PRJNA293910",
-        "identifierSource": "bioproject"
-        },
-        {
-        "identifier": "[SAMN04031593-SAMN04029216]",
-        "identifierSource": "biosample"
-        }   
-    ],
-    "title": "Gene Expression in Postmortem DLPFC and Hippocampus from Schizophrenia and Mood Disorders",
-    "description": "Whole-genome expression analysis across nine major mental disorders with emphasis on schizophrenia (SZ), bipolar disorder (BP) and major depression (MDD) as compared to controls (C), allows examining disease-specific changes and potential common molecular pathogenic mechanisms. Three relevant regions were assessed: hippocampus (mRNA) and dorsolateral prefrontal cortex (mRNA), and in control tissue, dura (mRNA) as well as genotypes, for a large cohort of individuals. We found a pattern of downregulation of gene expression in SZ, differences in expression between SZ and BP, and between the regions. 37 genes were differentially expressed in SZ vs C in both DLPFC and Hippocampus.",
-    "creators": [{
-        "firstName": "Barbara",
-        "middleInitial" : "K.",
-        "lastName": "Lipska",
-        "email": ""
-    }],
-    "types": [
-        {
-         "information": { "value": "Whole Genome Genotyping"},
-         "method"   : { "value": "DNA microarray"},
-         "platform" : { "value": "Illumina"},
-         "instrument" : { "value": "HumanHap650Yv3.0"},
-         "extraProperties" : [
-                {
-                    "category" : "Number of Oligos/SNPs",
-                    "categoryIRI" : "",
-                    "values" : ["660918"],
-                    "valuesIRI" : ""
-                },
-                {
-                    "category" : "SNP batch ID",
-                    "categoryIRI" : "",
-                    "values" : ["51469"],
-                    "valuesIRI" : ["http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51469"]
-                }                 
-                ]
-         },
-        {
-         "information": { "value": "Whole Genome Genotyping" },
-         "method":  { "value": "DNA microarray"},
-         "platform": {"value": "Illumina"},
-         "instrument" : { "value": "Human1M-Duov3_B"},
-         "extraProperties" : [
-                {
-                    "category" : "Number of Oligos/SNPs",
-                    "categoryIRI" : "",
-                    "values" : ["1185051"],
-                    "valuesIRI" : [""]
-                },
-                {
-                    "category" : "SNP batch ID",
-                    "categoryIRI" : "",
-                    "values" : ["1049348"],
-                    "valuesIRI" : ["http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=1049348"]
-                }                
-          ]
-         },        
-        {
-         "information" : { "value": "RNA Expression"},
-         "method"   :  { "value": "DNA microarray"},
-         "platform" : { "value": "Illumina"},
-         "instrument" : { "value": "Human HT-12 Expression Bead Chip Kit"},
-         "extraProperties" : [
-                {
-                    "category" : "Number of Oligos/SNPs",
-                    "categoryIRI" : "",
-                    "values" : ["N/A"],
-                    "valuesIRI" : [""]
-                },
-                {
-                    "category" : "SNP batch ID",
-                    "categoryIRI" : "",
-                    "values" : ["N/A"],
-                    "valuesIRI" : [""]
-                }                
-          ]
-         }         
-        ],
-    "keywords": [
-        {
-            "value": "Schizophrenia",
-            "ontologyTermIRI": ""
+          "category" : "SNP batch ID",
+          "categoryIRI" : "",
+          "values" : ["51469"],
+          "valuesIRI" : ["http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51469"]
         }
-    ],
-    "hasPart" : [ 
+      ]
+    },
+    {
+      "information": { "value": "Whole Genome Genotyping" },
+      "method":  { "value": "DNA microarray"},
+      "platform": {"value": "Illumina"},
+      "instrument" : { "value": "Human1M-Duov3_B"},
+      "extraProperties" : [
         {
-        "identifiers": [   
+          "category" : "Number of Oligos/SNPs",
+          "categoryIRI" : "",
+          "values" : ["1185051"],
+          "valuesIRI" : [""]
+        },
+        {
+          "category" : "SNP batch ID",
+          "categoryIRI" : "",
+          "values" : ["1049348"],
+          "valuesIRI" : ["http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=1049348"]
+        }
+      ]
+    },
+    {
+      "information" : { "value": "RNA Expression"},
+      "method"   :  { "value": "DNA microarray"},
+      "platform" : { "value": "Illumina"},
+      "instrument" : { "value": "Human HT-12 Expression Bead Chip Kit"},
+      "extraProperties" : [
+        {
+          "category" : "Number of Oligos/SNPs",
+          "categoryIRI" : "",
+          "values" : ["N/A"],
+          "valuesIRI" : [""]
+        },
+        {
+          "category" : "SNP batch ID",
+          "categoryIRI" : "",
+          "values" : ["N/A"],
+          "valuesIRI" : [""]
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "Schizophrenia",
+      "ontologyTermIRI": ""
+    }
+  ],
+  "hasPart" : [
+    {
+      "identifiers": [
+        {
+          "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=pht005195.v1.p1",
+          "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "identifier": "pht005195.v1.p1",
+          "identifierSource": "dbGAP"
+        }
+      ],
+      "title": "Mental_Disorders_Postmortem_Subject_Phenotypes",
+      "description": "The dataset provides diagnosis, age at and cause of death, gender, race, height, and weight information of subjects whose brain samples were examined post mortem. In addition, the results of various tests for metabolites of ingested substances (e.g. alcohol, antidepressants, benzodiazepines, cocaine, nicotine, opiates, tetrahydrocannabinol) are provided. Sample information includes brain area sampled, post-mortem interval to sample collection and RNA integrity scores.",
+      "types": [
+        {}
+      ],
+      "creators": [
+        {
+          "firstName": "Barbara",
+          "middleInitial" : "K.",
+          "lastName": "Lipska",
+          "email": ""
+        }
+      ],
+      "dimensions":
+      [
+        {
+          "identifiers" : [
             {
-                "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=pht005195.v1.p1",
-                "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
+              "identifier" : "phv00258258.v1.p1" ,
+              "identifierSource" : "dbGap"
             }
-        ],
-        "relatedIdentifiers": [
-             {
-                "identifier": "pht005195.v1.p1",
-                "identifierSource": "dbGAP"
+          ],
+          "name" : { "value": "SUBJECT_ID"},
+          "description" : "De-identified Subject ID",
+          "types" : [
+            {
+              "value" : "string",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258259.v1.1" ,
+              "identifierSource" : "dbGap"
             }
-        ],
-        "title": "Mental_Disorders_Postmortem_Subject_Phenotypes",
-        "extraProperties": [
+          ],
+          "name" : { "value": "AgeDeath"},
+          "description" : "Individual's age at time of death",
+          "types" : [
+            {
+              "value": "decimal, encoded value",
+              "ontologyTermIRI": ""}
+          ],
+          "unit" : { "value": "years" }
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258260.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Gender"},
+          "description" : "Gender of Individual",
+          "types" : [
+            {
+              "value" : "string",
+              "ontologyTermIRI" : ""}
+          ],
+          "values" : ["M=Male",
+            "F=Female"]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258261.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "Race"},
+          "description" : "Race of participant",
+          "types" : [
+            {
+              "value" : "string",
+              "ontologyTermIRI" : ""}
+          ],
+          "values" : ["AA=African American",
+            "AS=Asianv",
+            "CAUC=Caucasion",
+            "HISP=Hispanic",
+            "Multi-Racial"]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258262.v1.p1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "ph"},
+          "description" : "Postmortem brain pH",
+          "types" : [
+            {
+              "value" : "number",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258263.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "PMI"},
+          "description" : "Postmortem interval",
+          "types" : [
+            {
+              "value" : "decimal, encoded value",
+              "ontologyTermIRI" : ""}
+          ],
+          "unit" : { "value": "hours"}
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258264.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Smoker"},
+          "description" : "Smoker",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258265.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "NewDx"},
+          "description" : "Diagnosis of individual",
+          "types" : [
+            {
+              "value" : "string",
+              "ontologyTermIRI" : ""}
+          ],
+          "values" : [ "Anxiety=Anxiety disorder (includes panic disorder, generalized anxiety disorder and others)",
+            "Autism=Autistic disorder",
+            "Bipolar=Bipolar disorder",
+            "Control",
+            "ED=Eating disorder",
+            "HIV=HIV Infection",
+            "MDD=Major depressive disorder",
+            "Neuro=Neuropathology Case",
+            "OCD=Obsessive compulsive disorder",
+            "PTSD=Post traumatic stress disorder",
+            "Schizo=Schizophrenia",
+            "Substance=Substance related disorder",
+            "Tics=Tic disorder",
+            "Williams=Williams syndrome " ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258266.v1.p1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Education"},
+          "description" : "Level of education",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : "" }
+          ],
+          "values" : [ "1 yr college=One year of college",
+            "10th=10th grade",
+            "11th=11th grade",
+            "3 yrs college=3 yrs of college",
+            "7th=7th grade",
+            "8th=8th grade",
+            "9th=9th grade",
+            "Associates or 2 yrs college=Associate's or 2 yrs college",
+            "Bachelors=Bachelor's degree",
+            "GED",
+            "H.S. diploma=High School diploma",
+            "JD=Juris Doctor",
+            "Less than 7th=Less than 7th grade",
+            "MD",
+            "Masters=Master's degree",
+            "Other",
+            "PhD",
+            "Unknown",
+            "not filled in=No information entered "]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258267.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Height"},
+          "description" : "Individual's height",
+          "types" : [
+            {
+              "value" : "decimal,encoded value",
+              "ontologyTermIRI" : ""}
+          ],
+          "unit" : { "value": "inch"}
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258268.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Weight"},
+          "description" : "Individual's weight",
+          "types" : [
+            {
+              "value" : "decimal,encoded value",
+              "ontologyTermIRI" : ""}
+          ],
+          "unit" : {"value": "pound"}
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258269.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "EtohResults"},
+          "description" : "Test for EtoH",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258270.v1.p1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "Antipsychotics"},
+          "description" : "Test for antipsychotics",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258271.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "CauseDeath"},
+          "description" : "Cause of Death",
+          "types" : [
+            {
+              "value" : "string",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258272.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "AntiDepress"},
+          "description" : "Test for antidepressants",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258273.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : { "value": "MoodStab"},
+          "description" : "Test for mood stabilizers",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258274.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "Benzos"},
+          "description" : "Test for benzodiazepines",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258275.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "Nic_Cot"},
+          "description" : "Test for nicotine/cotinine",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258276.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "THC"},
+          "description" : "Test for tetrahydrocannabinol",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258277.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "Cocaine"},
+          "description" : "Test for cocaine",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        },
+        {
+          "identifiers" : [
+            {
+              "identifier" : "phv00258278.v1.1" ,
+              "identifierSource" : "dbGap"
+            }
+          ],
+          "name" : {"value": "Opiates"},
+          "description" : "Test for opiates",
+          "types" : [
+            {
+              "value" : "encoded value",
+              "ontologyTermIRI" : ""}
+          ]
+        }
+      ]
+    }
+  ],
+  "isCitedBy": [],
+  "acknowledges" : [
+    {
+      "identifiers" : [
+        {
+          "identifier" : "NCT00001260, 900142",
+          "identifierSource" : "NCT"
+        }
+      ],
+      "name" : "Intramural Research Program",
+      "funders" : [
+        {
+          "name": "Intramural Research Program",
+          "abbreviation" : "IRP",
+          "postalAddress" : "National Institutes of Health, Bethesda, MD, USA"
+        }
+
+      ]
+    }
+  ],
+  "producedBy": {
+    "name": "Gene Expression in Postmortem DLPFC and Hippocampus from Schizophrenia and Mood Disorders",
+    "types": [
+      {
+        "value": "Observational",
+        "ontologyTermIRI": ""
+      },
+      {
+        "value": "case-control",
+        "ontologyTermIRI": ""
+      }
+    ],
+    "extraProperties": [
+      {
+        "category": "study design",
+        "categoryIRI": "",
+        "values": ["Case-Control"],
+        "valuesIRI": []
+      },
+      {
+        "category": "Number of study subjects that have individual level data available through Authorized Access ",
+        "values": ["914"],
+        "valuesIRI": [""]
+      }
+    ],
+    "isAboutBiologicalEntity": [
+      {
+        "name": "Schizophrenia",
+        "identifiers": [{
+          "identifier": "68012559",
+          "identifierSource": "mesh"
+        }
+        ]
+      },
+      {
+        "name": "Bipolar Disorder",
+        "identifiers": [{
+          "identifier": "68001714",
+          "identifierSource": "mesh"
+        }
+        ]
+      },
+      {
+        "name": "Major Depressive Disorder",
+        "identifiers": [{
+          "identifier": "68003865",
+          "identifierSource": "mesh"
+        }
+        ]
+      }
+    ],
+    "selectionCriteria": [
+      {
+        "category": "inclusion criteria",
+        "values": [ "Postmortem brains were collected at the Human Brain Collection Core, NIMH with informed consent from the legal next of kin (NIMH protocol 90-M-0142), and at the Brain and Tissue Bank for Developmental Disorders of the NICHD (contracts NO1-HD-4-3368 and NO1-HD-4-3383) and through the Stanley Medical Research Institute. Clinical characterization, neuropathological screening, toxicological analyses, and dissection of the dorsolateral prefrontal cortex were performed as previously described (Lipska et al. 2006). All patients met DSM-IV criteria for a lifetime Axis I diagnosis of schizophrenia or schizoaffective disorder, bipolar disorder or major depression, and controls had no history of psychological or psychiatric problems and negative toxicology results."]
+      }
+    ],
+    "studyGroups": [{
+      "name": "",
+      "size": 914,
+      "members": []
+    }],
+    "performedBy": [
+      {
+        "fullName": "Barbara K. Lipska",
+        "firstName": "Barbara",
+        "lastName": "Lipska",
+        "email": "",
+        "affiliations": [
           {
-            "category": "description",
-            "values": [
-              "The dataset provides diagnosis, age at and cause of death, gender, race, height, and weight information of subjects whose brain samples were examined post mortem. In addition, the results of various tests for metabolites of ingested substances (e.g. alcohol, antidepressants, benzodiazepines, cocaine, nicotine, opiates, tetrahydrocannabinol) are provided. Sample information includes brain area sampled, post-mortem interval to sample collection and RNA integrity scores."
+            "name": "National Institutes of Health",
+            "postalAddress": "Bethesda, Maryland, 20892, United States",
+            "roles": [
+              {
+                "value": "sponsor",
+                "ontologyTermIRI": ""
+              }
             ]
           }
         ],
-             "creators": [{
-                "firstName": "Barbara",
-                "middleInitial" : "K.",
-                "lastName": "Lipska",
-                "email": ""
-         }
-        ],
-        "dimensions": 
-            [
-                {
-                "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258258.v1.p1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : { "value": "SUBJECT_ID"},
-                    "description" : "De-identified Subject ID",
-                    "types" : [
-                            {
-                                "value" : "string",
-                                "ontologyTermIRI" : ""}
-                    ]
-                },
-                {
-                  "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258259.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                   ],
-                    "name" : "AgeDeath",
-                    "description" : "Individual's age at time of death",
-                    "type" : [
-                        { 
-                            "value" : "decimal, encoded value",
-                            "ontologyTermIRI" : ""}
-                    ],
-                    "unit" : "years"
-                 },
-                {
-                    "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258260.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "Gender",
-                    "description" : "Gender of Individual",
-                    "type" : [
-                        { 
-                            "value" : "string",
-                            "ontologyTermIRI" : ""}
-                    ],
-                    "values" : ["M=Male",
-                            "F=Female"]
-                 },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258261.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                ],
-                "name" : "Race",
-                "description" : "Race of participant",
-                "type" : [
-                        { 
-                            "value" : "string",
-                            "ontologyTermIRI" : ""}
-                ],
-                "values" : ["AA=African American",
-                            "AS=Asianv",
-                            "CAUC=Caucasion",
-                            "HISP=Hispanic",
-                            "Multi-Racial"]
-                },
-                {
-                "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258262.v1.p1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "ph",
-                    "description" : "Postmortem brain pH",
-                    "type" : [
-                            { 
-                                "value" : "number",
-                                "ontologyTermIRI" : ""}
-                    ]
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258263.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                ],
-                "name" : "PMI",
-                "description" : "Postmortem interval",
-                "type" : [
-                        { 
-                            "value" : "decimal, encoded value",
-                            "ontologyTermIRI" : ""}
-                ], 
-                "unit" : "hours"
-                },
-                {
-                 "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258264.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                ],
-                "name" : "Smoker",
-                "description" : "Smoker",
-                "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                ]
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258265.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                ],
-                "name" : "NewDx",
-                "description" : "Diagnosis of individual",
-                "type" : [
-                        { 
-                            "value" : "string",
-                            "ontologyTermIRI" : ""}
-                ],
-                "values" : [ "Anxiety=Anxiety disorder (includes panic disorder, generalized anxiety disorder and others)",
-                            "Autism=Autistic disorder",
-                            "Bipolar=Bipolar disorder",
-                            "Control",
-                            "ED=Eating disorder",
-                            "HIV=HIV Infection",
-                            "MDD=Major depressive disorder",
-                            "Neuro=Neuropathology Case",
-                            "OCD=Obsessive compulsive disorder",
-                            "PTSD=Post traumatic stress disorder",
-                            "Schizo=Schizophrenia",
-                            "Substance=Substance related disorder",
-                            "Tics=Tic disorder",
-                            "Williams=Williams syndrome " ]
-                },
-                {
-                "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258266.v1.p1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "Education",
-                    "description" : "Level of education",
-                    "type" : [
-                            { 
-                                "value" : "encoded value",
-                                "ontologyTermIRI" : "" }
-                    ],
-                    "values" : [ "1 yr college=One year of college", 
-                                "10th=10th grade",
-                                "11th=11th grade",
-                                "3 yrs college=3 yrs of college",
-                                "7th=7th grade",
-                                "8th=8th grade",
-                                "9th=9th grade",
-                                "Associates or 2 yrs college=Associate's or 2 yrs college",
-                                "Bachelors=Bachelor's degree",
-                                "GED",
-                                "H.S. diploma=High School diploma",
-                                "JD=Juris Doctor",
-                                "Less than 7th=Less than 7th grade",
-                                "MD",
-                                "Masters=Master's degree",
-                                "Other",
-                                "PhD",
-                                "Unknown",
-                                "not filled in=No information entered "] 
-                },
-                {
-                    "identifiers" : [ 
-                           {
-                               "identifier" : "phv00258267.v1.1" ,
-                               "identifierSource" : "dbGap"
-                           }
-                   ],
-                   "name" : "Height",
-                   "description" : "Individual's height",
-                   "type" : [
-                           { 
-                               "value" : "decimal,encoded value",
-                               "ontologyTermIRI" : ""}
-                   ],
-                   "unit" : "inch"
-                },
-                {
-                 "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258268.v1.1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "Weight",
-                    "description" : "Individual's weight",
-                    "type" : [
-                            { 
-                                "value" : "decimal,encoded value",
-                                "ontologyTermIRI" : ""}
-                    ],
-                    "unit" : "pound"
-                },
-                {
-                    "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258269.v1.1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "EtohResults",
-                    "description" : "Test for EtoH",
-                    "type" : [
-                            { 
-                                "value" : "encoded value",
-                                "ontologyTermIRI" : ""}
-                    ]
-                },
-                {
-                    "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258270.v1.p1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "Antipsychotics",
-                    "description" : "Test for antipsychotics",
-                    "type" : [
-                            { 
-                                "value" : "encoded value",
-                                "ontologyTermIRI" : ""}
-                    ]
-                },
-                {
-                    "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258271.v1.1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "CauseDeath",
-                    "description" : "Cause of Death",
-                    "type" : [
-                            { 
-                                "value" : "string",
-                                "ontologyTermIRI" : ""}
-                    ]
-                },
-                {
-                    "identifiers" : [ 
-                           {
-                               "identifier" : "phv00258272.v1.1" ,
-                               "identifierSource" : "dbGap"
-                           }
-                   ],
-                   "name" : "AntiDepress",
-                   "description" : "Test for antidepressants",
-                   "type" : [
-                           { 
-                               "value" : "encoded value",
-                               "ontologyTermIRI" : ""}
-                   ]
-                },
-                {
-                "identifiers" : [ 
-                            {
-                                "identifier" : "phv00258273.v1.1" ,
-                                "identifierSource" : "dbGap"
-                            }
-                    ],
-                    "name" : "MoodStab",
-                    "description" : "Test for mood stabilizers",
-                    "type" : [
-                            { 
-                                "value" : "encoded value",
-                                "ontologyTermIRI" : ""}
-                   ]
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258274.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "Benzos",
-                    "description" : "Test for benzodiazepines",
-                    "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                     ] 
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258275.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "Nic_Cot",
-                    "description" : "Test for nicotine/cotinine",
-                    "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                     ] 
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258276.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "THC",
-                    "description" : "Test for tetrahydrocannabinol",
-                    "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                     ] 
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258277.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "Cocaine",
-                    "description" : "Test for cocaine",
-                    "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                     ] 
-                },
-                {
-                "identifiers" : [ 
-                        {
-                            "identifier" : "phv00258278.v1.1" ,
-                            "identifierSource" : "dbGap"
-                        }
-                    ],
-                    "name" : "Opiates",
-                    "description" : "Test for opiates",
-                    "type" : [
-                        { 
-                            "value" : "encoded value",
-                            "ontologyTermIRI" : ""}
-                     ] 
-                }             
+        "roles": [
+          {
+            "value": "principal investigator",
+            "ontologyTermIRI": ""
+          },
+          {
+            "value": "backup contact",
+            "ontologyTermIRI": ""
+          }
         ]
-        }
-       ],
-    "isCitedBy": [],
-    "acknowledges" : [
-        { 
-            "identifiers" : [
-                {
-                    "identifier" : "NCT00001260, 900142",
-                    "identifierSource" : "NCT"
-                }
-            ],
-            "name" : "Intramural Research Program",
-            "funders" : [
-                {
-                    "name": "Intramural Research Program",
-                    "abbreviation" : "IRP",
-                    "postalAddress" : "National Institutes of Health, Bethesda, MD, USA"
-                }
-            
-            ]
-        }
+      }
     ],
-    "producedBy": {
-        "name": "Gene Expression in Postmortem DLPFC and Hippocampus from Schizophrenia and Mood Disorders",
-        "types": [  
-            {
-            "value": "Observational",
-            "ontologyTermIRI": ""
-            },
-            {
-            "value": "case-control",
-            "ontologyTermIRI": ""
-            }           
-        ],
-        "extraProperties": [
-            {
-                "category": "study design",
-                "categoryIRI": "",
-                "values": ["Case-Control"],
-                "valuesIRI": []
-            },
-            {
-                "category": "Number of study subjects that have individual level data available through Authorized Access ",
-                "values": ["914"],
-                "valuesIRI": [""]
-            }
-        ],
-        "isAboutBiologicalEntity": [
+    "location": {"value": "National Institutes of Health, Bethesda, 9000 Rockville Pike, United States"},
+    "dates": [
+      {
+        "date": "2015-08-24",
+        "type": { "value" : "creation date"}
+      },
+      {
+        "date": "2015-12-15",
+        "type": { "value" : "modification date"}
+      },
+      {
+        "date": "2015-12-17",
+        "type": { "value" : "release date"}
+      },
+      {
+        "date": "2015-12-17",
+        "type": { "value" : "embargo date"}
+      }
+    ]
+  },
+  "distributions": [
+    {
+      "identifiers": [{
+        "identifier" : "1",
+        "identifierSource" : ""
+      }],
+      "dates": [
         {
-            "name": "Schizophrenia",
-            "identifiers": [{
-                "identifier": "68012559",
-                "identifierSource": "mesh"
-            }
-            ]
+          "date" : "1999-11-03",
+          "type" : {
+            "value" : "creation date",
+            "ontologyTermIRI" : ""
+          }
         },
         {
-            "name": "Bipolar Disorder",
-            "identifiers": [{
-                "identifier": "68001714",
-                "identifierSource": "mesh"
-            }
-            ]
-        },        
-        {
-            "name": "Major Depressive Disorder",
-            "identifiers": [{
-                "identifier": "68003865",
-                "identifierSource": "mesh"
-            }
-            ]
-        }        
-        ],
-        "selectionCriteria": [
-            {
-                "category": "inclusion criteria",
-                "values": [ "Postmortem brains were collected at the Human Brain Collection Core, NIMH with informed consent from the legal next of kin (NIMH protocol 90-M-0142), and at the Brain and Tissue Bank for Developmental Disorders of the NICHD (contracts NO1-HD-4-3368 and NO1-HD-4-3383) and through the Stanley Medical Research Institute. Clinical characterization, neuropathological screening, toxicological analyses, and dissection of the dorsolateral prefrontal cortex were performed as previously described (Lipska et al. 2006). All patients met DSM-IV criteria for a lifetime Axis I diagnosis of schizophrenia or schizoaffective disorder, bipolar disorder or major depression, and controls had no history of psychological or psychiatric problems and negative toxicology results."]
-            }
-        ],
-        "studyGroups": [{
-            "name": "",
-            "size": 914,
-            "members": []
-        }],
-        "performedBy": [
-            {
-                "fullName": "Barbara K. Lipska",
-                "firstName": "Barbara",
-                "lastName": "Lipska",
-                "email": "",
-                "affiliations": [
-                  {
-                    "name": "National Institutes of Health",
-                    "postalAddress": "Bethesda, Maryland, 20892, United States",
-                    "roles": {
-                        "value": "sponsor",
-                        "ontologyTermIRI": ""
-                    }
-                 }
-                ],
-                "roles": [
-                    {
-                        "value": "principal investigator",
-                        "ontologyTermIRI": ""
-                    },
-                    {
-                        "value": "backup contact",
-                        "ontologyTermIRI": ""
-                    }
-                ]
-            }
-        ],
-        "location": {"value": "National Institutes of Health, Bethesda, 9000 Rockville Pike, United States"},
-        "dates": [
-            {
-            "date": "2015-08-24",
-            "type": { "value" : "creation date"}
-            },
-            {            
-            "date": "2015-12-15",
-            "type": { "value" : "modification date"}
-            },        
-            {
-            "date": "2015-12-17",
-            "type": { "value" : "release date"}
-            },
-            {            
-            "date": "2015-12-17",
-            "type": { "value" : "embargo date"}
-            }
-        ]
-    },
-    "distributions": [
-    {
-        "identifiers": [{
-            "identifier" : "1",
-            "identifierSource" : ""
-        }],
-        "dates": [
-            {
-                "date" : "1999-11-03",
-                "type" : {
-                    "value" : "creation date",
-                    "ontologyTermIRI" : ""
-                }
-            },
-            {
-                "date" : "2016-05-19",
-                "type" : {
-                    "value" : "modification date",
-                    "ontologyTermIRI" : ""
-                }
-            }
-        ],
-        "accessModalities": [{
-            "landingPage": "http://www.ncbi.nlm.nih.gov/projects/gap/",
-            "accessURL": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
-            "authorizations" : [
-                {
-                    "value" : "public",
-                    "ontologyTermIRI" : ""
-                }
-            ],
-            "licenses" : [
-                {   
-                    "identifiers": [{
-                    "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
-                    "identifierSource": "dbGAP"
-                    }],
-                    "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
-                }
-            ]
-        }],
-        "conformsTo": [
-            {
-                "identifiers": [{
-                    "identifier": "ftp://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000979/phs000979.v1.p1/dbGaPEx2.1.5.xsd",
-                    "identifierSource": ""
-                }],
-                "name": "XSD",
-                "type": {
-                    "value": "xml schema",
-                    "ontologyTermIRI": ""
-                }
-            },
-            {
-                "identifiers": [{
-                    "identifier": "http://www.w3.org/2001/XMLSchema-instance",
-                    "identifierSource": ""
-                }],
-                "name": "XML",
-                "type": {
-                    "value": "format",
-                    "ontologyTermIRI": ""
-                }
-            }
-        ],
-        "storedIn": [{
-            "identifiers": [{
-                "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/",
-                "identifierSource": "http"
-            }],
-            "relatedIdentifiers": [{
-                "identifier": "https://biosharing.org/biodbcore-000462",
-                "identifierSource": "BioSharing"
-            }],
-            "name": "DBGap",
-            "licenses": [{"name": ""}],
-            "types": [{
-                "value": "primary repository",
-                "ontologyTermIRI": ""
-            }],
-            "version": ""
-        }],
-        "size": -1,
-        "unit": {
-            "value": "megabyte",
-            "ontologyTermIRI": "http://purl.obolibrary.org/obo/UO_0000235"
+          "date" : "2016-05-19",
+          "type" : {
+            "value" : "modification date",
+            "ontologyTermIRI" : ""
+          }
         }
+      ],
+      "accessModalities": [{
+        "landingPage": "http://www.ncbi.nlm.nih.gov/projects/gap/",
+        "accessURL": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
+        "authorizations" : [
+          {
+            "value" : "public",
+            "ontologyTermIRI" : ""
+          }
+        ],
+        "licenses" : [
+          {
+            "identifiers": [{
+              "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
+              "identifierSource": "dbGAP"
+            }],
+            "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
+          }
+        ]
+      }],
+      "conformsTo": [
+        {
+          "identifiers": [{
+            "identifier": "ftp://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000979/phs000979.v1.p1/dbGaPEx2.1.5.xsd",
+            "identifierSource": ""
+          }],
+          "name": "XSD",
+          "type": {
+            "value": "xml schema",
+            "ontologyTermIRI": ""
+          }
+        },
+        {
+          "identifiers": [{
+            "identifier": "http://www.w3.org/2001/XMLSchema-instance",
+            "identifierSource": ""
+          }],
+          "name": "XML",
+          "type": {
+            "value": "format",
+            "ontologyTermIRI": ""
+          }
+        }
+      ],
+      "storedIn": [{
+        "identifiers": [{
+          "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/",
+          "identifierSource": "http"
+        }],
+        "relatedIdentifiers": [{
+          "identifier": "https://biosharing.org/biodbcore-000462",
+          "identifierSource": "BioSharing"
+        }],
+        "name": "DBGap",
+        "licenses": [{"name": ""}],
+        "types": [{
+          "value": "primary repository",
+          "ontologyTermIRI": ""
+        }],
+        "version": ""
+      }],
+      "size": -1,
+      "unit": {
+        "value": "megabyte",
+        "ontologyTermIRI": "http://purl.obolibrary.org/obo/UO_0000235"
+      }
     }
-    ]
+  ]
 }
