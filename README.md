@@ -1,4 +1,4 @@
-# WG3- Metadata Specifications
+# WG3- DATS Model - Metadata Specifications
 This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets). 
 The original working files, the presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links).
 
