@@ -2,8 +2,10 @@
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS data repository schema",
   "description": "A repository or catalog of datasets. It could be a primary repository or a repository that aggregates data existing in other repositories.",
+  "@type": "DataRepository",
   "type": "object",
   "properties": {
+    "@type": { "type": "string", "enum": [ "DatasetRepository" ]},
     "identifiers": {
       "description": "Primary identifiers for the data repository.",
       "type": "array",

@@ -4,6 +4,7 @@
   "description": "A digital entity containing sets of instructions and operation, which allows computation and operation of and by computer.",
   "type": "object",
   "properties": {
+    "@type": { "type": "string", "enum": [ "Software" ]},
     "identifiers": {
       "description": "Primary identifiers for the software.",
       "type": "array",
@@ -69,5 +70,5 @@
     }
   },
   "additionalProperties": false,
-  "required":[ "name" ]
+  "required":[ "@type", "name" ]
 }

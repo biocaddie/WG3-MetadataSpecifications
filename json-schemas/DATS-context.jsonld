@@ -1,436 +1,430 @@
 {
- "@context": {
-  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-  "owl": "http://www.w3.org/2002/07/owl#",
-  "xsd": "http://www.w3.org/2001/XMLSchema#",
-  "sdo": "https://schema.org/",
-  "lifescisdo" : "https://health-lifesci.schema.org",
-  "ontologies": "@graph",
- 
-  "label": "rdfs:label",
-  "seeAlso": "rdfs:seeAlso",
-  "comment": "rdfs:comment",
-  
-  "Dataset":  { 
-        "@id" : "sdo:Dataset",
-        "@type" : "@id"
-        },
-        
-  "DatasetDistribution" :{ 
-        "@id" : "sdo:DataDownload",
-        "@type" : "@id"
-        }, 
-        
-  "DataRepository" : { 
-        "@id" : "sdo:DataCatalog",
-        "@type" : "@id"
-        },
-  
-  "Software" : { 
-        "@id" : "sdo:SoftwareApplication",
-        "@type" : "@id"
-        },
-  
-  "Publication" : { 
-        "@id" : ["sdo:Article", "sdo.CreativeWork", "lifescisdo.ScholarlyArticle"],
-        "@type" : "@id"
-        },
-         
-   "License" : {
-       "@id" : "sdo:license",
-       "@type" : "@id"
-       }, 
- 
-    "Grant" : {
-        "@id" : "sdo:Service",
-        "@type" : "@id"
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sdo": "https://schema.org/",
+    "lifescisdo" : "https://health-lifesci.schema.org",
+    "ontologies": "@graph",
+
+    "label": "rdfs:label",
+    "seeAlso": "rdfs:seeAlso",
+    "comment": "rdfs:comment",
+
+    "Dataset":  {
+      "@id" : "sdo:Dataset",
+      "@type" : "@id"
     },
-    
- 
-  "Dimension" : {
-        "@id" : "sdo:property",
-         "@type" : "@id"
-        },
-  
-  "Access" : {
+
+    "DatasetDistribution" :{
+      "@id" : "sdo:DataDownload",
+      "@type" : "@id"
+    },
+
+    "DataRepository" : {
+      "@id" : "sdo:DataCatalog",
+      "@type" : "@id"
+    },
+
+    "Software" : {
+      "@id" : "sdo:SoftwareApplication",
+      "@type" : "@id"
+    },
+
+    "Publication" : {
+      "@id" : ["sdo:Article", "sdo.CreativeWork", "lifescisdo.ScholarlyArticle"],
+      "@type" : "@id"
+    },
+
+    "License" : {
+      "@id" : "sdo:license",
+      "@type" : "@id"
+    },
+
+    "Grant" : {
+      "@id" : "sdo:Service",
+      "@type" : "@id"
+    },
+    "Dimension" : {
+      "@id" : "sdo:property",
+      "@type" : "@id"
+    },
+    "Access" : {
       "@id" : "",
       "@type" : ""
-  },
-  
-  "Activity" :{ 
-        "@id" : "sdo:Action",
-        "@type" : "@id"
-        }, 
- 
-  "DataAcquisition" :{ 
-        "@id" : "sdo:Action",
-        "@type" : "@id"
-        }, 
-        
-  "DataAnalysis" :{ 
-        "@id" : "sdo:Action",
-        "@type" : "@id"
-        },         
-  
-  "Study" : { 
-        "@id" : "lifescisdo:MedicaStudy",
-        "@type" : "@id"
-        }, 
-  
-  "StudyGroup" : { 
-        "@id" : "lifescisdo:MISSING",
-        "@type" : "@id"
-        },   
-  
-   "Treatment" : { 
-        "@id" : "lifescisdo:MedicalProcedure",
-        "@type" : "@id"
-        }, 
-  
-   "Disease" : { 
-        "@id" : "lifescisdo:MedicaCondition",
-        "@type" : "@id"
-        }, 
-   
-   "Material" : { 
-        "@id" : "lifescisdo:Substance",
-        "@type" : "@id"
-        }, 
-  
-   "MolecularEntity" : { 
-        "@id" : "lifescisdo:Substance",
-        "@type" : "@id"
-        }, 
+    },
+    "Activity" :{
+      "@id" : "sdo:Action",
+      "@type" : "@id"
+    },
+    "DataAcquisition" :{
+      "@id" : "sdo:Action",
+      "@type" : "@id"
+    },
+    "DataAnalysis" :{
+      "@id" : "sdo:Action",
+      "@type" : "@id"
+    },
 
-   "Instrument" : { 
-        "@id" : "lifescisdo:MedicalDevice",
-        "@type" : "@id"
-        }, 
+    "Study" : {
+      "@id" : "lifescisdo:MedicaStudy",
+      "@type" : "@id"
+    },
+
+    "StudyGroup" : {
+      "@id" : "lifescisdo:MISSING",
+      "@type" : "@id"
+    },
+
+    "Treatment" : {
+      "@id" : "lifescisdo:MedicalProcedure",
+      "@type" : "@id"
+    },
+
+    "Disease" : {
+      "@id" : "lifescisdo:MedicaCondition",
+      "@type" : "@id"
+    },
+
+    "Material" : {
+      "@id" : "lifescisdo:Substance",
+      "@type" : "@id"
+    },
+
+    "MolecularEntity" : {
+      "@id" : "lifescisdo:Substance",
+      "@type" : "@id"
+    },
+
+    "Instrument" : {
+      "@id" : "lifescisdo:MedicalDevice",
+      "@type" : "@id"
+    },
 
 
-  "value" : {
-        "@id" : ["sdo:QuantitativeValue", "https://schema.org/PropertyValue"],
-          "@type" : "@id"
-        },
+    "value" : {
+      "@id" : ["sdo:QuantitativeValue", "https://schema.org/PropertyValue"],
+      "@type" : "@id"
+    },
 
 
-  
-  "title": { 
-        "@id" : "lifescisdo:headline",
-        "@type" : "sdo:Text"
-        },
- 
-  "description": { 
-        "@id" : "lifescisdo:description",
-        "@type" : "sdo:Text"
-        }, 
- 
- 
-  "name": { 
-        "@id" : "sdo:name",
-        "@type" : "sdo:Text"
-        },
-  
-  "firstName": { 
-        "@id" : "sdo:givenName",
-        "@type" : "sdo:Text"
-        }, 
- 
-  "email": { 
-        "@id" : "sdo:email",
-        "@type" : "sdo:Text"
-        }, 
 
-  "lastName": { 
-        "@id" : "sdo:familyName",
-        "@type" : "sdo:Text"
-        },   
+    "title": {
+      "@id" : "lifescisdo:headline",
+      "@type" : "sdo:Text"
+    },
 
-  "postalAddress": { 
-        "@id" : "sdo:postalAddress",
-        "@type" : "sdo:Text"
-        },   
-
-  "affiliation": { 
-        "@id" : "sdo:affiliation",
-        "@type" : "sdo:Organization"
-        }, 
-
-  "url" : "sdo:URL",
-  "scope" : "sdo:keywords",
-
-  "relatedIdentifier" : {
-    "@id" : "sdo:relatedLink",
-    "@type" : "schema.org:URL"    
-  },
-
-  "alternateIdentifier" : {
-    "@id" : "sdo:significantLink",
-    "@type" : "schema.org:URL"    
-  },
+    "description": {
+      "@id" : "lifescisdo:description",
+      "@type" : "sdo:Text"
+    },
 
 
-  "landingPage" : {
-    "@id" : "sdo:url",
-    "@type" : "schema.org:ItemPage"    
-  },
-  
-  "accessURL" : {
-     "@id" : "sdo:url",
-     "@type" : "sdo:URL"
-  },
+    "name": {
+      "@id" : "sdo:name",
+      "@type" : "sdo:Text"
+    },
 
- "authorizations" : {
-       "@id" : "sdo:AuthorizeAction", 
-       "@type" : ["sdo:Person", "sdo:Organization"]
-  },
-  
-  "authentications" : {
-        "@id" : "sdo:grantsCredential", 
-        "@type" : ["sdo:Credential"]      
-  },
+    "firstName": {
+      "@id" : "sdo:givenName",
+      "@type" : "sdo:Text"
+    },
 
-  "keywords": { 
-        "@id" : "sdo:keywords",
-        "@type" : "sdo:Text"
-        },
+    "email": {
+      "@id" : "sdo:email",
+      "@type" : "sdo:Text"
+    },
 
-  "version": { 
-        "@id" : "sdo:version",
-        "@type" : "sdo:Number"
-        },
+    "lastName": {
+      "@id" : "sdo:familyName",
+      "@type" : "sdo:Text"
+    },
 
-  "size": { 
-        "@id" : "sdo:contentSize",
-        "@type" : "sdo:Text"
-        },
-        
-  "unit": { 
-        "@id" : "sdo:unitText",
-        "@type" : "sdo:Text"
-        }, 
-        
-  "location" : {
-        "@id" : "sdo:location", 
-        "@type" : "sdo:Text"
-        }, 
+    "postalAddress": {
+      "@id" : "sdo:postalAddress",
+      "@type" : "sdo:Text"
+    },
 
-  "duration" : {
-        "@id" : "sdo:duration", 
-        "@type" : "sdo:Text"
-        },         
-  
-  "type" : {
-        "@id" : "sdo:category", 
-        "@type" : ["sdo:Text", "sdo:keyword"]
-        },
- 
-  "publishers" : {
-        "@id" : "sdo:publisher", 
-        "@type" : ["sdo:Person", "sdo:Organization"]
-        },
+    "affiliation": {
+      "@id" : "sdo:affiliation",
+      "@type" : "sdo:Organization"
+    },
 
-  "creators" : {
-           "@id" : "sdo:creator",
-           "@type" :["sdo:Person","sdo:Organization"]
-        },
- 
-  "funders" : {
-        "@id" : "sdo:sponsor",
-        "@type" : ["sdo:Person","sdo:Organization"]
-        },
-        
-  "awardees" : {
+    "url" : "sdo:URL",
+    "scope" : "sdo:keywords",
+
+    "relatedIdentifier" : {
+      "@id" : "sdo:relatedLink",
+      "@type" : "schema.org:URL"
+    },
+
+    "alternateIdentifier" : {
+      "@id" : "sdo:significantLink",
+      "@type" : "schema.org:URL"
+    },
+
+
+    "landingPage" : {
+      "@id" : "sdo:url",
+      "@type" : "schema.org:ItemPage"
+    },
+
+    "accessURL" : {
+      "@id" : "sdo:url",
+      "@type" : "sdo:URL"
+    },
+
+    "authorizations" : {
+      "@id" : "sdo:AuthorizeAction",
+      "@type" : ["sdo:Person", "sdo:Organization"]
+    },
+
+    "authentications" : {
+      "@id" : "sdo:grantsCredential",
+      "@type" : ["sdo:Credential"]
+    },
+
+    "keywords": {
+      "@id" : "sdo:keywords",
+      "@type" : "sdo:Text"
+    },
+
+    "version": {
+      "@id" : "sdo:version",
+      "@type" : "sdo:Number"
+    },
+
+    "size": {
+      "@id" : "sdo:contentSize",
+      "@type" : "sdo:Text"
+    },
+
+    "unit": {
+      "@id" : "sdo:unitText",
+      "@type" : "sdo:Text"
+    },
+
+    "location" : {
+      "@id" : "sdo:location",
+      "@type" : "sdo:Text"
+    },
+
+    "duration" : {
+      "@id" : "sdo:duration",
+      "@type" : "sdo:Text"
+    },
+
+    "type" : {
+      "@id" : "sdo:category",
+      "@type" : ["sdo:Text", "sdo:keyword"]
+    },
+
+    "publishers" : {
+      "@id" : "sdo:publisher",
+      "@type" : ["sdo:Person", "sdo:Organization"]
+    },
+
+    "creators" : {
+      "@id" : "sdo:creator",
+      "@type" :["sdo:Person","sdo:Organization"]
+    },
+
+    "funders" : {
+      "@id" : "sdo:sponsor",
+      "@type" : ["sdo:Person","sdo:Organization"]
+    },
+
+    "awardees" : {
       "@id" : "sdo:recipient",
       "@type" : ["sdo:Person","sdo:Organization"]
-  }, 
-  
-  "roles" : {
+    },
+
+    "roles" : {
       "@id" : "sdo:roleName",
-      "@type" : "sdo:Role"  
-  },
+      "@type" : "sdo:Role"
+    },
 
-  "members" : {
+    "members" : {
       "@id" : "sdo:members",
-      "@type" : ["sdo:Person","sdo:Organization"] 
-  },
+      "@type" : ["sdo:Person","sdo:Organization"]
+    },
 
-  "author" : {
-           "@id" : "sdo:author",
-           "@type" :["sdo:Person","sdo:Organization"]
-        },
+    "author" : {
+      "@id" : "sdo:author",
+      "@type" :["sdo:Person","sdo:Organization"]
+    },
 
-  "producer" : {
-        "@id" : "sdo:producer", 
-        "@type" : ["sdo:Person", "sdo:Organization"]
-        }, 
+    "producer" : {
+      "@id" : "sdo:producer",
+      "@type" : ["sdo:Person", "sdo:Organization"]
+    },
 
-  "manufacturer" : {
-        "@id" : "lifescisdo:manufacturer", 
-        "@type" : ["sdo:Person", "sdo:Organization"]
-        },  
+    "manufacturer" : {
+      "@id" : "lifescisdo:manufacturer",
+      "@type" : ["sdo:Person", "sdo:Organization"]
+    },
 
 
     "input" : {
       "@id" : "sdo:object",
-      "@type" : ["Material", "Dataset","sdo.MediaObject", "sdo.Thing"]   
+      "@type" : ["Material", "Dataset","sdo.MediaObject", "sdo.Thing"]
     },
-    
+
     "output" : {
       "@id" : "sdo:result",
-      "@type" :  ["Material", "Dataset", "sdo.MediaObject", "sdo.Thing"]         
+      "@type" :  ["Material", "Dataset", "sdo.MediaObject", "sdo.Thing"]
     },
 
 
-   "isAbout": { 
-        "@id" : "sdo:about",
-        "@type" : "sdo:Thing"
-        },
- 
-   "isAboutBiologicalEntity": { 
-        "@id" : "sdo:about",
-        "@type" : "sdo:Thing"
-        }, 
- 
-   "isCitedBy" : {
-        "@id" : "sdo:citation", 
-        "@type" : ["sdo:Article", "sdo:CreativeWorks", "lifescisdo:ScholarlyArticle"]
-        },  
-        
-  "performedBy" : {
-        "@id" : "sdo:agent", 
-        "@type" : ["sdo:Person", "sdo:Organization"]
-        }, 
+    "isAbout": {
+      "@id" : "sdo:about",
+      "@type" : "sdo:Thing"
+    },
+
+    "isAboutBiologicalEntity": {
+      "@id" : "sdo:about",
+      "@type" : "sdo:Thing"
+    },
+
+    "isCitedBy" : {
+      "@id" : "sdo:citation",
+      "@type" : ["sdo:Article", "sdo:CreativeWorks", "lifescisdo:ScholarlyArticle"]
+    },
+
+    "performedBy" : {
+      "@id" : "sdo:agent",
+      "@type" : ["sdo:Person", "sdo:Organization"]
+    },
 
 
-   "aggregatorOf" : {
-        "@id" : "sdo:dataset", 
-        "@type" : "sdo:DataSet"
-        }, 
- 
-   "storedIn" : {
-        "@id" : "sdo:includedInDataCatalog", 
-        "@type" : "sdo:DataCatalog"
-        },
-        
-   "conformsTo" : {
-        "@id" : "sdo:fileFormat", 
-        "@type" : "sdo:Text"
-        }, 
- 
-   "hasPart" : {
+    "aggregatorOf" : {
+      "@id" : "sdo:dataset",
+      "@type" : "sdo:DataSet"
+    },
+
+    "storedIn" : {
+      "@id" : "sdo:includedInDataCatalog",
+      "@type" : "sdo:DataCatalog"
+    },
+
+    "conformsTo" : {
+      "@id" : "sdo:fileFormat",
+      "@type" : "sdo:Text"
+    },
+
+    "hasPart" : {
       "@id" : "sdo:hasPart",
       "@type" : "sdo:Dataset"
-  },
- 
-   "selection" : {
+    },
+
+    "selection" : {
       "@id" : "sdo:population",
       "@type" : "sdo:Text"
-  },
+    },
 
-   "recruits" : {
+    "recruits" : {
       "@id" : "sdo:population",
       "@type" : "sdo:Text"
-  },
+    },
 
-   "uses" : {
+    "uses" : {
       "@id" : ["sdo:usesDevice","sdo:instrument"],
       "@type" : "lifescisdo:MedicalDevice"
-  },
-  
-   "measures" : {
+    },
+
+    "measures" : {
       "@id" : "sdo:potentialAction",
       "@type" : "sdo:AssessAction"
-  },
-  
-  "agent" : {
+    },
+
+    "agent" : {
       "@id" : "sdo:agent",
       "@type" : ["lifescisdo:MedicalTherapy","sdo:Substance"]
-  },
-  
-  "intensity" : {
+    },
+
+    "intensity" : {
       "@id" : "sdo:intensity",
       "@type" : "sdo:Text"
-  },
+    },
 
- "order" : {
+    "order" : {
       "@id" : "sdo:position",
       "@type" : "sdo:Integer"
-  },
+    },
 
 
-   "selectionCriteria" : {
+    "selectionCriteria" : {
       "@id" : "sdo:population",
       "@type" : "sdo:Text"
-  },
+    },
 
-   "hasStudyGroup" : {
+    "hasStudyGroup" : {
       "@id" : "sdo:population",
       "@type" : ["sdo:Text", "StudyGroup"]
-  },
+    },
 
-  "characteristics" : {
+    "characteristics" : {
       "@id" : "sdo:value",
       "@type" : ["sdo:PropertyValue","sdo:StructuredValue"]
-  },  
- 
-  "structure" : {
+    },
+
+    "structure" : {
       "@id" : "sdo:value",
       "@type" : ["sdo:PropertyValue","sdo:StructuredValue"]
-  },  
-  
-  "involvedInBiologicalProcess" : {},
-  
-  "bearerOfDisease" : {
-      "@id" : "lifescisdo:diagnosis", 
+    },
+
+    "involvedInBiologicalProcess" : {},
+
+    "bearerOfDisease" : {
+      "@id" : "lifescisdo:diagnosis",
       "@type" : "lifescisdo:MedicalCondition"
-  },
-  
-  "derivesFrom" : {
-      "@id" : "lifescisdo:connectedTo", 
+    },
+
+    "derivesFrom" : {
+      "@id" : "lifescisdo:connectedTo",
       "@type" : "lifescisdo:AnatomicalStructure"
-  },
-  
-  "taxonomicInformation" : {
-      "@id" : "sdo:property", 
-      "@type" : "lifescisdo:MedicalCondition"
-  },
+    },
 
-  "acknowledges" : {
+    "taxonomicInformation" : {
+      "@id" : "sdo:property",
+      "@type" : "lifescisdo:MedicalCondition"
+    },
+
+    "acknowledges" : {
       "@id" : "",
       "@type" : ""
-  },
- 
-   "journal" : {
-       "@id" : "",
-       "@type" : "sdo:Periodical"
-   },
- 
-   "dates" : {
-       "@id" : "sdo:datePublished",
-       "@type": "sdo:Date"
-   },
- 
-  "date" : {
+    },
+
+    "journal" : {
+      "@id" : "",
+      "@type" : "sdo:Periodical"
+    },
+
+    "dates" : {
+      "@id" : "sdo:datePublished",
+      "@type": "sdo:Date"
+    },
+
+    "date" : {
       "@id" : "sdo:Date",
       "@type" : "xsd:dateTime"
-  },
+    },
 
-  "startDate" : {
+    "startDate" : {
       "@id" : "sdo:startTime",
       "@type" : "xsd:dateTime"
-  },
-  
-  "endDate" : {
+    },
+
+    "endDate" : {
       "@id" : "sdo:endTime",
       "@type" : "xsd:dateTime"
-  },
-  
-  "audience": {
-   "@id": "sdo:audience",
-   "@type": "sdo:Audience"
-  } 
+    },
 
- }
+    "audience": {
+      "@id": "sdo:audience",
+      "@type": "sdo:Audience"
+    }
+
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "@context": "/json-schemas/DATS-context.jsonld",
+  "@type": "Dataset",
   "identifiers":
   [
     {
@@ -236,6 +238,7 @@
 
   "distributions" : [
     {
+      "@type": "DatasetDistribution",
       "identifiers":
       [
         {
@@ -296,6 +299,7 @@
           "name": "the Uniprot Knowledge Base",
           "licenses" : [
             {
+              "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ],
@@ -315,6 +319,7 @@
       }
     },
     {
+      "@type": "DatasetDistribution",
       "identifiers":
       [
         {
@@ -377,6 +382,7 @@
           "name": "the Uniprot Knowledge Base",
           "licenses" : [
             {
+              "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ],
@@ -396,6 +402,7 @@
       }
     },
     {
+      "@type": "DatasetDistribution",
       "identifiers":
       [
         {
@@ -458,6 +465,7 @@
           "name": "the Uniprot Knowledge Base",
           "licenses" : [
             {
+               "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ],
@@ -477,6 +485,7 @@
       }
     },
     {
+      "@type": "DatasetDistribution",
       "identifiers":
       [
         {
@@ -540,6 +549,7 @@
           "name": "the Uniprot Knowledge Base",
           "licenses" : [
             {
+               "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ],
@@ -559,6 +569,7 @@
       }
     },
     {
+      "@type": "DatasetDistribution",
       "identifiers":
       [
         {
@@ -572,6 +583,7 @@
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.xml",
           "licenses": [
             {
+              "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ]
@@ -627,6 +639,7 @@
           "name": "the Uniprot Knowledge Base",
           "licenses" : [
             {
+              "@type": "License",
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
           ],
@@ -648,6 +661,7 @@
   ],
   "isCitedBy" : [
     {
+      "@type": "Publication",
       "identifiers": [
         {
           "identifier": "8905231",
@@ -747,6 +761,7 @@
       ]
     },
     {
+      "@type": "Publication",
       "identifiers": [
         {
           "identifier": "10871367",
@@ -809,6 +824,7 @@
       ]
     },
     {
+      "@type": "Publication",
       "identifiers": [
         {
           "identifier": "12878596",
@@ -851,6 +867,7 @@
       ]
     },
     {
+      "@type": "Publication",
       "identifiers": [
         {
           "identifier": "12535521",
@@ -914,5 +931,4 @@
       ]
     }
   ]
-
 }
