@@ -2,6 +2,8 @@
 This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets). 
 The original working files, the presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links).
 
+The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
+
 
 ## Version 1.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.53078.svg)](http://dx.doi.org/10.5281/zenodo.53078)
 
