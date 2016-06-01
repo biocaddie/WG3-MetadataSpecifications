@@ -4,6 +4,12 @@ The original working files, the presentations and notes from the WG3 activities 
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
+## Version 2.0
+
+The document provides links to the different appendices files.
+
+* [DATS model version 2.0 (Google Document)] (https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit?usp=sharing)
+* [DATS model version 2.0 (pdf)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/doc/v2.0/DataMedDATSspecificationv2-NIHDB2KbioCADDIE.pdf)
 
 ## Version 1.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.53078.svg)](http://dx.doi.org/10.5281/zenodo.53078)
 
