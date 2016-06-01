@@ -31,10 +31,10 @@
     }],
     "types": [
         {
-         "information" : "Whole Genome Genotyping",
-         "method"   : "DNA microarray",
-         "platform" : "Illumina",
-         "instrument" : "HumanHap650Yv3.0",
+         "information": { "value": "Whole Genome Genotyping"},
+         "method"   : { "value": "DNA microarray"},
+         "platform" : { "value": "Illumina"},
+         "instrument" : { "value": "HumanHap650Yv3.0"},
          "extraProperties" : [
                 {
                     "category" : "Number of Oligos/SNPs",
@@ -51,10 +51,10 @@
                 ]
          },
         {
-         "information" : "Whole Genome Genotyping",
-         "method"   : "DNA microarray",
-         "platform" : "Illumina",
-         "instrument" : "Human1M-Duov3_B",
+         "information": { "value": "Whole Genome Genotyping" },
+         "method":  { "value": "DNA microarray"},
+         "platform": {"value": "Illumina"},
+         "instrument" : { "value": "Human1M-Duov3_B"},
          "extraProperties" : [
                 {
                     "category" : "Number of Oligos/SNPs",
@@ -71,10 +71,10 @@
           ]
          },        
         {
-         "information" : "RNA Expression",
-         "method"   : "DNA microarray",
-         "platform" : "Illumina",
-         "instrument" : "Human HT-12 Expression Bead Chip Kit",
+         "information" : { "value": "RNA Expression"},
+         "method"   :  { "value": "DNA microarray"},
+         "platform" : { "value": "Illumina"},
+         "instrument" : { "value": "Human HT-12 Expression Bead Chip Kit"},
          "extraProperties" : [
                 {
                     "category" : "Number of Oligos/SNPs",
@@ -112,7 +112,14 @@
             }
         ],
         "title": "Mental_Disorders_Postmortem_Subject_Phenotypes",
-        "description": "The dataset provides diagnosis, age at and cause of death, gender, race, height, and weight information of subjects whose brain samples were examined post mortem. In addition, the results of various tests for metabolites of ingested substances (e.g. alcohol, antidepressants, benzodiazepines, cocaine, nicotine, opiates, tetrahydrocannabinol) are provided. Sample information includes brain area sampled, post-mortem interval to sample collection and RNA integrity scores.",
+        "extraProperties": [
+          {
+            "category": "description",
+            "values": [
+              "The dataset provides diagnosis, age at and cause of death, gender, race, height, and weight information of subjects whose brain samples were examined post mortem. In addition, the results of various tests for metabolites of ingested substances (e.g. alcohol, antidepressants, benzodiazepines, cocaine, nicotine, opiates, tetrahydrocannabinol) are provided. Sample information includes brain area sampled, post-mortem interval to sample collection and RNA integrity scores."
+            ]
+          }
+        ],
              "creators": [{
                 "firstName": "Barbara",
                 "middleInitial" : "K.",
@@ -129,10 +136,10 @@
                                 "identifierSource" : "dbGap"
                             }
                     ],
-                    "name" : "SUBJECT_ID",
+                    "name" : { "value": "SUBJECT_ID"},
                     "description" : "De-identified Subject ID",
-                    "type" : [
-                            { 
+                    "types" : [
+                            {
                                 "value" : "string",
                                 "ontologyTermIRI" : ""}
                     ]
@@ -558,7 +565,7 @@
         "selectionCriteria": [
             {
                 "category": "inclusion criteria",
-                "value": "Postmortem brains were collected at the Human Brain Collection Core, NIMH with informed consent from the legal next of kin (NIMH protocol 90-M-0142), and at the Brain and Tissue Bank for Developmental Disorders of the NICHD (contracts NO1-HD-4-3368 and NO1-HD-4-3383) and through the Stanley Medical Research Institute. Clinical characterization, neuropathological screening, toxicological analyses, and dissection of the dorsolateral prefrontal cortex were performed as previously described (Lipska et al. 2006). All patients met DSM-IV criteria for a lifetime Axis I diagnosis of schizophrenia or schizoaffective disorder, bipolar disorder or major depression, and controls had no history of psychological or psychiatric problems and negative toxicology results."
+                "values": [ "Postmortem brains were collected at the Human Brain Collection Core, NIMH with informed consent from the legal next of kin (NIMH protocol 90-M-0142), and at the Brain and Tissue Bank for Developmental Disorders of the NICHD (contracts NO1-HD-4-3368 and NO1-HD-4-3383) and through the Stanley Medical Research Institute. Clinical characterization, neuropathological screening, toxicological analyses, and dissection of the dorsolateral prefrontal cortex were performed as previously described (Lipska et al. 2006). All patients met DSM-IV criteria for a lifetime Axis I diagnosis of schizophrenia or schizoaffective disorder, bipolar disorder or major depression, and controls had no history of psychological or psychiatric problems and negative toxicology results."]
             }
         ],
         "studyGroups": [{
@@ -572,14 +579,16 @@
                 "firstName": "Barbara",
                 "lastName": "Lipska",
                 "email": "",
-                "affiliation": [{
+                "affiliations": [
+                  {
                     "name": "National Institutes of Health",
                     "postalAddress": "Bethesda, Maryland, 20892, United States",
                     "roles": {
                         "value": "sponsor",
                         "ontologyTermIRI": ""
                     }
-                }],
+                 }
+                ],
                 "roles": [
                     {
                         "value": "principal investigator",
@@ -593,7 +602,7 @@
             }
         ],
         "location": {"value": "National Institutes of Health, Bethesda, 9000 Rockville Pike, United States"},
-        "Dates": [
+        "dates": [
             {
             "date": "2015-08-24",
             "type": { "value" : "creation date"}

@@ -17,39 +17,39 @@
     },
     {
       "alternateIdentifier": "S74805",
-      "identifierSource": "PIR"
+      "alternateIdentifierSource": "PIR"
     },
     {
       "alternateIdentifier": "1NP7",
-      "identifierSource": "PDBsum"
+      "alternateIdentifierSource": "PDBsum"
     },
     {
       "alternateIdentifier": "P77967",
-      "identifierSource": "ProteinModelPortal"
+      "alternateIdentifierSource": "ProteinModelPortal"
     },
     {
       "alternateIdentifier": "IPR014133",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     },
     {
       "alternateIdentifier": "IPR005101",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     },
     {
       "alternateIdentifier": "IPR002081",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     },
     {
       "alternateIdentifier": "IPR018394",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     } ,
     {
       "alternateIdentifier": "IPR006050",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     },
     {
       "alternateIdentifier": "IPR014729",
-      "identifierSource": "InterPro"
+      "alternateIdentifierSource": "InterPro"
     }
   ],
   "relatedIdentifiers": [
@@ -181,23 +181,7 @@
           ]
         }
       ],
-      "derivesFrom" : [
-        {
-          "name":  ""
-        }
-      ],
-      "characteristics" : [
-        {
-          "name" : "",
-          "ontologyTermIRI" : ""
-        }
-      ],
-      "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA",
-      "roles" : [
-        {"value" : "" , "ontologyTermIRI" : "" },
-        {"value" : "" , "ontologyTermIRI" : "" },
-        {"value" : "" , "ontologyTermIRI" : "" }
-      ]
+      "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA"
     }
   ],
 
@@ -310,7 +294,6 @@
             }
           ],
           "name": "the Uniprot Knowledge Base",
-          "homepage" : "http://www.uniprot.org",
           "licenses" : [
             {
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
@@ -345,7 +328,22 @@
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.gff"
         }
       ],
-
+      "dates": [
+        {
+          "date": "2006-05-16",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-04-13",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
       "conformsTo": [
         {
           "identifiers": [
@@ -377,7 +375,7 @@
             }
           ],
           "name": "the Uniprot Knowledge Base",
-          "license" : [
+          "licenses" : [
             {
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
@@ -391,7 +389,7 @@
           "version": "116"
         }
       ],
-      "size" : "12",
+      "size" : 12,
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
@@ -409,6 +407,22 @@
         {
           "landingPage": "http://www.uniprot.org/uniprot/P77967",
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.txt"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2006-05-16",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-04-13",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
         }
       ],
       "conformsTo": [
@@ -442,8 +456,7 @@
             }
           ],
           "name": "the Uniprot Knowledge Base",
-          "homepage" : "http://www.uniprot.org",
-          "license" : [
+          "licenses" : [
             {
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
@@ -457,7 +470,7 @@
           "version": "116"
         }
       ],
-      "size" : "12",
+      "size" : 12,
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
@@ -477,6 +490,23 @@
           "accessURL" :  "http://www.uniprot.org/uniprot/P77967.rdf"
         }
       ],
+      "dates": [
+        {
+          "date": "2006-05-16",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-04-13",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+
       "conformsTo": [
         {
           "identifiers": [
@@ -508,8 +538,7 @@
             }
           ],
           "name": "the Uniprot Knowledge Base",
-          "homepage" : "http://www.uniprot.org",
-          "license" : [
+          "licenses" : [
             {
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
@@ -523,7 +552,7 @@
           "version": "116"
         }
       ],
-      "size" : "12",
+      "size" : 12,
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
@@ -548,6 +577,23 @@
           ]
         }
       ],
+      "dates": [
+        {
+          "date": "2006-05-16",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-04-13",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+
       "conformsTo": [
         {
           "identifiers": [
@@ -579,8 +625,7 @@
             }
           ],
           "name": "the Uniprot Knowledge Base",
-          "homepage" : "http://www.uniprot.org",
-          "license" : [
+          "licenses" : [
             {
               "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
             }
@@ -594,14 +639,13 @@
           "version": "116"
         }
       ],
-      "size" : "12",
+      "size" : 12,
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
       }
     }
   ],
-
   "isCitedBy" : [
     {
       "identifiers": [
@@ -615,12 +659,12 @@
         }
       ],
       "title": "Sequence analysis of the genome of the unicellular cyanobacterium Synechocystis sp. strain PCC6803. II. Sequence determination of the entire genome and assignment of potential protein-coding regions.",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
       "publicationVenue" : "DNA Res.",
-      "date" : "1996",
+      "dates" : [ { "date": "1996", "type": { }}],
       "authorsList" : "Kaneko T, Sato S, Kotani H, Tanaka A, Asamizu E, Nakamura Y, Miyajima N, Hirosawa M, Sugiura M, Sasamoto S, Kimura T, Hosouchi T, Matsuno A, Muraki A, Nakazaki N, Naruo K, Okumura S, Shimpo S, Takeuchi C, Wada T, Watanabe A, Yamada M, Yasuda M, Tabata S.",
       "authors" : [
         {
@@ -714,14 +758,14 @@
         }
       ],
       "title": "Bacterial cryptochrome and photolyase: characterization of two photolyase-like genes of Synechocystis sp. PCC6803",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
       "publicationVenue" : "Nucleic Acids Res.",
-      "date" : "2000",
+      "dates" : [ {"date": "2000", "type": {}} ],
       "authorsList" : "Hitomi K, Okamoto K, Daiyasu H, Miyashita H, Iwai S, Toh H, Ishiura M, Todo T.",
-      "author" : [
+      "authors" : [
         {
           "fullName" : "K. Hitomi",
           "firstName": " K.",
@@ -776,14 +820,14 @@
         }
       ],
       "title": "Purification and characterization of three members of the photolyase/cryptochrome family blue-light photoreceptors from Vibrio cholerae.  ",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
       "publicationVenue" : "J. Biol. Chem.",
-      "date" : "2003",
+      "dates" : [ {"date": "2003", "type": {}} ],
       "authorsList" : "Worthington EN, Kavakli IH, Berrocal-Tito G, Bondo BE, Sancar A.",
-      "author" : [
+      "authors" : [
         {
           "firstName": " E.N.",
           "lastName": "Worthington"
@@ -818,14 +862,14 @@
         }
       ],
       "title": "Identification of a new cryptochrome class. Structure, function, and evolution.",
-      "publicationType" : {
+      "type" : {
         "value" : "article",
         "ontologyTermIRI" : ""
       },
       "publicationVenue" : "Mol. Cell",
-      "date" : "2003",
+      "dates" : [ {"date": "2003", "type": {}} ],
       "authorsList" : "Brudler R, Hitomi K, Daiyasu H, Toh H, Kucho K, Ishiura M, Kanehisa M, Roberts VA, Todo T, Tainer JA, Getzoff ED.",
-      "author" : [
+      "authors" : [
         {
           "firstName": " R.",
           "lastName": "Brudler"

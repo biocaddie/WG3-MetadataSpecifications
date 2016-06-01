@@ -42,8 +42,7 @@
       "type" : "array",
       "items": {
         "$ref" : "date_info_schema.json#"
-      },
-      "minItems": 1
+      }
     },
     "authors" : {
       "description": "The person(s) and/or organisation(s) responsible for the publication.",
@@ -82,6 +81,5 @@
       }
     }
   },
-  "additionalProperties": false,
-  "required": [ "title", "dates"]
+  "additionalProperties": false
 }
