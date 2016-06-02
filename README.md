@@ -1,6 +1,6 @@
 # WG3- DATS Model - Metadata Specifications
-This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets). 
-The original working files, the presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links).
+This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets)., defining the DatA Tag Suite (DATs) model.
+The presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links). This repository contains the different versions of the DATS specification.
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
