@@ -4,7 +4,7 @@ The presentations and notes from the WG3 activities can be found at [this websit
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
-## Version 2.0
+## Version 2.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.54010.svg)](http://dx.doi.org/10.5281/zenodo.54010)
 
 The document provides links to the different appendices files.
 
