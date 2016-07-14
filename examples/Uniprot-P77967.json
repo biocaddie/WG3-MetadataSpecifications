@@ -316,7 +316,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "subset" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "@type": "DatasetDistribution",
@@ -399,7 +407,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "subset" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "@type": "DatasetDistribution",
@@ -482,7 +498,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+      "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]
     },
     {
       "@type": "DatasetDistribution",
@@ -566,7 +590,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+ "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]      
     },
     {
       "@type": "DatasetDistribution",
@@ -656,7 +688,15 @@
       "unit" : {
         "value" : "kilobyte",
         "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000234"
-      }
+      },
+     "extraProperties" : [
+        {
+            "category" : "distribution content",
+            "categoryIRI" : "",
+            "values" : [ "isomorphic" ],
+            "valuesIRI" : [ "" ]
+        }
+      ]      
     }
   ],
   "isCitedBy" : [

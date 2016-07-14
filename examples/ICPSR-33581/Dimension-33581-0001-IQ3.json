@@ -1,0 +1,30 @@
+{
+	"identifiers": [
+		{
+			"identifier": "IQ3",
+			"identifierSource": ""
+		}
+	],
+	"name": {
+		"ontologyTermIRI": "",
+		"value": "Depression: Trouble falling/staying asleep"
+	},
+	"values": [
+		"0 Not at all", 
+		"1 Several days", 
+		"2 More than half the days", 
+		"3 Nearly every day", 
+		"-9 Missing"
+	], 
+	"partOf": [
+		"Dataset-33581-0001.json"	
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/IQ3"
+			]
+		}
+	]
+}

@@ -30,6 +30,10 @@
       "description" : "The name of the dataset, usually one sentece or short description of the dataset.",
       "type" : "string"
     },
+    "description" : {
+            "description": "A textual narrative comprised of one or more statements describing the dataset distribution.",
+            "type" : "string"
+    },
     "storedIn" : {
       "description": "The data repository(ies) hosting the dataset.",
       "type" : "array",
