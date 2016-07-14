@@ -27,6 +27,25 @@ The document provides links to the different appendices files.
 * [Appendix 1 - Metadata Mapping File v1 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixI-WG3MetadataMappingFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
 * [Appendix 2 - Metadata Elements File v1 (Spreadsheet)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/AppendixII-WG3MetadataElementsFilev1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.xlsx)
 
+## Instructions to execute code
+
+The python code included in the repository validates the JSON schemas and the JSON instances against the schemas.
+To execute the code, it is recommended to use a virtual environment, and follow the steps in the `code` directory:
+
+1. First install the virtual environment via `pip`:
+   `pip install virtualenv`
+2. Then, activate the virtual environment:
+  `source venv/bin/activate`
+3. Install the requirements:
+  `pip install -r requirements.txt`
+4. Finally, you can run the validation scripts:
+  `python validate_schemas.py`
+  `python validate_instances.py`
+
+
+
+
+
 
 
 
