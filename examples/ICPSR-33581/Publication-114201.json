@@ -1,0 +1,52 @@
+{
+	"identifiers": [
+		{
+			"identifier": "10.1001/jama.2013.277609",
+			"identifierSource": ""
+		}
+	],
+	"title": "Chronic care management for dependence on alcohol and other drugs: The AHEAD randomized trial",
+	"type": [
+		{
+			"ontologyTermIRI": "http://purl.org/spar/fabio/",
+			"value": "JournalArticle"
+
+		}
+	],
+	"dates": [
+		{
+			"date": "2013-09-08 00:00:00.0",
+			"type": {
+				"ontologyTermIRI": "",
+				"value": "publication date"
+			}
+		}
+	],
+	"publicationVenue": "JAMA, The Journal of the American Medical Association", 
+	"authors": [
+		{
+			"fullName": "Saitz, R."
+		}, 
+		{
+			"fullName": "Cheng, D.M."
+		}, 
+		{
+			"fullName": "Winter, M."
+		}, 
+		{
+			"fullName": "Kim, T.W."
+		}, 
+		{
+			"fullName": "Meli, S.M."
+		}, 
+		{
+			"fullName": "Allensworth-Davies, D."
+		}, 
+		{
+			"fullName": "Lloyd-Travaglini, C.A."
+		}, 
+		{
+			"fullName": "Samet, J.H."
+		}		
+	]
+}

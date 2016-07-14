@@ -1,0 +1,59 @@
+{
+	"identifiers": [
+		{
+			"identifier": "10.3886/ICPSR33581.v1",
+			"identifierSource": "DataCite"
+		}
+	],
+	"alternateIdentifiers": [
+		{
+			"alternateIdentifier":"33581-0001",
+			"alternateIdentifiersSource": "ICPSR Study/Dataset Number"
+		}
+	],
+	"creators": [
+		{
+			"affiliations": [
+				{
+					"name": "Boston Medical Center"
+				}
+			],
+			"firstName": "Richard",
+			"fullName": "Saitz, Richard",
+			"lastName": "Saitz"
+		},
+		{
+			"affiliations": [
+				{
+					"name": "Boston Medical Center"
+				}
+			],
+			"firstName": "Jeffrey H.",
+			"fullName": "Samet, Jeffrey H.",
+			"lastName": "Samet"
+		}
+	],
+	"title": "Addiction Health Evaluation and Disease (AHEAD) Management Study in Boston, Massachusetts, 2006-2010: Screening and Baseline Data",
+	"types": [
+		{
+			"information": {
+				value: "clinical data"
+			}
+		},
+		{
+			"information": {
+				value: "survey data"
+			}
+		}
+	],
+	"distributions": [
+		"DatasetDistribution-33581.json"
+	], 
+	"dimensions": [
+		"Dimension-33581-0001-S2Q2.json", 
+		"Dimension-33581-0001-SYSTOLBP.json", 
+		"Dimension-33581-0001-DIASTOLBP.json", 
+		"Dimension-33581-0001-AQ5.json", 
+		"Dimension-33581-0001-IQ3.json"
+	]
+}

@@ -1,0 +1,244 @@
+{
+	"acknowledges": [
+		{
+			"funders": [
+				{
+					"name": "United States Department of Health and Human Services. National Institutes of Health. National Institute on Drug Abuse"
+				}
+			],
+			"identifiers": [
+				{
+					"identifier": "DA010019",
+					"identifierSource": "United States Department of Health and Human Services. National Institutes of Health. National Institute on Drug Abuse"
+				}
+			]
+		},
+		{
+			"funders": [
+				{
+					"name": "United States Department of Health and Human Services. National Institutes of Health. National Institute on Alcohol Abuse and Alcoholism"
+				}			
+			],
+			"identifiers": [
+				{
+					"identifier": "R01-AA010870",
+					"identifierSource": "United States Department of Health and Human Services. National Institutes of Health. National Institute on Alcohol Abuse and Alcoholism"
+				}
+			]
+		}
+	],
+	"alternateIdentifiers": [
+		{
+			"alternateIdentifier":"33581",
+			"alternateIdentifiersSource": "ICPSR Study Number"
+		}
+	],
+	"creators": [
+		{
+			"affiliations": [
+				{
+					"name": "Boston Medical Center"
+				}
+			],
+			"firstName": "Richard",
+			"fullName": "Saitz, Richard",
+			"lastName": "Saitz"
+		},
+		{
+			"affiliations": [
+				{
+					"name": "Boston Medical Center"
+				}
+			],
+			"firstName": "Jeffrey H.",
+			"fullName": "Samet, Jeffrey H.",
+			"lastName": "Samet"
+		}
+	],
+	"description": "<p>Substance dependence (SD) is a chronic disease that requires specialty drug and alcohol treatment, primary care (PC), and management of related problems. Although patients with SD may be linked with specialty care and PC, their health care often remains episodic and fragmented, rather than longitudinal, comprehensive, integrated, and coordinated. As a result, adults with SD often enter addiction treatment later and require acute medical care, rather than entering the system earlier when interventions of lower intensity but longer duration might prevent catastrophes. Chronic disease management (CDM) is a collaborative, longitudinal approach to treatment of certain chronic medical illnesses proven to be more effective than routine care. CDM addresses individual patient and health systems barriers to receipt of needed treatment. However, the effectiveness of CDM for SD has not been tested. The objective of this Addiction Health Evaluation and Disease management (AHEAD) study, was to test the effectiveness of CDM for SD in PC.</p><p>Subject identification and recruitment occurred primarily at a local detoxification center, as well as by self and physician referral from the Boston Medical Center primary and ambulatory care clinics, emergency department, urgent care center, inpatient settings, and the community. The study enrolled 320 adults with drug dependence and 320 adults with alcohol dependence who were not in SD treatment, and randomized them to a SD CDM program (the AHEAD Clinic) integrated into a real-world PC clinic or to referral to standard PC. All subjects were assessed regarding SD diagnosis, substance use and problems, readiness to change, health-related quality of life, and medical and drug treatment utilization. Subjects were evaluated 3, 6, and 12 months later, and health services utilization data were collected for 2 years from a statewide database. Additionally, in order to better understand and explain the implementation and fidelity of the AHEAD Clinic, the primary care providers (PCPs) of AHEAD Clinic patients were surveyed. Each PCP was presented with a letter from the Principal Investigator explaining the purpose of the survey, the reason why s/he was being asked to complete the survey, compensation for completing the survey, and details about confidentiality and anonymity. The survey itself consisted of questions asking providers about their satisfaction and their attitudes towards caring for patients with alcohol and drug problems, their knowledge of services that the AHEAD Clinic provides, and their experience working with the AHEAD Clinic.</p> <p>Primary outcomes were illicit drug use, alcohol use, substance-related problems, emergency department visits, and hospitalizations. The proposal's hypothesis was that compared with standard care, a health services delivery intervention (CDM for SD integrated in PC) would decrease alcohol and illicit drug use and related problems, and improve health care utilization patterns. Improved outcomes using the AHEAD approach would support the adoption of a health services delivery strategy, CDM, to better care for patients with SD.</p> <p>Datasets 1-4 contain approximately 600 to 800 variables each, and approximately 500 cases each. Dataset 5 contains 79 variables and 549 cases. Dataset 6 contains 58 variables and 1,435 cases. Datasets 7-8 contain 24 variables and 87 cases each. Dataset 9 contains 40 variables and 73 cases. Dataset 10 contains 8 variables and 11,018 cases. Dataset 11 contains 4 variables and 511 cases.</p>",
+	"identifiers": [
+		{
+			"identifier": "10.3886/ICPSR33581.v1",
+			"identifierSource": "DataCite"
+		}
+	],
+	"keywords": [
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=addiction",
+			"value": "addiction"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=alcohol+abuse",
+			"value": "alcohol abuse"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=alcohol+consumption",
+			"value": "alcohol consumption"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=alcoholism",
+			"value": "alcoholism"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=chronic+disease+management",
+			"value": "chronic disease management"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=drug+dependence",
+			"value": "drug dependence"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=drug+treatment",
+			"value": "drug treatment"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=drug+use",
+			"value": "drug use"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=health+care+services",
+			"value": "health care services"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=health+services+utilization",
+			"value": "health services utilization"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=informed+consent",
+			"value": "informed consent"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=medical+care",
+			"value": "medical care"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=medical+evaluation",
+			"value": "medical evaluation"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=patient+care",
+			"value": "patient care"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=substance+abuse",
+			"value": "substance abuse"
+		},
+		{
+			"ontologyTermIRI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/thesaurus/entry?topic=subject&entry=substance+abuse+treatment",
+			"value": "substance abuse treatment"
+		}
+	],
+	"title": "Addiction Health Evaluation and Disease (AHEAD) Management Study in Boston, Massachusetts, 2006-2010",
+	"types": [
+		{
+			"information": {
+				value: "clinical data"
+			}
+		},
+		{
+			"information": {
+				value: "survey data"
+			}
+		}
+	],
+	"hasPart": [
+		"Dataset-33581-0001.json"
+	], 
+	"isCitedBy": [
+		"Publication-114201.json",
+		"Publication-109756.json"
+	],
+	"extraProperties": [
+		{
+			"category": "smallestGeographicUnit",
+			"values": [
+				"city"
+			]
+		}, 
+		{
+			"category": "geographicCoverage",
+			"values": [
+				"Boston",
+				"Massachusetts",
+				"United States"
+			]
+		}, 
+		{
+			"category": "timePeriod",
+			"values": [
+				"2006-09--2010-01"
+			]
+		}, 
+		{
+			"category": "collectionDates",
+			"values": [
+				"2006-09--2010-01"
+			]
+		},
+		{
+			"category": "unitOfObservation",
+			"values": [
+				"individual"
+			]
+		},
+		{
+			"category": "universe",
+			"values": [
+				"Data was collected between 2006 and 2010 from adults 18 years of age or older in Boston who have a current diagnosis of alcohol dependence and heavy drinking and/or drug dependence and recent drug use."
+			]
+		},
+		{
+			"category": "dataCollectionNotes",
+			"values": [
+				"With the exception of dataset 9, all the data files in the AHEAD data collection can be linked using the variable ID, which is the subject idenitification number. Additionally, datasets 9 and 11 contain a primary care provider ID variable, named PCPID."
+			]
+		},
+		{
+			"category": "sampling",
+			"values": [
+				"<p>Data was collected between 2006 and 2010 from adults 18 years of age or older in Boston who have a current diagnosis of alcohol dependence and heavy drinking and/or drug dependence and recent drug use.</p><p>Specifically, the following inclusion criteria were met at study entry: (1) Male and female subjects must be 18 years of age or older; (2) Must have a current diagnosis of Alcohol dependence and heavy drinking: Alcohol dependence as determined using the (10-items if none skipped) Composite International Diagnostic Interview Short Form (CIDI-SF) that yields a DSM-IV diagnosis and heavy drinking in the past 30 days, defined as greater than or equal to 4 standard drinks for women, greater than or equal to 5 for men at least twice in the past month, or greater than or equal to 22 drinks per week for men or greater than or equal to 15 drinks per week for women in an average week in the past month and/or Drug dependence and recent drug use: Drug dependence (DD) as determined by using the Composite International Diagnostic Interview Short Form (CIDI-SF), that yields a DSM-IV diagnosis and drug use in the past 30 days, defined as any use of cocaine (or any other psycho stimulant) or heroin (or any other opiate or prescription painkiller) without a prescription, in larger amounts than prescribed, or for a longer period of time than prescribed; (3) Subject must be fluent in English or Spanish; (4) Subject will have signed an informed consent document; (5) Subject must provide the names, phone numbers and addresses of two reliable \"contacts\" to assist in tracking the participant for follow-up assessments; (6) Subject must be willing to continue or establish primary care at Boston Medical Center; (7) Subject must be willing and able to return to Boston Medical Center in the next 12 months for primary care and research study visits; (8) Subject must be willing and able to attend an outpatient visit in the BMC Primary Care clinic within 2-3 days after enrollment; (9) Subject must score 21 or higher on the Mini Mental State Examination.</p><p>The exclusion criteria were as follows: (1) Subject was unable to be interviewed due to acute illness (trained interviewer determination); (2) Subject's breath alcohol was &gt;100 mg/dL; (3) Subject could not provide two contact persons; (4) Subject was not fluent in English or Spanish; (5) Subject planned to leave the Boston area within the 12 months after enrollment; (6) Subject was pregnant (self-report) -- no added risks, but excluded because care systems are very specific for pregnant women; (7) Subject was incapable of providing informed consent, as determined by trained research associates, or was deemed by their clinicians (if recruited in a clinical setting) to be unable to participate in the study due to the nature or severity of their disorder will be excluded. (8) Subject had cognitive impairment (interview results suspect): 30-item Mini-Mental State Examination (MMSE) score greater than or equal to 21 (cut-off for diverse education and age).</p>"
+			]
+		},
+		{
+			"category": "timeMethod",
+			"values": [
+				"Longitudinal: Panel"
+			]
+		},
+		{
+			"category": "collectionMode",
+			"values": [
+				"audio computer-assisted self interview (ACASI)",
+				"record abstracts",
+				"face-to-face interview",
+				"telephone interview"
+			]
+		},
+		{
+			"category": "commonScales",
+			"values": [
+				"CIDI-SF Alcohol Dependence (12-month)",
+				"CIDI-SF Drug Dependence (12-month)",
+				"Mini-Mental State Examination (MMSE)",
+				"30-Day Timeline Followback (alcohol)",
+				"Addiction Severity Index (drug and alcohol)",
+				"Short Inventory of Problems (SIP-2L)",
+				"Short Inventory of Problems (SIP-2L) Modified for Drugs",
+				"Beck",
+				"PHQ9",
+				"MINI: Major Depressive Episode, Posttraumatic Stress Disorder, (Hypo)Manic Episode, Panic Disorder",
+				"Basis 24 Modified",
+				"RAB",
+				"Katz Comorbidity Index",
+				"SF-12v2",
+				"Primary Care Assessment Survey (PCAS)",
+				"Experience of Care and Health Outcomes Survey(ECHO, v.3)",
+				"Form 90 AQ Modified",
+				"Form 90 AIR-ED Modified",
+				"Antisocial Personality Disorder",
+				"Borderline Personality Disorder (SCID-II)",
+				"PACIC"
+			]
+		}
+	]
+}

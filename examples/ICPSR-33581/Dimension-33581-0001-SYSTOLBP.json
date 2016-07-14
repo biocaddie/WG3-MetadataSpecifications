@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		{
+			"identifier": "SYSTOLBP",
+			"identifierSource": ""
+		}
+	],
+	"name": {
+		"ontologyTermIRI": "",
+		"value": "Blood pressure: systolic"
+	},
+	"values": [
+		"-9 Missing"
+	], 
+	"partOf": [
+		"Dataset-33581-0001.json"	
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/SYSTOLBP"
+			]
+		}
+	]
+}

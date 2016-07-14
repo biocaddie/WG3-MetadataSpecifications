@@ -1,0 +1,31 @@
+{
+	"identifiers": [
+		{
+			"identifier": "AQ5",
+			"identifierSource": ""
+		}
+	],
+	"name": {
+		"ontologyTermIRI": "",
+		"value": "Current marital status"
+	},
+	"values": [
+		"1 Married", 
+		"2 Widowed", 
+		"3 Separated", 
+		"4 Divorced", 
+		"5 Never married", 
+		"-9 Missing"
+	], 
+	"partOf": [
+		"Dataset-33581-0001.json"	
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"
+			]
+		}
+	]
+}
