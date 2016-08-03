@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		{
+			"identifier": "S2Q2",
+			"identifierSource": ""
+		}
+	],
+	"name": {
+		"ontologyTermIRI": "",
+		"value": "During the past month, how many drinks did you have on a typical day, when you were drinking?"
+	},
+	"values": [
+		"-9 Missing"
+	], 
+	"partOf": [
+		"Dataset-33581-0001.json"	
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/S2Q2"
+			]
+		}
+	]
+}

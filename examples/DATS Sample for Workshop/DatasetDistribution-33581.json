@@ -1,0 +1,108 @@
+{
+	"title": "Addiction Health Evaluation and Disease (AHEAD) Management Study in Boston, Massachusetts, 2006-2010",
+	"storedIn": [
+		"DataRepository-icpsr.json"
+	],
+	"accessModalities": [
+		{
+			"licenses": [
+				{
+					"identifiers": [
+						{
+							"identifier": "10.3886/ICPSR33581.v1",
+							"identifierSource": "DataCite"
+						}
+					],
+					"name": "ICPSR Terms of Use"
+				}
+			]
+		},
+		{
+			"authentications": [
+				{
+					"ontologyTermIRI": "http://purl.oclc.org/NET/WebApiAuthentication",
+					"value": "OAuth"
+				},
+				{
+					"ontologyTermIRI": "http://purl.oclc.org/NET/WebApiAuthentication", // http://omnivoke.kmi.open.ac.uk/authentication/
+					"value": "SessionBased"
+				},
+			],
+			"authorizations": [
+				{
+					"ontologyTermIRI": "",
+					"value": "dualInstitution"
+				}
+			],
+			"landingPage": "http://doi.org/10.3886/ICPSR06849.v1",
+			"types": [
+				{
+					"ontologyTermIRI": "",
+					"value": "download"
+				}
+			]
+		}
+	],
+	"curationStatus": [
+		{
+			"ontologyTermIRI": "",
+			"value": "Checked for undocumented or out-of-range codes."
+		},
+		{
+			"ontologyTermIRI": "",
+			"value": "Created variable labels and/or value labels."
+		},
+		{
+			"ontologyTermIRI": "",
+			"value": "Standardized missing values."
+		},
+		{
+			"ontologyTermIRI": "",
+			"value": "Performed recodes and/or calculated derived variables."
+		}
+	],
+	"dates": [
+		{
+			"date": "2012-08-10 00:00:00.0",
+			"type": {
+				"ontologyTermIRI": "",
+				"value": "initial release date"
+			}
+		},
+		{
+			"date": "2012-08-10 00:00:00.0",
+			"type": {
+				"ontologyTermIRI": "",
+				"value": "modification date"
+			}
+		}
+	],
+	"version": "1",
+	"conformsTo": [
+		{
+			"name": "DDI"			
+			
+		}, 
+		{
+			"name": "SAS"			
+			
+		}, 
+		{
+			"name": "SPSS"			
+			
+		}, 
+		{
+			"name": "Stata"			
+			
+		}, 
+		{
+			"name": "R"			
+			
+		}, 
+		{
+			"name": "delimited"			
+			
+		} 
+	], 
+	"size": 1817203948721
+}
