@@ -9,5 +9,4 @@ This falls under the provenance information section of the DAT for DataMed.
 * identify the repository
 * document the **url** or **filename** and address of the source information
 * document the **date of last access** to the resource as input to the data transformation
-* document the data transformation pipeline in the datamed infrastructure, ideally by pointed to the biocaddie `github repository` _.
-.. _github repository: https://github.com/biocaddie/data-pipeline/blob/master/transformations/
+* document the data transformation pipeline in the datamed infrastructure, ideally by pointed to the biocaddie `github repository <https://github.com/biocaddie/data-pipeline/blob/master/transformations/>` . 
