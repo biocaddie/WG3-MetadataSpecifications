@@ -2,7 +2,7 @@
 Biocaddie DATS
 ##############
 
-#. :doc:`Biocaddie DATS </dats>`
+#. :doc:`DATS Model </dats>`
 #. :doc:`Source Data Provenance Information </dataset_provenance>`
 #. :doc:`What is the Dataset about? </dataset_about>`
 #. :doc:`How and Where is the dataset available from? </dataset_distribution>`
