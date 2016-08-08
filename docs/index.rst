@@ -3,11 +3,10 @@ Biocaddie DATS
 ##############
 
 
-#. :doc:`Source Data Provenance Information </provenance>`
-#. :doc:`What is the Dataset about? </about>`
-#. :doc:`How is the Dataset made available? </how>`
-#. :doc:`Where is it available from? </where>`
-#. :doc:`Who produced the Dataset? </who>`
+#. :doc:`Source Data Provenance Information </data_provenance>`
+#. :doc:`What is the Dataset about? </data_about>`
+#. :doc:`How and Where is the dataset available from? </dataset_distribution>`
+#. :doc:`Who produced the Dataset? </dataset_creator>`
 
 
 License
