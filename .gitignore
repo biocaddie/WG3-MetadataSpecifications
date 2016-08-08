@@ -1,5 +1,7 @@
 .DS_Store
 reated by https://www.gitignore.io
+### virtualenv ###
+/env/
 
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
@@ -48,3 +50,6 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+
+:* Access Information *:
+
