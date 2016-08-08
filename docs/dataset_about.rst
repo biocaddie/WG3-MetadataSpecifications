@@ -6,8 +6,8 @@ Describing what the dataset is about (i.e what was the scope, objective, materia
 
 * Document the nature of information available in a dataset through the Biocaddie **'data type'** object.
 
-.. image:: /img/DATS-v2.1-alpha-Distribution-Relation-and-Qualifiers.png
-   :width: 50
+.. image:: ./img/DATS-v2.1-alpha-Distribution-Relation-and-Qualifiers.png
+   :width: 100
    :alt: A conceptual map detailing Biocaddie DATS data-type qualifiers and data distribution descriptors .
 
 In this context, the *‘data type’* required to annotate a DataSet should be viewed as a *content type* [terminology needs to be specified]). This encompasses the nature of the signal recorded in a dataset or information content of interest. For instance: gene expression data or phenotypic data, electronic health records 
