@@ -2,13 +2,11 @@
 Dataset About
 #############
 
-Describing what the dataset is about (i.e what was the scope, objective, materials):
+Describing what the dataset is about (i.e what was the scope, objective, materials) and providing information about the type of data associated with the given dataset:
 
-* Document the nature of information available in a dataset through the data type object.
+* Document the nature of information available in a dataset through the Biocaddie **data type** object.
 
-  * In this context, the ‘data type’ required to annotate a DataSet should be viewed as a ‘content type’ (i.e ‘sequence’, ‘spectrum’, ‘image’, ‘matrix’, ‘audio’,’video’,’application’,...[terminology needs to be specified]). This is where on describe the different type of data and content (formerly designed as “Information”): 
-
-	This is the nature of the signal or information content of interest. For instance, gene expression data  or  phenotypic data, electronic health records….
+In this context, the ‘data type’ required to annotate a DataSet should be viewed as a ‘content type’ [terminology needs to be specified]). This encompasses the nature of the signal recorded in a dataset or information content of interest. For instance, gene expression data or phenotypic data, electronic health records….
 	Mime type may be used.
 		* chemical
 		* sequence
@@ -18,32 +16,36 @@ Describing what the dataset is about (i.e what was the scope, objective, materia
 		* video
 		* ...	
 
-  * data aggregation type:
+	but other descriptors may be used such as Biosharing, Scicrunch or re3data category/data domain descriptors.
+
+  * Data aggregation type:
+  In the context of DataMed indexing, the information obtained from repositories may correspond to datasets served individually or may correspond to collections or records. As these 2 situations represent a very different metadata context, the Biocaddie DATS model allows to distinguish between the two cases.
 
 		* collection (as in 'collection of instances')
 		* singleton (as in ‘individual instance’)
 
-  * data refinement type: 
+  * Data refinement type: 
 To describe the level of data processing associated with the data available from the dataset and its distributions....[terminology needs to be specified])
 
-	* raw data
-	* preprocessed data
-	* analyzed data
-	* summarized data
-	* curated data
-	* reannotated data
-	* ...
+		* raw data
+		* preprocessed data
+		* analyzed data
+		* summarized data
+		* curated data
+		* reannotated data
+		* ...
 
 * data privacy protection type: (applicable only to human/clinical data)
 
-	* fully identifiable none
-	* pseudo-anonymized data
-	* fully anonymized data
-	* not information available
-	* ...
+		* fully identifiable none
+		* pseudo-anonymized data
+		* fully anonymized data
+		* not information available
+		* ...
 
 
 * Document the Material, object, scope and Biological Entities  the dataset is about and their characteristics or properties.
+
 * Document the nature of intervention and Treatment applied to the Material, if any or if applicable.
 
 * Data Types and specific Platform
@@ -67,9 +69,6 @@ DATS provides a mechanism via DataType object to qualify the nature of the data 
 	* platform/instrument type
 		* Agilent, Bruker,Affymetrix,Illumina,SeaHorse
 		* HumanHap550v3.0
-		* Human660W-Quad_v1_A
-		* Human 1M v1
-		* Human1M-Duov3_B
 		* HumanExome-12 v1.1 BeadChip
 		* Sentrix Human-6 Expression BeadChip
 		* SureSelect Human All Exon v2 - 44Mb
