@@ -1,13 +1,14 @@
 ##################################
-Source Data Provenance Information
+Dataset Distribution
 ##################################
 
-In order to proceed with indexing a data source under Biocaddie DataMed, it is essential to provide information about the actual source of information. This means unambiguously identifying the repository, the actual material from that resource used as input to the transformation allowing processing by DataMed software agents.
-
-This falls under the provenance information section of the DAT for DataMed.
-
-- identify the repository
-- document the url or filename and address of the source information
-- docuemnt the date of access
+Where and How (can the dataset be accessed):
+- Document DataSet Distribution options. This encompasses specifying:
+--data availability (boolean choice: available, unavailable)
+--data formats or mime-types ([terminology needs to be specified] resource:https://github.com/lukaszsliwa/friendly_mime/blob/master/mimes.csv)
+--data access conditions
+--data compression (boolean choice: compressed, uncompressed)
+--data encryption (boolean choice: encrypted, non-encrypted)
+--data privacy protection (fully identifiable, pseudo-anonymized, full anonymized….[terminology needs to be specified])
 
 
