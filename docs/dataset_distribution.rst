@@ -45,7 +45,7 @@ Where and How (can the dataset be accessed):
 		          "landingPage": "http://www.uniprot.org/uniprot/P77967",
 		          "accessURL" :  "http://www.uniprot.org/uniprot/P77967.fasta"}
 		      ],
-		      "conformsTo": [
+		      ``"conformsTo"``: [
 		        {
 		          "identifiers": [
 		            {
@@ -53,7 +53,7 @@ Where and How (can the dataset be accessed):
 		              "identifierScheme": "BioSharing"
 		            }
 		          ],
-		          "name": "FASTA",
+		          "name": ``"FASTA"``,
 		          "type": {
 		            "value": "format",
 		            "ontologyTermIRI" : ""
