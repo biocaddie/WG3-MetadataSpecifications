@@ -1,11 +1,13 @@
 #############
-DataSet About
+Dataset About
 #############
 
 Describing what the dataset is about (i.e what was the scope, objective, materials):
-
+::
 - Document the nature of information available in a dataset through the data type object.
+::
   -- In this context, the ‘data type’ required to annotate a DataSet should be viewed as a ‘content type’ (i.e ‘sequence’, ‘spectrum’, ‘image’, ‘matrix’, ‘audio’,’video’,’application’,...[terminology needs to be specified]). This is where on describe the different type of data and content (formerly designed as “Information”): 
+ ::
 	This is the nature of the signal or information content of interest. For instance, gene expression data  or  phenotypic data, electronic health records….
 	Mime type may be used.
 		---chemical
