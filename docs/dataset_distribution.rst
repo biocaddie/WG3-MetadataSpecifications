@@ -3,15 +3,15 @@ Dataset Distribution
 ####################
 
 Where and How (can the dataset be accessed):
-::
+
 - Document DataSet Distribution options. This encompasses specifying:
-::
---data availability (boolean choice: available, unavailable)
---data formats or mime-types ([terminology needs to be specified] resource:https://github.com/lukaszsliwa/friendly_mime/blob/master/mimes.csv)
---data access conditions
---data compression (boolean choice: compressed, uncompressed)
---data encryption (boolean choice: encrypted, non-encrypted)
---data privacy protection (fully identifiable, pseudo-anonymized, full anonymized….[terminology needs to be specified])
+
+	- data availability (boolean choice: available, unavailable)
+	- data formats or mime-types ([terminology needs to be specified] resource:https://github.com/lukaszsliwa/friendly_mime/blob/master/mimes.csv)
+	- data access conditions
+	- data compression (boolean choice: compressed, uncompressed)
+	- data encryption (boolean choice: encrypted, non-encrypted)
+	- data privacy protection (fully identifiable, pseudo-anonymized, full anonymized….[terminology needs to be specified])
 
 .. code-block:: json
 
@@ -101,7 +101,6 @@ Where and How (can the dataset be accessed):
 
 
 .. image:: ./img/DATS-v2.0-postSanDiego-Meeting-Dataset-Distribution-SRA-examples.png
-   :width: 200
    :alt: A conceptual map detailing Biocaddie DATS distribution for an nucleic acid sequencing dataset as mirrored by 3 INSDC repositories: NCBI SRA, EBI ENA and DDBJ.		
 
 
