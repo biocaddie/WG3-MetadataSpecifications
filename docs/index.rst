@@ -25,11 +25,10 @@ Contents:
    :maxdepth: 2
    :titlesonly:
 
-   Source Data Provenance Information <provenance>
-   What is the Dataset about? <about>
-   How is the Dataset made available? <how>
-   Where is it available from? </where>
-   Who produced the Dataset? </who>
+   Source Data Provenance Information <data_provenance>
+   What is the Dataset about? <data_about>
+   How and Where is the dataset available from? <data_distribution>
+   Who produced the Dataset? </dataset_creator>
 
 
 
