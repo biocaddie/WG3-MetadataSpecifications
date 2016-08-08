@@ -2,55 +2,17 @@
 Biocaddie DATS
 ##############
 
-Welcome to Biocaddie DATS's documentation!
-==========================================
 
-Biocaddie DATS is a metadata model developed to allow dataset indexing in the DataMed prototype, which is for dataset what PubMed is for scientific literature.
-
-
-====================
-DATS Model in detail
-===================
-
----------
-DATS Core
----------
-
--------------
-DATS Extended
--------------
-
-
-====================
-Implementation Guide
-====================
-
------
 #. :doc: `Source Data Provenance Information </provenance>`
------
-
-----
 #. :doc: `What is the Dataset about? </about>`
-----
-
-----
 #. :doc: `How is the Dataset made available? </how>`
-----
-
-----
 #. :doc: `Where is it available from? </where>`
-----
-
-----
 #. :doc: `Who produced the Dataset? </who>`
-----
 
 
-
-
-License:
+License
 -------
-Biocaddie DATS is licensed under Creative Commons Attribution Share-Alike 4.0
+Biocaddie DATS is licensed under 'Creative Commons Attribution Share-Alike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_.
 
 Contribute:
 -----------
