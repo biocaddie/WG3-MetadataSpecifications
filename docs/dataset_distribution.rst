@@ -19,9 +19,10 @@ The image below provides an graphical overview of how to use Biocaddie DATS obje
 The three INSDC sequence databases (DDBJ, SRA and ENA) exchange their data and provide the same datasets it in the three sites. Let’s consider an example dataset.
 
 The same Dataset identified by accession number DRP000443 can be accessed through the following 3 access URI pages:
-`DDBJ: <http://trace.ddbj.nig.ac.jp/DRASearch/study?acc=DRP000443>_`
-`SRA: <http://www.ncbi.nlm.nih.gov/sra/DRP000443>_`
-`ENA: <http://www.ebi.ac.uk/ena/data/view/DRP000443>_`
+
+- `DDBJ: <http://trace.ddbj.nig.ac.jp/DRASearch/study?acc=DRP000443>`_
+- `SRA: <http://www.ncbi.nlm.nih.gov/sra/DRP000443>`_
+- `ENA: <http://www.ebi.ac.uk/ena/data/view/DRP000443>`_
 
 While the distributions use the same Format, the accessURL are different as are the Repository but these distributions are all about the same dataset 
 
