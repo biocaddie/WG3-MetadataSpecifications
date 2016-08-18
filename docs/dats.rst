@@ -43,8 +43,8 @@ DATS Model
      - ``title``
      - The name of the dataset, usually one sentence or short description of the dataset.
      - string
-     - ``1``
-     - ``MUST``
+     - 1
+     - MUST
      - BGUC5   
      -
      - DataCite[/resource/titles];DataCite[/resource/titles/title];Schema.org[https://schema.org/headline];HCLS[(dct:title,rdf:langString)]  
@@ -63,8 +63,8 @@ DATS Model
      - ``creators``
      - The person(s) or organization(s) which contributed to the creation of the dataset.
      - Person or Organization
-     - ``1..n``
-     - ``MUST``
+     - 1..n
+     - MUST
      - UC2       
      - 
 
@@ -72,8 +72,8 @@ DATS Model
      - ``dates``
      - Relevant dates for the dataset, a date must be added, e.g. creation date or last modification date should be added.
      - Date
-     - ``0..n``
-     - ``MAY``
+     - 0..n
+     - MAY
      -       
      -     
 
