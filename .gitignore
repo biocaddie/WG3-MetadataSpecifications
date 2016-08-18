@@ -3,6 +3,9 @@ reated by https://www.gitignore.io
 ### virtualenv ###
 /env/
 
+/code/docparser.py
+/code/dats-core.rst
+
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 

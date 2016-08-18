@@ -26,7 +26,7 @@ Contents:
    :maxdepth: 2
    :titlesonly:
 
-   Biocaddie DATS <dats>
+   DATS Model <dats>
    Source Data Provenance Information <dataset_provenance>
    What is the Dataset about? <dataset_about>
    How and Where is the dataset available from? <dataset_distribution>
