@@ -15,7 +15,7 @@ DATS Model
      - Relevant Competency Question(s)
      - Notes or Example(s)
 
-   * - `` ``
+   * - ``dataset``
      - ``identifier``
      - Primary identifiers for the dataset.
      - IdentifiersInformation
@@ -24,7 +24,7 @@ DATS Model
      - BGUC5
      -
 
-   * - ``dataset``
+   * - 
      - ``relatadIdentifiers``
      - Related identifiers for the dataset.
      - IdentifiersInformation
