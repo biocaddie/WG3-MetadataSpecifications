@@ -3,8 +3,8 @@ DATS Model
 ##########  
 
 .. list-table::
-   :widths: 15 15 30 15 15 15 15
    :header-rows: 1
+   :widths: 15 15 30 15 15 15 15   
 
    * - Entity
      - Property
@@ -13,7 +13,6 @@ DATS Model
      - Cardinality Requirement Level
      - Relevant Competency Question(s)
      - Notes or Example(s)
-
 
    * - ``dataset``
      - ``identifier``
@@ -32,7 +31,7 @@ DATS Model
      - BGUC5
 
    * - ``dataset``
-     - ``Related Identifier``
+     - ``relatedIdentifier``
      - Related Identifier for the dataset.
      - RelatedIdentifierInformation
      - 0..n
@@ -48,7 +47,6 @@ DATS Model
      - BGUC5   
      -
      - DataCite[/resource/titles];DataCite[/resource/titles/title];Schema.org[https://schema.org/headline];HCLS[(dct:title,rdf:langString)]  
-
 
    * - ``dataset``
      - ``types``
