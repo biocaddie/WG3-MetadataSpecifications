@@ -104,3 +104,21 @@ DATS Model
      - ``SHOULD``
      -       
      -       
+
+   * - ``dataset``
+     - ``hasPart``
+     - A Dataset that is a subset of this Dataset; Datasets declaring the 'hasPart' relationship are considered a collection of Datasets, the aggregation criteria could be included in the 'description' field.
+     - Dataset
+     - ``0..n``
+     - ``MAY``
+     -     
+     -   
+
+   * - ``dataset``
+     - ``keywords``
+     - Tags associated with the dataset, which will help in its discovery.
+     - Annotation
+     - ``0..n``
+     - ``MAY``
+     -     
+     - 
