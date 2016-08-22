@@ -121,4 +121,33 @@ DATS Model
      - ``0..n``
      - ``MAY``
      -     
+     -
+
+
+   * - ``Dataset``
+     - ````
+     - "A set of dimensions about an entity being observed.  A collection of data, published or curated by a single agent, and available for access or download in one or more formats (from DCAT: http://www.w3.org/TR/vocab-dcat/#Class:_Dataset)  A body of structured information describing some topic(s) of interest (from: http://schema.org/Dataset)"
      - 
+     - 
+     - 
+     - BGUC5-2;BGUC5-4;BGUC5-5;UC2;UC15;WPUC5-p7;WPUC7-p7;WPUC8-p7;WPUC10-p7
+     - 
+
+   * - ````
+     - ``identifiers``
+     - Primary identifiers for the dataset.
+     - IdentifiersInformation
+     - 0..n
+     - SHOULD
+     - BGUC5
+     - 
+
+   * - ````
+     - ``alternateIdentifiers``
+     - Alternate identifiers for the dataset.
+     - AlternateIdentifiersInformation
+     - 0..n
+     - MAY
+     -
+     -
+      
