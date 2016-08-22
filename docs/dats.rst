@@ -15,7 +15,7 @@ DATS Model
      - Relevant Competency Question(s)
      - Notes or Example(s)
 
-   * - ``dataset``
+   * - `` ``
      - ``identifier``
      - Primary identifiers for the dataset.
      - IdentifiersInformation
