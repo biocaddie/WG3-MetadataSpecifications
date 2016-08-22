@@ -30,8 +30,7 @@ DATS Model
      - string
      - 1
      - MUST
-     - BGUC5   
-     -
+     - BGUC5
      - DataCite[/resource/titles];DataCite[/resource/titles/title];Schema.org[https://schema.org/headline];HCLS[(dct:title,rdf:langString)]  
 
    * - ``dataset``
@@ -42,4 +41,3 @@ DATS Model
      - ``MUST``
      - BGUC1-1;BGUC1-2;BGUC3-2;BGUC3-3;BGUC5;BGUC5-1;WPUC1;WPUC2;WPUC3;WPUC9-p7;UC1       
      - For example: microscopy imaging, gene expression profile, genomic sequence, fMRI, pathway simulation.
-          
