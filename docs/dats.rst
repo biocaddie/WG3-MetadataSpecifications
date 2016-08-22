@@ -25,7 +25,7 @@ DATS Model
      -
 
    * - 
-     - ``relatadIdentifiers``
+     - ``relatedIdentifiers``
      - Related identifiers for the dataset.
      - IdentifiersInformation
      - 0..n
@@ -33,7 +33,7 @@ DATS Model
      - BGUC5
      - 
 
-   * - ``dataset``
+   * - 
      - ``alternateIdentifiers``
      - Alternate identifiers for the dataset.
      - AlternateIdentifiersInformation
@@ -42,7 +42,7 @@ DATS Model
      -
      -
 
-   * - ``dataset``
+   * - 
      - ``title``
      - The name of the dataset, usually one sentence or short description of the dataset.
      - string
@@ -51,7 +51,7 @@ DATS Model
      - BGUC5
      - DataCite[/resource/titles];DataCite[/resource/titles/title];Schema.org[https://schema.org/headline];HCLS[(dct:title,rdf:langString)]  
 
-   * - ``dataset``
+   * - 
      - ``types``
      - A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology.
      - DataType
@@ -60,7 +60,7 @@ DATS Model
      - BGUC1-1;BGUC1-2;BGUC3-2;BGUC3-3;BGUC5;BGUC5-1;WPUC1;WPUC2;WPUC3;WPUC9-p7;UC1       
      - For example: microscopy imaging, gene expression profile, genomic sequence, fMRI, pathway simulation.
 
-   * - ``dataset``
+   * - 
      - ``creators``
      - The person(s) or organization(s) which contributed to the creation of the dataset.
      - Person or Organization
