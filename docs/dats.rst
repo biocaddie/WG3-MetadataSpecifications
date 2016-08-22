@@ -24,9 +24,9 @@ DATS Model
      - BGUC5
      -
 
-   * - ````
-     - ``identifiers``
-     - Primary identifiers for the dataset.
+   * - ``dataset``
+     - ``relatadIdentifiers``
+     - Related identifiers for the dataset.
      - IdentifiersInformation
      - 0..n
      - SHOULD
