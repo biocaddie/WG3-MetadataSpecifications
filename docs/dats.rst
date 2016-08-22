@@ -24,6 +24,24 @@ DATS Model
      - BGUC5
      -
 
+   * - ````
+     - ``identifiers``
+     - Primary identifiers for the dataset.
+     - IdentifiersInformation
+     - 0..n
+     - SHOULD
+     - BGUC5
+     - 
+
+   * - ``dataset``
+     - ``alternateIdentifiers``
+     - Alternate identifiers for the dataset.
+     - AlternateIdentifiersInformation
+     - 0..n
+     - MAY
+     -
+     -
+
    * - ``dataset``
      - ``title``
      - The name of the dataset, usually one sentence or short description of the dataset.
@@ -123,20 +141,3 @@ DATS Model
      -     
      -
 
-   * - ``dataset``
-     - ``identifiers``
-     - Primary identifiers for the dataset.
-     - IdentifiersInformation
-     - 0..n
-     - SHOULD
-     - BGUC5
-     - 
-
-   * - ``dataset``
-     - ``alternateIdentifiers``
-     - Alternate identifiers for the dataset.
-     - AlternateIdentifiersInformation
-     - 0..n
-     - MAY
-     -
-     -
