@@ -141,175 +141,173 @@ DATS Model
      -     
      -
 
+   * - 
+     - ``acknowledges``
+     - The grant(s) which funded and supported the work reported by the dataset.
+     - Grant
+     - 0..n
+     - MAY
+     - 
+     - 
 
-    * - 
-      - ``acknowledges``
-      - The grant(s) which funded and supported the work reported by the dataset.
-      - Grant
-      - 0..n
-      - MAY
-      - 
-      - 
+   * - 
+     - ``extraProperties``
+     - Extra properties that do not fit in the previous specified attributes. 
+     - CategoryValuesPair
+     - 0..n
+     - MAY
+     - 
+     - 
 
-    * - 
-      - ``extraProperties``
-      - Extra properties that do not fit in the previous specified attributes. 
-      - CategoryValuesPair
-      - 0..n
-      - MAY
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``identifiers``
+     - Primary identifiers for the dataset distribution.
+     - IdentifiersInformation
+     - 1..n
+     - SHOULD
+     - BGUC5
+     - 
 
-    * - ``DatasetDistribution``
-      - ``identifiers``
-      - Primary identifiers for the dataset distribution.
-      - IdentifiersInformation
-      - 1..n
-      - SHOULD
-      - BGUC5
-      - 
+   * - ``DatasetDistribution``
+     - ``alternateIdentifiers``
+     - Alternate identifiers for the dataset distribution.
+     - AlternateIdentifiersInformation
+     - 0..n
+     - MAY
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``alternateIdentifiers``
-      - Alternate identifiers for the dataset distribution.
-      - AlternateIdentifiersInformation
-      - 0..n
-      - MAY
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``relatedIdentifiers``
+     - Related identifiers for the dataset distribution.
+     - RelatedIdentifiersInformation
+     - 0..n
+     - MAY
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``relatedIdentifiers``
-      - Related identifiers for the dataset distribution.
-      - RelatedIdentifiersInformation
-      - 0..n
-      - MAY
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``title``
+     - "The name of the dataset distribution, usually one sentece or short description of the dataset."
+     - string
+     - 0..1
+     - MAY
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``title``
-      - "The name of the dataset distribution, usually one sentece or short description of the dataset."
-      - string
-      - 0..1
-      - MAY
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``description``
+     - A textual narrative comprised of one or more statements describing the dataset distribution.
+     - string
+     - 0..1
+     - SHOULD
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``description``
-      - A textual narrative comprised of one or more statements describing the dataset distribution.
-      - string
-      - 0..1
-      - SHOULD
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``dates``
+     - "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added."
+     - Date
+     - 1..n
+     - MUST
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``dates``
-      - "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added."
-      - Date
-      - 1..n
-      - MUST
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``storedIn ``
+     - The data repository(ies) hosting the dataset.
+     - DataRepository
+     - 0..n
+     - MAY
+     - BGUC1-1;UC2
+     - "While from the DDI perspective, every dataset may be coming from a data repository, we put a less strict requirement allowing for datasets available online and not in a repository."
 
-    * - ``DatasetDistribution``
-      - ``storedIn ``
-      - The data repository(ies) hosting the dataset.
-      - DataRepository
-      - 0..n
-      - MAY
-      - BGUC1-1;UC2
-      - "While from the DDI perspective, every dataset may be coming from a data repository, we put a less strict requirement allowing for datasets available online and not in a repository."
+   * - ``DatasetDistribution``
+     - ``version``
+     - A release point for the dataset when applicable.
+     - string
+     - 0..1
+     - SHOULD
+     - WPUC5-p7
+     - 
 
-    * - ``DatasetDistribution``
-      - ``version``
-      - A release point for the dataset when applicable.
-      - string
-      - 0..1
-      - SHOULD
-      - WPUC5-p7
-      - 
+   * - ``DatasetDistribution``
+     - ``accessModalities``
+     - The information about access modality for the dataset.
+     - Access
+     - 1..n
+     - MUST
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``accessModalities``
-      - The information about access modality for the dataset.
-      - Access
-      - 1..n
-      - MUST
-      - 
-      - 
+   * - ``DatasetDistribution``
+     - ``licenses``
+     - The terms of use of the data standard.
+     - License
+     - 0..n
+     - SHOULD
+     - BGUC5-4
+     - 
 
-    * - ``DatasetDistribution``
-      - ``licenses``
-      - The terms of use of the data standard.
-      - License
-      - 0..n
-      - SHOULD
-      - BGUC5-4
-      - 
+   * - ``DatasetDistribution``
+     - ``curationStatus``
+     - The level of curation of the dataset distribution.
+     - Annotation
+     - 0..n
+     - MAY
+     - 
+     - "E.g. manually or authomatic or both, other values such as https://wiki.nci.nih.gov/display/CTRPdoc/Curation+Status+Definitions+-+Include+v4.3.1"
 
-    * - ``DatasetDistribution``
-      - ``curationStatus``
-      - The level of curation of the dataset distribution.
-      - Annotation
-      - 0..n
-      - MAY
-      - 
-      - "E.g. manually or authomatic or both, other values such as https://wiki.nci.nih.gov/display/CTRPdoc/Curation+Status+Definitions+-+Include+v4.3.1"
+   * - ``DatasetDistribution``
+     - ``conformsTo``
+     - A data standard whose requirements and constraints are met by the dataset.
+     - DataStandard
+     - 0..n
+     - MAY
+     - BGUC5-7;WPUC9-p7
+     - 
 
-    * - ``DatasetDistribution``
-      - ``conformsTo``
-      - A data standard whose requirements and constraints are met by the dataset.
-      - DataStandard
-      - 0..n
-      - MAY
-      - BGUC5-7;WPUC9-p7
-      - 
+   * - ``DatasetDistribution``
+     - ``format``
+     - The technical format of the dataset distribution. Use the file extension or MIME type when possible. (Definition adapted from DataCite)
+     - string
+     - 0..n
+     - MAY
+     - 
+     - "e.g. PDF, XML, MPG or application/pdf, text/xml, video/mpeg"
 
-    * - ``DatasetDistribution``
-      - ``format``
-      - The technical format of the dataset distribution. Use the file extension or MIME type when possible. (Definition adapted from DataCite)
-      - string
-      - 0..n
-      - MAY
-      - 
-      - "e.g. PDF, XML, MPG or application/pdf, text/xml, video/mpeg"
+   * - ``DatasetDistribution``
+     - ``qualifiers``
+     - "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted). "
+     - Annotation or CategoryValuesPair
+     - 0..n
+     - MAY
+     - 
+     - "e.g. indicate if the distribution is isomorphic (corresponds completely with the dataset), a derivative from the dataset, or is a partial distribution of the dataset. These qualifiers can also indicate if the distribution refers to raw, processed or summarised data. It could also refer to the data being encrypted or compressed."
 
-    * - ``DatasetDistribution``
-      - ``qualifiers``
-      - "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted). "
-      - Annotation or CategoryValuesPair
-      - 0..n
-      - MAY
-      - 
-      - "e.g. indicate if the distribution is isomorphic (corresponds completely with the dataset), a derivative from the dataset, or is a partial distribution of the dataset. These qualifiers can also indicate if the distribution refers to raw, processed or summarised data. It could also refer to the data being encrypted or compressed."
+   * - ``DatasetDistribution``
+     - ``size ``
+     - The size of the dataset.
+     - number
+     - 0..1
+     - MAY
+     - BGUC5-1
+     - 
 
-    * - ``DatasetDistribution``
-      - ``size ``
-      - The size of the dataset.
-      - number
-      - 0..1
-      - MAY
-      - BGUC5-1
-      - 
+   * - ``DatasetDistribution``
+     - ``unit``
+     - "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology."
+     - Annotation
+     - "1, if size is reported"
+     - (MUST)
+     - 
+     - 
 
-    * - ``DatasetDistribution``
-      - ``unit``
-      - "The unit of measurement used to estimate the size of the dataset (e.g, petabyte). Ideally, the unit should be coming from a reference controlled terminology."
-      - Annotation
-      - "1, if size is reported"
-      - (MUST)
-      - 
-      - 
-
-    * - ``DatasetDistribution``
-      - ``extraProperties``
-      - Extra properties that do not fit in the previous specified attributes. 
-      - CategoryValuesPair
-      - 0..n
-      - MAY
-      - 
-      - 
-
+   * - ``DatasetDistribution``
+     - ``extraProperties``
+     - Extra properties that do not fit in the previous specified attributes. 
+     - CategoryValuesPair
+     - 0..n
+     - MAY
+     - 
+     - 
