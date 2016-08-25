@@ -84,6 +84,13 @@
         ]
       }
     },
+    "formats" : {
+      "description": "The technical format of the dataset distribution. Use the file extension or MIME type when possible. (Definition adapted from DataCite)",
+      "type" : "array",
+      "items" : {
+        "type": "string"
+      }
+    },
     "size": {
       "description": "The size of the dataset.",
       "type": "number"
