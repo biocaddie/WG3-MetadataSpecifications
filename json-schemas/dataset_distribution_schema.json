@@ -41,12 +41,11 @@
       }
     },
     "dates" : {
-      "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
+      "description": "Relevant dates for the datasets, e.g. creation date or last modification date may be added.",
       "type" : "array",
       "items" : {
         "$ref" : "date_info_schema.json#"
-      },
-      "minItems": 1
+      }
     },
     "version" : {
       "description": "A release point for the dataset when applicable.",
