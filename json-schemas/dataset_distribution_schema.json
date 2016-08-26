@@ -34,11 +34,8 @@
             "type" : "string"
     },
     "storedIn" : {
-      "description": "The data repository(ies) hosting the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref": "data_repository_schema.json#"
-      }
+      "description": "The data repository hosting the dataset distribution.",
+      "$ref": "data_repository_schema.json#"
     },
     "dates" : {
       "description": "Relevant dates for the datasets, e.g. creation date or last modification date may be added.",
@@ -51,13 +48,9 @@
       "description": "A release point for the dataset when applicable.",
       "type" : "string"
     },
-    "accessModalities" : {
-      "description": "The information about access modality for the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref" : "access_schema.json#"
-      },
-      "minItems": 1
+    "accessInformation" : {
+      "description": "The information about access modality for the dataset distribution.",
+       "$ref" : "access_schema.json#"
     },
     "curationStatus": {
       "description": "The level of curation of the dataset distribution.",
@@ -107,5 +100,5 @@
     }
   },
   "additionalProperties": false,
-  "required": [ "dates" ]
+  "required": [ "accessInformation" ]
 }
