@@ -62,12 +62,23 @@
                 "$ref" : "dimension_schema.json#"
             }
         },
-        "isCitedBy" : {
-            "description": "The relevant publication(s) describing how the dataset was produced or used.",
+        "primaryPublications" : {
+            "description": "The primary publication(s) associated with the dataset, usually describing how the dataset was produced.",
             "type" : "array",
             "items" : {
                 "$ref" : "publication_schema.json#"
             }
+        },
+        "citations" : {
+            "description": "The publication(s) that cite this dataset.",
+            "type" : "array",
+            "items" : {
+                "$ref" : "publication_schema.json#"
+            }
+        },
+        "citationCount": {
+            "description": "The number of publications that cite this dataset (enumerated in the citations property)",
+            "type": "integer"
         },
         "producedBy" : {
             "description": "A study process which generated a given dataset, if any.",
