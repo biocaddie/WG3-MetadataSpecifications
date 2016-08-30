@@ -30,8 +30,8 @@
       "type" : "string"
     },
     "description" : {
-            "description": "A textual narrative comprised of one or more statements describing the dataset distribution.",
-            "type" : "string"
+      "description": "A textual narrative comprised of one or more statements describing the dataset distribution.",
+      "type" : "string"
     },
     "storedIn" : {
       "description": "The data repository hosting the dataset distribution.",
@@ -48,9 +48,16 @@
       "description": "A release point for the dataset when applicable.",
       "type" : "string"
     },
+    "licenses": {
+      "description": "The terms of use of the dataset distribution.",
+      "type": "array",
+      "items": {
+        "$ref": "license_schema.json#"
+      }
+    },
     "accessInformation" : {
       "description": "The information about access modality for the dataset distribution.",
-       "$ref" : "access_schema.json#"
+      "$ref" : "access_schema.json#"
     },
     "curationStatus": {
       "description": "The level of curation of the dataset distribution.",
@@ -70,7 +77,7 @@
       "description": "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted).",
       "type" : "array",
       "items" : {
-         "anyOf": [
+        "anyOf": [
           { "$ref": "annotation_schema.json#"},
           { "$ref": "category_values_pair_schema.json#"}
         ]

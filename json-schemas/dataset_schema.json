@@ -95,6 +95,13 @@
             },
             "minItems" : 1
         },
+        "licenses": {
+            "description": "The terms of use of the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "license_schema.json#"
+            }
+        },
         "isAbout": {
             "description" : "Different entiies (biological entity, taxonomic information, disease, molecular entity, anatomical part, treatment) associated with this dataset.",
             "type": "array",

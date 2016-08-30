@@ -86,7 +86,7 @@
         "$ref": "data_repository_schema.json#"
       }
     },
-    "accessModalities" : {
+    "accessInformation" : {
       "description": "The information about access modality for the data repository.",
       "type" : "array",
       "items" : {
