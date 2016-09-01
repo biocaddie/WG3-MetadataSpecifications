@@ -1,10 +1,10 @@
-###############
-Dataset Creator
-###############
+##################
+Dataset Creator(s)
+##################
 
 Who (produced the dataset):
 
-- Document Person(s) and Organization(s) providing the DataSet
+- Document the Person(s) or Organization(s) which contributed to the creation of the Dataset.
 - Document their roles (creator,curator,developer,funder,principal investigator…[terminology needs to be specified])
 
 

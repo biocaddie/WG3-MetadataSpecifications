@@ -12,7 +12,7 @@ Biocaddie DATS
 
 License
 -------
-Biocaddie DATS is licensed under `Creative Commons Attribution Share-Alike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_.
+BioCADDIE DATS is licensed under `Creative Commons Attribution Share-Alike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_.
 
 Contribute:
 -----------
