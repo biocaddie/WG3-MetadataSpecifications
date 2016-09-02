@@ -14,18 +14,13 @@
       "format": "uri"
     },
     "values": {
-      "description": "A set of values associated with the cateogory.",
+      "description": "A set of (annotated) values associated with the cateogory.",
       "type": "array",
       "items": {
-        "type": "string"
-      }
-    },
-    "valuesIRI": {
-      "description": "The set of IRIs corresponding to the values, if associated with an ontology term.",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "format": "uri"
+        "type": "array",
+        "items": {
+          "$ref" : "annotation_schema.json#"
+        }
       }
     }
   },
