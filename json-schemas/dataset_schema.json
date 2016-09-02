@@ -53,7 +53,7 @@
             "type": "string"
         },
         "refinement": {
-            "description": "A qualifier indicating if the entity represents an 'instance of dataset' or a 'collection of datasets'.",
+            "description": "A qualifier to describe the level of data processing of the dataset and its distributions.",
             "type": "string"
         },
         "aggregation": {
