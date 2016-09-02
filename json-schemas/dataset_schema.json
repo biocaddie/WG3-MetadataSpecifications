@@ -48,6 +48,18 @@
             },
             "minItems" : 1
         },
+        "availability": {
+            "description": "A qualifier indicating the different types of availability for a dataset (available, unavailable, embargoed, available with restriction, information not available).",
+            "type": "string"
+        },
+        "refinement": {
+            "description": "A qualifier indicating if the entity represents an 'instance of dataset' or a 'collection of datasets'.",
+            "type": "string"
+        },
+        "aggregation": {
+            "description": "A qualifier indicating if the entity represents an 'instance of dataset' or a 'collection of datasets'.",
+            "type": "string"
+        },
         "distributions" : {
             "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
             "type" : "array",
