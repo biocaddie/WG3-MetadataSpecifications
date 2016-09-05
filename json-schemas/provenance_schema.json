@@ -21,9 +21,9 @@
       "type": "string"
     },
     "ingestTimestamp": {
-      "description": "A timestamp reporting when the ingestion occurred."
+      "description": "A timestamp reporting when the ingestion occurred.",
       "type": "string"
-    },
-    "additionalProperties": false
-  }
+    }
+  },
+  "additionalProperties": false
 }
