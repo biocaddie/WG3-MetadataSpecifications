@@ -29,6 +29,10 @@
       "description": "The name of the activity, usually one sentece or short description of the activity.",
       "type" :  "string"
     },
+    "description" : {
+      "description": "A textual narrative comprised of one or more statements describing the activity.",
+      "type" : "string"
+    },
     "startDate": {
       "description": "A timestamp to record the starting point of the activity.",
       "$ref": "date_info_schema.json#"
@@ -37,7 +41,7 @@
       "description": "A timestamp to record the end point of the activity.",
       "$ref": "date_info_schema.json#"
     },
-     "dates" : {
+    "dates" : {
       "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
       "type" : "array",
       "items" : {

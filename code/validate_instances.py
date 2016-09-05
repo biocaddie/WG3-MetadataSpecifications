@@ -30,9 +30,9 @@ def validate_instance(filename, error_printing):
     print("...done")
 
 
-validate_instance("GEO-GSE46964.json", 2)
-validate_instance("ClinicalTrials.gov-NCT00001372.json", 2)
-validate_instance("PDB-5AEM.json", 2)
-validate_instance("Uniprot-P77967.json", 2)
-validate_instance("DBgap-phs000979.v1.p1.json", 2)
+validate_instance("179.json", 2)
+#validate_instance("ClinicalTrials.gov-NCT00001372.json", 2)
+#validate_instance("PDB-5AEM.json", 2)
+#validate_instance("Uniprot-P77967.json", 2)
+#validate_instance("DBgap-phs000979.v1.p1.json", 2)
 

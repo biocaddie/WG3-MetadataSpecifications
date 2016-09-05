@@ -53,21 +53,6 @@
         "$ref": "annotation_schema.json#"
       }
     },
-    "licenses": {
-      "description": "Terms of usage as specified on a license or data use agreement.",
-      "type": "array",
-      "items": {
-        "oneOf": [
-          {
-            "$ref": "license_schema.json#"
-          },
-          {
-            "type": "string",
-            "format": "uri"
-          }
-        ]
-      }
-    },
     "extraProperties": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",

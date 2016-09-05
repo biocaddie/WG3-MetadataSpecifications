@@ -27,8 +27,12 @@
       }
     },
     "name": {
-      "description": "The name of the activity, usually one sentece or short description of the activity.",
+      "description": "The name of the activity, usually one sentece or short description of the study.",
       "type": "string"
+    },
+    "description" : {
+      "description": "A textual narrative comprised of one or more statements describing the study.",
+      "type" : "string"
     },
     "types": {
       "description": "The types of study (e.g. intervention or observation or meta-analysis or clinical trials, or behavioural study, or the study design).",

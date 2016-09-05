@@ -31,35 +31,34 @@
       "type" : "string"
     },
     "description" : {
-            "description": "A textual narrative comprised of one or more statements describing the dataset distribution.",
-            "type" : "string"
+      "description": "A textual narrative comprised of one or more statements describing the dataset distribution.",
+      "type" : "string"
     },
     "storedIn" : {
-      "description": "The data repository(ies) hosting the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref": "data_repository_schema.json#"
-      }
+      "description": "The data repository hosting the dataset distribution.",
+      "$ref": "data_repository_schema.json#"
     },
     "dates" : {
-      "description": "Relevant dates for the datasets, a date must be added, e.g. creation date or last modification date should be added.",
+      "description": "Relevant dates for the datasets, e.g. creation date or last modification date may be added.",
       "type" : "array",
       "items" : {
         "$ref" : "date_info_schema.json#"
-      },
-      "minItems": 1
+      }
     },
     "version" : {
       "description": "A release point for the dataset when applicable.",
       "type" : "string"
     },
-    "accessModalities" : {
-      "description": "The information about access modality for the dataset.",
-      "type" : "array",
-      "items" : {
-        "$ref" : "access_schema.json#"
-      },
-      "minItems": 1
+    "licenses": {
+      "description": "The terms of use of the dataset distribution.",
+      "type": "array",
+      "items": {
+        "$ref": "license_schema.json#"
+      }
+    },
+    "accessInformation" : {
+      "description": "The information about access modality for the dataset distribution.",
+      "$ref" : "access_schema.json#"
     },
     "curationStatus": {
       "description": "The level of curation of the dataset distribution.",
@@ -79,10 +78,17 @@
       "description": "One or more characteristics of the dataset distribution (e.g. how it relates to other distributions, if the data is raw or processed, compressed or encrypted).",
       "type" : "array",
       "items" : {
-         "anyOf": [
+        "anyOf": [
           { "$ref": "annotation_schema.json#"},
           { "$ref": "category_values_pair_schema.json#"}
         ]
+      }
+    },
+    "formats" : {
+      "description": "The technical format of the dataset distribution. Use the file extension or MIME type when possible. (Definition adapted from DataCite)",
+      "type" : "array",
+      "items" : {
+        "type": "string"
       }
     },
     "size": {
@@ -102,5 +108,5 @@
     }
   },
   "additionalProperties": false,
-  "required": [ "dates" ]
+  "required": [ "accessInformation" ]
 }

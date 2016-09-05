@@ -27,8 +27,12 @@
       }
     },
     "name": {
-      "description": "The name of the activity, usually one sentece or short description of the activity.",
+      "description": "The name of the activity, usually one sentece or short description of the treatment.",
       "type" :  "string"
+    },
+    "description" : {
+      "description": "A textual narrative comprised of one or more statements describing the treatment.",
+      "type" : "string"
     },
     "startDate": {
       "description": "A timestamp to record the starting point of the activity.",

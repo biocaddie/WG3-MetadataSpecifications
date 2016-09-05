@@ -53,6 +53,22 @@
             },
             "minItems" : 1
         },
+        "availability": {
+            "description": "A qualifier indicating the different types of availability for a dataset (available, unavailable, embargoed, available with restriction, information not available).",
+            "type": "string"
+        },
+        "refinement": {
+            "description": "A qualifier to describe the level of data processing of the dataset and its distributions.",
+            "type": "string"
+        },
+        "aggregation": {
+            "description": "A qualifier indicating if the entity represents an 'instance of dataset' or a 'collection of datasets'.",
+            "type": "string"
+        },
+        "privacy": {
+            "description": "A qualifier to describe the data protection applied to the dataset. This is relevant for clinical data.",
+            "type": "string"
+        }
         "distributions" : {
             "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
             "type" : "array",
@@ -67,12 +83,23 @@
                 "$ref" : "dimension_schema.json#"
             }
         },
-        "isCitedBy" : {
-            "description": "The relevant publication(s) describing how the dataset was produced or used.",
+        "primaryPublications" : {
+            "description": "The primary publication(s) associated with the dataset, usually describing how the dataset was produced.",
             "type" : "array",
             "items" : {
                 "$ref" : "publication_schema.json#"
             }
+        },
+        "citations" : {
+            "description": "The publication(s) that cite this dataset.",
+            "type" : "array",
+            "items" : {
+                "$ref" : "publication_schema.json#"
+            }
+        },
+        "citationCount": {
+            "description": "The number of publications that cite this dataset (enumerated in the citations property)",
+            "type": "integer"
         },
         "producedBy" : {
             "description": "A study process which generated a given dataset, if any.",
@@ -88,6 +115,13 @@
                 ]
             },
             "minItems" : 1
+        },
+        "licenses": {
+            "description": "The terms of use of the dataset.",
+            "type": "array",
+            "items": {
+                "$ref": "license_schema.json#"
+            }
         },
         "isAbout": {
             "description" : "Different entiies (biological entity, taxonomic information, disease, molecular entity, anatomical part, treatment) associated with this dataset.",
