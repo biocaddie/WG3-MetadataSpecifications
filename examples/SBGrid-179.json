@@ -1,0 +1,128 @@
+{
+	"identifiers":
+	[
+		{"identifier" : "10.15785/SBGRID/179","identifierSource" : "DOI"}
+	],
+	"title":"X-Ray Diffraction data from Nup37-Nup120 full-length complex from Schizosaccharomyces pombe, source of 4FHN structure",
+	"types":
+	[
+		{"information": {"value":"X-Ray Diffraction"} }
+	],
+	"isAbout": [ {"name": "Nup37-Nup120 full-length complex from Schizosaccharomyces pombe"} ],
+	"creators":
+	[
+		{"firstName":"Silvija", "lastName":"Bilokapic" },
+		{"firstName":"Thomas", "lastName":"Schwartz" }
+
+	],
+	"distributions":
+	[
+		{
+			"dates": [
+				{
+					"date": "2010-02-19",
+					"type": {
+						"value": "creation"
+					}
+				},
+				{
+					"date": "2015-10-06",
+					"type": {
+						"value": "publication date"
+					}
+				}
+			],
+			"access": {
+				"landingPage": "https://data.sbgrid.org/dataset/179",
+				"accessURL": "rsync://data.sbgrid.org/10.15785/SBGRID/179"
+			},
+			"storedIn":
+			{
+				"name": "Structural Biology Data Grid",
+				"identifiers": [
+					{
+						"identifier": "https://data.sbgrid.org",
+						"identifierSource": "HTTP"
+					},
+					{
+						"identifier": "https://www.biosharing.org/biodbcore-000683",
+						"identifierSource": "BioSharing"
+					}
+				]
+			}
+		},
+		{
+			"access": {
+				"landingPage": "https://data.sbgrid.org/dataset/179",
+				"accessURL": "rsync://sbgrid.icm.uu.se/10.15785/SBGRID/179"
+			},
+			"storedIn":
+			{
+				"name": "Structural Biology Data Grid",
+				"identifiers": [
+					{
+						"identifier": "https://data.sbgrid.org",
+						"identifierSource": "HTTP"
+					},
+					{
+						"identifier": "https://www.biosharing.org/biodbcore-000683",
+						"identifierSource": "BioSharing"
+					}
+				]
+			}
+		},
+		{
+			"access": {
+				"landingPage": "https://data.sbgrid.org/dataset/179",
+				"accessURL": "rsync://sbgrid.pasteur.edu.uy/10.15785/SBGRID/179"
+			},
+			"storedIn":
+			{
+				"name": "Structural Biology Data Grid",
+				"identifiers": [
+					{
+						"identifier": "https://data.sbgrid.org",
+						"identifierSource": "HTTP"
+					},
+					{
+						"identifier": "https://www.biosharing.org/biodbcore-000683",
+						"identifierSource": "BioSharing"
+					}
+				]
+			}
+		},
+		{
+			"access": {
+				"landingPage": "https://data.sbgrid.org/dataset/179",
+				"accessURL": "rsync://sbgrid.ncpss.org/10.15785/SBGRID/179"
+			},
+			"storedIn":
+			{
+				"name": "Structural Biology Data Grid",
+				"identifiers": [
+					{
+						"identifier": "https://data.sbgrid.org",
+						"identifierSource": "HTTP"
+					},
+					{
+						"identifier": "https://www.biosharing.org/biodbcore-000683",
+						"identifierSource": "BioSharing"
+					}
+				]
+			}
+		}
+	],
+	"relatedIdentifiers":
+	[
+		{"identifier":"10.15785/SBGRID/180","identifierSource":"DOI","relationType":"relatedTo"},
+		{"identifier":"10.1073/pnas.1205151109", "identifierSource":"DOI", "relationType":"isCitedBy"},
+		{"identifier":"4FHN", "identifierSource":"PDB", "relationType":"relatedTo"}
+	],
+	"extraProperties":
+	[
+		{
+			"category":"data_class",
+			"values": [ { "value": "experimental dataset" } ]
+		}
+	]
+}

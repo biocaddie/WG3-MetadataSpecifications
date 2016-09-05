@@ -55,7 +55,7 @@
         "$ref": "license_schema.json#"
       }
     },
-    "accessInformation" : {
+    "access" : {
       "description": "The information about access modality for the dataset distribution.",
       "$ref" : "access_schema.json#"
     },
