@@ -4,6 +4,11 @@
   "description": "A physical entity of molecular scales such as proteins, nucleic acids, chemical materials. They can be abiotic, biological or synthetic origin.",
   "type": "object",
   "properties": {
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "enum": [ "DATS-sdo-context.jsonld" ]
+    },
     "identifiers": {
       "description": "Primary identifiers for the molecular entity.",
       "type": "array",

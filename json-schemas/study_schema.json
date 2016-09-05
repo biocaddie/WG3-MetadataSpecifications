@@ -4,6 +4,11 @@
   "description": "Process to acquire data on a sample and attempt to draw conclusions about the population the sample has been selected from, executing a plan and design.",
   "type": "object",
   "properties": {
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "enum": [ "DATS-sdo-context.jsonld" ]
+    },
     "@type": { "type": "string", "enum": [ "Study" ]},
     "identifiers": {
       "description": "Primary identifiers for the activity.",

@@ -4,6 +4,11 @@
     "description": "Information about a calendar date or timestamp indicating day, month, year and time of an event.",
     "type": "object",
     "properties": {
+        "@context": {
+            "type": "string",
+            "format": "uri",
+            "enum": [ "DATS-sdo-context.jsonld" ]
+        },
         "date": {
             "description": "A date following the ISO8601 standard.",
             "type" :  "string",

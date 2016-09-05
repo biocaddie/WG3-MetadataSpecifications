@@ -6,9 +6,10 @@
     "properties": {
         "@context": {
             "type": "string",
-            "format": "uri"
+            "format": "uri",
+            "enum": [ "DATS-sdo-context.jsonld" ]
         },
-        "@type": { "type": "string", "enum": [ "Dataset"]},
+        "@type": { "type": "string", "enum": [ "Dataset"] },
         "identifiers": {
             "description": "Primary identifiers for the dataset.",
             "type": "array",

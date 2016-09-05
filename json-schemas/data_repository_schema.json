@@ -5,6 +5,11 @@
   "@type": "DataRepository",
   "type": "object",
   "properties": {
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "enum": [ "DATS-sdo-context.jsonld" ]
+    },
     "@type": { "type": "string", "enum": [ "DatasetRepository" ]},
     "identifiers": {
       "description": "Primary identifiers for the data repository.",

@@ -4,23 +4,28 @@
   "description": "The nature of the data, as determined for the information collected, the method used and the platform used.",
   "type": "object",
   "properties": {
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "enum": [ "DATS-sdo-context.jsonld" ]
+    },
     "information": {
       "description": "The measurements or facts that the data is about.",
-       "$ref" : "annotation_schema.json#"
+      "$ref" : "annotation_schema.json#"
     },
     "method": {
-       "description": "The procedure or technology used to generate the information.",
-       "$ref" : "annotation_schema.json#"
+      "description": "The procedure or technology used to generate the information.",
+      "$ref" : "annotation_schema.json#"
 
     },
     "platform": {
-       "description": "The set of instruments, software and reagents that are needed to generated the data.",
-       "$ref" : "annotation_schema.json#"
+      "description": "The set of instruments, software and reagents that are needed to generated the data.",
+      "$ref" : "annotation_schema.json#"
 
     },
     "instrument": {
-       "description": "The specific device used to generate the data.",
-       "$ref" : "annotation_schema.json#"
+      "description": "The specific device used to generate the data.",
+      "$ref" : "annotation_schema.json#"
 
     }
   }

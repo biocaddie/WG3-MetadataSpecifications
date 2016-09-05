@@ -4,6 +4,11 @@
     "description": "Process (or activity) of generating data through measurement made with specific techniques.",
     "type": "object",
     "properties": {
+        "@context": {
+            "type": "string",
+            "format": "uri",
+            "enum": [ "DATS-sdo-context.jsonld" ]
+        },
         "identifiers": {
             "description": "Primary identifiers for the activity.",
             "type": "array",
