@@ -17,7 +17,6 @@
       "description": "A set of (annotated) values associated with the cateogory.",
       "type": "array",
       "items": {
-        "type": "array",
         "items": {
           "$ref" : "annotation_schema.json#"
         }

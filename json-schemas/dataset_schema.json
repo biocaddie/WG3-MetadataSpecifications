@@ -119,7 +119,7 @@
             }
         },
         "isAbout": {
-            "description" : "Different entiies (biological entity, taxonomic information, disease, molecular entity, anatomical part, treatment) associated with this dataset.",
+            "description" : "Different entities (biological entity, taxonomic information, disease, molecular entity, anatomical part, treatment) associated with this dataset.",
             "type": "array",
             "items": {
                 "anyOf": [
