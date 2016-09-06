@@ -7,7 +7,7 @@
         "@context": {
             "type": "string",
             "format": "uri",
-            "enum": [ "DATS-sdo-context.jsonld" ]
+            "enum": [ "contexts/dataset-sdo-context.jsonld" ]
         },
         "@type": { "type": "string", "enum": [ "Dataset"] },
         "identifiers": {

@@ -8,9 +8,9 @@
     "@context": {
       "type": "string",
       "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
+      "enum": [ "contexts/data_repository_sdo_context.jsonld" ]
     },
-    "@type": { "type": "string", "enum": [ "DatasetRepository" ]},
+    "@type": { "type": "string", "enum": [ "DataRepository" ]},
     "identifiers": {
       "description": "Primary identifiers for the data repository.",
       "type": "array",

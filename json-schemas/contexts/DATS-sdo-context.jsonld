@@ -33,7 +33,7 @@
     },
 
     "Publication" : {
-      "@id" : ["sdo:Article", "sdo.CreativeWork", "lifescisdo.ScholarlyArticle"],
+      "@id" : ["sdo:Article", "sdo:CreativeWork", "lifescisdo.ScholarlyArticle"],
       "@type" : "@id"
     },
 
