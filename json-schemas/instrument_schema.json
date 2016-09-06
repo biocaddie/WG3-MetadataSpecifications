@@ -62,5 +62,5 @@
     }
   },
   "additionalProperties": false,
-  "required":[ "@type", "name" ]
+  "required":[ "name" ]
 }

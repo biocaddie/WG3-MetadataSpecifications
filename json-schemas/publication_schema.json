@@ -87,6 +87,5 @@
       }
     }
   },
-  "required": [ "@type" ],
   "additionalProperties": false
 }
