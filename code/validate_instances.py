@@ -31,8 +31,8 @@ def validate_instance(path, filename, error_printing):
 
 path = "../examples"
 validate_instance(path, "SBGrid-179.json", 2)
-#validate_instance(path, "ClinicalTrials.gov-NCT00001372.json", 2)
-#validate_instance(path, "PDB-5AEM.json", 2)
-#validate_instance(path, "Uniprot-P77967.json", 2)
-#validate_instance(path, "DBgap-phs000979.v1.p1.json", 2)
+validate_instance(path, "ClinicalTrials.gov-NCT00001372.json", 2)
+validate_instance(path, "PDB-5AEM.json", 2)
+validate_instance(path, "Uniprot-P77967.json", 2)
+validate_instance(path, "DBgap-phs000979.v1.p1.json", 2)
 

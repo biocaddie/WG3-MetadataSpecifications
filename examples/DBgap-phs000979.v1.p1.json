@@ -94,7 +94,7 @@
   "keywords": [
     {
       "value": "Schizophrenia",
-      "ontologyTermIRI": ""
+      "valueIRI": ""
     }
   ],
   "hasPart" : [
@@ -138,7 +138,7 @@
           "types" : [
             {
               "value" : "string",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -153,7 +153,7 @@
           "types" : [
             {
               "value": "decimal, encoded value",
-              "ontologyTermIRI": ""}
+              "valueIRI": ""}
           ],
           "unit" : { "value": "years" }
         },
@@ -169,7 +169,7 @@
           "types" : [
             {
               "value" : "string",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "values" : ["M=Male",
             "F=Female"]
@@ -186,7 +186,7 @@
           "types" : [
             {
               "value" : "string",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "values" : ["AA=African American",
             "AS=Asianv",
@@ -206,7 +206,7 @@
           "types" : [
             {
               "value" : "number",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -221,7 +221,7 @@
           "types" : [
             {
               "value" : "decimal, encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "unit" : { "value": "hours"}
         },
@@ -237,7 +237,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -252,7 +252,7 @@
           "types" : [
             {
               "value" : "string",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "values" : [ "Anxiety=Anxiety disorder (includes panic disorder, generalized anxiety disorder and others)",
             "Autism=Autistic disorder",
@@ -281,7 +281,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : "" }
+              "valueIRI" : "" }
           ],
           "values" : [ "1 yr college=One year of college",
             "10th=10th grade",
@@ -315,7 +315,7 @@
           "types" : [
             {
               "value" : "decimal,encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "unit" : { "value": "inch"}
         },
@@ -331,7 +331,7 @@
           "types" : [
             {
               "value" : "decimal,encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ],
           "unit" : {"value": "pound"}
         },
@@ -347,7 +347,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -362,7 +362,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -377,7 +377,7 @@
           "types" : [
             {
               "value" : "string",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -392,7 +392,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -407,7 +407,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -422,7 +422,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -437,7 +437,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -452,7 +452,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -467,7 +467,7 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         },
         {
@@ -482,13 +482,13 @@
           "types" : [
             {
               "value" : "encoded value",
-              "ontologyTermIRI" : ""}
+              "valueIRI" : ""}
           ]
         }
       ]
     }
   ],
-  "isCitedBy": [],
+  "primaryPublications": [],
   "acknowledges" : [
     {
       "identifiers" : [
@@ -513,24 +513,22 @@
     "types": [
       {
         "value": "Observational",
-        "ontologyTermIRI": ""
+        "valueIRI": ""
       },
       {
         "value": "case-control",
-        "ontologyTermIRI": ""
+        "valueIRI": ""
       }
     ],
     "extraProperties": [
       {
         "category": "study design",
         "categoryIRI": "",
-        "values": ["Case-Control"],
-        "valuesIRI": []
+        "values": ["Case-Control"]
       },
       {
         "category": "Number of study subjects that have individual level data available through Authorized Access ",
-        "values": ["914"],
-        "valuesIRI": [""]
+        "values": ["914"]
       }
     ],
     "isAboutBiologicalEntity": [
@@ -583,7 +581,7 @@
             "roles": [
               {
                 "value": "sponsor",
-                "ontologyTermIRI": ""
+                "valueIRI": ""
               }
             ]
           }
@@ -591,11 +589,11 @@
         "roles": [
           {
             "value": "principal investigator",
-            "ontologyTermIRI": ""
+            "valueIRI": ""
           },
           {
             "value": "backup contact",
-            "ontologyTermIRI": ""
+            "valueIRI": ""
           }
         ]
       }
@@ -631,27 +629,18 @@
           "date" : "1999-11-03",
           "type" : {
             "value" : "creation date",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         },
         {
           "date" : "2016-05-19",
           "type" : {
             "value" : "modification date",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         }
       ],
-      "accessModalities": [{
-        "landingPage": "http://www.ncbi.nlm.nih.gov/projects/gap/",
-        "accessURL": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
-        "authorizations" : [
-          {
-            "value" : "public",
-            "ontologyTermIRI" : ""
-          }
-        ],
-        "licenses" : [
+      "licenses" : [
           {
             "identifiers": [{
               "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
@@ -659,8 +648,17 @@
             }],
             "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
           }
+      ],
+      "access": {
+        "landingPage": "http://www.ncbi.nlm.nih.gov/projects/gap/",
+        "accessURL": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
+        "authorizations" : [
+          {
+            "value" : "public",
+            "valueIRI" : ""
+          }
         ]
-      }],
+      },
       "conformsTo": [
         {
           "identifiers": [{
@@ -670,7 +668,7 @@
           "name": "XSD",
           "type": {
             "value": "xml schema",
-            "ontologyTermIRI": ""
+            "valueIRI": ""
           }
         },
         {
@@ -681,11 +679,11 @@
           "name": "XML",
           "type": {
             "value": "format",
-            "ontologyTermIRI": ""
+            "valueIRI": ""
           }
         }
       ],
-      "storedIn": [{
+      "storedIn": {
         "identifiers": [{
           "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/",
           "identifierSource": "http"
@@ -698,14 +696,14 @@
         "licenses": [{"name": ""}],
         "types": [{
           "value": "primary repository",
-          "ontologyTermIRI": ""
+          "valueIRI": ""
         }],
         "version": ""
-      }],
+      },
       "size": -1,
       "unit": {
         "value": "megabyte",
-        "ontologyTermIRI": "http://purl.obolibrary.org/obo/UO_0000235"
+        "valueIRI": "http://purl.obolibrary.org/obo/UO_0000235"
       }
     }
   ]
