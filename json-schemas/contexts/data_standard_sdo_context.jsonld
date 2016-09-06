@@ -1,7 +1,7 @@
 {
   "@context": {
     "sdo": "https://schema.org/",
-    "DataRepository": "sdo:DataCatalog",
+    "DataStandard": "sdo:CreativeWork",
     //"identifiers": "sdo:url",
     //"alternateIdentifiers": "sdo:significantLink",
     //"relatedIdentifiers": "sdo:relatedLink",
@@ -13,14 +13,8 @@
       "@id": "sdo:description",
       "@type": "sdo:Text"
     },
-    //"dates"
-    //"scopes"
-    //"types"
+    //"type"
     "licenses": "sdo:license",
-    "version": "sdo:version"//,
-    //"publishers": ""
-    //"aggregatorOf"
-    //"access"
-    //"extraProperties": ""
+    "version": "sdo:version"
   }
 }

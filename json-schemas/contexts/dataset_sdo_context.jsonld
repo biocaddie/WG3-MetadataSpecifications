@@ -6,7 +6,7 @@
     //"alternateIdentifiers": "sdo:significantLink",
     //"relatedIdentifiers": "sdo:relatedLink",
     "title": {
-      "@id": "sdo:headline",
+      "@id": "sdo:name",
       "@type": "sdo:Text"
     },
     "description": {
@@ -32,7 +32,7 @@
     "licenses": "sdo:license",
     "isAbout": "sdo:about",
     "hasPart": "sdo:hasPart",
-    "acknowledges": "sdo:sponsor",
+    "acknowledges": "sdo:funder",
     "keywords": "sdo:keywords"//,
     //"extraProperties": ""
   }

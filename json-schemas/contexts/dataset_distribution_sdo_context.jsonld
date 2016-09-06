@@ -6,7 +6,7 @@
     //"alternateIdentifiers": "sdo:significantLink",
     //"relatedIdentifiers": "sdo:relatedLink",
      "title": {
-      "@id": "sdo:headline",
+      "@id": "sdo:name",
       "@type": "sdo:Text"
     },
     "description": {
