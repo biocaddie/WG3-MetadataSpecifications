@@ -5,9 +5,8 @@ from jsonschema import RefResolver, Draft4Validator
 from os.path import join
 
 
-def validate_instance(filename, error_printing):
+def validate_instance(path, filename, error_printing):
     schemasPath = os.path.abspath("../json-schemas")
-    path = "../examples"
     datasetSchema = json.load(open(join(schemasPath,"dataset_schema.json")))
     instrumentSchema = json.load(open(join(schemasPath,"instrument_schema.json")))
     resolver = RefResolver('file://'+schemasPath+'/'+"dataset_schema.json", datasetSchema) #, base_uri=schemasPath)
@@ -30,9 +29,10 @@ def validate_instance(filename, error_printing):
     print("...done")
 
 
-validate_instance("179.json", 2)
-#validate_instance("ClinicalTrials.gov-NCT00001372.json", 2)
-#validate_instance("PDB-5AEM.json", 2)
-#validate_instance("Uniprot-P77967.json", 2)
-#validate_instance("DBgap-phs000979.v1.p1.json", 2)
+path = "../examples"
+validate_instance(path, "SBGrid-179.json", 2)
+validate_instance(path, "ClinicalTrials.gov-NCT00001372.json", 2)
+validate_instance(path, "PDB-5AEM.json", 2)
+validate_instance(path, "Uniprot-P77967.json", 2)
+validate_instance(path, "DBgap-phs000979.v1.p1.json", 2)
 

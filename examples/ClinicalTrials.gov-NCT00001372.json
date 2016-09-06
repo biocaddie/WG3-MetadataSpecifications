@@ -34,14 +34,14 @@
     }
   ],
   "keywords": [
-    {    "value": "Systemic Lupus Erythematosus",         "ontologyTermIRI" : "" },
-    {    "value": "Natural History",         "ontologyTermIRI" : "" },
-    {    "value": "Lupus Nephritis",         "ontologyTermIRI" : "" },
-    {    "value": "Lupus",         "ontologyTermIRI" : "" },
-    {    "value": "Systemic Lupus",         "ontologyTermIRI" : "" },
-    {    "value": "SLE",         "ontologyTermIRI" : "" }
+    {    "value": "Systemic Lupus Erythematosus",  "valueIRI" : "" },
+    {    "value": "Natural History",  "valueIRI" : "" },
+    {    "value": "Lupus Nephritis",  "valueIRI" : "" },
+    {    "value": "Lupus",   "valueIRI" : "" },
+    {    "value": "Systemic Lupus",  "valueIRI" : "" },
+    {    "value": "SLE",  "valueIRI" : "" }
   ],
-  "isCitedBy" : [
+  "primaryPublications" : [
     {
       "identifiers": [
         {
@@ -52,7 +52,7 @@
       "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
       "type" : {
         "value" : "Review",
-        "ontologyTermIRI" : ""
+        "valueIRI" : ""
       },
       "publicationVenue" : "Ann Intern Med. ",
       "dates" : [
@@ -99,7 +99,7 @@
       "title": "Accelerated in vitro apoptosis of lymphocytes from patients with systemic lupus erythematosus.",
       "type" : {
         "value" : "article",
-        "ontologyTermIRI" : ""
+        "valueIRI" : ""
       },
       "publicationVenue" : "J Immunol.",
       "dates" : [
@@ -134,7 +134,7 @@
       "title": "Autoantigens targeted in systemic lupus erythematosus are clustered in two populations of surface structures on apoptotic keratinocytes.",
       "type" : {
         "value" : "article",
-        "ontologyTermIRI" : ""
+        "valueIRI" : ""
       },
       "publicationVenue" : "J Exp Med.",
 
@@ -166,12 +166,12 @@
     "name" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
     "types" : [{
       "value" : "Observational",
-      "ontologyTermIRI" : ""
+      "valueIRI" : ""
     }],
     "extraProperties" : [
-      { "category" : "study design", "categoryIRI": "", "values" : [ "N/A" ] , "valuesIRI" : []},
-      { "category" : "recruitment status", "values" : ["recruiting"] , "valuesIRI" : [""]},
-      { "category" : "estimated enrollment ", "values" : ["100000"] , "valuesIRI" : [""]}
+      { "category" : "study design", "categoryIRI": "", "values" : [ "N/A" ] },
+      { "category" : "recruitment status", "values" : [ "recruiting" ]  },
+      { "category" : "estimated enrollment ", "values" : [ "100000" ] }
 
     ],
     "isAboutBiologicalEntity": [
@@ -214,18 +214,18 @@
             "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
             "roles" : [{
               "value": "sponsor",
-              "ontologyTermIRI": ""
+              "valueIRI": ""
             }]
           }
         ],
         "roles" : [
           {
             "value" : "principal investigator" ,
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           },
           {
             "value" : "backup contact" ,
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         ]
       },
@@ -240,14 +240,14 @@
             "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
             "roles" : [{
               "value" : "sponsor",
-              "ontologyTermIRI" : ""
+              "valueIRI" : ""
             }]
           }
         ],
         "roles" : [
           {
             "value" : "overall contact" ,
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         ]
       }
@@ -277,23 +277,21 @@
           "date": "1999-11-03",
           "type": {
             "value": "creation",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         },
         {
           "date": "2016-05-19",
           "type": {
             "value": "modification",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         }
       ],
-      "accessModalities" : [
-        {
+      "access" : {
           "landingPage": "https://clinicaltrials.gov/",
           "accessURL" :  "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
-        }
-      ],
+      },
       "conformsTo": [
         {
           "identifiers": [
@@ -305,7 +303,7 @@
           "name": "XSD",
           "type": {
             "value": "xml schema",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         },
         {
@@ -318,12 +316,11 @@
           "name": "XML",
           "type": {
             "value": "format",
-            "ontologyTermIRI" : ""
+            "valueIRI" : ""
           }
         }
       ],
-      "storedIn" : [
-        {
+      "storedIn" : {
           "identifiers": [
             {
               "identifier": "https://clinicaltrials.gov/ct2/home",
@@ -345,16 +342,15 @@
           "types" :[
             {
               "value" : "primary repository",
-              "ontologyTermIRI" : ""
+              "valueIRI" : ""
             }
           ],
           "version": ""
-        }
-      ],
+      },
       "size": -1,
       "unit" : {
         "value" : "megabyte",
-        "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
+        "valueIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
       }
     }
   ]
