@@ -8,6 +8,9 @@ class DatasetValidation(TestCase):
     def setUp(self):
         self.path = "../json-instances"
 
+    def test_validate_dats_schemas(self):
+        self.assertTrue(dats_model.validate_dats_schemas())
+
     def test_validate_dataset_1(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "SBGrid-179.json", 0))
 

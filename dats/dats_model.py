@@ -2,17 +2,18 @@ __author__ = 'agbeltran'
 
 import json,os
 from jsonschema import RefResolver, Draft4Validator
-from os.path import join
+from os import listdir
+from os.path import isfile, join
 import logging
 
 logging.basicConfig(level=logging.ERROR)
 logger = logging.getLogger(__name__)
 
+DATS_schemasPath = os.path.abspath("../json-schemas")
+
 def validate_dataset(path, filename, error_printing):
-    schemasPath = os.path.abspath("../json-schemas")
-    datasetSchema = json.load(open(join(schemasPath,"dataset_schema.json")))
-    #instrumentSchema = json.load(open(join(schemasPath,"instrument_schema.json")))
-    resolver = RefResolver('file://'+schemasPath+'/'+"dataset_schema.json", datasetSchema) #, base_uri=schemasPath)
+    datasetSchema = json.load(open(join(DATS_schemasPath,"dataset_schema.json")))
+    resolver = RefResolver('file://'+DATS_schemasPath+'/'+"dataset_schema.json", datasetSchema) #, base_uri=schemasPath)
     validator = Draft4Validator(datasetSchema, resolver=resolver)
     logger.info("Validating ", filename)
     instance = json.load(open(join(path,filename)))
@@ -46,3 +47,23 @@ def validate_dataset(path, filename, error_printing):
             return False
 
     logger.info("...done")
+
+
+def validate_schema(path, schemaFile):
+    logger.info("Validating schema ", schemaFile, "...")
+    schema = json.load(open(join(path, schemaFile)))
+    Draft4Validator.check_schema(schema)
+    logger.info("done.")
+
+def validate_dats_schemas():
+    files = [f for f in listdir(DATS_schemasPath) if isfile(join(DATS_schemasPath, f))]
+    for schemaFile in files:
+        logger.info("Validating schema ", schemaFile, "...")
+        schema = json.load(open(join(DATS_schemasPath, schemaFile)))
+        try:
+            Draft4Validator.check_schema(schema)
+            return True
+        except Exception as e:
+            logger.error(e)
+            return False
+        logger.info("done.")
