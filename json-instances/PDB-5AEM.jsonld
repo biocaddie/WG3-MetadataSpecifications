@@ -1,0 +1,307 @@
+{
+  "identifiers": [
+    {
+      "identifier": "5AEM",
+      "identifierSource": "PDB"
+    },
+    {
+      "identifier": "http://identifiers.org/pdb/5AEM",
+      "identifierSource": "http://identifiers.org"
+    }
+  ],
+
+  "title" : "Structure of t131 N-terminal TPR array",
+
+  "creators": [
+    {
+      "fullName" : "N.M.I.Taylor"
+    },
+    {
+      "fullName": "C.W.Muller"
+    }
+  ],
+
+  "description" : "TRANSCRIPTION FACTOR TAU 131 KDA SUBUNIT",
+
+  "types" : [
+    {
+      "information": { "value": "protein 3D structure"}
+    },
+    {
+      "information": { "value": "transcription"}
+    }
+  ],
+
+  "distributions": [
+    {
+      "dates": [
+        {
+          "date": "2015/01/05",
+          "type": {}
+        },
+        {
+          "date": "2015/06/24",
+          "type": { "value": "release date"}
+        }
+      ],
+
+      "access":
+      {
+        "landingPage": "http://identifiers.org/pdb/5AEM",
+        "accessURL": "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=5AEM"
+      },
+      "storedIn" :
+      {
+        "identifiers": [
+          {
+            "identifier": "https://www.biosharing.org/biodbcore-000511",
+            "identifierSource": "BioSharing"
+          },
+          {
+            "identifier": "http://www.rcsb.org/pdb/",
+            "identifierSource": "HTTP"
+          }
+        ],
+        "name": "RCSB Protein Data Bank",
+        "licenses" : [
+          {
+            "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+          }
+        ]
+      },
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000255",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "Protein Data Bank Format",
+          "type": { "value": "format"}
+        },
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000290",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "macromolecular Crystallographic Information File",
+          "type": { "value": "format"}
+        }
+      ]
+    },
+    {
+      "dates": [
+        {
+          "date": "2015/01/05",
+          "type": {}
+        },
+        {
+          "date": "2015/06/24",
+          "type": { "value": "release date"}
+        }
+      ],
+
+      "access":
+      {
+        "landingPage": "http://identifiers.org/pdb/5AEM",
+        "accessURL": "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId=5AEM"
+      },
+      "storedIn" :
+      {
+        "identifiers": [
+          {
+            "identifier": "https://www.biosharing.org/biodbcore-000511",
+            "identifierSource": "BioSharing"
+          },
+          {
+            "identifier": "http://www.rcsb.org/pdb/",
+            "identifierSource": "HTTP"
+          }
+        ],
+        "name": "RCSB Protein Data Bank",
+        "licenses" : [
+          {
+            "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+          }
+        ]
+      },
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000255",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "Protein Data Bank Format",
+          "type": { "value": "format"}
+        },
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000290",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "macromolecular Crystallographic Information File",
+          "type": { "value": "format"}
+        }
+      ]
+    },
+    {
+      "dates": [
+        {
+          "date": "2015/01/05",
+          "type": {}
+        },
+        {
+          "date": "2015/06/24",
+          "type": { "value": "release date"}
+        }
+      ],
+      "access":
+      {
+        "landingPage": "http://identifiers.org/pdb/5AEM",
+        "accessURL": "http://www.rcsb.org/pdb/files/5AEM.pdb.gz"
+      },
+      "storedIn" :
+      {
+        "identifiers": [
+          {
+            "identifier": "https://www.biosharing.org/biodbcore-000511",
+            "identifierSource": "BioSharing"
+          },
+          {
+            "identifier": "http://www.rcsb.org/pdb/",
+            "identifierSource": "HTTP"
+          }
+        ],
+        "name": "RCSB Protein Data Bank",
+        "licenses" : [
+          {
+            "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+          }
+        ]
+      },
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000255",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "Protein Data Bank Format",
+          "type": { "value": "format"}
+        },
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000290",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "macromolecular Crystallographic Information File",
+          "type": { "value": "format"}
+        }
+      ]
+    }
+  ],
+  "primaryPublications" : [
+    {
+      "identifiers": [
+        {
+          "identifier": "26060179",
+          "identifierSource": "PMID"
+        }
+      ],
+      "title": "Architecture of Tfiiic and its Role in RNA Polymerase III Pre-Initiation Complex Assembly.",
+      "type" : {
+        "value": "article"
+      },
+      "dates" : [
+        {
+          "date": "2015",
+          "type": {
+            "value": "publication date"
+          }
+        }
+      ],
+      "authors" : [
+        {
+          "firstName": "G.",
+          "lastName": "Male"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Von Appen"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Glatt"
+        },
+        {
+          "firstName": "N.M.I.",
+          "lastName": "Taylor"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Cristovao"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Groetsch"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Beck"
+        },
+        {
+          "firstName": "C.W.",
+          "lastName": "Muller"
+        }
+      ]
+    }
+
+  ],
+  "producedBy" : {
+    "name" : "crystallography study",
+    "input": [
+      {
+        "name": "N-TERMINAL TPR ARRAY, RESIDUES 123-566",
+        "characteristics" : [
+          {
+            "name" : "sequence"
+          }
+        ]
+      }
+    ],
+    "schedulesDataAcquisition": [
+      {
+        "name" : "X-RAY DIFFRACTION",
+        "startDate": {
+          "date": "04-FEB-10",
+          "type": { "value": "start date"}
+        },
+        "endDate": {
+          "date": "04-FEB-10",
+          "type": { "value": "end date" }
+        },
+        "uses": [
+          {
+            "name": "SCALA"
+          },
+          {
+            "name": "SYNCHROTRON"
+          }
+        ]
+      }
+
+    ]
+
+
+  }
+}

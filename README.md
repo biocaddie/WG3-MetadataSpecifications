@@ -29,18 +29,18 @@ The document provides links to the different appendices files.
 
 ## Instructions to execute code
 
-The python code included in the repository validates the JSON schemas and the JSON instances against the schemas.
-To execute the code, it is recommended to use a virtual environment, and follow the steps in the `code` directory:
+The python code included in the repository validates the DATS JSON schemas and the DATS JSON instances against the schemas.
+To execute the code, it is recommended to use a virtual environment, following these steps:
 
-1. First install the virtual environment via `pip`:
+1. If not already installed in your system, first install the virtual environment via `pip`:
    `pip install virtualenv`
-2. Then, activate the virtual environment:
+2. Create a virtual environament:
+   `virtualenv venv`
+3. Then, activate the virtual environment:
   `source venv/bin/activate`
-3. Install the requirements:
+4. Install the requirements:
   `pip install -r requirements.txt`
-4. Finally, you can run the validation scripts:
-  `python validate_schemas.py`
-  `python validate_instances.py`
+5. Finally, you can run inspect the tests folder to validate schemas and instances
 
 
 

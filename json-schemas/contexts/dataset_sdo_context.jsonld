@@ -2,9 +2,6 @@
   "@context": {
     "sdo": "https://schema.org/",
     "Dataset": "sdo:Dataset",
-    //"identifiers": "sdo:url",
-    //"alternateIdentifiers": "sdo:significantLink",
-    //"relatedIdentifiers": "sdo:relatedLink",
     "title": {
       "@id": "sdo:name",
       "@type": "sdo:Text"
@@ -13,27 +10,18 @@
       "@id": "sdo:description",
       "@type": "sdo:Text"
     },
-    //"dates": "",
-    //"types": "",
-    //"availability": "",
-    //"refinement": "",
-    //"aggregation": "",
-    //"privacy": "",
     "distributions": {
       "@id": "sdo:distribution",
       "type": "sdo:DataDownload"
     },
-    //"dimensions": "",
     "primaryPublications": "sdo:citation",
     "citations": "sdo:citation",
-    //"citationCount": "",
     "producedBy": "sdo:producer",
     "creators": "sdo:creator",
     "licenses": "sdo:license",
     "isAbout": "sdo:about",
     "hasPart": "sdo:hasPart",
     "acknowledges": "sdo:funder",
-    "keywords": "sdo:keywords"//,
-    //"extraProperties": ""
+    "keywords": "sdo:keywords"
   }
 }
