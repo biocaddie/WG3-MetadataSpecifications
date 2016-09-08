@@ -7,7 +7,7 @@
     "@context": {
       "type": "string",
       "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
+      "enum": [ "software-sdo-context.jsonld" ]
     },
     "@type": { "type": "string", "enum": [ "Software" ]},
     "identifiers": {
@@ -34,6 +34,10 @@
     "name": {
       "description": "The name of the software.",
       "type" :  "string"
+    },
+    "description" : {
+      "description": "A textual narrative comprised of one or more statements describing the software.",
+      "type" : "string"
     },
     "licenses" : {
       "description": "The terms of use of the software.",
