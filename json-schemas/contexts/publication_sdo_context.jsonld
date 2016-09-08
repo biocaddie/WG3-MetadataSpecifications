@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "sdo": "https://schema.org/",
+    "Publication": "sdo:ScholarlyArticle",
+    "title": {
+      "@id": "sdo:name",
+      "@type": "sdo:Text"
+    },
+    "type": "sdo:category",
+    "publicationVenue": "sdo:publication",
+    "authorList": "sdo:author",
+    "authors": "sdo:author",
+    "acknowledges": "sdo:funder"
+  }
+}

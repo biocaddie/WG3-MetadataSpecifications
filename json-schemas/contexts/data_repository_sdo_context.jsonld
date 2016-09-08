@@ -2,9 +2,6 @@
   "@context": {
     "sdo": "https://schema.org/",
     "DataRepository": "sdo:DataCatalog",
-    //"identifiers": "sdo:url",
-    //"alternateIdentifiers": "sdo:significantLink",
-    //"relatedIdentifiers": "sdo:relatedLink",
     "name": {
       "@id": "sdo:name",
       "@type": "sdo:Text"
@@ -13,14 +10,7 @@
       "@id": "sdo:description",
       "@type": "sdo:Text"
     },
-    //"dates"
-    //"scopes"
-    //"types"
     "licenses": "sdo:license",
     "version": "sdo:version"//,
-    //"publishers": ""
-    //"aggregatorOf"
-    //"access"
-    //"extraProperties": ""
   }
 }

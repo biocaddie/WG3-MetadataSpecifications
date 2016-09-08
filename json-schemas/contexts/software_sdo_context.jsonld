@@ -2,9 +2,6 @@
   "@context": {
     "sdo": "https://schema.org/",
     "Software": "sdo:SoftwareApplication",
-    //"identifiers": "sdo:url",
-    //"alternateIdentifiers": "sdo:significantLink",
-    //"relatedIdentifiers": "sdo:relatedLink",
     "name": {
       "@id": "sdo:name",
       "@type": "sdo:Text"
@@ -14,9 +11,6 @@
       "@type": "sdo:Text"
     },
     "licenses": "sdo:license",
-    //"isUsedBy"
-    //"manufacturer"
-    "version": "sdo:version"//,
-   //"extraProperties"
+    "version": "sdo:version"
   }
 }

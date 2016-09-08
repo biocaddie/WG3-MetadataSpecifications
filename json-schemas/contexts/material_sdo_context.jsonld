@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "sdo": "https://schema.org/",
+    "name": {
+      "@id": "sdo:name",
+      "@type": "sdo:Text"
+    },
+    "roles": "sdo:roleName"
+  }
+}

@@ -2,9 +2,6 @@
   "@context": {
     "sdo": "https://schema.org/",
     "DataStandard": "sdo:CreativeWork",
-    //"identifiers": "sdo:url",
-    //"alternateIdentifiers": "sdo:significantLink",
-    //"relatedIdentifiers": "sdo:relatedLink",
     "name": {
       "@id": "sdo:name",
       "@type": "sdo:Text"
@@ -13,7 +10,6 @@
       "@id": "sdo:description",
       "@type": "sdo:Text"
     },
-    //"type"
     "licenses": "sdo:license",
     "version": "sdo:version"
   }

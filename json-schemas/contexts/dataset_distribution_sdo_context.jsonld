@@ -2,9 +2,6 @@
   "@context": {
     "sdo": "https://schema.org/",
     "DatasetDistribution": "sdo:DataDownload",
-    //"identifiers": "sdo:url",
-    //"alternateIdentifiers": "sdo:significantLink",
-    //"relatedIdentifiers": "sdo:relatedLink",
      "title": {
       "@id": "sdo:name",
       "@type": "sdo:Text"
@@ -17,16 +14,9 @@
       "@id": "sdo:includedInDataCatalog",
       "@type": "sdo:DataCatalog"
     },
-    //"dates": ""
     "version": "sdo:version",
     "licenses": "sdo:license",
-    //"access": "",
-    //"curationStatus": "",
-    //"conformsTo": "",
-    //"qualifiers": "",
-    //"formats": "",
     "size": "",
     "unit": ""
-//  "extraProperties": ""
   }
 }
