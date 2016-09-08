@@ -4,11 +4,7 @@
   "description": "A format, reporting guideline, terminology. It is used to indicate whether the dataset conforms to a particular community norm or specification.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "DataStandard" ]},
     "identifiers": {
       "description": "Primary identifiers for the standard.",
       "type": "array",

@@ -4,11 +4,6 @@
   "description": "A feature of an entity, i.e. an individual measurable property (both quantitative or qualitative) of the entity being observed.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
     "@type": { "type": "string", "enum": [ "Dimension" ]},
     "identifiers": {
       "description": "Primary identifiers for the dimension.",

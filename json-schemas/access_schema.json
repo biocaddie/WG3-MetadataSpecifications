@@ -4,11 +4,7 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "Access" ]},
     "identifiers": {
       "type": "array",
       "items": {

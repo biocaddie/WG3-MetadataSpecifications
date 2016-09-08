@@ -4,11 +4,6 @@
   "description": "An entity that helps an agent perform an activity.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
     "@type": { "type": "string", "enum": [ "Instrument" ]},
     "identifiers": {
       "description": "Primary identifiers for the instrument.",

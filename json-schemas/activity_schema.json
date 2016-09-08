@@ -4,11 +4,7 @@
   "description": "A type of process scheduled in a study.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "Activity" ]},
     "identifiers": {
       "description": "Primary identifiers for the activity.",
       "type": "array",

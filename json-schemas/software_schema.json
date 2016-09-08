@@ -4,11 +4,6 @@
   "description": "A digital entity containing sets of instructions and operation, which allows computation and operation of and by computer.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "software-sdo-context.jsonld" ]
-    },
     "@type": { "type": "string", "enum": [ "Software" ]},
     "identifiers": {
       "description": "Primary identifiers for the software.",

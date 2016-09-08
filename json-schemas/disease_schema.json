@@ -4,11 +4,7 @@
   "description": "A disorder of structure or function in a human, animal, or plant, that produces specific symptoms or that affects a specific location.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "Disease" ]},
     "identifiers": {
       "description": "Primary identifiers for the disease.",
       "type": "array",

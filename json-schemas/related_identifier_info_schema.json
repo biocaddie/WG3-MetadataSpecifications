@@ -4,11 +4,7 @@
   "description": "Information about a related identifier.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "RelatedIdentifier" ]},
     "identifier": {
       "description": "An identifier of a related resource.",
       "type" : "string",

@@ -4,11 +4,7 @@
   "description": "A biological entity is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/).",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+     "@type": { "type": "string", "enum": [ "BiologicalEntity" ]},
     "identifiers": {
       "description": "Primary identifiers for the biological entity.",
       "type": "array",

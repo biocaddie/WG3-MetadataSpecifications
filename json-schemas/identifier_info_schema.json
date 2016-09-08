@@ -4,11 +4,7 @@
   "description": "Information about the primary identifier.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "Identifier" ]},
     "identifier": {
       "description": "A code uniquely identifying an entity locally to a system or globally.",
       "type" : "string",

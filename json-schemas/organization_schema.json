@@ -4,11 +4,7 @@
   "description": "Legal or physical entity corresponding to a business or administration.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+     "@type": { "type": "string", "enum": [ "Organization" ]},
     "identifiers": {
       "description": "Primary identifiers for the organization.",
       "type": "array",

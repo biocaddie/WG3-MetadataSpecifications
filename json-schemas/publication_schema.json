@@ -4,11 +4,6 @@
   "description" : "A (digital) document made available by a publisher.",
   "type" : "object",
   "properties" : {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
     "@type":  { "type": "string", "enum": [ "Publication" ]},
     "identifiers": {
       "description": "Primary identifiers for the publication.",

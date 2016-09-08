@@ -4,11 +4,7 @@
   "description": "A physical entity, part of collection or used in a study.",
   "type": "object",
   "properties": {
-    "@context": {
-            "type": "string",
-            "format": "uri",
-            "enum": [ "DATS-sdo-context.jsonld" ]
-        },
+    "@type": { "type": "string", "enum": [ "Material" ]},
     "identifiers": {
       "description": "Primary identifiers for the material.",
       "type": "array",

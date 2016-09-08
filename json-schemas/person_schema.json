@@ -4,11 +4,7 @@
   "description": "A human being",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "Person" ]},
     "identifiers": {
       "description": "Primary identifiers for the person.",
       "type": "array",

@@ -4,11 +4,7 @@
   "description": "A living entity.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "TaxonomicInformation" ]},
     "identifiers": {
       "description": "Primary identifiers for the organism.",
       "type": "array",

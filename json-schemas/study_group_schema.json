@@ -4,11 +4,7 @@
   "description": "A collection of entities known as study subjects based on a set of specified criteria and rules; synonyms: population, cohort.",
   "type": "object",
   "properties": {
-    "@context": {
-      "type": "string",
-      "format": "uri",
-      "enum": [ "DATS-sdo-context.jsonld" ]
-    },
+    "@type": { "type": "string", "enum": [ "StudyGroup" ]},
     "identifiers": {
       "description": "Primary identifiers for the study group.",
       "type": "array",
