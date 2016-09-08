@@ -40,7 +40,7 @@ To execute the code, it is recommended to use a virtual environment, following t
   `source venv/bin/activate`
 4. Install the requirements:
   `pip install -r requirements.txt`
-5. Finally, you can run inspect the tests folder to validate schemas and instances
+5. Finally, you can inspect and run the tests to validate the DATS schemas and JSON instances against the schemas.
 
 
 
