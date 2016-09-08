@@ -11,6 +11,6 @@
       "@type": "sdo:Text"
     },
     "licenses": "sdo:license",
-    "version": "sdo:version"//,
+    "version": "sdo:version"
   }
 }

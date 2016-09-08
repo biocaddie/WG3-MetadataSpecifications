@@ -4,6 +4,7 @@
   "description": "A structure that is part of a multicellular organism.",
   "type": "object",
   "properties": {
+     "@context": { "type": "object"},
      "@type": { "type": "string", "enum": [ "AnatomicalPart" ]},
     "identifiers": {
       "description": "Primary identifiers for the anatomical part.",

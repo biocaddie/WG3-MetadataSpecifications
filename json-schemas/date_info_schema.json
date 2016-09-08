@@ -4,6 +4,7 @@
     "description": "Information about a calendar date or timestamp indicating day, month, year and time of an event.",
     "type": "object",
     "properties": {
+        "@context": { "type": "object"},
         "@type": { "type": "string", "enum": [ "Date" ]},
         "date": {
             "description": "A date following the ISO8601 standard.",

@@ -6,16 +6,17 @@ from os import listdir
 from os.path import isfile, join
 import logging
 
-logging.basicConfig(level=logging.ERROR)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 DATS_schemasPath = os.path.abspath("../json-schemas")
+DATS_contextsPath = os.path.abspath("../json-schemas/contexts")
 
 def validate_dataset(path, filename, error_printing):
     datasetSchema = json.load(open(join(DATS_schemasPath,"dataset_schema.json")))
     resolver = RefResolver('file://'+DATS_schemasPath+'/'+"dataset_schema.json", datasetSchema) #, base_uri=schemasPath)
     validator = Draft4Validator(datasetSchema, resolver=resolver)
-    logger.info("Validating ", filename)
+    logger.info("Validating %s", filename)
     instance = json.load(open(join(path,filename)))
 
     if (error_printing == 0):
@@ -35,35 +36,41 @@ def validate_dataset(path, filename, error_printing):
                 print(list(suberror.schema_path), suberror.message, sep=", ")
 
         if (len(errors)==0):
+            logger.info("...done")
             return True
         else:
             return False
     else:
         try:
             validator.validate(instance, datasetSchema)
+            logger.info("...done")
             return True
         except Exception as e:
             logger.error(e)
             return False
 
-    logger.info("...done")
 
 
 def validate_schema(path, schemaFile):
-    logger.info("Validating schema ", schemaFile, "...")
+    logger.info("Validating schema %s", schemaFile)
     schema = json.load(open(join(path, schemaFile)))
-    Draft4Validator.check_schema(schema)
+    try:
+        Draft4Validator.check_schema(schema)
+        return True
+    except Exception as e:
+        logger.error(e)
+        return False
     logger.info("done.")
 
-def validate_dats_schemas():
-    files = [f for f in listdir(DATS_schemasPath) if isfile(join(DATS_schemasPath, f))]
+def validate_schemas(path):
+    result = True
+    files = [f for f in listdir(path) if isfile(join(path, f))]
     for schemaFile in files:
-        logger.info("Validating schema ", schemaFile, "...")
-        schema = json.load(open(join(DATS_schemasPath, schemaFile)))
-        try:
-            Draft4Validator.check_schema(schema)
-            return True
-        except Exception as e:
-            logger.error(e)
-            return False
-        logger.info("done.")
+        result = result and  validate_schema(path, schemaFile)
+    return result
+
+def validate_dats_schemas():
+    return validate_schemas(DATS_schemasPath)
+
+def validate_dats_contexts():
+    return validate_schemas(DATS_contextsPath)

@@ -4,6 +4,7 @@
     "Person": "sdo:Person",
     "firstName": "sdo:givenName",
     "lastName": "sdo:familyName",
+    "fullName": "sdo:name",
     "email": "sdo:email",
     "affiliations": "sdo:affiliation",
     "roles": "sdo:roleName"

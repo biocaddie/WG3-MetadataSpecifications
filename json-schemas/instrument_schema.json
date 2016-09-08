@@ -4,6 +4,7 @@
   "description": "An entity that helps an agent perform an activity.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Instrument" ]},
     "identifiers": {
       "description": "Primary identifiers for the instrument.",

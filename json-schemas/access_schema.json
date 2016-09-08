@@ -4,6 +4,7 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Access" ]},
     "identifiers": {
       "type": "array",

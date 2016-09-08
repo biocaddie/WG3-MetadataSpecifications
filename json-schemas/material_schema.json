@@ -4,6 +4,7 @@
   "description": "A physical entity, part of collection or used in a study.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Material" ]},
     "identifiers": {
       "description": "Primary identifiers for the material.",

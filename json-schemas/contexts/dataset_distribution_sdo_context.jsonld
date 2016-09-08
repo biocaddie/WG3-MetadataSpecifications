@@ -15,8 +15,6 @@
       "@type": "sdo:DataCatalog"
     },
     "version": "sdo:version",
-    "licenses": "sdo:license",
-    "size": "",
-    "unit": ""
+    "licenses": "sdo:license"
   }
 }

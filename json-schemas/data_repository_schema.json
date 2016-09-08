@@ -5,6 +5,7 @@
   "@type": "DataRepository",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "DataRepository" ]},
     "identifiers": {
       "description": "Primary identifiers for the data repository.",

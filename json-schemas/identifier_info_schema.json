@@ -4,6 +4,7 @@
   "description": "Information about the primary identifier.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Identifier" ]},
     "identifier": {
       "description": "A code uniquely identifying an entity locally to a system or globally.",

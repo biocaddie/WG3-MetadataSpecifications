@@ -4,6 +4,7 @@
   "description": "Information about a related identifier.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "RelatedIdentifier" ]},
     "identifier": {
       "description": "An identifier of a related resource.",

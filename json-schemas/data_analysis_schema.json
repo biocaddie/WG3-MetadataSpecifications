@@ -4,6 +4,7 @@
   "description": "Process (or activity) of transforming data and producing data.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "DataAnalysis" ]},
     "identifiers": {
       "description": "Primary identifiers for the activity.",

@@ -4,6 +4,7 @@
   "description": "A human being",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Person" ]},
     "identifiers": {
       "description": "Primary identifiers for the person.",

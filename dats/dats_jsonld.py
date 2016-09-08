@@ -2,11 +2,11 @@ from pyld import jsonld
 import json
 from os.path import join
 
-doc = json.load(open(join("../../json-instances/", "PDB-5AEM.jsonld")))
+doc = json.load(open(join("../json-instances/", "PDB-5AEM.jsonld")))
 
 print("loaded jsonld", doc)
 
-context = json.load(open(join("../../json-schemas/contexts/", "dataset_sdo_context.jsonld")))
+context = json.load(open(join("../json-schemas/contexts/", "dataset_sdo_context.jsonld")))
 
 print("loaded context")
 

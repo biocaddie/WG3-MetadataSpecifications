@@ -4,7 +4,8 @@
   "description": "Legal or physical entity corresponding to a business or administration.",
   "type": "object",
   "properties": {
-     "@type": { "type": "string", "enum": [ "Organization" ]},
+    "@context": { "type": "object"},
+    "@type": { "type": "string", "enum": [ "Organization" ]},
     "identifiers": {
       "description": "Primary identifiers for the organization.",
       "type": "array",

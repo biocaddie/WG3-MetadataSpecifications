@@ -4,6 +4,7 @@
   "description": "A pair of value (string or numeric) with a corresponding ontology term (IRI), if applicable.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Annotation" ]},
     "value": {
       "oneOf": [

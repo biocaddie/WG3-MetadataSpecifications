@@ -4,6 +4,7 @@
   "description": "Information about an alternate identifier (other than the primary).",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "AlternativeIdentifier" ]},
     "alternateIdentifier": {
       "description": "An identifier or identifiers other than the primary Identifier applied to the resource being registered. (definition from DataCite)",

@@ -4,6 +4,7 @@
   "description": "A biological entity is a recognized entity covering biological process, molecular functions or cellular components (from: http://geneontology.org/).",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
      "@type": { "type": "string", "enum": [ "BiologicalEntity" ]},
     "identifiers": {
       "description": "Primary identifiers for the biological entity.",

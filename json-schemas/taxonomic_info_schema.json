@@ -4,6 +4,7 @@
   "description": "A living entity.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "TaxonomicInformation" ]},
     "identifiers": {
       "description": "Primary identifiers for the organism.",

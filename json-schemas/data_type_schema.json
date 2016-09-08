@@ -4,6 +4,7 @@
   "description": "The nature of the data, as determined for the information collected, the method used and the platform used.",
   "type": "object",
   "properties": {
+    "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "DataType" ]},
     "information": {
       "description": "The measurements or facts that the data is about.",
