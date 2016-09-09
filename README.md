@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/biocaddie/WG3-MetadataSpecifications.svg?branch=master)](https://travis-ci.org/biocaddie/WG3-MetadataSpecifications/)
+
 # WG3- DATS Model - Metadata Specifications
 This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets)., defining the DatA Tag Suite (DATs) model.
 The presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links). This repository contains the different versions of the DATS specification.
