@@ -306,7 +306,7 @@
             "identifierSource": "GEO"
           }
         ],
-        "taxonomicInformation": [
+        "taxonomy": [
           {
             "name": "Homo sapiens",
             "identifiers": [
@@ -350,7 +350,7 @@
             "identifierSource": "geo"
           }
         ],
-        "taxonomicInformation" : [
+        "taxonomy" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -392,7 +392,7 @@
             "identifierSource": "GEO"
           }
         ],
-        "taxonomicInformation" : [
+        "taxonomy" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -434,7 +434,7 @@
             "identifierSource": "geo"
           }
         ],
-        "taxonomicInformation" : [
+        "taxonomy" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -477,7 +477,7 @@
           }
         ],
 
-        "taxonomicInformation" : [
+        "taxonomy" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [
@@ -519,7 +519,7 @@
             "identifierSource": "geo"
           }
         ],
-        "taxonomicInformation" : [
+        "taxonomy" : [
           {
             "name":  "Homo sapiens",
             "identifiers": [

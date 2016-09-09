@@ -1,3 +1,4 @@
+import os
 from unittest import TestCase
 
 from dats import dats_model
@@ -6,7 +7,10 @@ from dats import dats_model
 class DatasetValidation(TestCase):
 
     def setUp(self):
-        self.path = "../json-instances"
+        self.path = os.path.join(os.path.dirname(__file__), "../json-instances")
+
+    def tearDown(self):
+        pass
 
     def test_validate_dats_schemas(self):
         self.assertTrue(dats_model.validate_dats_schemas())

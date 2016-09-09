@@ -382,7 +382,7 @@
       "@type" : "lifescisdo:AnatomicalStructure"
     },
 
-    "taxonomicInformation" : {
+    "taxonomy" : {
       "@id" : "sdo:property",
       "@type" : "lifescisdo:MedicalCondition"
     },

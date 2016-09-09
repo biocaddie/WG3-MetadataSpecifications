@@ -169,7 +169,7 @@
   "isAbout" : [
     {
       "name": "Cryptochrome DASH",
-      "taxonomicInformation" : [
+      "taxonomy" : [
         {
           "name":  "Synechocystis sp. (strain PCC 6803 / Kazusa)",
           "identifiers":
