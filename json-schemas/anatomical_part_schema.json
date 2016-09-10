@@ -4,14 +4,10 @@
   "description": "A structure that is part of a multicellular organism.",
   "type": "object",
   "properties": {
-     "@context": { "type": "object"},
-     "@type": { "type": "string", "enum": [ "AnatomicalPart" ]},
-    "identifiers": {
-      "description": "Primary identifiers for the anatomical part.",
-      "type": "array",
-      "items": {
-        "$ref": "identifier_info_schema.json#"
-      }
+    "@context": { "type": "object"},
+    "@type": { "type": "string", "enum": [ "AnatomicalPart" ]},
+    "identifier": {
+      "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {
       "description": "Alternate identifiers for the anatomical part.",

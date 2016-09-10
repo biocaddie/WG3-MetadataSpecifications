@@ -1,16 +1,14 @@
 {
-  "identifiers":
-  [
-    {
-      "identifier": "P77967",
-      "identifierSource": "uniprot"
-    },
+  "identifier":
+  {
+    "identifier": "P77967",
+    "identifierSource": "uniprot"
+  },
+  "alternateIdentifiers":[
     {
       "identifier": "http://identifiers.org/uniprot/P77967",
       "identifierSource": "http://identifiers.org"
-    }
-  ],
-  "alternateIdentifiers":[
+    },
     {
       "alternateIdentifier": "BA000022",
       "alternateIdentifierSource": "embl"

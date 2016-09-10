@@ -1,10 +1,9 @@
 {
-  "identifiers": [
-    {
+  "identifier": {
       "identifier": "5AEM",
       "identifierSource": "PDB"
-    },
-    {
+  },
+  "alternateIdentifiers": [ {
       "identifier": "http://identifiers.org/pdb/5AEM",
       "identifierSource": "http://identifiers.org"
     }

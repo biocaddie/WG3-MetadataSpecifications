@@ -6,12 +6,8 @@
   "properties": {
     "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "Organization" ]},
-    "identifiers": {
-      "description": "Primary identifiers for the organization.",
-      "type": "array",
-      "items": {
-        "$ref": "identifier_info_schema.json#"
-      }
+    "identifier": {
+      "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {
       "description": "Alternate identifiers for the organization.",

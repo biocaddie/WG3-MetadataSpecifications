@@ -5,13 +5,13 @@
   "type": "object",
   "properties": {
     "@context": { "type": "object"},
-    "@type": { "type": "string", "enum": [ "AlternativeIdentifier" ]},
-    "alternateIdentifier": {
+    "@type": { "type": "string", "enum": [ "AlternateIdentifier" ]},
+    "identifier": {
       "description": "An identifier or identifiers other than the primary Identifier applied to the resource being registered. (definition from DataCite)",
       "type" : "string",
       "format": "uri"
     },
-    "alternateIdentifierSource": {
+    "identifierSource": {
       "description": "The identifier source represents information about the organisation/namespace responsible for minting the identifiers. It must be provided if the identifier is provided.",
       "type" : "string"
     }

@@ -6,12 +6,8 @@
   "properties": {
     "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "MolecularEntity" ]},
-    "identifiers": {
-      "description": "Primary identifiers for the molecular entity.",
-      "type": "array",
-      "items": {
-        "$ref": "identifier_info_schema.json#"
-      }
+    "identifier": {
+      "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {
       "description": "Alternate identifiers for the molecular entity.",

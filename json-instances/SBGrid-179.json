@@ -1,8 +1,6 @@
 {
-	"identifiers":
-	[
-		{"identifier" : "10.15785/SBGRID/179","identifierSource" : "DOI"}
-	],
+	"identifier": { "identifier" : "10.15785/SBGRID/179","identifierSource" : "DOI"},
+
 	"title":"X-Ray Diffraction data from Nup37-Nup120 full-length complex from Schizosaccharomyces pombe, source of 4FHN structure",
 	"types":
 	[
@@ -39,14 +37,14 @@
 			"storedIn":
 			{
 				"name": "Structural Biology Data Grid",
-				"identifiers": [
+				"identifier": {
+					"identifier": "https://data.sbgrid.org",
+					"identifierSource": "HTTP"
+				},
+				"alternateIdentifiers":	[
 					{
-						"identifier": "https://data.sbgrid.org",
-						"identifierSource": "HTTP"
-					},
-					{
-						"identifier": "https://www.biosharing.org/biodbcore-000683",
-						"identifierSource": "BioSharing"
+					"identifier": "https://www.biosharing.org/biodbcore-000683",
+					"identifierSource": "BioSharing"
 					}
 				]
 			}
@@ -59,13 +57,13 @@
 			"storedIn":
 			{
 				"name": "Structural Biology Data Grid",
-				"identifiers": [
-					{
+				"identifier": {
 						"identifier": "https://data.sbgrid.org",
 						"identifierSource": "HTTP"
-					},
+				},
+				"alternateIdentifiers":[
 					{
-						"identifier": "https://www.biosharing.org/biodbcore-000683",
+						"idenfifier": "https://www.biosharing.org/biodbcore-000683",
 						"identifierSource": "BioSharing"
 					}
 				]
@@ -79,11 +77,11 @@
 			"storedIn":
 			{
 				"name": "Structural Biology Data Grid",
-				"identifiers": [
-					{
+				"identifier": {
 						"identifier": "https://data.sbgrid.org",
 						"identifierSource": "HTTP"
-					},
+				},
+				"alternateIdentifiers":[
 					{
 						"identifier": "https://www.biosharing.org/biodbcore-000683",
 						"identifierSource": "BioSharing"
@@ -99,11 +97,11 @@
 			"storedIn":
 			{
 				"name": "Structural Biology Data Grid",
-				"identifiers": [
-					{
+				"identifier": {
 						"identifier": "https://data.sbgrid.org",
 						"identifierSource": "HTTP"
-					},
+				},
+				"alternateIdentifiers":[
 					{
 						"identifier": "https://www.biosharing.org/biodbcore-000683",
 						"identifierSource": "BioSharing"

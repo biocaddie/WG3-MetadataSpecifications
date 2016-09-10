@@ -5,13 +5,9 @@
   "type": "object",
   "properties": {
     "@context": { "type": "object"},
-     "@type": { "type": "string", "enum": [ "BiologicalEntity" ]},
-    "identifiers": {
-      "description": "Primary identifiers for the biological entity.",
-      "type": "array",
-      "items": {
-        "$ref": "identifier_info_schema.json#"
-      }
+    "@type": { "type": "string", "enum": [ "BiologicalEntity" ]},
+    "identifier": {
+      "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {
       "description": "Alternate identifiers for the biological entity.",

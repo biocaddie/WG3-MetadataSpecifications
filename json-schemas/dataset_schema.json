@@ -6,18 +6,14 @@
     "properties": {
         "@context": { "type": "object"},
         "@type": { "type": "string", "enum": [ "Dataset"] },
-        "identifiers": {
-            "description": "Primary identifiers for the dataset.",
-            "type": "array",
-            "items": {
-                "$ref": "identifier_info_schema.json#"
-            }
+        "identifier": {
+            "$ref": "identifier_info_schema.json#"
         },
         "alternateIdentifiers": {
             "description": "Alternate identifiers for the dataset.",
             "type": "array",
             "items": {
-                "$ref": "alt_identifier_info_schema.json#"
+                "$ref": "alternate_identifier_info_schema.json#"
             }
         },
         "relatedIdentifiers": {

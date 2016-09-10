@@ -1,10 +1,8 @@
 {
-  "identifiers": [
-    {
+  "identifier": {
       "identifier": "https://clinicaltrials.gov/show/NCT00001372",
       "identifierSource": "https://clinicaltrials.gov/show/NCT/\\d+"
-    }
-  ],
+   },
   "relatedIdentifiers": [
     {
       "identifier": "940066",
@@ -125,12 +123,10 @@
       ]
     },
     {
-      "identifiers": [
-        {
+      "identifier": {
           "identifier": "7511686",
           "identifierSource": "pubmed"
-        }
-      ],
+      },
       "title": "Autoantigens targeted in systemic lupus erythematosus are clustered in two populations of surface structures on apoptotic keratinocytes.",
       "type" : {
         "value" : "article",
@@ -177,12 +173,10 @@
     "isAboutBiologicalEntity": [
       {
         "name": "Systemic Lupus Erythematosus",
-        "identifiers": [
-          {
+        "identifier": {
             "identifier": "HP_0002725",
             "identifierSource": "hpo"
           }
-        ]
       }
     ],
     "selectionCriteria": [
@@ -265,13 +259,10 @@
 
   "distributions" : [
     {
-      "identifiers":
-      [
-        {
+      "identifier": {
           "identifier" : "1",
           "identifierSource": ""
-        }
-      ],
+      },
       "dates": [
         {
           "date": "1999-11-03",
@@ -294,12 +285,10 @@
       },
       "conformsTo": [
         {
-          "identifiers": [
-            {
+          "identifier": {
               "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
               "identifierSource": ""
-            }
-          ],
+          },
           "name": "XSD",
           "type": {
             "value": "xml schema",
@@ -307,12 +296,10 @@
           }
         },
         {
-          "identifiers": [
-            {
+          "identifier": {
               "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
               "identifierSource": ""
-            }
-          ],
+          },
           "name": "XML",
           "type": {
             "value": "format",
@@ -321,12 +308,10 @@
         }
       ],
       "storedIn" : {
-          "identifiers": [
-            {
+          "identifier": {
               "identifier": "https://clinicaltrials.gov/ct2/home",
               "identifierSource": "http"
-            }
-          ],
+          },
           "relatedIdentifiers": [
             {
               "identifier": "https://biosharing.org/biodbcore-000470",

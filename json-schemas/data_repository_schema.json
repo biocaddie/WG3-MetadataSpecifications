@@ -7,12 +7,8 @@
   "properties": {
     "@context": { "type": "object"},
     "@type": { "type": "string", "enum": [ "DataRepository" ]},
-    "identifiers": {
-      "description": "Primary identifiers for the data repository.",
-      "type": "array",
-      "items": {
-        "$ref": "identifier_info_schema.json#"
-      }
+    "identifier": {
+      "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {
       "description": "Alternate identifiers for the data repository.",

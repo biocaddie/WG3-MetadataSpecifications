@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "title": "DATS related identifier information schema",
-  "description": "Information about a related identifier.",
+  "description": "Information about an idenfier of related resources.",
   "type": "object",
   "properties": {
     "@context": { "type": "object"},
