@@ -1,8 +1,8 @@
 {
-  "identifiers": [{
+  "identifier": {
     "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v1.p1",
     "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
-  }],
+  },
   "relatedIdentifiers": [
     {
       "identifier": "phs000979.v1.p1",
@@ -99,12 +99,11 @@
   ],
   "hasPart" : [
     {
-      "identifiers": [
-        {
-          "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=pht005195.v1.p1",
-          "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
-        }
-      ],
+      "identifier":
+      {
+        "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=pht005195.v1.p1",
+        "identifierSource": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs\\d+[1-6].v\\d\\.p\\d"
+      },
       "relatedIdentifiers": [
         {
           "identifier": "pht005195.v1.p1",
@@ -127,12 +126,10 @@
       "dimensions":
       [
         {
-          "identifiers" : [
-            {
+          "identifier" : {
               "identifier" : "phv00258258.v1.p1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+          },
           "name" : { "value": "SUBJECT_ID"},
           "description" : "De-identified Subject ID",
           "types" : [
@@ -142,12 +139,10 @@
           ]
         },
         {
-          "identifiers" : [
-            {
+          "identifier" : {
               "identifier" : "phv00258259.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "AgeDeath"},
           "description" : "Individual's age at time of death",
           "types" : [
@@ -158,12 +153,11 @@
           "unit" : { "value": "years" }
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258260.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Gender"},
           "description" : "Gender of Individual",
           "types" : [
@@ -175,12 +169,11 @@
             "F=Female"]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258261.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "Race"},
           "description" : "Race of participant",
           "types" : [
@@ -195,12 +188,11 @@
             "Multi-Racial"]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258262.v1.p1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "ph"},
           "description" : "Postmortem brain pH",
           "types" : [
@@ -210,12 +202,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258263.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "PMI"},
           "description" : "Postmortem interval",
           "types" : [
@@ -226,12 +217,11 @@
           "unit" : { "value": "hours"}
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258264.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Smoker"},
           "description" : "Smoker",
           "types" : [
@@ -241,12 +231,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258265.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "NewDx"},
           "description" : "Diagnosis of individual",
           "types" : [
@@ -270,12 +259,11 @@
             "Williams=Williams syndrome " ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258266.v1.p1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Education"},
           "description" : "Level of education",
           "types" : [
@@ -304,12 +292,11 @@
             "not filled in=No information entered "]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258267.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Height"},
           "description" : "Individual's height",
           "types" : [
@@ -320,12 +307,11 @@
           "unit" : { "value": "inch"}
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258268.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Weight"},
           "description" : "Individual's weight",
           "types" : [
@@ -336,12 +322,11 @@
           "unit" : {"value": "pound"}
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258269.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "EtohResults"},
           "description" : "Test for EtoH",
           "types" : [
@@ -351,12 +336,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258270.v1.p1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "Antipsychotics"},
           "description" : "Test for antipsychotics",
           "types" : [
@@ -366,12 +350,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258271.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "CauseDeath"},
           "description" : "Cause of Death",
           "types" : [
@@ -381,12 +364,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258272.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "AntiDepress"},
           "description" : "Test for antidepressants",
           "types" : [
@@ -396,12 +378,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258273.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : { "value": "MoodStab"},
           "description" : "Test for mood stabilizers",
           "types" : [
@@ -411,12 +392,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258274.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "Benzos"},
           "description" : "Test for benzodiazepines",
           "types" : [
@@ -426,12 +406,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258275.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "Nic_Cot"},
           "description" : "Test for nicotine/cotinine",
           "types" : [
@@ -441,12 +420,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258276.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "THC"},
           "description" : "Test for tetrahydrocannabinol",
           "types" : [
@@ -456,12 +434,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258277.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "Cocaine"},
           "description" : "Test for cocaine",
           "types" : [
@@ -471,12 +448,11 @@
           ]
         },
         {
-          "identifiers" : [
+          "identifier" :
             {
               "identifier" : "phv00258278.v1.1" ,
               "identifierSource" : "dbGap"
-            }
-          ],
+            },
           "name" : {"value": "Opiates"},
           "description" : "Test for opiates",
           "types" : [
@@ -491,12 +467,11 @@
   "primaryPublications": [],
   "acknowledges" : [
     {
-      "identifiers" : [
+      "identifier" :
         {
           "identifier" : "NCT00001260, 900142",
           "identifierSource" : "NCT"
-        }
-      ],
+        },
       "name" : "Intramural Research Program",
       "funders" : [
         {
@@ -534,27 +509,24 @@
     "isAboutBiologicalEntity": [
       {
         "name": "Schizophrenia",
-        "identifiers": [{
+        "identifier": {
           "identifier": "68012559",
           "identifierSource": "mesh"
         }
-        ]
       },
       {
         "name": "Bipolar Disorder",
-        "identifiers": [{
+        "identifier": {
           "identifier": "68001714",
           "identifierSource": "mesh"
         }
-        ]
       },
       {
         "name": "Major Depressive Disorder",
-        "identifiers": [{
+        "identifier": {
           "identifier": "68003865",
           "identifierSource": "mesh"
         }
-        ]
       }
     ],
     "selectionCriteria": [
@@ -620,10 +592,10 @@
   },
   "distributions": [
     {
-      "identifiers": [{
+      "identifier": {
         "identifier" : "1",
         "identifierSource" : ""
-      }],
+      },
       "dates": [
         {
           "date" : "1999-11-03",
@@ -641,13 +613,13 @@
         }
       ],
       "licenses" : [
-          {
-            "identifiers": [{
-              "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
-              "identifierSource": "dbGAP"
-            }],
-            "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
-          }
+        {
+          "identifier": {
+            "identifier": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000979.v1.p1",
+            "identifierSource": "dbGAP"
+          },
+          "name" : "MODEL DATA USE CERTIFICATION AGREEMENT"
+        }
       ],
       "access": {
         "landingPage": "http://www.ncbi.nlm.nih.gov/projects/gap/",
@@ -661,10 +633,10 @@
       },
       "conformsTo": [
         {
-          "identifiers": [{
+          "identifier": {
             "identifier": "ftp://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000979/phs000979.v1.p1/dbGaPEx2.1.5.xsd",
             "identifierSource": ""
-          }],
+          },
           "name": "XSD",
           "type": {
             "value": "xml schema",
@@ -672,10 +644,10 @@
           }
         },
         {
-          "identifiers": [{
+          "identifier": {
             "identifier": "http://www.w3.org/2001/XMLSchema-instance",
             "identifierSource": ""
-          }],
+          },
           "name": "XML",
           "type": {
             "value": "format",
@@ -684,10 +656,10 @@
         }
       ],
       "storedIn": {
-        "identifiers": [{
+        "identifier": {
           "identifier": "http://www.ncbi.nlm.nih.gov/projects/gap/",
           "identifierSource": "http"
-        }],
+        },
         "relatedIdentifiers": [{
           "identifier": "https://biosharing.org/biodbcore-000462",
           "identifierSource": "BioSharing"

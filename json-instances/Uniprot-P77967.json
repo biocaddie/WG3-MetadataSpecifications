@@ -10,44 +10,44 @@
       "identifierSource": "http://identifiers.org"
     },
     {
-      "alternateIdentifier": "BA000022",
-      "alternateIdentifierSource": "embl"
+      "identifier": "BA000022",
+      "identifierSource": "embl"
     },
     {
-      "alternateIdentifier": "S74805",
-      "alternateIdentifierSource": "PIR"
+      "identifier": "S74805",
+      "identifierSource": "PIR"
     },
     {
-      "alternateIdentifier": "1NP7",
-      "alternateIdentifierSource": "PDBsum"
+      "identifier": "1NP7",
+      "identifierSource": "PDBsum"
     },
     {
-      "alternateIdentifier": "P77967",
-      "alternateIdentifierSource": "ProteinModelPortal"
+      "identifier": "P77967",
+      "identifierSource": "ProteinModelPortal"
     },
     {
-      "alternateIdentifier": "IPR014133",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR014133",
+      "identifierSource": "InterPro"
     },
     {
-      "alternateIdentifier": "IPR005101",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR005101",
+      "identifierSource": "InterPro"
     },
     {
-      "alternateIdentifier": "IPR002081",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR002081",
+      "identifierSource": "InterPro"
     },
     {
-      "alternateIdentifier": "IPR018394",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR018394",
+      "identifierSource": "InterPro"
     } ,
     {
-      "alternateIdentifier": "IPR006050",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR006050",
+      "identifierSource": "InterPro"
     },
     {
-      "alternateIdentifier": "IPR014729",
-      "alternateIdentifierSource": "InterPro"
+      "identifier": "IPR014729",
+      "identifierSource": "InterPro"
     }
   ],
   "relatedIdentifiers": [
@@ -170,13 +170,11 @@
       "taxonomy" : [
         {
           "name":  "Synechocystis sp. (strain PCC 6803 / Kazusa)",
-          "identifiers":
-          [
+          "identifier":
             {
               "identifier" : "1111708",
               "identifierSource": "NCBITax"
             }
-          ]
         }
       ],
       "structure" : "MKHVPPTVLVWFRNDLRLHDHEPLHRALKSGLAITAVYCYDPRQFAQTHQGFAKTGPWRS NFLQQSVQNLAESLQKVGNKLLVTTGLPEQVIPQIAKQINAKTIYYHREVTQEELDVERN LVKQLTILGIEAKGYWGSTLCHPEDLPFSIQDLPDLFTKFRKDIEKKKISIRPCFFAPSQ LLPSPNIKLELTAPPPEFFPQINFDHRSVLAFQGGETAGLARLQDYFWHGDRLKDYKETR NGMVGADYSSKFSPWLALGCLSPRFIYQEVKRYEQERVSNDSTHWLIFELLWRDFFRFVA QKYGNKLFNRGGLLNKNFPWQEDQVRFELWRSGQTGYPLVDANMRELNLTGFMSNRGRQN VASFLCKNLGIDWRWGAEWFESCLIDYDVCSNWGNWNYTAGIGNDARDFRYFNIPKQSQQ YDPQGTYLRHWLPELKNLPGDKIHQPWLLSATEQKQWGVQLGVDYPRPCVNFHQSVEARR KIEQMGVIA"
@@ -234,13 +232,11 @@
 
   "distributions" : [
     {
-      "identifiers":
-      [
+      "identifier":
         {
           "identifier" : "1",
           "identifierSource": ""
-        }
-      ],
+        },
       "dates": [
         {
           "date": "2006-05-16",
@@ -263,12 +259,11 @@
       },
       "conformsTo": [
         {
-          "identifiers": [
+          "identifier":
             {
               "identifier": "https://biosharing.org/bsg-000228",
               "identifierSource": "BioSharing"
-            }
-          ],
+            },
           "name": "FASTA",
           "type": {
             "value": "format",
@@ -277,13 +272,12 @@
         }
       ],
       "storedIn" : {
-        "identifiers": [
+        "identifier":
           {
             "identifier": "http://uniprot.org/uniprot",
             "identifierSource": "http"
-          }
-        ],
-        "relatedIdentifiers": [
+          },
+        "alternateIdentifiers": [
           {
             "identifier": "https://www.biosharing.org/biodbcore-000544",
             "identifierSource": "BioSharing"
@@ -317,13 +311,11 @@
       ]
     },
     {
-      "identifiers":
-      [
+      "identifier":
         {
           "identifier" : "2",
           "identifierSource": ""
-        }
-      ],
+        },
       "access" : {
         "landingPage": "http://www.uniprot.org/uniprot/P77967",
         "accessURL" :  "http://www.uniprot.org/uniprot/P77967.gff"
@@ -346,12 +338,11 @@
       ],
       "conformsTo": [
         {
-          "identifiers": [
+          "identifier":
             {
               "identifier": "https://www.biosharing.org/bsg-000235",
               "identifierSource": "BioSharing"
-            }
-          ],
+            },
           "name": "GFF",
           "type" :
           {
@@ -361,12 +352,11 @@
         }
       ],
       "storedIn" : {
-        "identifiers": [
+        "identifier":
           {
             "identifier": "http://uniprot.org/uniprot",
             "identifierSource": "http"
-          }
-        ],
+          },
         "relatedIdentifiers": [
           {
             "identifier": "https://www.biosharing.org/biodbcore-000544",
@@ -401,13 +391,11 @@
       ]
     },
     {
-      "identifiers":
-      [
+      "identifier":
         {
           "identifier" : "3",
           "identifierSource": ""
-        }
-      ],
+        },
       "access" : {
         "landingPage": "http://www.uniprot.org/uniprot/P77967",
         "accessURL" :  "http://www.uniprot.org/uniprot/P77967.txt"
@@ -430,12 +418,11 @@
       ],
       "conformsTo": [
         {
-          "identifiers": [
+          "identifier":
             {
               "identifier": "https://www.biosharing.org/bsg-000235",
               "identifierSource": "BioSharing"
-            }
-          ],
+            },
           "name": "txt",
           "type" :
           {
@@ -445,12 +432,11 @@
         }
       ],
       "storedIn" : {
-        "identifiers": [
+        "identifier":
           {
             "identifier": "http://uniprot.org/uniprot",
             "identifierSource": "http"
-          }
-        ],
+          },
         "relatedIdentifiers": [
           {
             "identifier": "https://www.biosharing.org/biodbcore-000544",
@@ -485,13 +471,11 @@
       ]
     },
     {
-      "identifiers":
-      [
+      "identifier":
         {
           "identifier" : "4",
           "identifierSource": ""
-        }
-      ],
+        },
       "access" : {
         "landingPage": "http://www.uniprot.org/uniprot/P77967",
         "accessURL" :  "http://www.uniprot.org/uniprot/P77967.rdf"
@@ -515,12 +499,11 @@
 
       "conformsTo": [
         {
-          "identifiers": [
+          "identifier":
             {
               "identifier": "https://www.biosharing.org/bsg-000235",
               "identifierSource": "BioSharing"
-            }
-          ],
+            },
           "name": "RDF",
           "type" :
           {
@@ -530,13 +513,12 @@
         }
       ],
       "storedIn" : {
-        "identifiers": [
+        "identifier":
           {
             "identifier": "http://uniprot.org/uniprot",
             "identifierSource": "http"
-          }
-        ],
-        "relatedIdentifiers": [
+          },
+        "alternateIdentifiers": [
           {
             "identifier": "https://www.biosharing.org/biodbcore-000544",
             "identifierSource": "BioSharing"
@@ -570,13 +552,11 @@
       ]
     },
     {
-      "identifiers":
-      [
+      "identifier":
         {
           "identifier" : "5",
           "identifierSource": ""
-        }
-      ],
+        },
       "licenses": [
         {
           "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
@@ -605,12 +585,10 @@
 
       "conformsTo": [
         {
-          "identifiers": [
-            {
+          "identifier": {
               "identifier": "https://www.biosharing.org/bsg-000235",
               "identifierSource": "BioSharing"
-            }
-          ],
+            },
           "name": "XML",
           "type" :
           {
@@ -620,13 +598,12 @@
         }
       ],
       "storedIn" : {
-        "identifiers": [
+        "identifier":
           {
             "identifier": "http://uniprot.org/uniprot",
             "identifierSource": "http"
-          }
-        ],
-        "relatedIdentifiers": [
+          },
+        "alternateIdentifiers": [
           {
             "identifier": "https://www.biosharing.org/biodbcore-000544",
             "identifierSource": "BioSharing"
@@ -662,12 +639,12 @@
   ],
   "primaryPublications" : [
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "8905231",
           "identifierSource": "pubmed"
         },
-        {
+        "alternateIdentifiers": [{
           "identifier": "10.1093/dnares/3.3.109",
           "identifierSource": "doi"
         }
@@ -761,11 +738,12 @@
       ]
     },
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "10871367",
           "identifierSource": "pubmed"
         },
+      "alternateIdentifiers": [
         {
           "identifier": "10.1093/nar/28.12.2353",
           "identifierSource": "doi"
@@ -823,11 +801,12 @@
       ]
     },
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "12878596",
           "identifierSource": "pubmed"
         },
+      "alternateIdentifiers": [
         {
           "identifier": "10.1074/jbc.M305792200",
           "identifierSource": "doi"
@@ -865,11 +844,12 @@
       ]
     },
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "12535521",
           "identifierSource": "pubmed"
         },
+      "alternateIdentifiers": [
         {
           "identifier": "10.1016/S1097-2765(03)00008-X",
           "identifierSource": "doi"

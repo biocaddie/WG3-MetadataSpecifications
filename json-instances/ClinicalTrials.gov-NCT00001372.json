@@ -41,12 +41,11 @@
   ],
   "primaryPublications" : [
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "7762914",
           "identifierSource": "pubmed"
-        }
-      ],
+        },
       "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
       "type" : {
         "value" : "Review",
@@ -88,12 +87,11 @@
       ]
     },
     {
-      "identifiers": [
+      "identifier":
         {
           "identifier": "8144943",
           "identifierSource": "pubmed"
-        }
-      ],
+        },
       "title": "Accelerated in vitro apoptosis of lymphocytes from patients with systemic lupus erythematosus.",
       "type" : {
         "value" : "article",

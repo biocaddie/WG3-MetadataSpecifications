@@ -25,11 +25,11 @@
     "keywords": "sdo:keywords"
   },
   "@type": "Dataset",
-  "identifiers": [
-    {
-      "identifier": "5AEM",
-      "identifierSource": "PDB"
-    },
+  "identifier": {
+    "identifier": "5AEM",
+    "identifierSource": "PDB"
+  },
+  "alternateIdentifiers": [
     {
       "identifier": "http://identifiers.org/pdb/5AEM",
       "identifierSource": "http://identifiers.org"
@@ -121,11 +121,11 @@
       "storedIn" :
       {
         "@type": "DataRepository",
-        "identifiers": [
-          {
-            "identifier": "https://www.biosharing.org/biodbcore-000511",
-            "identifierSource": "BioSharing"
-          },
+        "identifier": {
+          "identifier": "https://www.biosharing.org/biodbcore-000511",
+          "identifierSource": "BioSharing"
+        },
+        "alternateIdentifiers": [
           {
             "identifier": "http://www.rcsb.org/pdb/",
             "identifierSource": "HTTP"
@@ -156,12 +156,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000255",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000255",
+            "identifierSource": "BioSharing"
+          },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
@@ -181,12 +179,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000290",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000290",
+            "identifierSource": "BioSharing"
+          },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
         }
@@ -232,15 +228,14 @@
       "storedIn" :
       {
         "@type": "DataRepository",
-        "identifiers": [
-          {
-            "identifier": "https://www.biosharing.org/biodbcore-000511",
-            "identifierSource": "BioSharing"
-          },
-          {
-            "identifier": "http://www.rcsb.org/pdb/",
-            "identifierSource": "HTTP"
-          }
+        "identifier": {
+          "identifier": "https://www.biosharing.org/biodbcore-000511",
+          "identifierSource": "BioSharing"
+        },
+        "alternateIdentifiers": [{
+          "identifier": "http://www.rcsb.org/pdb/",
+          "identifierSource": "HTTP"
+        }
         ],
         "name": "RCSB Protein Data Bank",
         "licenses" : [
@@ -266,12 +261,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000255",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000255",
+            "identifierSource": "BioSharing"
+          },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
@@ -291,12 +284,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000290",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000290",
+            "identifierSource": "BioSharing"
+          },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
         }
@@ -341,11 +332,11 @@
       "storedIn" :
       {
         "@type": "DataRepository",
-        "identifiers": [
-          {
-            "identifier": "https://www.biosharing.org/biodbcore-000511",
-            "identifierSource": "BioSharing"
-          },
+        "identifier": {
+          "identifier": "https://www.biosharing.org/biodbcore-000511",
+          "identifierSource": "BioSharing"
+        },
+        "alternateIdentifiers": [
           {
             "identifier": "http://www.rcsb.org/pdb/",
             "identifierSource": "HTTP"
@@ -376,12 +367,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000255",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000255",
+            "identifierSource": "BioSharing"
+          },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
@@ -401,12 +390,10 @@
             "version": "sdo:version"
           },
           "@type": "DataStandard",
-          "identifiers": [
-            {
-              "identifier": "https://www.biosharing.org/bsg-000290",
-              "identifierSource": "BioSharing"
-            }
-          ],
+          "identifier": {
+            "identifier": "https://www.biosharing.org/bsg-000290",
+            "identifierSource": "BioSharing"
+          },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
         }
@@ -416,12 +403,10 @@
   "primaryPublications" : [
     {
       "@type": "Publication",
-      "identifiers": [
-        {
-          "identifier": "26060179",
-          "identifierSource": "PMID"
-        }
-      ],
+      "identifier": {
+        "identifier": "26060179",
+        "identifierSource": "PMID"
+      },
       "title": "Architecture of Tfiiic and its Role in RNA Polymerase III Pre-Initiation Complex Assembly.",
       "type" : {
         "value": "article"
