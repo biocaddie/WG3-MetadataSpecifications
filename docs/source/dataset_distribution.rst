@@ -27,7 +27,7 @@ The same Dataset identified by accession number DRP000443 can be accessed throug
 While the distributions use the same Format, the accessURL are different as are the Repository but these distributions are all about the same dataset 
 
 
-.. image:: ./img/DATS-v2.0-postSanDiego-Meeting-Dataset-Distribution-SRA-examples.png
+.. image:: ./_static/DATS-v2.0-postSanDiego-Meeting-Dataset-Distribution-SRA-examples.png
    :alt: A conceptual map detailing Biocaddie DATS distribution for an nucleic acid sequencing dataset as mirrored by 3 INSDC repositories: NCBI SRA, EBI ENA and DDBJ.	
 
 The block below shows a snippet of a Biocaddie DATS JSON document holding key information about dataset distribution. Note the link to *access information* and *data file format* information.
