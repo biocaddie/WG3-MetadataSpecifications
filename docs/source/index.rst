@@ -10,15 +10,18 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
-#. :doc:`DATS Model </dats>`
-#. :doc:`Source Data Provenance Information </dataset_provenance>`
-#. :doc:`What is the Dataset about? </dataset_about>`
-#. :doc:`How and Where is the dataset available from? </dataset_distribution>`
-#. :doc:`Who produced the Dataset? </dataset_creator>`
+   dats
+   dataset_provenance
+   dataset_about
+   dataset_distribution
+   dataset_creator
+
 
 License:
--------
+--------
+
 BioCADDIE DATS is licensed under `Creative Commons Attribution Share-Alike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_.
 
 Contribute:
