@@ -4,7 +4,16 @@
   "description": "A living entity.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "TaxonomicInformation" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

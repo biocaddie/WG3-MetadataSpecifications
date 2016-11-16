@@ -4,7 +4,16 @@
   "description": "Extension mechanism for DATS, which allows to add extra properties to the entities. It should be used only for cases where there are no specific properties to deal with the desired property.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "CategoryValuesPair" ]},
     "category": {
       "description": "A characteristic or property about the entity this object is associated with.",

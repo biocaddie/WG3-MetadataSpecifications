@@ -4,7 +4,16 @@
   "description": "The provenance information kept in DataMed. This schema is for internal use in DataMed and not to be implemented by repositories.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Provenance" ]},
     "transformationFile": {
       "description": "The DataMed transformation file describing the mapping between the original repository and DATS.",

@@ -5,7 +5,16 @@
   "@type": "DataRepository",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "DataRepository" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

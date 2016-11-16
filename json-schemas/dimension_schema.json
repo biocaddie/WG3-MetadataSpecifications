@@ -4,7 +4,16 @@
   "description": "A feature of an entity, i.e. an individual measurable property (both quantitative or qualitative) of the entity being observed.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Dimension" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

@@ -4,7 +4,16 @@
   "description": "A collection of entities known as study subjects based on a set of specified criteria and rules; synonyms: population, cohort.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "StudyGroup" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

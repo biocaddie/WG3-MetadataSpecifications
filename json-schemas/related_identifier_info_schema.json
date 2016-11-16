@@ -4,7 +4,16 @@
   "description": "Information about an idenfier of related resources.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "RelatedIdentifier" ]},
     "identifier": {
       "description": "An identifier of a related resource.",

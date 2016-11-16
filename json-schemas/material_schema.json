@@ -4,7 +4,16 @@
   "description": "A physical entity.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Material" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

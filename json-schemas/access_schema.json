@@ -4,7 +4,16 @@
   "description": "Information about resources that provide the means to obtain an asset (a dataset or other research object).",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Access" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

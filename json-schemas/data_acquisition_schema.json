@@ -4,7 +4,16 @@
     "description": "Process (or activity) of generating data through measurement made with specific techniques.",
     "type": "object",
     "properties": {
-        "@context": { "type": "object"},
+        "@context": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "object"
+                }
+            ]
+        },
         "@type": { "type": "string", "enum": [ "DataAcquisition" ]},
         "identifier": {
             "$ref": "identifier_info_schema.json#"

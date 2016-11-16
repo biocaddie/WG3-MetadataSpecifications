@@ -4,7 +4,16 @@
   "description": "A digital entity containing sets of instructions and operation, which allows computation and operation of and by computer.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Software" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

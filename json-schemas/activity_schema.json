@@ -4,7 +4,16 @@
   "description": "A type of process scheduled in a study.",
   "type": "object",
   "properties": {
-    "@context": { "type": "object"},
+    "@context": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
     "@type": { "type": "string", "enum": [ "Activity" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"
