@@ -1,29 +1,5 @@
 {
-  "@context": {
-    "sdo": "https://schema.org/",
-    "Dataset": "sdo:Dataset",
-    "title": {
-      "@id": "sdo:name",
-      "@type": "sdo:Text"
-    },
-    "description": {
-      "@id": "sdo:description",
-      "@type": "sdo:Text"
-    },
-    "distributions": {
-      "@id": "sdo:distribution",
-      "type": "sdo:DataDownload"
-    },
-    "primaryPublications": "sdo:citation",
-    "citations": "sdo:citation",
-    "producedBy": "sdo:producer",
-    "creators": "sdo:creator",
-    "licenses": "sdo:license",
-    "isAbout": "sdo:about",
-    "hasPart": "sdo:hasPart",
-    "acknowledges": "sdo:funder",
-    "keywords": "sdo:keywords"
-  },
+  "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
   "@type": "Dataset",
   "identifier": {
     "identifier": "5AEM",
@@ -40,31 +16,8 @@
 
   "creators": [
     {
-      "@context": {
-        "sdo": "https://schema.org/",
-        "Person": "sdo:Person",
-        "firstName": "sdo:givenName",
-        "lastName": "sdo:familyName",
-        "fullName": "sdo:name",
-        "email": "sdo:email",
-        "affiliations": "sdo:affiliation",
-        "roles": "sdo:roleName"
-      },
+      "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
       "@type": "Person",
-      "fullName" : "N.M.I.Taylor"
-    },
-    {
-      "@type": "Person",
-      "@context": {
-        "sdo": "https://schema.org/",
-        "Person": "sdo:Person",
-        "firstName": "sdo:givenName",
-        "lastName": "sdo:familyName",
-        "fullName": "sdo:name",
-        "email": "sdo:email",
-        "affiliations": "sdo:affiliation",
-        "roles": "sdo:roleName"
-      },
       "fullName": "C.W.Muller"
     }
   ],
@@ -82,24 +35,7 @@
 
   "distributions": [
     {
-      "@context": {
-        "sdo": "https://schema.org/",
-        "DatasetDistribution": "sdo:DataDownload",
-        "title": {
-          "@id": "sdo:name",
-          "@type": "sdo:Text"
-        },
-        "description": {
-          "@id": "sdo:description",
-          "@type": "sdo:Text"
-        },
-        "storedIn": {
-          "@id": "sdo:includedInDataCatalog",
-          "@type": "sdo:DataCatalog"
-        },
-        "version": "sdo:version",
-        "licenses": "sdo:license"
-      },
+      "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
       "@type": "DatasetDistribution",
       "dates": [
         {
@@ -141,20 +77,7 @@
       },
       "conformsTo": [
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000255",
@@ -164,20 +87,7 @@
           "type": { "value": "format"}
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000290",
@@ -189,24 +99,7 @@
       ]
     },
     {
-      "@context": {
-        "sdo": "https://schema.org/",
-        "DatasetDistribution": "sdo:DataDownload",
-        "title": {
-          "@id": "sdo:name",
-          "@type": "sdo:Text"
-        },
-        "description": {
-          "@id": "sdo:description",
-          "@type": "sdo:Text"
-        },
-        "storedIn": {
-          "@id": "sdo:includedInDataCatalog",
-          "@type": "sdo:DataCatalog"
-        },
-        "version": "sdo:version",
-        "licenses": "sdo:license"
-      },
+      "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
       "@type": "DatasetDistribution",
       "dates": [
         {
@@ -246,20 +139,7 @@
       },
       "conformsTo": [
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000255",
@@ -269,20 +149,7 @@
           "type": { "value": "format"}
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000290",
@@ -352,20 +219,7 @@
       },
       "conformsTo": [
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+         "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000255",
@@ -375,20 +229,7 @@
           "type": { "value": "format"}
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "DataStandard": "sdo:CreativeWork",
-            "name": {
-              "@id": "sdo:name",
-              "@type": "sdo:Text"
-            },
-            "description": {
-              "@id": "sdo:description",
-              "@type": "sdo:Text"
-            },
-            "licenses": "sdo:license",
-            "version": "sdo:version"
-          },
+          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
             "identifier": "https://www.biosharing.org/bsg-000290",
@@ -421,121 +262,49 @@
       ],
       "authors" : [
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "G.",
           "lastName": "Male"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "A.",
           "lastName": "Von Appen"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "S.",
           "lastName": "Glatt"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "N.M.I.",
           "lastName": "Taylor"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "M.",
           "lastName": "Cristovao"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "H.",
           "lastName": "Groetsch"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "M.",
           "lastName": "Beck"
         },
         {
-          "@context": {
-            "sdo": "https://schema.org/",
-            "Person": "sdo:Person",
-            "firstName": "sdo:givenName",
-            "lastName": "sdo:familyName",
-            "fullName": "sdo:name",
-            "email": "sdo:email",
-            "affiliations": "sdo:affiliation",
-            "roles": "sdo:roleName"
-          },
+          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "C.W.",
           "lastName": "Muller"
