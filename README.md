@@ -40,7 +40,7 @@ To execute the code, it is recommended to use a virtual environment, following t
 
 1. If not already installed in your system, first install the virtual environment via `pip`:
    `pip install virtualenv`
-2. Create a virtual environament:
+2. Create a virtual environment:
    `virtualenv venv`
 3. Then, activate the virtual environment:
   `source venv/bin/activate`
