@@ -4,6 +4,8 @@
 This repository contains the output of [bioCADDIE WG3 Descriptive Metadata for Datasets](https://biocaddie.org/group/working-group/working-group-3-descriptive-metadata-datasets)., defining the DatA Tag Suite (DATs) model.
 The presentations and notes from the WG3 activities can be found at [this website](https://biocaddie.org/workgroup-3-group-links). This repository contains the different versions of the DATS specification.
 
+The (work in progress) documentation about DATS can be found at [readthedocs](http://wg3-metadataspecifications.readthedocs.io).
+
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
 ## Version 2.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.62024.svg)](http://dx.doi.org/10.5281/zenodo.62024)
