@@ -47,6 +47,13 @@
         "$ref": "material_schema.json#"
       }
     },
+    "spatialCoverage": {
+      "description": "The spatial coordinates denoting the geospatial origin of the material used to produce measurements part of the dataset.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "annotation_schema.json#"
+      }
+    },
     "bearerOfDisease": {
       "description": "The pathology affecting the material used in the study or refered to in the dataset (ideally from a controlled vocabulary/ontology).",
       "type" : "array",
