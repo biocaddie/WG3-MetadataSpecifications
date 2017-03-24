@@ -36,6 +36,10 @@
       "description": "The name of the material.",
       "type" :  "string"
     },
+    "description" : {
+      "description": "A textual narrative comprised of one or more statements describing the material.",
+      "type" : "string"
+    },
     "derivesFrom" : {
       "description": "A material from which this material originated.",
       "type" : "array",
