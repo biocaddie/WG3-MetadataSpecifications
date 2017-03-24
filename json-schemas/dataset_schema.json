@@ -146,7 +146,8 @@
                     {"$ref" : "disease_schema.json#"},
                     {"$ref" : "molecular_entity_schema.json#"},
                     {"$ref" : "anatomical_part_schema.json#"},
-                    {"$ref" : "treatment_schema.json#"}
+                    {"$ref" : "treatment_schema.json#"},
+                    {"$ref" : "annotation_schema.json#"}
                 ]
             }
         },
