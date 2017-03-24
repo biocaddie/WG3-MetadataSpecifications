@@ -10,7 +10,7 @@ The material in this repository is distributed under [CC BY-SA 3.0](http://creat
 
 ## DATS Pre-print
 
-A preprint on "DATS: the data tag suite to enable discoverability of datasets" can be found at: [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143 )
+A preprint on "DATS: the data tag suite to enable discoverability of datasets" can be found at [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143).
 
 ## Version 2.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.62024.svg)](http://dx.doi.org/10.5281/zenodo.62024)
 
