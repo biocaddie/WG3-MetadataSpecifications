@@ -12,7 +12,11 @@ The material in this repository is distributed under [CC BY-SA 3.0](http://creat
 
 A preprint on "DATS: the data tag suite to enable discoverability of datasets" can be found at [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143).
 
-## Version 2.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.62024.svg)](http://dx.doi.org/10.5281/zenodo.62024)
+## DATS Releases
+
+All DATS releases can be accessed in Zenodo through the [DATS Community](https://zenodo.org/communities/dats/). In addition, links to individual releases can be found below.
+
+### Version 2.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.62024.svg)](http://dx.doi.org/10.5281/zenodo.62024)
 
 The document provides links to the different appendices files.
 
@@ -21,18 +25,18 @@ The document provides links to the different appendices files.
 
 
 
-## Version 2.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.54010.svg)](http://dx.doi.org/10.5281/zenodo.54010)
+### Version 2.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.54010.svg)](http://dx.doi.org/10.5281/zenodo.54010)
 
 The document provides links to the different appendices files.
 
 * [DATS model version 2.0 (pdf)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/doc/v2.0/DataMedDATSspecificationv2-NIHDB2KbioCADDIE.pdf)
 
-## Version 1.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.53078.svg)](http://dx.doi.org/10.5281/zenodo.53078)
+### Version 1.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.53078.svg)](http://dx.doi.org/10.5281/zenodo.53078)
 
 
 * [Metadata Specification - version 1.1 - Draft open for comments (doc)] (https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/doc/v1.1/NIH-BS2K-bioCADDIE-WG3-MetadataElements-Specification-v1.1.docx) 
 
-## Version 1.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.28019.svg)](http://dx.doi.org/10.5281/zenodo.28019)
+### Version 1.0 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.28019.svg)](http://dx.doi.org/10.5281/zenodo.28019)
 
 
 * [Metadata Specification - version 1.0 (PDF file)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/doc/v1.0/WG3MetadataSpecificationv1-NIH-BD2K-bioCADDIE-DataDiscoveryIndex.pdf)
