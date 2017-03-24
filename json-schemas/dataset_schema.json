@@ -47,10 +47,17 @@
                 "$ref" : "date_info_schema.json#"
             }
         },
-         "storedIn" : {
+        "storedIn" : {
             "description": "The data repository hosting the dataset.",
             "$ref": "data_repository_schema.json#"
         },
+        "spatialCoverage": {
+            "description": "The geographical extension and span covered by the dataset and its measured dimensions/variables.",
+            "type" : "array",
+            "items" : {
+                "$ref" : "annotation_schema.json#"
+            }
+        }
         "types" : {
             "description": "A term, ideally from a controlled terminology, identifying the dataset type or nature of the data, placing it in a typology",
             "type" : "array",
