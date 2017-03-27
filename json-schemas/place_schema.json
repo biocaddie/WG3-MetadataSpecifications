@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS place schema",
+  "description": "A spatially bounded entity.",
+  "comment": "It corresponds to Feature in GeoJSON, https://tools.ietf.org/html/rfc7946, geoLocation in DataCite,http://schema.datacite.org/meta/kernel-4.0/ and Place in schema.org",
+  "type": "object",
+  "definitions": {
+    "position": {
+            "description": "A GeoJSON Position",
+            "type": "array",
+            "minItems": 2,
+            "items": { "type": "number" }
+        }
+
+   },
+  "properties": {
+    "name": {
+      "description": "The name of the place.",
+      "type": "string"
+    },
+    "description": {
+      "description": "A textual narrative comprised of one or more statements describing the place.",
+      "type": "string"
+    },
+    "postalAddress": {
+      "description": "A physical street address.",
+      "type": "string"
+    },
+    "geometry": {
+      "description": "A region of a space.",
+      "type": "string",
+      "comment": "It follows GeoJSON specification https://tools.ietf.org/html/rfc7946",
+      "enum": [ "Point", "MultiPoint", "LineString", "MultiLineString", "Polygon", "MultiPolygon", "GeometryCollection"]
+    },
+    "coordinates": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/definitions/position" }
+    }
+  }
+}
