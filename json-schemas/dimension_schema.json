@@ -47,6 +47,10 @@
         "$ref": "annotation_schema.json#"
       }
     },
+    "datatype": {
+      "description": "The type of data for this dimension, as described with the DataType entity.",
+      "$ref": "data_type_schema.json#"
+    }
     "values": {
       "description": "The actual collections of values collected for that dimension.",
       "type": "array"
