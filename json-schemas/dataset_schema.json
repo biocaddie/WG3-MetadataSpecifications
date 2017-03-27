@@ -55,7 +55,7 @@
             "description": "The geographical extension and span covered by the dataset and its measured dimensions/variables.",
             "type" : "array",
             "items" : {
-                "$ref" : "annotation_schema.json#"
+                "$ref" : "place_schema.json#"
             }
         },
         "types" : {

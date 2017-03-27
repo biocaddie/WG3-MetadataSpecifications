@@ -477,7 +477,7 @@
         {
           "name": "Intramural Research Program",
           "abbreviation" : "IRP",
-          "postalAddress" : "National Institutes of Health, Bethesda, MD, USA"
+          "location": { "postalAddress" : "National Institutes of Health, Bethesda, MD, USA" }
         }
 
       ]
@@ -549,7 +549,7 @@
         "affiliations": [
           {
             "name": "National Institutes of Health",
-            "postalAddress": "Bethesda, Maryland, 20892, United States",
+            "location": { "postalAddress": "Bethesda, Maryland, 20892, United States" },
             "roles": [
               {
                 "value": "sponsor",
@@ -570,7 +570,9 @@
         ]
       }
     ],
-    "location": {"value": "National Institutes of Health, Bethesda, 9000 Rockville Pike, United States"},
+    "location": {
+      "postalAddress": "National Institutes of Health, Bethesda, 9000 Rockville Pike, United States"
+    },
     "dates": [
       {
         "date": "2015-08-24",

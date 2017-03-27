@@ -1,8 +1,8 @@
 {
   "identifier": {
-      "identifier": "https://clinicaltrials.gov/show/NCT00001372",
-      "identifierSource": "https://clinicaltrials.gov/show/NCT/\\d+"
-   },
+    "identifier": "https://clinicaltrials.gov/show/NCT00001372",
+    "identifierSource": "https://clinicaltrials.gov/show/NCT/\\d+"
+  },
   "relatedIdentifiers": [
     {
       "identifier": "940066",
@@ -42,10 +42,10 @@
   "primaryPublications" : [
     {
       "identifier":
-        {
-          "identifier": "7762914",
-          "identifierSource": "pubmed"
-        },
+      {
+        "identifier": "7762914",
+        "identifierSource": "pubmed"
+      },
       "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
       "type" : {
         "value" : "Review",
@@ -88,10 +88,10 @@
     },
     {
       "identifier":
-        {
-          "identifier": "8144943",
-          "identifierSource": "pubmed"
-        },
+      {
+        "identifier": "8144943",
+        "identifierSource": "pubmed"
+      },
       "title": "Accelerated in vitro apoptosis of lymphocytes from patients with systemic lupus erythematosus.",
       "type" : {
         "value" : "article",
@@ -122,8 +122,8 @@
     },
     {
       "identifier": {
-          "identifier": "7511686",
-          "identifierSource": "pubmed"
+        "identifier": "7511686",
+        "identifierSource": "pubmed"
       },
       "title": "Autoantigens targeted in systemic lupus erythematosus are clustered in two populations of surface structures on apoptotic keratinocytes.",
       "type" : {
@@ -172,9 +172,9 @@
       {
         "name": "Systemic Lupus Erythematosus",
         "identifier": {
-            "identifier": "HP_0002725",
-            "identifierSource": "hpo"
-          }
+          "identifier": "HP_0002725",
+          "identifierSource": "hpo"
+        }
       }
     ],
     "selectionCriteria": [
@@ -203,7 +203,9 @@
         "affiliations": [
           {
             "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
-            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+            "location": {
+              "postalAddress": "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)"
+            },
             "roles" : [{
               "value": "sponsor",
               "valueIRI": ""
@@ -228,8 +230,10 @@
         "email": "yenealem.temesgen-oyelakin@nih.gov",
         "affiliations" : [
           {
-            "name" : "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
-            "postalAddress" : "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)",
+            "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+            "location": {
+              "postalAddress": "concatenate (<city>Bethesda</city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)"
+            },
             "roles" : [{
               "value" : "sponsor",
               "valueIRI" : ""
@@ -246,7 +250,7 @@
 
     ],
     "location" :{
-      "value" : "National Institutes of Health Clinical Center, 9000 Rockville Pike, United States"
+      "postalAddress" : "National Institutes of Health Clinical Center, 9000 Rockville Pike, United States"
     },
     "startDate" : {
       "date": "February 1994",
@@ -258,8 +262,8 @@
   "distributions" : [
     {
       "identifier": {
-          "identifier" : "1",
-          "identifierSource": ""
+        "identifier" : "1",
+        "identifierSource": ""
       },
       "dates": [
         {
@@ -278,14 +282,14 @@
         }
       ],
       "access" : {
-          "landingPage": "https://clinicaltrials.gov/",
-          "accessURL" :  "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
+        "landingPage": "https://clinicaltrials.gov/",
+        "accessURL" :  "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
       },
       "conformsTo": [
         {
           "identifier": {
-              "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
-              "identifierSource": ""
+            "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
+            "identifierSource": ""
           },
           "name": "XSD",
           "type": {
@@ -295,8 +299,8 @@
         },
         {
           "identifier": {
-              "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
-              "identifierSource": ""
+            "identifier": "https://clinicaltrials.gov/ct2/html/images/info/public.xsd",
+            "identifierSource": ""
           },
           "name": "XML",
           "type": {
@@ -306,29 +310,29 @@
         }
       ],
       "storedIn" : {
-          "identifier": {
-              "identifier": "https://clinicaltrials.gov/ct2/home",
-              "identifierSource": "http"
-          },
-          "relatedIdentifiers": [
-            {
-              "identifier": "https://biosharing.org/biodbcore-000470",
-              "identifierSource": "BioSharing"
-            }
-          ],
-          "name": "ClinicalTrials.gov",
-          "licenses" : [
-            {
-              "name": ""
-            }
-          ],
-          "types" :[
-            {
-              "value" : "primary repository",
-              "valueIRI" : ""
-            }
-          ],
-          "version": ""
+        "identifier": {
+          "identifier": "https://clinicaltrials.gov/ct2/home",
+          "identifierSource": "http"
+        },
+        "relatedIdentifiers": [
+          {
+            "identifier": "https://biosharing.org/biodbcore-000470",
+            "identifierSource": "BioSharing"
+          }
+        ],
+        "name": "ClinicalTrials.gov",
+        "licenses" : [
+          {
+            "name": ""
+          }
+        ],
+        "types" :[
+          {
+            "value" : "primary repository",
+            "valueIRI" : ""
+          }
+        ],
+        "version": ""
       },
       "size": -1,
       "unit" : {

@@ -68,7 +68,7 @@
     },
     "location": {
       "description": "The location where the activity takes place.",
-      "$ref": "annotation_schema.json#"
+      "$ref": "place_schema.json#"
     },
     "performedBy": {
       "description": "The person(s) or organisation(s) responsible for executing the process.",

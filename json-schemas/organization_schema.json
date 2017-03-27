@@ -40,9 +40,9 @@
       "description": "The shortname, abbreviation associated to the organization.",
       "type" :  "string"
     },
-    "postalAddress": {
-      "description": "The postal, street address associated to the organization.",
-      "type" :  "string"
+    "location": {
+      "description": "The place where the organization is located.",
+      "$ref" : "place_schema.json#"
     },
     "roles" : {
       "description": "The roles of the organization (ideally from a controlled vocabulary/ontology).",
