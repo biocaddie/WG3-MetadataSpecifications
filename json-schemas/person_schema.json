@@ -16,6 +16,7 @@
     },
     "@type": { "type": "string", "enum": [ "Person" ]},
     "identifier": {
+      "description": "Primary identifier for the person.",
       "$ref": "identifier_info_schema.json#"
     },
     "alternateIdentifiers": {

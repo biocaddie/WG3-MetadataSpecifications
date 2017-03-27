@@ -6,14 +6,32 @@
   "type": "object",
   "definitions": {
     "position": {
-            "description": "A GeoJSON Position",
-            "type": "array",
-            "minItems": 2,
-            "items": { "type": "number" }
-        }
+      "description": "A GeoJSON Position",
+      "type": "array",
+      "minItems": 2,
+      "items": { "type": "number" }
+    }
 
-   },
+  },
   "properties": {
+    "identifier": {
+      "description": "Primary identifier for the place.",
+      "$ref": "identifier_info_schema.json#"
+    },
+    "alternateIdentifiers": {
+      "description": "Alternate identifiers for the place.",
+      "type": "array",
+      "items": {
+        "$ref": "alternate_identifier_info_schema.json#"
+      }
+    },
+    "relatedIdentifiers": {
+      "description": "Related identifiers for the place.",
+      "type": "array",
+      "items": {
+        "$ref": "related_identifier_info_schema.json#"
+      }
+    },
     "name": {
       "description": "The name of the place.",
       "type": "string"
