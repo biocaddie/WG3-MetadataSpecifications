@@ -16,11 +16,15 @@ A preprint on "DATS: the data tag suite to enable discoverability of datasets" c
 
 All DATS releases can be accessed in Zenodo through the [DATS Community](https://zenodo.org/communities/dats/). In addition, links to individual releases can be found below.
 
+### Version 2.2 - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.438337.svg)](https://doi.org/10.5281/zenodo.438337)
+
+* [DATS model version 2.2 (Google Document)](https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit?usp=sharing)
+
+
 ### Version 2.1 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.62024.svg)](http://dx.doi.org/10.5281/zenodo.62024)
 
 The document provides links to the different appendices files.
 
-* [DATS model version 2.1 (Google Document)](https://docs.google.com/document/d/1hVcYRleE6-dFfn7qbF9Bv1Ohs1kTF6a8OwWUvoZlDto/edit?usp=sharing)
 * [DATS model version 2.1 (pdf)](https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/doc/v2.1/DataMedDATSspecificationv2.1-NIH-BD2KbioCADDIE.pdf)
 
 
