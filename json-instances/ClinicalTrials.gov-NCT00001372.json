@@ -43,9 +43,15 @@
     {
       "identifier":
       {
-        "identifier": "7762914",
+        "identifier": "https://www.ncbi.nlm.nih.gov/pubmed/7762914",
         "identifierSource": "pubmed"
       },
+      "alternateIdentifiers": [
+        {
+         "identifier": "http://dx.doi.org/10.7326/0003-4819-123-1-199507010-00007",
+          "identifierSource": "doi"
+        }
+      ],
       "title": "Part 2: Dermatologic and joint disease, the antiphospholipid antibody syndrome, pregnancy and hormonal therapy, morbidity and mortality, and pathogenesis.",
       "type" : {
         "value" : "Review",
