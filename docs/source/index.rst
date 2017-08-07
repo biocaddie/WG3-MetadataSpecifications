@@ -40,7 +40,7 @@ Contributing:
 -------------
 
 If you wish to contribute to DATS and/or this documentation, please report issues in our `tracker <https://github.com/biocaddie/WG3-MetadataSpecifications/issues>`_
-or contact us directly (`agbeltran <https://github.com/agbeltran>`_ and `proccaserra <https://github.com/proccaserra>`_.
+or contact us directly (`agbeltran <https://github.com/agbeltran>`_ and `proccaserra <https://github.com/proccaserra>`_).
 
 The different releases of DATS are available in through the `bioCADDIE Working Group 3 Github Repository <https://github.com/biocaddie/WG3-MetadataSpecifications>`_, including documents and appendixes, JSON schemas, JSON-LD context files and JSON-LD instance files. Each release is preserved in the Zenodo repository and has its own persistent Digital Object Identifier (DOI). All releases in Zenodo can be accessed through the `Zenodo DATS Community <https://zenodo.org/communities/dats/>`_.
 
