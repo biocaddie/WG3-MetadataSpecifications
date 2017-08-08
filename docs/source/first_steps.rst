@@ -3,8 +3,10 @@ First Steps with DATS
 #####################
 
 This document gives an overview of the DATS components from a practical perspective, detailing how DATS may be used to document a specific dataset. 
+
 The main building blocks of the DATS model are defined as "entities", and for convenience purposes they may be compared to "sections" of information in a flat documentation. Each entity has a number of properties that are instantiated either as other entities or as direct entries for documentation that may be structured (e.g., integer, date, URI) or unstructured (string, or free text entries). The DATS model is centered around the *Dataset* entity, which supports most of the relevant information about the data being observed. 
-The *Dataset* entity is designed to describe a "set of dimensions" or a "collection of data" that are produced and/or distributed as a whole. First and foremost, it addresses a set of questions that determine the dataset provenance: who, when, what, why and where. By answering these questions each repository will define its own view on what a dataset is, and will represent it in DATS as the main entity.
+
+The *Dataset* entity is designed to describe a "set of dimensions" or a "collection of data" that are produced and/or distributed as a whole. First and foremost, it addresses a set of questions that determine the dataset provenance: who, when, what, why, where, and how. By answering these questions each repository will define its own view on what a dataset is, and will represent it in DATS as the main entity.
 
 *Who* produced the dataset?
 -----------------------------
