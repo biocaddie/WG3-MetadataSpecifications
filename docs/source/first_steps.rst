@@ -27,7 +27,7 @@ This mechanism of providing a generic *Date* that may be repeated and differenti
 *What* is the dataset about?
 ----------------------------
 
-The nature of the information available in a dataset is recorded in the DataType entity.
+The nature of the information available in a dataset is recorded in the *DataType* entity.
 
 A *DataType* reflects four axes of a dataset's nature: information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
 
