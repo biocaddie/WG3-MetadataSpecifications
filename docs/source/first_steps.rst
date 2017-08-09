@@ -29,13 +29,13 @@ This mechanism of providing a generic *Date* that may be repeated and differenti
 
 The nature of the information available in a dataset is recorded in the *DataType* entity.
 
-A *DataType* reflects four axes of a dataset's nature: information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
+A *DataType* covers four aspects of a dataset's nature: type of information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
 
 
 *Why* was the data produced?
 ----------------------------
 
-As a *Dataset* property, the "description" is a textual narrative that usually indicates the dataset's purpose and why it was produced.
+As a *Dataset* property, the "description" is a textual narrative that typically indicates the dataset's purpose and why it was produced.
 
 In addition, in the extended DATS it is possible to describe the *Study* that produced one, or several related datasets, including
 the purpose, objective, or hypothesis that gave origin to the dataset(s) defined as belonging to a study.
