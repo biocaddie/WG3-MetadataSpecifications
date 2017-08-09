@@ -11,7 +11,7 @@ The *Dataset* entity is designed to describe a "set of dimensions" or a "collect
 *Who* produced the dataset?
 -----------------------------
 
-In the Dataset "creators" property, DATS records the *Person* (s) and/or *Organization* (s) associated with the dataset, and supports documenting their roles (e.g., creator, curator, developer, funder, principal investigator).
+In the Dataset "creators" property, DATS records the *Person(s)* and/or *Organization(s)* associated with the dataset, and supports documenting their roles (e.g., creator, curator, developer, funder, principal investigator).
 
 
 *When* was the dataset produced?
