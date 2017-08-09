@@ -17,7 +17,7 @@ In the Dataset "creators" property, DATS records the *Person* (s) and/or *Organi
 *When* was the dataset produced?
 -------------------------------
 
-DATS records key *Date*(s) about the *Dataset*.
+DATS records key *Date(s)* in connection with the *Dataset*.
 
 For each *Date* users can identify its type, in relation to a specific event (e.g. creation, update, validation, verification, deprecation of the dataset).
 
