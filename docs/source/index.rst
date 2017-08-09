@@ -9,7 +9,7 @@ Welcome to bioCADDIE DATS's documentation
 Introduction:
 -------------
 
-DATS, which stands for DAta Tag Suite, is a data description model designed and developed to describe datasets being ingested in `DataMed <http://datamed.org>`_, a prototype for data discovery developed as part of the `NIH Big Data 2 Knowledge <https://datascience.nih.gov/bd2k>`_ `bioCADDIE project <http://biocaddie.org/>`_.
+DATS, which stands for DAta Tag Suite, is a data description model designed and produced to describe datasets being ingested in `DataMed <http://datamed.org>`_, a prototype for data discovery developed as part of the `NIH Big Data 2 Knowledge <https://datascience.nih.gov/bd2k>`_ `bioCADDIE project <http://biocaddie.org/>`_.
 
 For more information about the objectives of the bioCADDIE project, please have a look at the `bioCADDIE White Paper <https://dx.doi.org/10.6084/m9.figshare.1362572.v1>`_.
 For more information about DataMed, please check the DataMed pre-print available in `bioarxiv <https://doi.org/10.1101/094888>`_.
