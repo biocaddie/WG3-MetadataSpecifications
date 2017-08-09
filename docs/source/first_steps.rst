@@ -54,6 +54,6 @@ Spatial coverage is instantiated within a *Place* entity, which maps to the enti
 *Where* and *How* can the dataset be accessed?
 ----------------------------------------------
 
-DATS also provides for a comprehensive description of the ways to access a Dataset, including the dataset landing page and/or access URL if available, a description of the type of access (such as download, remote access, remote service, enclave or not available) as well as  any authorization or authetication needed to access the dataset. This information can be entered in the *Access* entity, that is part of *DatasetDistribution* as well as the description of a *DataRepository*.
+DATS also provides for a comprehensive description of the ways to access a Dataset, including the dataset landing page and/or access URL if available, a description of the type of access (such as download, remote access, remote service, enclave or not available) as well as  any authorization or authetication needed to access the dataset. This information can be entered in the *Access* entity, that is part of *DatasetDistribution* as well as part of the description of a *DataRepository*.
 
 
