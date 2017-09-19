@@ -36,3 +36,7 @@ class DatasetValidation(TestCase):
     def test_validate_dataset_6(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "PDB-5AEM.jsonld", 1))
 
+    def test_validate_dataset_7(self):
+        folder_path = os.path.join(self.path, "index-json")
+        self.assertTrue(dats_model.validate_dataset(folder_path, "PRJNA97269-dats.json", 1))
+
