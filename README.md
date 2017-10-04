@@ -8,7 +8,11 @@ The (work in progress) documentation about DATS can be found at [readthedocs](ht
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
-## DATS Pre-print
+## DATS Publication
+
+DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI](http://doi.org/10.1038/sdata.2017.59)
+
+### DATS Pre-print
 
 A preprint on "DATS: the data tag suite to enable discoverability of datasets" can be found at [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143).
 
