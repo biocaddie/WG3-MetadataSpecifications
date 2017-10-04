@@ -10,7 +10,7 @@ The material in this repository is distributed under [CC BY-SA 3.0](http://creat
 
 ## DATS Publication
 
-DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI](http://doi.org/10.1038/sdata.2017.59)
+DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59).
 
 ### DATS Pre-print
 
