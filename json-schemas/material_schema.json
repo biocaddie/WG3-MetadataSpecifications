@@ -51,7 +51,7 @@
       "description": "The spatial coordinates denoting the geospatial origin of the material used to produce measurements part of the dataset.",
       "type" : "array",
       "items" : {
-        "$ref" : "annotation_schema.json#"
+        "$ref" : "place_schema.json#"
       }
     },
     "bearerOfDisease": {
