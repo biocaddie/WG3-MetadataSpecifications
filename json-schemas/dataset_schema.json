@@ -172,6 +172,10 @@
                 "$ref" : "annotation_schema.json#"
             }
         },
+        "version" : {
+            "description": "A release point for the dataset when applicable.",
+            "type" : "string"
+        },
         "extraProperties": {
             "description": "Extra properties that do not fit in the previous specified attributes. ",
             "type": "array",
