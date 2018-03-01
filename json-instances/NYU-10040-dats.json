@@ -20,9 +20,9 @@
       "categoryIRI": "",
       "values": [
         {
-        "value": "",
-        "valueIRI": ""
-      }
+          "value": "",
+          "valueIRI": ""
+        }
       ]
     },
     {
@@ -30,9 +30,9 @@
       "categoryIRI": "",
       "values": [
         {
-        "value": "internal",
-        "valueIRI": ""
-      }
+          "value": "internal",
+          "valueIRI": ""
+        }
       ]
     },
     {
@@ -40,29 +40,29 @@
       "categoryIRI": "",
       "values": [
         {
-        "value": "false",
-        "valueIRI": ""
-      }
+          "value": "false",
+          "valueIRI": ""
+        }
       ]
     },
     {
       "category": "archival_notes",
       "categoryIRI": "",
       "values": [
-       {
-        "value": "",
-        "valueIRI": ""
-      }
+        {
+          "value": "",
+          "valueIRI": ""
+        }
       ]
     },
     {
       "category": "published",
       "categoryIRI": "",
       "values": [
-{
-        "value": "true",
-        "valueIRI": ""
-      }
+        {
+          "value": "true",
+          "valueIRI": ""
+        }
       ]
     },
     {
@@ -87,28 +87,28 @@
       "date": "2008",
       "type": {
         "value": "dataset_start_date",
-                "valueIRI": ""
+        "valueIRI": ""
       }
     },
     {
       "date": "2015-05-22 00:00:00.000000",
       "type": {
         "value": "addition date",
-                "valueIRI": ""
+        "valueIRI": ""
       }
     },
     {
       "date": "2017-06-14 00:00:00.000000",
       "type": {
         "value": "update date",
-                "valueIRI": ""
+        "valueIRI": ""
       }
     },
     {
       "date": "",
       "type": {
         "value": "archival date",
-                "valueIRI": ""
+        "valueIRI": ""
       }
     }
   ],
@@ -134,7 +134,7 @@
     {
       "information": {
         "value": "Survey",
-           "valueIRI" : ""
+        "valueIRI" : ""
       }
     },
     {
@@ -146,7 +146,7 @@
     {
       "information": {
         "value": "Administrative",
-           "valueIRI" : ""
+        "valueIRI" : ""
       }
     }
   ],
@@ -161,7 +161,7 @@
       "roles": [
         {
           "value": "corresponding author",
-             "valueIRI" : ""
+          "valueIRI" : ""
         }
       ],
       "extraProperties": [
@@ -170,11 +170,11 @@
           "categoryIRI": "",
           "values": [
             {
-        "value":  "http://www.med.nyu.edu/biosketch/ses2127",
-        "valueIRI": ""
-           }
+              "value":  "http://www.med.nyu.edu/biosketch/ses2127",
+              "valueIRI": ""
+            }
 
-            
+
           ]
         }
       ]
@@ -190,9 +190,9 @@
           "categoryIRI": "",
           "values": [
             {
-        "value":  "http://www.med.nyu.edu/biosketch/shelld01",
-        "valueIRI": ""
-           } 
+              "value":  "http://www.med.nyu.edu/biosketch/shelld01",
+              "valueIRI": ""
+            }
           ]
         }
       ]
@@ -206,13 +206,11 @@
         {
           "category": "bio_url",
           "categoryIRI": "",
-          "values": [{
-        "value":  "http://www.med.nyu.edu/biosketch/rogere02/",
-        "valueIRI": ""
-      }
-
-
-           
+          "values": [
+            {
+              "value":  "http://www.med.nyu.edu/biosketch/rogere02/",
+              "valueIRI": ""
+            }
           ]
         }
       ]
@@ -410,11 +408,11 @@
           "category": "award_url",
           "categoryIRI": "",
           "values": [
-                            {
+            {
               "valueIRI": "",
               "value": " http://projectreporter.nih.gov/project_info_description.cfm?aid=8015408&icde=24767540&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC"
             }
-           
+
           ]
         }
       ],
@@ -431,10 +429,10 @@
               "categoryIRI": "",
               "values": [
                 {
-              "valueIRI": "",
-              "value": "Federal, NIH"
-            }
-                
+                  "valueIRI": "",
+                  "value": "Federal, NIH"
+                }
+
               ]
             }
           ]
@@ -457,7 +455,7 @@
           "category": "geographic_area_detail_authority",
           "categoryIRI": "",
           "values": [ { "value" : "", "valueIRI" : ""}
-           
+
           ]
         }
       ]
@@ -477,13 +475,13 @@
         "categoryIRI": "",
         "values": [
           {
-              "valueIRI": "",
-              "value": "Interventional"
-            }
-         ]
+            "valueIRI": "",
+            "value": "Interventional"
+          }
+        ]
       }
     ],
-     "schedulesDataAcquisition": [
+    "schedulesDataAcquisition": [
       {
         "name" : "Survey"
       }
@@ -501,18 +499,18 @@
       {
         "category": "inclusion criteria",
         "values": [ {
-            "value":  "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies."
+          "value":  "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies."
         , "valueIRI": ""
-    }
+        }
         ]
       },
       {
         "category": "gender",
         "values": [
-            {
-          "value": "BOTH",
-          "valueIRI" : ""
-        }
+          {
+            "value": "BOTH",
+            "valueIRI" : ""
+          }
         ]
       },
       {
@@ -534,28 +532,25 @@
       {
         "category": "healthy volunteers",
         "values": [
-            {
-          "values":"Accepts Healthy Volunteers",
-          "valueIRI" : ""
-        }
-          
+          {
+            "values":"Accepts Healthy Volunteers",
+            "valueIRI" : ""
+          }
+
         ]
       }
     ],
     "studyGroups": [
       {
         "name": "Adult (19 years - 64 years)",
-        "size": "",
         "members": []
       },
       {
         "name": "Senior (65 years - 79 years)",
-        "size": "",
         "members": []
       },
       {
         "name": "Aged (80 years and over)",
-        "size": "",
         "members": []
       }
     ],
@@ -612,52 +607,35 @@
       ],
       "access": {
         "landingPage": "https://clinicaltrials.gov/",
-        "accessURL": "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
+        "accessURL": "https://clinicaltrials.gov/show/NCT00001372?displayxml=true",
+
+        "authentications": [
+          {
+            "valueIRI": "",
+            "value": ""
+          },
+          {
+            "valueIRI": "",
+            "value": ""
+          }
+        ],
+        "authorizations": [
+          {
+            "valueIRI": "",
+            "value": "dualIndividual"
+          }
+        ],
+        "landingPage": "",
+        "types": [
+          {
+            "valueIRI": "",
+            "value": "download"
+          }
+        ]
       },
-      "accessModalities": [
-        {
-          "licenses": [
-            {
-              "identifiers": [
-                {
-                  "identifier": "",
-                  "identifierSource": ""
-                }
-              ],
-              "name": ""
-            }
-          ]
-        },
-        {
-          "authentications": [
-            {
-              "valueIRI": "",
-              "value": ""
-            },
-            {
-              "valueIRI": "",
-              "value": ""
-            }
-          ],
-          "authorizations": [
-            {
-              "valueIRI": "",
-              "value": "dualIndividual"
-            }
-          ],
-          "landingPage": "",
-          "types": [
-            {
-              "valueIRI": "",
-              "value": "download"
-            }
-          ]
-        }
-      ],
+
       "formats": [
-        {
-          "value": "JSON"
-        }
+        "JSON"
       ],
       "conformsTo": [
         {
@@ -676,9 +654,9 @@
               "categoryIRI": "",
               "values": [
                 {
-              "valueIRI": "",
-              "value": "W3C"
-            }
+                  "valueIRI": "",
+                  "value": "W3C"
+                }
               ]
             }
           ]
@@ -698,7 +676,7 @@
               "category": "measurement_standard_authority",
               "categoryIRI": "",
               "values": [
-               {"value":"","valueIRI":""}
+                {"value":"","valueIRI":""}
               ]
             }
           ]
@@ -729,7 +707,6 @@
         ],
         "version": ""
       },
-      "size": "",
       "unit": {
         "value": "megabyte",
         "valueIRI": "http://purl.obolibrary.org/obo/UO_0000235"
