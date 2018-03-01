@@ -132,12 +132,12 @@
 	"types": [
 		{
 			"information": {
-				value: "clinical data"
+				"value": "clinical data"
 			}
 		},
 		{
 			"information": {
-				value: "survey data"
+				"value": "survey data"
 			}
 		}
 	],

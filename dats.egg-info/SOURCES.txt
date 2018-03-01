@@ -1,0 +1,8 @@
+setup.py
+dats/__init__.py
+dats/dats_jsonld.py
+dats/dats_model.py
+dats.egg-info/PKG-INFO
+dats.egg-info/SOURCES.txt
+dats.egg-info/dependency_links.txt
+dats.egg-info/top_level.txt

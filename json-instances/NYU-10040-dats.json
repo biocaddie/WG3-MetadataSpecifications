@@ -1,0 +1,739 @@
+{
+  "identifier": {
+    "identifier": "UID: 10040",
+    "identifierSource": "internal organization"
+  },
+  "relatedIdentifiers": [
+    {
+      "identifier": "https://clinicaltrials.gov/show/NCT01363245",
+      "identifierSource": "https://clinicaltrials.gov/show/NCT/\\d+"
+    },
+    {
+      "identifier": "NCT00001372",
+      "identifierSource": "nct"
+    }
+  ],
+  "availability": "Contact the author.",
+  "extraProperties": [
+    {
+      "category": "dataset_alt_title",
+      "categoryIRI": "",
+      "values": [
+        {
+        "value": "",
+        "valueIRI": ""
+      }
+      ]
+    },
+    {
+      "category": "origin",
+      "categoryIRI": "",
+      "values": [
+        {
+        "value": "internal",
+        "valueIRI": ""
+      }
+      ]
+    },
+    {
+      "category": "archived",
+      "categoryIRI": "",
+      "values": [
+        {
+        "value": "false",
+        "valueIRI": ""
+      }
+      ]
+    },
+    {
+      "category": "archival_notes",
+      "categoryIRI": "",
+      "values": [
+       {
+        "value": "",
+        "valueIRI": ""
+      }
+      ]
+    },
+    {
+      "category": "published",
+      "categoryIRI": "",
+      "values": [
+{
+        "value": "true",
+        "valueIRI": ""
+      }
+      ]
+    },
+    {
+      "category": "last_edit_notes",
+      "categoryIRI": "",
+      "values": [{
+        "value": "",
+        "valueIRI": ""
+      }
+      ]
+    }
+  ],
+  "dates": [
+    {
+      "date": "2015",
+      "type": {
+        "value": "dataset_end_date",
+        "valueIRI": ""
+      }
+    },
+    {
+      "date": "2008",
+      "type": {
+        "value": "dataset_start_date",
+                "valueIRI": ""
+      }
+    },
+    {
+      "date": "2015-05-22 00:00:00.000000",
+      "type": {
+        "value": "addition date",
+                "valueIRI": ""
+      }
+    },
+    {
+      "date": "2017-06-14 00:00:00.000000",
+      "type": {
+        "value": "update date",
+                "valueIRI": ""
+      }
+    },
+    {
+      "date": "",
+      "type": {
+        "value": "archival date",
+                "valueIRI": ""
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "value": "Delivery of Health Care",
+      "valueIRI": "https://id.nlm.nih.gov/mesh/D003695.html"
+    },
+    {
+      "value": "Health Care Costs",
+      "valueIRI": "https://id.nlm.nih.gov/mesh/D017048.html"
+    },
+    {
+      "value": "Health Status",
+      "valueIRI": "https://id.nlm.nih.gov/mesh/D006304.html"
+    },
+    {
+      "value": "Risk Factors",
+      "valueIRI": "https://id.nlm.nih.gov/mesh/D012307.html"
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "Survey",
+           "valueIRI" : ""
+      }
+    },
+    {
+      "information": {
+        "value": "Behavioral",
+        "valueIRI" : ""
+      }
+    },
+    {
+      "information": {
+        "value": "Administrative",
+           "valueIRI" : ""
+      }
+    }
+  ],
+  "title": "CHART New York Smoking-Cessation Interventions for Urban Hospital Patients Dataset",
+  "description": "The Consortium of Hospitals Advancing Research on Tobacco (CHART) is a network of six projects and a coordinating center aimed at assessing the effectiveness and cost-effectiveness of smoking cessation interventions initiated during hospitalizations and continued post-discharge. The CHART New York Smoking-Cessation Interventions for Urban Hospital Patients trial looked at the effectiveness of a pro-active, multi-session telephone counseling program with motivational enhancement as compared to the New York State Quitline. Data was collected from a randomized trial aimed at comparing effectiveness of two approaches of smoking cessation interventions. A total of 1618 adult smokers were enrolled from Bellevue Hospital and the Manhattan VA. The data examines smoking abstinence at baseline, and two-, six-month follow up periods. Measures include socio-demographics, smoking history, health habits, health status, depression, biochemical validation, participant satisfaction and intervention fidelity.",
+  "creators": [
+    {
+      "fullName": "Scott Sharmann",
+      "firstName": "Scott",
+      "lastName": "Shermann",
+      "email": "scott.sherman@nyumc.org",
+      "roles": [
+        {
+          "value": "corresponding author",
+             "valueIRI" : ""
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "bio_url",
+          "categoryIRI": "",
+          "values": [
+            {
+        "value":  "http://www.med.nyu.edu/biosketch/ses2127",
+        "valueIRI": ""
+           }
+
+            
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Donna Shelley",
+      "firstName": "Donna",
+      "lastName": "Shelley",
+      "email": "",
+      "extraProperties": [
+        {
+          "category": "bio_url",
+          "categoryIRI": "",
+          "values": [
+            {
+        "value":  "http://www.med.nyu.edu/biosketch/shelld01",
+        "valueIRI": ""
+           } 
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Erin Rogers",
+      "firstName": "Erin",
+      "lastName": "Rogers",
+      "email": "",
+      "extraProperties": [
+        {
+          "category": "bio_url",
+          "categoryIRI": "",
+          "values": [{
+        "value":  "http://www.med.nyu.edu/biosketch/rogere02/",
+        "valueIRI": ""
+      }
+
+
+           
+          ]
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "Epidemiology",
+      "valueIRI": ""
+    },
+    {
+      "value": "Health expenditures",
+      "valueIRI": ""
+    },
+    {
+      "value": "Health services",
+      "valueIRI": ""
+    },
+    {
+      "value": "Outpatients",
+      "valueIRI": ""
+    },
+    {
+      "value": "Patient discharge",
+      "valueIRI": ""
+    },
+    {
+      "value": "Quitline",
+      "valueIRI": ""
+    },
+    {
+      "value": "Randomized trial",
+      "valueIRI": ""
+    },
+    {
+      "value": "Smoking",
+      "valueIRI": ""
+    },
+    {
+      "value": "Smoking cessation",
+      "valueIRI": ""
+    },
+    {
+      "value": "Telephone counseling",
+      "valueIRI": ""
+    },
+    {
+      "value": "Tobacco use",
+      "valueIRI": ""
+    },
+    {
+      "value": "Underserved population",
+      "valueIRI": ""
+    },
+    {
+      "value": "Urban hospitals",
+      "valueIRI": ""
+    }
+  ],
+  "primaryPublications": [
+    {
+      "identifier": {
+        "identifier": "https://dx.doi.org/10.1186%2F1745-6215-13-126",
+        "identifierSource": "doi"
+      },
+      "alternateIdentifiers": [
+        {
+          "identifier": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3502597/",
+          "identifierSource": "pmc"
+        }
+      ],
+      "title": "Effectiveness of smoking-cessation interventions for urban hospital patients: study protocol for a randomized controlled trial",
+      "type": {
+        "value": "Article",
+        "valueIRI": ""
+      },
+      "publicationVenue": "Trials.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": {
+            "value": "publication date"
+          }
+        }
+      ],
+      "authorsList": "Ellie Grossman, Donna Shelley, R Scott Braithwaite, Iryna Lobach, Ana Goffin, Erin Rogers, and Scott Sherman",
+      "authors": [
+        {
+          "firstName": "E",
+          "lastName": "Grossman"
+        },
+        {
+          "firstName": "D",
+          "lastName": "Shelley"
+        },
+        {
+          "firstName": "R",
+          "lastName": "Scott Braithwaite"
+        },
+        {
+          "firstName": "I",
+          "lastName": "Lobach"
+        },
+        {
+          "firstName": "A",
+          "lastName": "Goffin"
+        },
+        {
+          "firstName": "E",
+          "lastName": "Rogers"
+        },
+        {
+          "firstName": "S",
+          "lastName": "Sherman"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "identifier": "https://doi.org/10.1016/j.amepre.2015.10.004",
+        "identifierSource": "doi"
+      },
+      "title": "Telephone Smoking-Cessation Counseling for Smokers in Mental Health Clinics",
+      "type": {
+        "value": "article",
+        "valueIRI": ""
+      },
+      "publicationVenue": "Am J Prev Med.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": {
+            "value": "publication date"
+          }
+        }
+      ],
+      "authorsList": "Rogers ES, Smelson DA, Gillespie CC, Elbel B, Poole S, Hagedorn HJ, Kalman D, Krebs P, Fang Y, Wang B, Sherman SE.",
+      "authors": [
+        {
+          "firstName": "ES",
+          "lastName": "Rogers"
+        },
+        {
+          "firstName": "DA",
+          "lastName": "Smelson"
+        },
+        {
+          "firstName": "CC",
+          "lastName": "Gillespie"
+        },
+        {
+          "firstName": "B",
+          "lastName": "Elbel"
+        },
+        {
+          "firstName": "S",
+          "lastName": "Pools"
+        },
+        {
+          "firstName": "HJ",
+          "lastName": "Hagedorn"
+        },
+        {
+          "firstName": "D",
+          "lastName": "Kalman"
+        },
+        {
+          "firstName": "P",
+          "lastName": "Krebs"
+        },
+        {
+          "firstName": "Y",
+          "lastName": "Fang"
+        },
+        {
+          "firstName": "B",
+          "lastName": "Wang"
+        },
+        {
+          "firstName": "SE",
+          "lastName": "Sherman"
+        }
+      ]
+    }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": "1U01HL105229-01",
+        "identifierSource": "NHLBI"
+      },
+      "name": "NATIONAL HEART, LUNG, AND BLOOD INSTITUTE",
+      "extraProperties": [
+        {
+          "category": "award_url",
+          "categoryIRI": "",
+          "values": [
+                            {
+              "valueIRI": "",
+              "value": " http://projectreporter.nih.gov/project_info_description.cfm?aid=8015408&icde=24767540&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC"
+            }
+           
+          ]
+        }
+      ],
+      "funders": [
+        {
+          "name": "NATIONAL HEART, LUNG, AND BLOOD INSTITUTE",
+          "abbreviation": "NHLBI",
+          "location": {
+            "postalAddress": "National Institutes of Health, Bethesda, MD, USA"
+          },
+          "extraProperties": [
+            {
+              "category": "funder type",
+              "categoryIRI": "",
+              "values": [
+                {
+              "valueIRI": "",
+              "value": "Federal, NIH"
+            }
+                
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "name": "New York (City)",
+      "": "",
+      "extraProperties": [
+        {
+          "category": "geographic_area_detail_name",
+          "categoryIRI": "",
+          "values": [{ "valueIRI" : "", "value" : "New York (State) - New York City" }
+          ]
+        },
+        {
+          "category": "geographic_area_detail_authority",
+          "categoryIRI": "",
+          "values": [ { "value" : "", "valueIRI" : ""}
+           
+          ]
+        }
+      ]
+    }
+  ],
+  "producedBy": {
+    "name": "CHART New York Smoking-Cessation Interventions for Urban Hospital Patients Dataset",
+    "types": [
+      {
+        "value": "Interventional",
+        "valueIRI": ""
+      }
+    ],
+    "extraProperties": [
+      {
+        "category": "study design",
+        "categoryIRI": "",
+        "values": [
+          {
+              "valueIRI": "",
+              "value": "Interventional"
+            }
+         ]
+      }
+    ],
+     "schedulesDataAcquisition": [
+      {
+        "name" : "Survey"
+      }
+    ],
+    "isAboutBiologicalEntity": [
+      {
+        "name": "",
+        "identifier": {
+          "identifier": "",
+          "identifierSource": ""
+        }
+      }
+    ],
+    "selectionCriteria": [
+      {
+        "category": "inclusion criteria",
+        "values": [ {
+            "value":  "INCLUSION CRITERIA: Patients with known or suspected SLE will be evaluated in either the outpatient or inpatient research ward of the Clinical Center as indicated. Patients will not be selected based on age, race or gender. However, due to the nature of the disease, the patient population will not be expected to be evenly distributed, since SLE is predominantly a disease of young females, with increased prevalence in select racial groups, particularly African Americans and Hispanics. First and second-degree relatives of the patient may be recruited in the study for genetic analysis. We will ask for the patient s permission to contact his/her relatives, as described in details in Section IV.H. - SLE or suspected SLE established by ACR criteria - Ability to give informed consent - Adult and minor relatives (first and second degree) of individuals Included in IV-G (only for genetic studies) - Ability of the patient or minor relative s parents to give informed consent EXCLUSION CRITERIA: - Concomitant medical problems which would confound the interpretation of studies gathered by this protocol. Included in this is the presence of HIV in the blood if it interferes with interpretation of some lupus studies. - Concomitant medical, surgical or other conditions for which inadequate facilities are available to support their care at NIH. CRITERIA FOR HEALTHY CONTROL SUBJECTS: - Inclusion Criteria: - Age 18 years with no upper age limit. - For vascular studies healthy control subjects will be age- and gender-matched. - For genetic studies only: Minor relatives (first and second degree) of SLE subjects Included in section IV-G. - Ability to give informed consent or minor relative s parents to give informed consent (for genetic studies only). - Exclusion Criteria: - Any concomitant medical problems or are taking medications which would confound the interpretation of studies they are considered for EXCLUSION CRITERIA FOR VASCULAR STUDIES ONLY, FOR SLE AND HEALTHY CONTROLS: - Subjects with a contraindication to MRI scanning will not receive the optional PET/MRI. These contraindications include subjects with the following devices: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Implanted Insulin pump - Metal shrapnel or bullet - Subjects with a BMI > 40 will also not receive the PET MRI. - Subjects with renal excretory dysfunction, estimated glomerular filtration rate < 60 mL/min/1.73m(2) body surface area according to the Modification of Diet in Renal Disease criteria, will not receive the cardiac CT angiography, or gadolinium contrast agent during the PET/MRI. - Pregnant or lactating women will be excluded from vascular studies. - Healthy controls with known history of coronary artery disease, peripheral vascular disease or atherosclerosis. - Individuals younger than 18 years old will be excluded given the radiation exposure as well as the lack of proper validation for the proposed vascular function studies."
+        , "valueIRI": ""
+    }
+        ]
+      },
+      {
+        "category": "gender",
+        "values": [
+            {
+          "value": "BOTH",
+          "valueIRI" : ""
+        }
+        ]
+      },
+      {
+        "category": "minimum age",
+        "values": [{
+          "values":"N/A",
+          "valueIRI" : ""
+        }
+        ]
+      },
+      {
+        "category": "maximum age",
+        "values": [{
+          "values":"N/A",
+          "valueIRI" : ""
+        }
+        ]
+      },
+      {
+        "category": "healthy volunteers",
+        "values": [
+            {
+          "values":"Accepts Healthy Volunteers",
+          "valueIRI" : ""
+        }
+          
+        ]
+      }
+    ],
+    "studyGroups": [
+      {
+        "name": "Adult (19 years - 64 years)",
+        "size": "",
+        "members": []
+      },
+      {
+        "name": "Senior (65 years - 79 years)",
+        "size": "",
+        "members": []
+      },
+      {
+        "name": "Aged (80 years and over)",
+        "size": "",
+        "members": []
+      }
+    ],
+    "performedBy": [
+      {
+        "fullName": "Donna Shelley",
+        "firstName": "Donna",
+        "lastName": " Shelley",
+        "email": "Donna Shelley@mail.nih.gov",
+        "affiliations": [
+          {
+            "name": "",
+            "location": {
+              "postalAddress": "concatenate (<city></city> <state>Maryland</state> <zip>20892</zip> <country>United States</country>)"
+            },
+            "roles": [
+              {
+                "value": "sponsor",
+                "valueIRI": ""
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "value": "principal investigator",
+            "valueIRI": ""
+          },
+          {
+            "value": "backup contact",
+            "valueIRI": ""
+          }
+        ]
+      }
+    ],
+    "location": {
+      "postalAddress": "National Institutes of Health Clinical Center, 9000 Rockville Pike, United States"
+    }
+  },
+  "distributions": [
+    {
+      "identifier": {
+        "identifier": "1",
+        "identifierSource": ""
+      },
+      "dates": [
+        {
+          "date": "",
+          "type": {
+            "value": "",
+            "valueIRI": ""
+          }
+        }
+      ],
+      "access": {
+        "landingPage": "https://clinicaltrials.gov/",
+        "accessURL": "https://clinicaltrials.gov/show/NCT00001372?displayxml=true"
+      },
+      "accessModalities": [
+        {
+          "licenses": [
+            {
+              "identifiers": [
+                {
+                  "identifier": "",
+                  "identifierSource": ""
+                }
+              ],
+              "name": ""
+            }
+          ]
+        },
+        {
+          "authentications": [
+            {
+              "valueIRI": "",
+              "value": ""
+            },
+            {
+              "valueIRI": "",
+              "value": ""
+            }
+          ],
+          "authorizations": [
+            {
+              "valueIRI": "",
+              "value": "dualIndividual"
+            }
+          ],
+          "landingPage": "",
+          "types": [
+            {
+              "valueIRI": "",
+              "value": "download"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        {
+          "value": "JSON"
+        }
+      ],
+      "conformsTo": [
+        {
+          "identifier": {
+            "identifier": "",
+            "identifierSource": ""
+          },
+          "name": "JSON",
+          "type": {
+            "value": "data format",
+            "valueIRI": ""
+          },
+          "extraProperties": [
+            {
+              "category": "data format authority",
+              "categoryIRI": "",
+              "values": [
+                {
+              "valueIRI": "",
+              "value": "W3C"
+            }
+              ]
+            }
+          ]
+        },
+        {
+          "identifier": {
+            "identifier": "",
+            "identifierSource": ""
+          },
+          "name": "",
+          "type": {
+            "value": "measurement standard",
+            "valueIRI": ""
+          },
+          "extraProperties": [
+            {
+              "category": "measurement_standard_authority",
+              "categoryIRI": "",
+              "values": [
+               {"value":"","valueIRI":""}
+              ]
+            }
+          ]
+        }
+      ],
+      "storedIn": {
+        "identifier": {
+          "identifier": "https://datacatalog.med.nyu.edu/",
+          "identifierSource": "http"
+        },
+        "relatedIdentifiers": [
+          {
+            "identifier": "https://biosharing.org/biodbcore-000xyz",
+            "identifierSource": "BioSharing"
+          }
+        ],
+        "name": "NYU Data Catalog",
+        "licenses": [
+          {
+            "name": ""
+          }
+        ],
+        "types": [
+          {
+            "value": "data catalog",
+            "valueIRI": ""
+          }
+        ],
+        "version": ""
+      },
+      "size": "",
+      "unit": {
+        "value": "megabyte",
+        "valueIRI": "http://purl.obolibrary.org/obo/UO_0000235"
+      }
+    }
+  ]
+}
