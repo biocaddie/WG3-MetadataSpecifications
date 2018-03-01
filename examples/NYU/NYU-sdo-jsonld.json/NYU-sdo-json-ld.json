@@ -1,0 +1,53 @@
+
+{"@context": "http://schema.org",
+"@type": "Dataset",
+"name": "CHART New York Smoking-Cessation Interventions for Urban Hospital Patients Dataset",
+"description": "The Consortium of Hospitals Advancing Research on Tobacco (CHART) is a network of six projects and a coordinating center aimed at assessing the effectiveness and cost-effectiveness of smoking cessation interventions initiated during hospitalizations and continued post-discharge. The CHART New York Smoking-Cessation Interventions for Urban Hospital Patients trial looked at the effectiveness of a pro-active, multi-session telephone counseling program with motivational enhancement as compared to the New York State Quitline. Data was collected from a randomized trial aimed at comparing effectiveness of two approaches of smoking cessation interventions. A total of 1618 adult smokers were enrolled from Bellevue Hospital and the Manhattan VA. The data examines smoking abstinence at baseline, and two-, six-month follow up periods. Measures include socio-demographics, smoking history, health habits, health status, depression, biochemical validation, participant satisfaction and intervention fidelity.",
+"dateCreated": "2015-05-22",
+"alternateName": [],
+"keywords": ["Epidemiology", "Health expenditures", "Health services", "Outpatients", "Patient discharge", "Quitline", "Randomized trial", "Smoking", "Smoking cessation", "Telephone counseling", "Tobacco use", "Underserved population", "Urban hospitals"],
+"author": [{
+      "@type": "Person",
+      "name":"Donna Shelley",
+      "url":"http://www.med.nyu.edu/biosketch/shelld01"}, {
+      "@type": "Person",
+      "name":"Erin Rogers",
+      "url":"http://www.med.nyu.edu/biosketch/rogere02/"}, {
+      "@type": "Person",
+      "name":"Scott Sherman",
+      "url":"http://www.med.nyu.edu/biosketch/ses2127"}],
+  "citation": ["Grossman E, Shelley D, Braithwaite RS, Lobach I, Goffin A, Rogers E, et al. Effectiveness of smoking-cessation interventions for urban hospital patients: study protocol for a randomized controlled trial. Trials. 2012;13:126.", "Rogers ES, Smelson DA, Gillespie CC, Elbel B, Poole S, Hagedorn HJ, Kalman D, Krebs P, Fang XY, Wang BH, Sherman SE. Telephone Smoking-Cessation Counseling for Smokers in Mental Health Clinics A Patient-Randomized Controlled Trial. Am J Prev Med. 2016 Apr;50(4):518-27."],
+  "encoding": [],
+  "publisher": [],
+"mainEntityOfPage": "https://datacatalog.med.nyu.edu/dataset/chart-new-york-smoking-cessation-interventions-for-urban-hospital-patients-dataset",
+"url": "https://datacatalog.med.nyu.edu/dataset/chart-new-york-smoking-cessation-interventions-for-urban-hospital-patients-dataset",
+"isPartOf":
+{
+"@type": "DataCatalog",
+"name": "Data Catalog",
+"keywords":"science, dataset, research, data, data catalog",
+"url": "https://datacatalog.med.nyu.edu",
+"provider": {
+  "@type":"Organization",
+  "name":"NYU Health Sciences Library",
+  "url":"https://hsl.med.nyu.edu",
+  "parentOrganization": {
+    "@type":"Organization",
+    "name": "NYU School of Medicine",
+    "address":"550 1st Avenue New York, NY 10016",
+    "url":"http://med.nyu.edu"
+   }
+ }
+},
+"provider": {
+  "@type":"Organization",
+  "name":"NYU Health Sciences Library",
+  "url":"https://hsl.med.nyu.edu",
+  "parentOrganization": {
+    "@type":"Organization",
+    "name": "NYU School of Medicine",
+    "address":"550 1st Avenue New York, NY 10016",
+    "url":"http://med.nyu.edu"
+   }
+}
+}

@@ -1,0 +1,155 @@
+[
+    {
+            "id": 10040,
+            "dataset_title": "CHART New York Smoking-Cessation Interventions for Urban Hospital Patients Dataset",
+            "dataset_alt_title": [],
+            "origin": "Internal",
+            "description": "The Consortium of Hospitals Advancing Research on Tobacco (CHART) is a network of six projects and a coordinating center aimed at assessing the effectiveness and cost-effectiveness of smoking cessation interventions initiated during hospitalizations and continued post-discharge. The CHART New York Smoking-Cessation Interventions for Urban Hospital Patients trial looked at the effectiveness of a pro-active, multi-session telephone counseling program with motivational enhancement as compared to the New York State Quitline. Data was collected from a randomized trial aimed at comparing effectiveness of two approaches of smoking cessation interventions. A total of 1618 adult smokers were enrolled from Bellevue Hospital and the Manhattan VA. The data examines smoking abstinence at baseline, and two-, six-month follow up periods. Measures include socio-demographics, smoking history, health habits, health status, depression, biochemical validation, participant satisfaction and intervention fidelity.",
+            "dataset_end_date": "2015",
+            "dataset_start_date": "2011",
+            "local_experts": [],
+            "authors": [
+                {
+                    "full_name": "Donna Shelley",
+                    "last_name": null,
+                    "first_name": null,
+                    "orcid_id": null,
+                    "bio_url": "http:\/\/www.med.nyu.edu\/biosketch\/shelld01",
+                    "email": null
+                },
+                {
+                    "full_name": "Erin Rogers",
+                    "last_name": null,
+                    "first_name": null,
+                    "orcid_id": null,
+                    "bio_url": "http:\/\/www.med.nyu.edu\/biosketch\/rogere02\/",
+                    "email": null
+                },
+                {
+                    "full_name": "Scott Sherman",
+                    "last_name": null,
+                    "first_name": null,
+                    "orcid_id": "http:\/\/orcid.org\/0000-0003-1752-7303",
+                    "bio_url": "http:\/\/www.med.nyu.edu\/biosketch\/ses2127",
+                    "email": null
+                }
+            ],
+            "corresponding_authors": [],
+            "date_added": {
+                "date": "2015-05-22 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "America\/New_York"
+            },
+            "dataset_formats": [],
+            "data_types": [
+                "Surveys",
+                "Administrative",
+                "Behavioral"
+            ],
+            "study_types": [
+                "Interventional"
+            ],
+            "collection_standards": [],
+            "awards": [
+                {
+                    "award": "1U01HL105229-01",
+                    "award_funder": "NHLBI",
+                    "award_url": "http:\/\/projectreporter.nih.gov\/project_info_description.cfm?aid=8015408&icde=24767540&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC",
+                    "funder_type": "Federal, NIH"
+                }
+            ],
+            "access_restrictions": [
+                "Author approval required"
+            ],
+            "subject_population_ages": [
+                "Adult (19 years - 64 years)",
+                "Senior (65 years - 79 years)",
+                "Aged (80 years and over)"
+            ],
+            "subject_geographic_area": [
+                {
+                    "geographic_area_name": "New York (City)",
+                    "geographic_area_authority": null
+                }
+            ],
+            "subject_geographic_area_details": [
+                {
+                    "geographic_area_detail_name": "New York (State) - New York City",
+                    "geographic_area_detail_authority": null
+                }
+            ],
+            "subject_domain": [
+                {
+                    "subject_domain": "Delivery of Health Care",
+                    "mesh_code": "https:\/\/id.nlm.nih.gov\/mesh\/D003695.html"
+                },
+                {
+                    "subject_domain": "Health Care Costs",
+                    "mesh_code": "https:\/\/id.nlm.nih.gov\/mesh\/D017048.html"
+                },
+                {
+                    "subject_domain": "Health Status",
+                    "mesh_code": "https:\/\/id.nlm.nih.gov\/mesh\/D006304.html"
+                },
+                {
+                    "subject_domain": "Risk Factors",
+                    "mesh_code": "https:\/\/id.nlm.nih.gov\/mesh\/D012307.html"
+                }
+            ],
+            "subject_keywords": [
+                "Epidemiology",
+                "Health expenditures",
+                "Health services",
+                "Outpatients",
+                "Patient discharge",
+                "Quitline",
+                "Randomized trial",
+                "Smoking",
+                "Smoking cessation",
+                "Telephone counseling",
+                "Tobacco use",
+                "Underserved population",
+                "Urban hospitals"
+            ],
+            "publications": [
+                {
+                    "citation": "Grossman E, Shelley D, Braithwaite RS, Lobach I, Goffin A, Rogers E, et al. Effectiveness of smoking-cessation interventions for urban hospital patients: study protocol for a randomized controlled trial. Trials. 2012;13:126.",
+                    "url": "http:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3502597\/",
+                    "doi": "10.1186\/1745-6215-13-126"
+                },
+                {
+                    "citation": "Rogers ES, Smelson DA, Gillespie CC, Elbel B, Poole S, Hagedorn HJ, Kalman D, Krebs P, Fang XY, Wang BH, Sherman SE. Telephone Smoking-Cessation Counseling for Smokers in Mental Health Clinics A Patient-Randomized Controlled Trial. Am J Prev Med. 2016 Apr;50(4):518-27.",
+                    "url": "https:\/\/dx.doi.org\/10.1016\/j.amepre.2015.10.004",
+                    "doi": "10.1016\/j.amepre.2015.10.004"
+                }
+            ],
+            "publishers": [],
+            "subject_of_study": [],
+            "related_software": [],
+            "related_equipment": [],
+            "related_datasets": [],
+            "other_resources": [],
+            "published": true,
+            "dataset_size": null,
+            "subscriber": null,
+            "access_instructions": "Contact the author.",
+            "date_updated": {
+                "date": "2017-06-14 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "America\/New_York"
+            },
+            "date_archived": null,
+            "archived": false,
+            "archival_notes": null,
+            "last_edit_notes": null,
+            "subject_genders": [],
+            "data_locations": [
+                {
+                    "data_location": "Author",
+                    "location_content": null,
+                    "data_access_url": "mailto:scott.sherman@nyumc.org?Subject=NYULMC%20Dataset%20Request&cc=datacatalog@med.nyu.edu",
+                    "accession_number": null
+                }
+            ]
+        }
+]

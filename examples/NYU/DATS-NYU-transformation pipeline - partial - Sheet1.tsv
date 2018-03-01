@@ -1,0 +1,32 @@
+DATS	
+	
+/* Data Repository Information */	
+	let "dataRepository.ID" = "SCR:XXXXXX";
+	let "dataRepository.name" = "NYU";
+	let "dataRepository.homePage" = "https://datacatalog.med.nyu.edu/";
+	
+/* Organization Information */	
+	let "organization.ID"= "SCR:YYYYYY";
+	let "organization.name" = "NYU Health Sciences Library";
+	let "organization.abbreviation" = "HSL NYU;
+	let "organization.homePage" = "https://hsl.med.nyu.edu/";
+	
+/* Dataset Landing Page*/	
+	transform column "$.'title'" to "access.landingPage" apply {{ result='https://datacatalog.med.nyu.edu/' + value}};
+	
+/* Dataset Creator */	
+	let "dataset.creators[0]" = "NULL";
+	
+/* Dataset Release Date Information */	
+	let "dataset.dateReleased" = "NULL";
+	
+/* Dataset Qualifiers */	
+	transform column $.'access_restrictions' to "dataset.availability" apply {{ result = value }} ;
+
+	transform column $.'data_types' to  "dataset.types"  apply {{ result = value }} ;
+	let "dataset.aggregation" = "dataset summary";
+
+	let "dataset.refinement" = "curated";
+	
+/* Dataset Distributions */	
+	let "datasetDistributions[0].format" = "JSON";

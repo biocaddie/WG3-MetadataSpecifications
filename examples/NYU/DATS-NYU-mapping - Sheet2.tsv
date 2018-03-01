@@ -1,0 +1,88 @@
+NYU JSON schema		DATS		
+id	number	dataset.identifier		
+dataset_title	string	dataset.title		
+dataset_alt_title	[string]	dataset.extraproperties.		
+origin	string	dataset.extraproperties.		
+description	string	dataset.description		
+dataset_end_date	date	dataset.dates.date	dataset.dates.date.type = "end date"	
+dataset_start_date	date	dataset.dates.date	dataset.dates.date.type = "start date"	
+local_experts	[person]	dataset.creators.Person.roles.Annotation.value="local experts"		
+authors	[person]	dataset.creators.Person		
+person.full_name	string	dataset.creators.Person.fullName		
+person.first_name	string	dataset.creators.Person.firstName		
+person.last_name	string	dataset.creators.Person.lastName		
+person.orcidid	string	dataset.creators.Person.identifiers.identifier	dataset.creators.Person.identifiers.identifierSource="orcid"	
+person.bio_url	string	dataset.creators.Person.extraproperties.		
+person.email	string	dataset.creators.Person.email		
+corresponding_authors	[person]	dataset.creators.Person.roles.Annotation.value="corresponding author"		
+date_added	date			
+date_added.date	date (ISO8601)	dataset.dates.date	dataset.dates.date.type = "record addition date"	
+date_added.timezone_type	integer	no mapping possible as Data as no link to extraProperties (DATS extension mechanism)		
+date_added.timezone	string	no mapping possible as Data as no link to extraProperties (DATS extension mechanism)		
+datasets.formats	[string]	dataset.distributions.Distribution.identifier=$count	dataset.distributions.Distribution.format=$value	
+data_types	[string]	dataset.types.DataType.method=$value		
+study_types	[string]	dataset.producedBy.Study.types.Annotation.value=$value		
+collection_standards	[]			
+measurement_standard_name	string	dataset.distributions.Distribution.identifiers.identifier=$count	dataset.distributions.Distribution.conformsTo.DataStandard.name	
+measurement_standard_authority	string	dataset.distributions.Distribution.identifiers.identifier=$count	dataset.distributions.Distribution.conformsTo.DataStandard.extraProperties.categoryValuePairs.category="measurement standard authority" 	dataset.distributions.Distribution.conformsTo.DataStandard.extraProperties.categoryValuePairs.value=$value
+awards 	[award]			
+awards.award	string	dataset.acknowledges.Grant.name		
+awards.award_funder	string	dataset.acknowledges.Grant.funder.Organisation.name		
+awards.award_url	string	dataset.acknowledges.Grant.identifiers.identifier		
+awards.funder_type	string	dataset.acknowledges.Grant.extraProperties.categoryValuePairs.category="funder type"	dataset.acknowledges.Grant.extraProperties.categoryValuePairs.value=$value	
+access_restrictions	[string]	dataset.distributions.Distribution.identifiers.identifier=$count	dataset.distributions.Distribution.access.Access.identifiers.identifier=$count	dataset.distributions.Distribution.access.Access.authorization.
+subject_population_ages	[string]	dataset.producedBy.Study.studyGroups.StudyGroup.identifiers.identifier=$count	dataset.producedBy.Study.studyGroups.StudyGroup.name=$value	
+subject_geographic_area	[]			
+subject_geographic_area.geographic_area_name	string	dataset.spatialCoverage.Place.identifiers.identifier=$count	dataset.spatialCoverage.Place.name	
+subject_geographic_area.geographic_area_authority	string	dataset.spatialCoverage.Place.extraProperties.categoryValuePairs.category="geographic authority" 	dataset.spatialCoverage.Place.extraProperties.categoryValuePairs.values=$value	
+subject_domain	[subject_domain]			
+subject_domain.subject_domain	string	dataset.isAbout.value=$value		
+subject_domain.mesh_code	string	dataset.isAbout.ontologyTermIRI=$value		
+subject_keywords	string	dataset.keywords.value=$value		
+publications	[citations]			
+citation	string	dataset.citations.Publication.title=$value		
+citation.url	string	dataset.citations.Publication.identifiers.identifier	dataset.citations.Publication.identifiers.identifierSource="doi_url"	
+citation.doi	string	dataset.citations.Publication.identifiers.identifier	dataset.citations.Publication.identifiers.identifierSource="doi"	
+publishers	[]			
+publisher_name				
+publisher_url				
+subject_of_study	[]	dataset.isAbout.value=$value		
+related_software	[software]			
+software_name	string	dataset.types.DataType.method.value=$value		
+software_description	string			
+software_url	string	dataset.types.DataType.method.valueIRI=$value		
+related_equipment	[equipment]			
+related_equipment	string	dataset.types.DataType.instrument=$value		
+equipment_description	string			
+equipment_url	string	dataset.types.DataType.method.valueIRI=$value		
+related_datasets	[]			
+related_dataset_uid	string	dataset.types.DataType.relatedIdentifiers.identifier=$value		
+relationship_attributes	string	dataset.types.DataType.relatedIdentifiers.relationType=$value		
+relationship_notes	string	dataset.types.DataType.extraProperties.categoryValuePairs.category="relationship notes"	dataset.types.DataType.extraProperties.categoryValuePairs.values=$value	
+parent_dataset_uid	string	dataset.types.DataType.relatedIdentifiers.identifier=$value	dataset.types.DataType.relatedIdentifiers.relationType="parent dataset"	
+other_resources	[resource]			
+	resource_name	dataset.types.DataType.extraProperties.categoryValuePairs.category="resource name"	dataset.types.DataType.extraProperties.categoryValuePairs.values=$value	
+	resource_description	dataset.types.DataType.extraProperties.categoryValuePairs.category="resource description"	dataset.types.DataType.extraProperties.categoryValuePairs.values=$value	
+	resource_url	dataset.types.DataType.extraProperties.categoryValuePairs.category="resource url"	dataset.types.DataType.extraProperties.categoryValuePairs.values=$value	
+published	boolean	dataset.extraProperties.CategoryValuePairs.		
+dataset_size	string	dataset.distributions.Distribution.identifier=$count	dataset.distributions.Distribution.size=$value	dataset.distributions.Distribution.unit=""
+subscriber	string	dataset.extraProperties.categoryValuePairs.category="subscriber" 	dataset.extraProperties.categoryValuePairs.values=$value	
+access_instructions	string	dataset.availability=$value		
+				
+date_updated				
+date_updated.date	date ISO8601	dataset.dates.date	dataset.dates.date.type = "record update date"	
+date_updated.timezone_type	integer	no mapping possible		
+date_updated.timezone	string	no mapping possible		
+date_archived				
+date_archived.date	date ISO8601	dataset.dates.date	dataset.dates.date.type = "record archival date"	
+date_archived.timezone_type	integer	no mapping possible		
+date_archived.timezone	string	no mapping possible		
+archived	boolean	dataset.extraProperties.categoryValuePairs.category="archived status" 	dataset.extraProperties.categoryValuePairs.values=$value	
+archival_notes	string	dataset.extraProperties.categoryValuePairs.category="archival notes" 	dataset.extraProperties.categoryValuePairs.values=$value	
+last_edit_notes	string	dataset.extraProperties.categoryValuePairs.category="last edit notes" 	dataset.extraProperties.categoryValuePairs.values=$value	
+subject_genders	[string]	dataset.producedBy.Study.input.Annotation.value=$value		
+data_locations	[data location]	dataset.distributions.Distribution.identifier=$count		
+data_location	string	dataset.distributions.Distribution.access.Access.types.value=$value		
+location_content	string	? unclear nature of the tag and assocated data -> did not map		
+data_access_url	string	dataset.distributions.Distribution.access.Access.accessURL=$value		
+accession_number	string	dataset.distributions.Distribution.access.Access.identifiers.identifier=$value		
