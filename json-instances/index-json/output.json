@@ -19,6 +19,18 @@
 		"access": [{
 			"landingPage":"http:\/\/www.ncbi.nlm.nih.gov\/bioproject"
 		}
+		],
+		"publishers":[
+			{
+				"identifier": {
+					"identifier": "SCR:006472"
+				},
+				"name": "National Center for Biotechnology Information",
+				"abbreviation": "NCBI",
+				"alternateIdentifiers": [{
+					"identifier": "http:\/\/www.ncbi.nlm.nih.gov"
+				}]
+			}
 		]
 	},
 
@@ -28,6 +40,8 @@
 			"type":{  "value": "released" }
 		}
 	],
+
+	"creators": [ {} ],
 
 	"distributions":[{
 		"access":{
@@ -45,18 +59,6 @@
 		"name":"Mus musculus"
 	}],
 
-	"creators":[
-		{
-			"identifier": {
-				"identifier": "SCR:006472"
-			},
-			"name": "National Center for Biotechnology Information",
-			"abbreviation": "NCBI",
-			"alternateIdentifiers": [{
-				"identifier": "http:\/\/www.ncbi.nlm.nih.gov"
-			}]
-		}
-	],
 	"types": [
 		{ "information": { "value": "bioproject" } }
 	]
