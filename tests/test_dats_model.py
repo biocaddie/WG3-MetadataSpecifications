@@ -41,6 +41,10 @@ class DatasetValidation(TestCase):
         self.assertTrue(dats_model.validate_dataset(folder_path, "PRJNA97269-dats.json", 1))
 
     def test_validate_dataset_8(self):
+        folder_path = os.path.join(self.path, "index-json")
+        self.assertTrue(dats_model.validate_dataset(folder_path, "output.json", 0))
+
+    def test_validate_dataset_9(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "NYU-10040-dats.json", 1))
 
 
