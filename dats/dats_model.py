@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 DATS_schemasPath = os.path.join(os.path.dirname(__file__), "../json-schemas")
 DATS_contextsPath = os.path.join(os.path.dirname(__file__), "../json-schemas/contexts")
 
-def validate_instance(path, filename, schema_filename,  error_printing):
+def validate_instance(path, filename, schema_filename, error_printing):
     try:
         schema_file = open(join(DATS_schemasPath, schema_filename))
         schema = json.load(schema_file)
@@ -60,54 +60,7 @@ def validate_instance(path, filename, schema_filename,  error_printing):
 
 
 def validate_dataset(path, filename, error_printing):
-   #validate_instance(path, filename, "dataset_schema.json", error_printing)
-   try:
-       dataset_schema_file = open(join(DATS_schemasPath, "dataset_schema.json"))
-       datasetSchema = json.load(dataset_schema_file)
-       resolver = RefResolver('file://' + DATS_schemasPath + '/' + "dataset_schema.json",
-                              datasetSchema)  # , base_uri=schemasPath)
-       validator = Draft4Validator(datasetSchema, resolver=resolver)
-       logger.info("Validating %s", filename)
-
-       try:
-           dataset_file = open(join(path, filename))
-           instance = json.load(dataset_file)
-
-           if (error_printing == 0):
-               errors = sorted(validator.iter_errors(instance), key=lambda e: e.path)
-               for error in errors:
-                   print(error.message)
-
-               if (len(errors) == 0):
-                   return True
-               else:
-                   return False
-
-           elif (error_printing == 1):
-               errors = sorted(validator.iter_errors(instance), key=lambda e: e.path)
-               for error in errors:
-                   for suberror in sorted(error.context, key=lambda e: e.schema_path):
-                       print(list(suberror.schema_path), suberror.message, sep=", ")
-
-               if (len(errors) == 0):
-                   logger.info("...done")
-                   return True
-               else:
-                   return False
-           else:
-               try:
-                   validator.validate(instance, datasetSchema)
-                   logger.info("...done")
-                   return True
-               except Exception as e:
-                   logger.error(e)
-                   return False
-       finally:
-           dataset_file.close()
-   finally:
-        dataset_schema_file.close()
-
-
+   return validate_instance(path, filename, "dataset_schema.json", error_printing)
 
 
 def validate_schema(path, schemaFile):
