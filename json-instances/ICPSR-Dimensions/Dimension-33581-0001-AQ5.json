@@ -1,0 +1,56 @@
+{
+	"identifier": {
+			"identifier": "AQ5",
+			"identifierSource": ""
+	},
+	"name": {
+		"valueIRI": "",
+		"value": "Current marital status"
+	},
+	"values": [
+		{
+			"value" :"1",
+			"label": "Married",
+			"unweightedFrequency": 35,
+			"%": 6.2
+		},
+		{
+			"value" :"2",
+			"label": "Widowed",
+			"unweightedFrequency": 11,
+			"%": 2.0
+		},
+		{
+			"value" :"3",
+			"label": "Separated",
+			"unweightedFrequency": 56,
+			"%": 9.9
+		},
+		{
+			"value" :"3",
+			"label": "Divorced",
+			"unweightedFrequency": 82,
+			"%": 14.6
+		},
+		{
+			"value" :"4",
+			"label": "Separated",
+			"unweightedFrequency": 56,
+			"%": 9.9
+		},
+		{
+			"value" :"5",
+			"label": "Never married",
+			"unweightedFrequency": 379,
+			"%": 67.3
+		}
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"
+			]
+		}
+	]
+}

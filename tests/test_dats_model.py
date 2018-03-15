@@ -19,7 +19,7 @@ class DatasetValidation(TestCase):
         self.assertTrue(dats_model.validate_dats_contexts())
 
     def test_validate_dataset_1(self):
-        self.assertTrue(dats_model.validate_dataset(self.path, "SBGrid-179.json", 1))
+        self.assertTrue(dats_model.validate_dataset(self.path, "SBGrid-179.json", 0))
 
     def test_validate_dataset_2(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "ClinicalTrials.gov-NCT00001372.json", 1))
@@ -46,6 +46,10 @@ class DatasetValidation(TestCase):
 
     def test_validate_dataset_9(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "NYU-10040-dats.json", 1))
+
+    def test_validate_instance(self):
+        folder_path = os.path.join(self.path, "ICPSR-Dimensions")
+        self.assertTrue(dats_model.validate_instance(folder_path, "Dimension-33581-0001-AQ5.json", "dimension_schema.json", 0) )
 
 
    
