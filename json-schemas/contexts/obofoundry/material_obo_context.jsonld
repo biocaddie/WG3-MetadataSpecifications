@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "name": {
+      "@id": "obo:IAO_0000590",
+      "@type": "obo:IAO_0000300"
+    },
+    "roles": "obo:BFO_0000023"
+  }
+}

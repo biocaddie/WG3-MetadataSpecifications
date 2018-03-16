@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "Person": "obo:OBI_0000245",
+    "firstName": "obo:IAO_0000302",
+    "lastName": "obo:IAO_0000302",
+    "fullName": "obo:IAO_0000590",
+    "email": "obo:IAO_0000429",
+    "affiliations": "obo:NCIT_C25412",
+    "roles": "obo:BFO_0000023"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "Publication": "obo:IAO_0000311",
+    "title": {
+      "@id": "obo:IAO_0000305",
+      "@type": "obo:IAO_0000300"
+    },
+    "type": "obo:IAO_0000310",
+    "publicationVenue": "obo:IAO_0000013",
+    "authorList": "obo:IAO_0000321",
+    "authors": "obo:IAO_0000302",
+    "acknowledges": "obo:OBI_0001942"
+  }
+}

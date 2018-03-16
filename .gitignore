@@ -1,6 +1,9 @@
 .DS_Store
 reated by https://www.gitignore.io
 
+#virtualenv
+/env/
+
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 

@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "Organization": "obo:OBI_0000245",
+    "name": "obo:IAO_0000590",
+    "postalAddress": "obo:IAO_0000422",
+    "roles": "obo:BFO_0000023"
+  }
+}

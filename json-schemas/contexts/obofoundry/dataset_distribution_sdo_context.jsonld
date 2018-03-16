@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "sdo": "https://schema.org/",
+    "DatasetDistribution": "sdo:DataDownload",
+    "name": {
+      "@id": "obo:IAO_0000590",
+      "@type": "obo:IAO_0000300"
+    },
+    "description": {
+      "@id": "obo:description",
+      "@type": "obo:IAO_0000300"
+    },
+    "storedIn": {
+      "@id": "sdo:includedInDataCatalog",
+      "@type": "sdo:DataCatalog"
+    },
+    "licenses": "?:SWO_0000002",
+    "version": "obo:IAO_0000129"
+  }
+}

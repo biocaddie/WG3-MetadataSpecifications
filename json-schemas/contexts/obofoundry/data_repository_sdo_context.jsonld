@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "?" : "something that would resolve (not http://www.ebi.ac.uk/swo/)",
+    "DataRepository": "obo:NCIT_C114457",
+    "name": {
+      "@id": "obo:IAO_0000590",
+      "@type": "obo:IAO_0000300"
+    },
+    "description": {
+      "@id": "obo:description",
+      "@type": "obo:IAO_0000300"
+    },
+    "licenses": "?:SWO_0000002",
+    "version": "obo:IAO_0000129"
+  }
+}

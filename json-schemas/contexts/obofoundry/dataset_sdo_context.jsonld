@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "obo": "http://purl.obolibrary.org/obo/",
+    "Dataset": "obo:IAO_0000100",
+    "title": {
+      "@id": "obo:OBI_0001622",
+      "@type": "obo:IAO_0000300"
+    },
+    "description": {
+      "@id": "sdo:description",
+      "@type": "obo:IAO_0000300"
+    },
+    "distributions": {
+      "@id": "sdo:distribution",
+      "type": "sdo:DataDownload"
+    },
+    "primaryPublications": "sdo:citation",
+    "citations": "sdo:citation",
+    "producedBy": "sdo:producer",
+    "creators": "sdo:creator",
+    "licenses": "sdo:license",
+    "isAbout": "sdo:about",
+    "hasPart": "sdo:hasPart",
+    "acknowledges": "sdo:funder",
+    "keywords": "sdo:keywords"
+  }
+}
