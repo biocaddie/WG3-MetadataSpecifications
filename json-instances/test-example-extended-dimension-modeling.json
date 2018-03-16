@@ -1,0 +1,131 @@
+{
+	"identifiers": [
+		{
+			"identifier": "AQ5",
+			"identifierSource": ""
+		}
+	],
+	"name": {
+		"ontologyTermIRI": "",
+		"value": "Current marital status"
+	},
+	"types": {
+	   "category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"
+			] 
+	},
+	
+	 "values": [
+      {
+         "value" :"1",
+         "label": "Married",
+         "unweightedFrequency": 35,
+         "%": 6.2
+      },
+      {
+         "value" :"2",
+         "label": "Widowed",
+         "unweightedFrequency": 11,
+         "%": 2.0
+      },
+      {
+         "value" :"3",
+         "label": "Separated",
+         "unweightedFrequency": 56,
+         "%": 9.9
+      },
+      {
+         "value" :"3",
+         "label": "Divorced",
+         "unweightedFrequency": 82,
+         "%": 14.6
+      },
+      {
+         "value" :"4",
+         "label": "Separated",
+         "unweightedFrequency": 56,
+         "%": 9.9
+      },
+      {
+         "value" :"5",
+         "label": "Never married",
+         "unweightedFrequency": 379,
+         "%": 67.3
+      }
+   ], 
+	"partOf": [
+		"Dataset-33581-0001.json"	
+	],
+	"statisticalProperties": [ {
+	"values": [
+		{
+			"category": "mix",
+			"value" : null
+		},
+	    {
+			"category": "max",
+			"value" : null
+		},
+		{
+			"category": "mode",
+			"value" : null
+		},
+	    {
+			"category": "median",
+			"value" : null
+		},
+
+		{
+			"category": "mean",
+			"value" : null
+		},
+	    {
+			"category": "standard deviation",
+			"value" : null
+		}
+	],
+	"isAbout": {"name": "cohort #1"}
+	},
+	{
+	"values": [
+		{
+			"category": "mix",
+			"value" : 0
+		},
+	    {
+			"category": "max",
+			"value" : 1234
+		},
+		{
+			"category": "mode",
+			"value" : 124
+		},
+	    {
+			"category": "median",
+			"value" : 122
+		},
+
+		{
+			"category": "mean",
+			"value" : 128
+		},
+	    {
+			"category": "standard deviation",
+			"value" : 56
+		}
+	],
+	"isAbout": {"name": "other cohort #2"}
+	}
+	
+	
+	],
+	"extraProperties": [
+		{
+			"category": "landingPage",
+			"values": [
+				"http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"
+			]
+		}
+	]
+}
