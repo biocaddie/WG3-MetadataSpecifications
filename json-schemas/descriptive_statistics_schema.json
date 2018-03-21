@@ -1,41 +1,23 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema",
-  "title": "DATS descriptive statistics schema",
-  "description": "an annotation to provide key information about central tendency and variability about a dats.dimension",
-  "type": "object",
-  "properties": {
-  "@context": {
-      "anyOf": [
-        {
-          "type": "string"
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "DATS descriptive statistics schema",
+    "description": "an annotation to provide key information about central tendency and variability about a dats.dimension",
+    "type": "object",
+    "properties": {
+        "@context": {"anyOf": [
+            {"type": "string"},
+            {"type": "object"}
+        ]},
+        "@type": {
+            "type": "string",
+            "enum": ["Statistics"]
         },
-        {
-          "type": "object"
-        }
-      ]
-    },
-  "@type": { "type": "string", "enum": [ "Statistics" ]},
-  "values": { 
-            "type" : "array",
+        "stats": {
+            "type": "array",
             "items": {
-                "category": {
-                  "description": "A characteristic or property about the entity this object is associated with.",
-                  "type": "string",
-                  "enum": ["overall_count","missing_count","invalid_count","mix", "max","mode","mean","standard deviation"]
-                },
-                "value": {
-                       "type": "number"
-                }
-            },  
-  "isAbout" : {
-      "description": "A material or a dataset, which is the object of this dimension (this dimension is about the material - e.g. the heights of the patients - or the dataset - e.g. the standard deviation or the set of outliers or a quality indicator of a dataset).",
-       "oneOf": [
-          {"$ref" : "study_group_schema.json#"},
-          {"$ref" : "dataset_schema.json#"}
-      ]
-    }
+                "$ref" : "stats_schema.json#"
+          }
+        }
     },
-  "additionalProperties": false
+    "additionalProperties": false
 }
-}
-  

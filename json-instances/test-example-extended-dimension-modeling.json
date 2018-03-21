@@ -1,202 +1,278 @@
-{ "dimensions":
-[
-{
-
-    "identifiers": [{
-        "identifier": "AQ5",
-        "identifierSource": ""
-    }],
-    "name": {
-        "ontologyTermIRI": "",
-        "value": "Current marital status"
+{"dimensions": [
+    {
+        "identifiers": [{
+            "identifier": "AQ5",
+            "identifierSource": ""
+        }],
+        "name": {
+            "ontologyTermIRI": "",
+            "value": "Current marital status"
+        },
+        "variable_type_option_1": "categorical variable",
+        "variable_type_option_2": {
+            "value": "categorical variable",
+            "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000252"
+        },
+        "variable_categories": [
+            {
+                "id": "1",
+                "category_label": "Married",
+                "unweightedFrequency": 35,
+                "%": 6.2
+            },
+            {
+                "id": "1",
+                "category_label": "Married",
+                "unweightedFrequency": 35,
+                "%": 6.2
+            }
+        ],
+        "values": [
+            {
+                "id": "1",
+                "category_label": "Married",
+                "unweightedFrequency": 35,
+                "%": 6.2
+            },
+            {
+                "id": "2",
+                "category_label": "Widowed",
+                "unweightedFrequency": 11,
+                "%": 2
+            },
+            {
+                "id": "3",
+                "category_label": "Separated",
+                "unweightedFrequency": 56,
+                "%": 9.9
+            },
+            {
+                "id": "3",
+                "category_label": "Divorced",
+                "unweightedFrequency": 82,
+                "%": 14.6
+            },
+            {
+                "id": "4",
+                "category_label": "Separated",
+                "unweightedFrequency": 56,
+                "%": 9.9
+            },
+            {
+                "id": "5",
+                "category_label": "Never married",
+                "unweightedFrequency": 379,
+                "%": 67.3
+            },
+            {
+                "id": "6",
+                "label": "Married",
+                "stats": [
+                    {
+                        "statType": "Unweighted Frequency",
+                        "statValue": 35
+                    },
+                    {
+                        "statType": "Percent",
+                        "statValue": 6.2
+                    }
+                ]
+            },
+            {
+                "id": "7",
+                "label": "Widowed",
+                "stats": [
+                    {
+                        "category": "Unweighted Frequency",
+                        "categoryIRI": "",
+                        "value": 11
+                    },
+                    {
+                        "statType": "Percent",
+                        "statTypeIRI": "",
+                        "statValue": 2
+                    }
+                ]
+            }
+        ],
+        "partOf": ["Dataset-33581-0001.json"],
+        "statisticalProperties": [
+            {
+                "values": [
+                    {
+                        "category": "mix",
+                        "value": 1
+                    },
+                    {
+                        "category": "max",
+                        "value": 2450
+                    },
+                    {
+                        "category": "mode",
+                        "value": 245
+                    },
+                    {
+                        "category": "median",
+                        "value": 568
+                    },
+                    {
+                        "category": "mean",
+                        "value": 556
+                    },
+                    {
+                        "category": "standard deviation",
+                        "value": 1345
+                    }
+                ],
+                "isAbout": {"name": "cohort #1"}
+            },
+            {
+                "values": [
+                    {
+                        "category": "mix",
+                        "value": 0
+                    },
+                    {
+                        "category": "max",
+                        "value": 1234
+                    },
+                    {
+                        "category": "mode",
+                        "value": 124
+                    },
+                    {
+                        "category": "median",
+                        "value": 122
+                    },
+                    {
+                        "category": "mean",
+                        "value": 128
+                    },
+                    {
+                        "category": "standard deviation",
+                        "value": 56
+                    }
+                ],
+                "isAbout": {"name": "other cohort #2"}
+            }
+        ],
+        "extraProperties": [{
+            "category": "landingPage",
+            "values": ["http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"]
+        }]
     },
-    "types": {
-        "value": "categorical variable",
-        "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000252"
-    },
-    "values": [
-        {
-            "id": "1",
-            "category_label": "Married",
-            "unweightedFrequency": 35,
-            "%": 6.2
+    {
+        "identifiers": [{
+            "identifier": "AQ6",
+            "identifierSource": ""
+        }],
+        "name": {
+            "ontologyTermIRI": "",
+            "value": "body mass index"
         },
-        {
-            "id": "2",
-            "category_label": "Widowed",
-            "unweightedFrequency": 11,
-            "%": 2
+        "variable_type_option_2": {
+            "value": "continuous variable",
+            "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000251"
         },
-        {
-            "id": "3",
-            "category_label": "Separated",
-            "unweightedFrequency": 56,
-            "%": 9.9
-        },
-        {
-            "id": "3",
-            "category_label": "Divorced",
-            "unweightedFrequency": 82,
-            "%": 14.6
-        },
-        {
-            "id": "4",
-            "category_label": "Separated",
-            "unweightedFrequency": 56,
-            "%": 9.9
-        },
-        {
-            "id": "5",
-            "category_label": "Never married",
-            "unweightedFrequency": 379,
-            "%": 67.3
-        }
-    ],
-    "partOf": ["Dataset-33581-0001.json"],
-    "statisticalProperties": [
-        {
-            "values": [
+        "partOf": ["Dataset-33581-0001.json"],
+        "statisticalProperties_1": [
+            {
+                "values": [
+                    {
+                        "category": "min",
+                        "value": 1
+                    },
+                    {
+                        "category": "max",
+                        "value": 2450
+                    },
+                    {
+                        "category": "mode",
+                        "value": 245
+                    },
+                    {
+                        "category": "median",
+                        "value": 568
+                    },
+                    {
+                        "category": "mean",
+                        "value": 556
+                    },
+                    {
+                        "category": "standard deviation",
+                        "value": 1345
+                    }
+                ],
+                "isAbout": {"name": "cohort #1"}
+            },
+            {
+                "values": [
+                    {
+                        "category": "min",
+                        "value": 0
+                    },
+                    {
+                        "category": "max",
+                        "value": 1234
+                    },
+                    {
+                        "category": "mode",
+                        "value": 124
+                    },
+                    {
+                        "category": "median",
+                        "value": 122
+                    },
+                    {
+                        "category": "mean",
+                        "value": 128
+                    },
+                    {
+                        "category": "standard deviation",
+                        "value": 56
+                    }
+                ],
+                "isAbout": {"name": "other cohort #2"}
+            }
+        ],
+        "statisticalProperties_2": [{
+            "stats": [
                 {
-                    "category": "mix",
-                    "value": 1
+                    "category": "min",
+                    "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000150",
+                    "values": ["1"]
                 },
                 {
                     "category": "max",
-                    "value": 2450
+                    "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000151",
+                    "values": ["2450"]
                 },
                 {
                     "category": "mode",
-                    "value": 245
+                    "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000033",
+                    "values": ["245"]
                 },
                 {
                     "category": "median",
-                    "value": 568
+                    "categoryIRI": "http://purl.obolibrary.org/obo/OBI_0000674",
+                    "values": ["568"]
                 },
                 {
                     "category": "mean",
-                    "value": 556
+                    "categoryIRI": "http://purl.obolibrary.org/obo/OBI_0000679",
+                    "values":[" 556"]
                 },
                 {
                     "category": "standard deviation",
-                    "value": 1345
-                }
-            ],
-            "isAbout": {"name": "cohort #1"}
-        },
-        {
-            "values": [
-                {
-                    "category": "mix",
-                    "value": 0
-                },
-                {
-                    "category": "max",
-                    "value": 1234
-                },
-                {
-                    "category": "mode",
-                    "value": 124
-                },
-                {
-                    "category": "median",
-                    "value": 122
-                },
-                {
-                    "category": "mean",
-                    "value": 128
-                },
-                {
-                    "category": "standard deviation",
-                    "value": 56
+                    "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000237",
+                    "values": ["1345"]
                 }
             ],
             "isAbout": {"name": "other cohort #2"}
-        }
-    ],
-    "extraProperties": [{
-        "category": "landingPage",
-        "values": ["http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"]
-    }]
-},
-{
-
-    "identifiers": [{
-        "identifier": "AQ6",
-        "identifierSource": ""
-    }],
-    "name": {
-        "ontologyTermIRI": "",
-        "value": "body mass index"
-    },
-    "types": {
-        "value": "continuous variable",
-        "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000251"
-    },
-    "partOf": ["Dataset-33581-0001.json"],
-    "statisticalProperties": [
-        {
-            "values": [
-                {
-                    "category": "mix",
-                    "value": 1
-                },
-                {
-                    "category": "max",
-                    "value": 2450
-                },
-                {
-                    "category": "mode",
-                    "value": 245
-                },
-                {
-                    "category": "median",
-                    "value": 568
-                },
-                {
-                    "category": "mean",
-                    "value": 556
-                },
-                {
-                    "category": "standard deviation",
-                    "value": 1345
-                }
-            ],
-            "isAbout": {"name": "cohort #1"}
-        },
-        {
-            "values": [
-                {
-                    "category": "mix",
-                    "value": 0
-                },
-                {
-                    "category": "max",
-                    "value": 1234
-                },
-                {
-                    "category": "mode",
-                    "value": 124
-                },
-                {
-                    "category": "median",
-                    "value": 122
-                },
-                {
-                    "category": "mean",
-                    "value": 128
-                },
-                {
-                    "category": "standard deviation",
-                    "value": 56
-                }
-            ],
-            "isAbout": {"name": "other cohort #2"}
-        }
-    ],
-    "extraProperties": [{
-        "category": "landingPage",
-        "values": ["http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ6"]
-    }]
-}
-]
-}
+        }],
+        "extraProperties": [{
+            "category": "landingPage",
+            "values": ["http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ6"]
+        }]
+    }
+]}

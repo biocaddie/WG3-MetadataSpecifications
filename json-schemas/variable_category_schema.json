@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS categorical variable schema",
+  "description": "the categories for a categorical variable",
+  "type": "object",
+  "properties": {
+    "category_id": {
+      "description": "the internal identifier for the category.",
+      "type" :  "string"
+    },
+    "category_label": {
+      "description": "the display label for the variable category",
+      "type" :  "string"
+    },
+    "descriptiveStatistics": {
+      "description": "Extra properties that do not fit in the previous specified attributes. ",
+      "type": "array",
+      "items": {
+        "$ref" : "descriptive_statistics_schema.json#"
+      }
+    },
+  "required": [ "category_id", "category_label"]
+}
+}

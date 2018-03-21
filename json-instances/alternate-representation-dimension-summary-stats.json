@@ -1,0 +1,88 @@
+{"dimensions": [{
+    "identifiers": [{
+        "identifier": "AQ5",
+        "identifierSource": ""
+    }],
+    "name": {
+        "value": "Current marital status",
+        "valueIRI": "http://scdontology.h3abionet.org/ontology/SCDO_0000307"
+    },
+    "variable_type_option_1": "categorical variable",
+    "types": {
+        "value": "categorical variable",
+        "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000252"
+    },
+    "values": [
+        {
+            "id": "1",
+            "category_label": "Married",
+            "descriptiveStatistics": [{
+                "stats": [
+                    {
+                        "category": "unweightedFrequency",
+                        "categoryIRI": "",
+                        "values": ["35"]
+                    },
+                    {
+                        "category": "percentage",
+                        "categoryIRI": "http://purl.obolibrary.org/obo/NCIT_C25613",
+                        "values": ["6.2"]
+                    }
+                ]
+        }]},
+        {
+            "id": "2",
+            "label": "Married",
+            "stats": [
+                {
+                    "statType": "Unweighted Frequency",
+                    "statValue": 35
+                },
+                {
+                    "statType": "Percent",
+                    "statValue": 6.2
+                }
+            ]
+        }     
+    ],
+    "partOf": ["Dataset-33581-0001.json"],
+    "descriptiveStatistics": [{
+        "stats": [
+            {
+                "category": "min",
+                "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000150",
+                "values": ["1"]
+            },
+            {
+                "category": "max",
+                "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000151",
+                "values": ["2450"]
+            },
+            {
+                "category": "mode",
+                "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000033",
+                "values": ["245"]
+            },
+            {
+                "category": "median",
+                "categoryIRI": "http://purl.obolibrary.org/obo/OBI_0000674",
+                "values": ["568"]
+            },
+            {
+                "category": "mean",
+                "categoryIRI": "http://purl.obolibrary.org/obo/OBI_0000679",
+                "values": [" 556"]
+            },
+            {
+                "category": "standard deviation",
+                "categoryIRI": "http://purl.obolibrary.org/obo/STATO_0000237",
+                "values": ["1345"]
+            }
+        ],
+        "isAbout": {"name": "other cohort #1"}
+    }],
+    "extraProperties": [{
+        "category": "landingPage",
+        "values": ["http://www.icpsr.umich.edu/icpsrweb/ICPSR/ssvd/studies/33581/datasets/0001/variables/AQ5"]
+    }]
+}]}

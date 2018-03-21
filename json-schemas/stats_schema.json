@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "DATS stats schema",
+  "description": "a schema to allow reporting of basic descriptive statistics measures",
+  "type": "object",
+  "properties": {
+    "stats" : {
+      "description": "The organizations to which the person is associated with.",
+      "type" : "array",
+      "items" : {
+                "allOf": [
+                    {"$ref": "category_values_pair_schema.json#"},
+                    {"isAbout": {
+                        "description": "A material or a dataset, which is the object of this dimension (this dimension is about the material - e.g. the heights of the patients - or the dataset - e.g. the standard deviation or the set of outliers or a quality indicator of a dataset).",
+                        "oneOf": [
+                            {"$ref": "study_group_schema.json#"},
+                            {"$ref": "dataset_schema.json#"}
+                    ]
+                }}  
+            ]
+      }
+    }
+}
+}

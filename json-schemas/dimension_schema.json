@@ -40,6 +40,15 @@
       "description": "A textual narrative comprised of one or more statements describing the dimension.",
       "type": "string"
     },
+    "variable_type_option_1": {
+        "description" : "the nature of the dimension selected from the 3 options modeled as 'enumeration', with hard coded list of possible options",
+        "type":"string",
+        "enum": ["continuous variable","categorical variable","ordinal variable"]
+        },
+    "variable_type_option_2": {
+        "description" : "the nature of the dimension selected from the 3 options, with delegation to annotation_schema for provision of value and valueIRI to described the type of variable (",
+         "$ref" : "annotation_schema.json#"
+    },     
     "types": {
       "description": "A term, ideally from a controlled terminology, identifying the nature of the dimension, placing it in a typology.",
       "type": "array",
@@ -53,7 +62,13 @@
     },
     "values": {
       "description": "The actual collections of values collected for that dimension.",
-      "type": "array"
+      "type": "array",
+      "items" : {
+        "oneOf": [
+          {"$ref" : "categorical_variable_schema.json#"},
+          {"$ref" : "continuous_variable_schema.json#"}
+        ]
+      }
     },
     "unit": {
       "description": "A reference measurement unit associated with scalar dimensions, ideally from a reference controlled terminology.",
@@ -77,7 +92,7 @@
         "$ref": "dataset_schema.json#"
       }
     },
-    "statisticalProperties": {
+    "descriptiveStatistics": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
       "items": {
