@@ -55,6 +55,9 @@ class DatasetValidation(TestCase):
         folder_path = os.path.join(self.path, "datamed")
         self.assertTrue(dats_model.validate_dataset(folder_path, "E-GEOD-70652-dats.json", 1))
 
+    def test_validate_dataset_10(self):
+        self.assertTrue(dats_model.validate_dataset(self.path, "BDbag-AGR-example.json", 1))
+
 
    
 
