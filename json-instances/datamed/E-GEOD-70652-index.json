@@ -1,0 +1,250 @@
+{
+        "dataAcquisition": {
+          "ID": "A-GEOD-19109",
+          "name": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array [CDF: Brainarray HGU133Plus2_Hs_ENTREZG_v18]"
+        },
+        "dataItem": {
+          "dataTypes": [
+            "dataset",
+            "datasetDistributions",
+            "dataRepository",
+            "organization",
+            "access",
+            "dataAcquisition",
+            "taxonomicInformation"
+          ]
+        },
+        "dataRepository": {
+          "homePage": "https://www.ebi.ac.uk/arrayexpress/",
+          "ID": "SCR:002964",
+          "name": "ArrayExpress"
+        },
+        "provenance": {
+          "ingestTime": "20170510T233221+0000",
+          "filePattern": "",
+          "ingestTarget": "http://www.ebi.ac.uk/arrayexpress/xml/v2/experiments",
+          "ingestMethod": "XML"
+        },
+        "NLP_Fields": {
+          "CellLine": [
+
+          ],
+          "MeshID": [
+            "C1449575",
+            "C0752248",
+            "C0441730",
+            "C0456889",
+            "C3272525",
+            "C0580822",
+            "C0001807",
+            "C0278252",
+            "C1561491",
+            "C1553778",
+            "C0549177",
+            "C0449719",
+            "C0475311",
+            "C0026882",
+            "C1335959",
+            "C1335876",
+            "C1334292",
+            "C0253457",
+            "C0017337",
+            "C1882348",
+            "C1705178",
+            "C1705177",
+            "C1705176",
+            "C1705175",
+            "C0332272",
+            "C0012634",
+            "C3245479",
+            "C0470187",
+            "C1979963",
+            "C2003903",
+            "C0039194",
+            "C0013018",
+            "C1527169",
+            "C0442821",
+            "C0443302",
+            "C0439064",
+            "C3812695",
+            "C2984327",
+            "C0205548",
+            "C1705987",
+            "C1704259",
+            "C0750502",
+            "C1546944",
+            "C0237881",
+            "C0439849",
+            "C0596306",
+            "C0699792",
+            "C0004083",
+            "C0005456",
+            "C0086860",
+            "C1709016",
+            "C0205195",
+            "C3811910",
+            "C1947911",
+            "C1578706",
+            "C3273930",
+            "C0027651",
+            "C0086418",
+            "C1510755"
+          ],
+          "DiseaseID": [
+            "C0456889",
+            "C0021831",
+            "C3272525",
+            "C0027651"
+          ],
+          "ChemicalID": [
+
+          ],
+          "Disease": [
+            "enteropathy-associated t-cell lymphoma",
+            "enteropathy",
+            "t-cell lymphoma",
+            "type ii eatl",
+            "tumor"
+          ],
+          "Chemical": [
+
+          ],
+          "BP": [
+            "gene expression",
+            "signaling"
+          ],
+          "GOID": [
+            "GO:0010467",
+            "GO:0023052"
+          ],
+          "gene": [
+
+          ],
+          "GeneID": [
+
+          ],
+          "Meshterm": [
+            "microarray analysis",
+            "gene expression profiling",
+            "type 2",
+            "enteropathy-associated t-cell lymphoma",
+            "monomorphic cd56+ intestinal t-cell lymphoma",
+            "aggressive course",
+            "aggressive behavior",
+            "prognosis bad",
+            "sequencing",
+            "sequencing - codesystem",
+            "large",
+            "part",
+            "harbor",
+            "mutation",
+            "stat5b protein, human",
+            "stat5b gene",
+            "jak3 gene",
+            "janus kinase 3",
+            "genes",
+            "permutation",
+            "order (action)",
+            "order (taxonomic)",
+            "order (arrangement)",
+            "order (document)",
+            "better",
+            "disease",
+            "data call receiving device",
+            "availability of",
+            "profile (lab procedure)",
+            "profiling (action)",
+            "t-lymphocyte",
+            "donor person",
+            "encounter due to being a donor",
+            "strong",
+            "several",
+            "numerous",
+            "lpar3 wt allele",
+            "jak-stat signaling pathway",
+            "stat (do immediately)",
+            "pathway (interactions)",
+            "biochemical pathway",
+            "significant",
+            "event seriousness - significant",
+            "statistical significance",
+            "relationships",
+            "chemical association",
+            "relationship by association",
+            "mental association",
+            "binding sites",
+            "promoter",
+            "microarray",
+            "combined",
+            "combination - answer to question",
+            "combination of objects",
+            "specimen source codes - tumor",
+            "tumor mass",
+            "neoplasms",
+            "homo sapiens",
+            "accession number (identifier)"
+          ]
+        },
+        "datasetDistributions": [
+          {
+            "accessURL": "https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-70652/E-GEOD-70652.raw.1.zip",
+            "storedIn": "ArrayExpress",
+            "qualifier": "gzip compressed",
+            "format": "TXT",
+            "accessType": "download",
+            "authentication": "none",
+            "authorization": "none"
+          },
+          {
+            "accessURL": "https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-70652/E-GEOD-70652.processed.1.zip",
+            "storedIn": "ArrayExpress",
+            "qualifier": "gzip compressed",
+            "format": "TXT",
+            "accessType": "download",
+            "authentication": "none",
+            "authorization": "none"
+          },
+          {
+            "accessURL": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70652",
+            "storedIn": "Gene Expression Omnibus",
+            "qualifier": "not compressed",
+            "format": "HTML",
+            "accessType": "landing page",
+            "primary": "true",
+            "authentication": "none",
+            "authorization": "none"
+          }
+        ],
+        "taxonomicInformation": [
+          {
+            "name": "Homo sapiens"
+          }
+        ],
+        "dataset": {
+          "dateReleased": "20160303T000000+0000",
+          "description": "Type II Enteropathy-associated T-cell lymphoma (Type II EATL) is an aggressive intestinal T-cell lymphoma with poor prognosis and has not been molecularly profiled. Through targeted amplicon sequencing, we identified a large portion of Type II EATL samples that harbor mutations in the STAT5B, JAK3 and GNAI2 genes. Here we performed gene expression profiling on four Type II EATL samples in order to better characterize this disease. As Type II EATL is suggested to arise from CD8+ IELs, we integrated our data with publicly available profile of CD8αα and CD8αβ T-cells from healthy donors (GSE33374). Gene expression profiling independently demonstrated strong enrichment of several aspects of GPCR and JAK-STAT signaling pathways. Moreover, an significant association was identified with genes containing STAT5B binding sites in their promoters. Microarray gene expression profiling was performed on 4 Type II Enteropathy-associated T-cell lymphoma and a combination of unsupervised and supervised clustering was performed to determine any differentially activated pathways between samples with tumor and healthy human CD161++CD8aa and CD161++CD8ab T cells (found under accession number GSE33374)",
+          "privacy": "not applicable",
+          "title": "Gene expression profiling of Type II Enteropathy-associated T-cell lymphoma",
+          "aggregation": "instance of dataset",
+          "ID": "E-GEOD-70652",
+          "refinement": "raw",
+          "alternateIdentifiers": "70652",
+          "keywords": [
+            "functional genomics"
+          ],
+          "dateModified": "20160305T000000+0000",
+          "availability": "available",
+          "types": [
+            "gene expression"
+          ]
+        },
+        "access": {
+          "landingPage": "https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-70652"
+        },
+        "organization": {
+          "abbreviation": "EBI",
+          "homePage": "http://www.ebi.ac.uk/",
+          "ID": "SCR:004727",
+          "name": "European Bioinformatics Institute"
+        }
+      }
