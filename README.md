@@ -10,8 +10,8 @@ The material in this repository is distributed under [CC BY-SA 3.0](http://creat
 
 ## Publications
 
-- DATS article on exemplar adotpions and lessons learned [ http://doi.org/10.1093/jamia/ocx119]( http://doi.org/10.1093/jamia/ocx119)
-- DataMed article in Nature Genetics [http://doi.org/10.1038/ng.3864](http://doi.org/10.1038/ng.3864)
+- Alejandra N Gonzalez-Beltran, John Campbell, Patrick Dunn, Diana Guijarro, Sanda Ionescu, Hyeoneui Kim, Jared Lyle, Jeffrey Wiser, Susanna-Assunta Sansone, Philippe Rocca-Serra; **Data discovery with DATS: exemplar adoptions and lessons learned**, *Journal of the American Medical Informatics Association*, Volume 25, Issue 1, 1 January 2018, Pages 13–16, [http://doi.org/10.1093/jamia/ocx119]( http://doi.org/10.1093/jamia/ocx119)
+- Lucila Ohno-Machado, Susanna-Assunta Sansone, George Alter, Ian Fore, Jeffrey Grethe, Hua Xu, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Anupama E Gururaj, Elizabeth Bell, Ergin Soysal, Nansu Zong & Hyeon-eui Kim; **Finding useful data across multiple biomedical data repositories using DataMed**; *Nature Genetics* 49, 816–819 (2017) [http://doi.org/10.1038/ng.3864](http://doi.org/10.1038/ng.3864)
 - DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59).
 
 ### DATS Pre-print
