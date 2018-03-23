@@ -8,9 +8,11 @@ The (work in progress) documentation about DATS can be found at [readthedocs](ht
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
-## DATS Publication
+## Publications
 
-DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59).
+- DATS article on exemplar adotpions and lessons learned [ http://doi.org/10.1093/jamia/ocx119]( http://doi.org/10.1093/jamia/ocx119)
+- DataMed article in Nature Genetics [http://doi.org/10.1038/ng.3864](http://doi.org/10.1038/ng.3864)
+- DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59).
 
 ### DATS Pre-print
 
