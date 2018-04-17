@@ -8,13 +8,11 @@ The (work in progress) documentation about DATS can be found at [readthedocs](ht
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
-## DATS Publication
+## Publications
 
-DATS has been published in Springer Nature Scientific Data and the article can be reached through this [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59).
-
-### DATS Pre-print
-
-A preprint on "DATS: the data tag suite to enable discoverability of datasets" can be found at [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143).
+- Alejandra N Gonzalez-Beltran, John Campbell, Patrick Dunn, Diana Guijarro, Sanda Ionescu, Hyeoneui Kim, Jared Lyle, Jeffrey Wiser, Susanna-Assunta Sansone, Philippe Rocca-Serra; **Data discovery with DATS: exemplar adoptions and lessons learned**, *Journal of the American Medical Informatics Association*, Volume 25, Issue 1, 1 January 2018, Pages 13–16, [http://doi.org/10.1093/jamia/ocx119]( http://doi.org/10.1093/jamia/ocx119)
+- Lucila Ohno-Machado, Susanna-Assunta Sansone, George Alter, Ian Fore, Jeffrey Grethe, Hua Xu, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Anupama E Gururaj, Elizabeth Bell, Ergin Soysal, Nansu Zong & Hyeon-eui Kim; **Finding useful data across multiple biomedical data repositories using DataMed**; *Nature Genetics* 49, 816–819 (2017) [http://doi.org/10.1038/ng.3864](http://doi.org/10.1038/ng.3864)
+- Susanna-Assunta Sansone<sup>#</sup>, Alejandra Gonzalez-Beltran<sup>#</sup>, Philippe Rocca-Serra<sup>#</sup>, George Alter, Jeffrey S. Grethe, Hua Xu, Ian M. Fore, Jared Lyle, Anupama E. Gururaj, Xiaoling Chen, Hyeon-eui Kim, Nansu Zong, Yueling Li, Ruiling Liu, I. Burak Ozyurt & Lucila Ohno-Machado; **DATS, the data tag suite to enable discoverability of datasets**; Scientific Data volume 4, Article number: 170059 (2017) [DOI: 10.1038/sdata.2017.59](http://doi.org/10.1038/sdata.2017.59) <sup>#</sup>=equal contribution; Pre-print: [bioRxiv DOI: 10.1101/103143 ](https://doi.org/10.1101/103143).
 
 ## DATS Releases
 

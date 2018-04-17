@@ -49,7 +49,14 @@ class DatasetValidation(TestCase):
 
     def test_validate_instance(self):
         folder_path = os.path.join(self.path, "ICPSR-Dimensions")
-        self.assertTrue(dats_model.validate_instance(folder_path, "Dimension-33581-0001-AQ5.json", "dimension_schema.json", 0) )
+        self.assertTrue(dats_model.validate_instance(folder_path, "Dimension-33581-0001-AQ5.json", "dimension_schema.json", 1) )
+
+    def test_validate_instance(self):
+        folder_path = os.path.join(self.path, "datamed")
+        self.assertTrue(dats_model.validate_dataset(folder_path, "E-GEOD-70652-dats.json", 1))
+
+    def test_validate_dataset_10(self):
+        self.assertTrue(dats_model.validate_dataset(self.path, "BDbag-AGR-example.json", 1))
 
 
    

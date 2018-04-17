@@ -1,10 +1,8 @@
 {
-    "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-    "@type": "Dataset",
-    "identifiers": [{
+    "identifier": {
         "identifier": "http://identifiers.org/minid:b9j69h",
         "identifierSource": "minid"
-    }],
+    },
     "title": "AGR Data set with identifier-based references to data in cloud storage",
     "description": "AGR Data set with identifier-based references to data in cloud storage",
     "dates": [{
@@ -15,12 +13,10 @@
         }
     }],
     "creators": [{
-        "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
-        "@type": "Person",
-        "identifiers": [{
+        "identifier": {
             "identifier": "http://orcid.org/0000-0003-2280-917X",
             "identifierSource": "orcid"
-        }],
+        },
         "affiliations": [{"name": "University of Southern California / Information Science"}],
         "firstName": "Michel",
         "fullName": "Mike d'Arcy",
@@ -29,28 +25,23 @@
     "types": [{"information": {"value": "model organism data"}}],
     "hasPart": [
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "minid:b9n39d",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "A list of disease ontology terms obtained from the Disease Ontology website.",
             "types": [{"information": {"value": "ontology terms"}}],
+            "creators": [ {} ],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "minid:b9n39d",
                     "identifierSource": ""
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "/data/DO/do_1.0.obo"
+                    "accessURL": "/data/DO/do_1.0.obo",
+                    "landingPage": ""
                 },
                 "conformsTo": [{
-                    "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                    "@type": "DataStandard",
                     "name": "obo format",
                     "type": {
                         "value": "text/plain",
@@ -66,28 +57,23 @@
             }]
         },
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "minid:b9hd64",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "A list of gene ontology terms obtained from the Gene Ontology Consortium.",
             "types": [{"information": {"value": "ontology terms"}}],
+            "creators": [ {} ],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "minid:b9hd64",
                     "identifierSource": ""
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "data/GO/go_1.0.obo"
+                    "accessURL": "data/GO/go_1.0.obo",
+                    "landingPage": ""
                 },
                 "conformsTo": [{
-                    "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                    "@type": "DataStandard",
                     "name": "obo format",
                     "type": {
                         "value": "text/plain",
@@ -103,14 +89,13 @@
             }]
         },
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "minid:b9px1z",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "A list of sequence ontology terms obtained from the Sequence Ontology website.",
             "types": [{"information": {"value": "ontology terms"}}],
+            "creators": [ {} ],
             "dates": [{
                 "date": "2.6.2018",
                 "type": {
@@ -119,19 +104,15 @@
                 }
             }],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "minid:b9px1z",
                     "identifierSource": ""
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "data/SO/so_1.0.obo"
+                    "accessURL": "data/SO/so_1.0.obo",
+                    "landingPage": ""
                 },
                 "conformsTo": [{
-                    "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                    "@type": "DataStandard",
                     "name": "obo format",
                     "type": {
                         "value": "text/plain",
@@ -147,28 +128,23 @@
             }]
         },
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "minid:b9dm68",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "Flybase MOD data",
             "types": [{"information": {"value": "MOD data"}}],
+            "creators": [ {} ],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "minid:b9dm68",
                     "identifierSource": ""
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "data/FB_1.0.4_4.tar.gz"
+                    "accessURL": "data/FB_1.0.4_4.tar.gz",
+                    "landingPage": ""
                 },
                 "conformsTo": [{
-                    "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                    "@type": "DataStandard",
                     "name": "tar.gz",
                     "type": {
                         "value": "application/x-compressed",
@@ -184,28 +160,23 @@
             }]
         },
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "minid:b9cm3t",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "A list of gene ontology associations for Drosophila obtained from the Gene Ontology Consortium.",
             "types": [{"information": {"value": "gene association data"}}],
+            "creators": [ {} ],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "minid:b9cm3t",
                     "identifierSource": ""
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "data/GO/ANNOT/gene_association.fb.gz"
+                    "accessURL": "data/GO/ANNOT/gene_association.fb.gz",
+                    "landingPage": ""
                 },
                 "conformsTo": [{
-                    "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                    "@type": "DataStandard",
                     "name": "tar.gz",
                     "type": {
                         "value": "application/x-compressed",
@@ -221,29 +192,24 @@
             }]
         },
         {
-            "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
-            "@type": "Dataset",
-            "identifiers": [{
+            "identifier": {
                 "identifier": "http://identifiers.org/minid:b9m393",
                 "identifierSource": "minid"
-            }],
+            },
             "title": "JSON files containing orthology derived from DIOPT v6.2 http://www.flyrnai.org/cgi-bin/DRSC_orthologs.pl",
             "types": [{"information": {"value": "orthology data"}}],
+            "creators": [ {} ],
             "distributions": [{
-                "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-                "@type": "DatasetDistribution",
                 "identifier": {
                     "identifier": "http://identifiers.org/minid:b9m393",
                     "identifierSource": "minid"
                 },
                 "access": {
-                    "@type": "Access",
-                    "accessURL": "data/ORTHO/orthology_FlyBase_1.0.0_2.json.tar.gz"
+                    "accessURL": "data/ORTHO/orthology_FlyBase_1.0.0_2.json.tar.gz",
+                    "landingPage": ""
                 },
                 "conformsTo": [
                     {
-                        "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-                        "@type": "DataStandard",
                         "name": "tar.gz",
                         "type": {
                             "value": "application/x-compressed",
@@ -268,20 +234,15 @@
         }
     ],
     "distributions": [{
-        "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
-        "@type": "DatasetDistribution",
         "identifier": {
             "identifier": "http://identifiers.org/minid:b9j69h",
             "identifierSource": "minid"
         },
         "access": {
-            "@type": "Access",
             "landingPage": "http://minid.bd2k.org/minid/landingpage/ark:/57799/b9j69h",
             "accessURL": "https://nih-commons.s3.amazonaws.com/misc/agr-example.tgz"
         },
         "conformsTo": [{
-            "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
-            "@type": "DataStandard",
             "name": "tar.gz",
             "type": {
                 "value": "application/x-compressed",
@@ -312,9 +273,5 @@
                 "valueIRI": ""
             }]
         }
-    ],
-    "licenses": [{
-        "@type": "License",
-        "name": ""
-    }]
+    ]
 }

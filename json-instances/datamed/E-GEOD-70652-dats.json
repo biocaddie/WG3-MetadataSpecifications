@@ -1,0 +1,145 @@
+{
+  "storedIn": {
+    "access": [
+      {
+        "landingPage": "https:\/\/www.ebi.ac.uk\/arrayexpress\/"
+      }
+    ],
+    "identifier": {
+      "identifier": "SCR:002964"
+    },
+    "name": "ArrayExpress",
+    "publishers": [
+      {
+        "abbreviation": "EBI",
+        "alternateIdentifiers": [
+          {
+            "identifier": "http:\/\/www.ebi.ac.uk\/"
+          }
+        ],
+        "identifier": {
+          "identifier": "SCR:004727"
+        },
+        "name": "European Bioinformatics Institute"
+      }
+    ]
+  },
+  "distributions": [
+    {
+      "storedIn": {
+        "name": "ArrayExpress"
+      },
+      "qualifiers": [ { "value": "gzip compressed" }],
+      "formats": [ "TXT" ],
+      "access": {
+        "landingPage": "",
+        "accessURL": "https:\/\/www.ebi.ac.uk\/arrayexpress\/files\/E-GEOD-70652\/E-GEOD-70652.raw.1.zip",
+        "types": [{
+          "value": "download"
+        }],
+        "authentications": [
+          {
+            "value": "none"
+          }
+        ],
+        "authorizations": [
+          {
+            "value": "none"
+          }
+        ]
+      }
+    },
+
+    {
+      "storedIn": {
+        "name":  "ArrayExpress"
+      },
+      "qualifiers": [ {"value": "gzip compressed"}],
+      "formats": [ "TXT" ],
+      "access": {
+        "landingPage": "",
+        "accessURL": "https:\/\/www.ebi.ac.uk\/arrayexpress\/files\/E-GEOD-70652\/E-GEOD-70652.processed.1.zip",
+        "types": [{
+          "value": "download"
+        }],
+        "authentications": [{
+          "value": "none"
+        }],
+        "authorizations": [{
+          "value": "none"
+        }]
+      }},
+    {
+
+
+      "storedIn": {
+        "name": "Gene Expression Omnibus"
+      },
+      "qualifiers": [{
+        "value": "not compressed"
+      }],
+      "formats": [ "HTML" ],
+      "access": {
+        "landingPage": "",
+        "accessURL": "https:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi?acc=GSE70652",
+        "types": [{
+          "value": "landing page"
+        }],
+        "authentications": [{
+          "value": "none"
+        }],
+        "authorizations": [{
+          "value": "none"
+        }]
+      },
+      "extraProperties": [{
+        "category": "primary",
+        "values": [ "true"]
+        }
+      ]
+    }
+  ],
+
+  "dates": [
+    {
+      "date": "20160303T000000+0000",
+      "type": {
+        "value": "released"
+      }
+    },
+    {
+      "date": "20160305T000000+0000",
+      "type": {
+        "value": "modified"
+      }
+    }
+  ],
+  "description": "Type II Enteropathy-associated T-cell lymphoma (Type II EATL) is an aggressive intestinal T-cell lymphoma with poor prognosis and has not been molecularly profiled. Through targeted amplicon sequencing, we identified a large portion of Type II EATL samples that harbor mutations in the STAT5B, JAK3 and GNAI2 genes. Here we performed gene expression profiling on four Type II EATL samples in order to better characterize this disease. As Type II EATL is suggested to arise from CD8+ IELs, we integrated our data with publicly available profile of CD8\u03b1\u03b1 and CD8\u03b1\u03b2 T-cells from healthy donors (GSE33374). Gene expression profiling independently demonstrated strong enrichment of several aspects of GPCR and JAK-STAT signaling pathways. Moreover, an significant association was identified with genes containing STAT5B binding sites in their promoters. Microarray gene expression profiling was performed on 4 Type II Enteropathy-associated T-cell lymphoma and a combination of unsupervised and supervised clustering was performed to determine any differentially activated pathways between samples with tumor and healthy human CD161++CD8aa and CD161++CD8ab T cells (found under accession number GSE33374)",
+  "privacy": "not applicable",
+  "title": "Gene expression profiling of Type II Enteropathy-associated T-cell lymphoma",
+  "aggregation": "instance of dataset",
+  "identifier": {
+    "identifier": "E-GEOD-70652"
+  },
+  "refinement": "raw",
+  "keywords": [
+    {
+      "value": "functional genomics"
+    }
+  ],
+  "availability": "available",
+  "types": [
+    {
+      "value": "gene expression"
+    }
+  ],
+  "creators": [
+    {
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens"
+    }
+  ]
+}
