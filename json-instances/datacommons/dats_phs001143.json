@@ -1,0 +1,281 @@
+{
+  "Dataset": {
+    "relatedIdentifiers": [
+      {
+        "identifier": "phs001143.v1.p1",
+        "identifierSource": "dbGAP",
+        "relationType": "parentStudy"
+      }
+    ],
+    "identifier": "phs001143.v1.p1",
+    "dates": [
+      {
+        "date": "20160608",
+        "type": "created"
+      },
+      {
+        "date": "20170608",
+        "type": "modified"
+      }
+    ],
+    "title": "NHLBI TOPMed: The Genetics and Epidemiology of Asthma in Barbados",
+    "description": "Asthma is a complex disease where the interplay between genetic factors and environmental exposures influences susceptibility and disease prognosis. Asthmatics of African descent tend to have more severe asthma and more severe clinical symptoms than individuals of European ancestry. The baseline prevalence of asthma in Barbados is high (~20%), and from admixture analyses, we have determined that the proportion of African ancestry among Barbadian founders is similar to U.S. African Americans, rendering this a unique population to disentangle the genetic basis for asthma disparities among African ancestry populations in general. We therefore performed whole genome sequencing on 1,100 individuals from the Barbados Genetics of Asthma Study (BAGS), in order to generate additional discovery of rare and structural variants that may control risk to asthma.",
+    "storedIn": {
+      "DataRepository": {
+        "name": "dbGaP"
+      }
+    },
+    "producedBy": {
+      "Study": {
+        "types": "Family",
+        "name": [],
+        "studyGroups": [
+          {
+            "StudyGroup": {
+              "name": [
+                "Exchange Area (IRB)"
+              ],
+              "extraProperties": [
+                {
+                  "category": "ConsentAbbrev",
+                  "value": "EA-IRB"
+                },
+                {
+                  "value": "Yes",
+                  "category": "IrbRequired"
+                },
+                {
+                  "value": "Use by NHLBI WGS study investigators only. There is one consent group for this study: GRU-IRB. Use of the data is limited only by the terms of the model Data Use Certification. Requestor must provide documentation of local IRB approval.",
+                  "category": "UseLimitation"
+                }
+              ],
+              "identifier": "999"
+            }
+          }
+        ],
+        "input": {
+          "Material": {
+            "bearerOfDisease": [
+              {
+                "Disease": {
+                  "name": [
+                    "Asthma"
+                  ],
+                  "extraProperties": [
+                    {
+                      "category": "vocab_source",
+                      "value": "MESH"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "schedulesActivity": [
+          {
+            "Activity": {
+              "description": "TOPMed Whole Genome Sequencing Project",
+              "extraProperties": [
+                {
+                  "category": "urlToHtml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001143.v1.p1&phd=6969"
+                },
+                {
+                  "category": "urlToXml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd006969.2"
+                },
+                {
+                  "value": "public",
+                  "category": "displayStatus"
+                },
+                {
+                  "value": "public",
+                  "category": "xmlStatus"
+                }
+              ],
+              "keywords": "protocol",
+              "startDate": "20170403",
+              "identifier": "phd006969.2",
+              "dates": {
+                "date": "20170608",
+                "type": "modified"
+              },
+              "relatedIdentifiers": "TOPMed_for_dbGaP_April2016_v5_final.docx",
+              "name": "TOPMed Whole Genome Sequencing Project"
+            }
+          },
+          {
+            "Activity": {
+              "description": "Asthma / Affection Status",
+              "extraProperties": [
+                {
+                  "category": "urlToHtml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001143.v1.p1&phd=6974"
+                },
+                {
+                  "category": "urlToXml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd006974.1"
+                },
+                {
+                  "value": "public",
+                  "category": "displayStatus"
+                },
+                {
+                  "value": "public",
+                  "category": "xmlStatus"
+                }
+              ],
+              "keywords": "protocol",
+              "startDate": "20161101",
+              "identifier": "phd006974.1",
+              "dates": {
+                "date": "20161101",
+                "type": "modified"
+              },
+              "relatedIdentifiers": "Asthma.docx",
+              "name": "Asthma / Affection Status"
+            }
+          }
+        ],
+        "selectionCriteria": "DNA samples of 1100 individuals from 190 Barbados families were whole genome sequenced (asthma cases and controls). Among all cases, asthma was defined as both a reported history of asthma and a documented history of physician-diagnosed asthma (past or current). For each of the asthma studies, a standardized questionnaire based on either American Thoracic Society or International Study of Asthma and Allergy in Childhood questionnaires was administered by a clinical coordinator. The identity and relationships of individuals were checked using IBD estimates, and individuals were excluded if discrepant. Samples that failed whole genome sequencing quality control were also excluded.",
+        "schedulesDataAcquisition": {
+          "DataAcquisition": {
+            "uses": {
+              "Software": {
+                "isUsedBy": {
+                  "DataAnalysis": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "creators": {
+      "Organization": {
+        "extraProperties": [
+          {
+            "category": "DacEmail",
+            "value": "0"
+          },
+          {
+            "category": "DacPhone",
+            "value": "{}"
+          },
+          {
+            "category": "DacUrl",
+            "value": "{}"
+          }
+        ],
+        "identifier": "0",
+        "name": "National Heart, Lung, and Blood Institute DAC",
+        "relatedIdentifiers": "0",
+        "abbreviation": "NHLBI"
+      },
+      "Person": {
+        "affiliations": "University of Colorado, Denver, CO, USA",
+        "fullName": "Kathleen Barnes, PhD"
+      }
+    },
+    "licenses": [
+      {
+        "License": {
+          "extraProperties": [
+            {
+              "category": "para",
+              "value": "http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"
+            },
+            {
+              "value": "yes",
+              "category": "Policy DisplayPublicSummary"
+            },
+            {
+              "value": "yes",
+              "category": "DisplayResearchStatement"
+            },
+            {
+              "category": "FileName",
+              "value": ""
+            },
+            {
+              "category": "FilePath",
+              "value": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"
+            },
+            {
+              "category": "EmbargoLength",
+              "value": "0"
+            },
+            {
+              "category": "PdfSupplementReqired",
+              "value": "yes"
+            },
+            {
+              "value": "8",
+              "category": "WeeksCancelRequest"
+            },
+            {
+              "category": "YearsUntilRenewal",
+              "value": "1"
+            },
+            {
+              "category": "Configuration DisplayPublicSummary",
+              "value": "yes"
+            }
+          ],
+          "identifier": "phs001143.v1.p1_policy",
+          "name": "Data Use Certificate"
+        }
+      }
+    ],
+    "acknowledges": [
+      {
+        "Grant": {
+          "identifier": "R01 HL104608-S1",
+          "funders": "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA"
+        }
+      }
+    ],
+    "primaryPublications": [
+      {
+        "Publication": {
+          "identifier": "pmid:19910028",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      }
+    ],
+    "extraProperties": [
+      {
+        "value": "NHLBI TOPMed: The Genetics and Epidemiology of Asthma in Barbados",
+        "category": "StudyNameReportPage"
+      }
+    ],
+    "dimensions": [
+      {
+        "Dimension": {
+          "identifier": [
+            "phd006974.1"
+          ],
+          "relatedIdentifiers": [
+            "sec1",
+            "273201",
+            "273213"
+          ],
+          "partOf": []
+        }
+      }
+    ],
+    "distributions": [
+      {
+        "DatasetDistribution": {
+          "access": {
+            "Access": {
+              "accessURL": []
+            }
+          }
+        }
+      }
+    ]
+  }
+}

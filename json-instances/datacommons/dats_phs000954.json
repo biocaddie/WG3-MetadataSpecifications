@@ -1,0 +1,627 @@
+{
+  "Dataset": {
+    "relatedIdentifiers": [
+      {
+        "identifier": "phs000954.v1.p1",
+        "identifierSource": "dbGAP",
+        "relationType": "parentStudy"
+      }
+    ],
+    "identifier": "phs000954.v1.p1",
+    "dates": [
+      {
+        "date": "20150710",
+        "type": "created"
+      },
+      {
+        "date": "20170922",
+        "type": "modified"
+      }
+    ],
+    "title": "NHLBI TOPMed: The Cleveland Family Study (WGS)",
+    "description": "The Cleveland Family Study (CFS) is one cohort involved in the WGS project. The CFS was designed to provide fundamental epidemiological data on genetic and non-genetic risk factors for sleep disordered breathing (SDB). In brief, the CFS is a family-based study that enrolled a total of 2284 individuals from 361 families between 1990 and 2006. The sample was selected by identifying affected probands who had laboratory diagnosed obstructive sleep apnea. All first degree relatives, spouses and available second degree relatives of affected probands were studied. In addition, during the first 5 study years, neighborhood control families were identified through a neighborhood proband, and his/her spouses and first degree relatives. Each exam, occurring at approximately 4 year intervals, included new enrollment as well as follow up exams for previously enrolled subjects. For the first three visits, data, including an overnight sleep study, were collected in the participants&#39; homes while the last visit occurred in a general clinical research center (GCRC). Phenotypic characterization of the entire cohort included overnight sleep apnea studies, blood pressure, spirometry, anthropometry and questionnaires. The GCRC exam (n=735 selected individuals) included more comprehensive phenotype data on a focused subsample of the larger cohort, to permit linking SDB phenotypes with cardio-metabolic phenotypes, with an interest in identifying genetic loci that are associated with these related phenotypes. In this last round of data collection, a subset of 735 individuals was selected based on expected genetic informativity by choosing pedigrees where siblings had extremes of the apnea hypopnea index (AHI). Participants underwent detailed phenotyping including laboratory polysomnography (PSG), ECG, spirometry, nasal and oral acoustic reflectometry, vigilance testing, and blood and urine collection before and after sleep and after an oral glucose tolerance test. A wide range of biochemical measures of inflammation and metabolism were assayed by a Core Laboratory at the University of Vermont. 994 individuals were sequenced as part of TOPMed, including 507 African-Americans and 487 European-Americans. Among the sequenced individuals, 156 were probands with diagnosed sleep apnea, an additional 706 were members of families with probands, and 132 were from neighborhood control families. Please note: Phenotype and pedigree data are available through \"NHLBI Cleveland Family Study (CFS) Candidate Gene Association Resource (CARe)\", phs000284. .",
+    "storedIn": {
+      "DataRepository": {
+        "name": "dbGaP"
+      }
+    },
+    "producedBy": {
+      "Study": {
+        "types": "Longitudinal",
+        "name": [
+          "Cleveland Family Study (CFS)"
+        ],
+        "studyGroups": [
+          {
+            "StudyGroup": {
+              "name": [
+                "Disease-Specific (Heart, Lung, Blood, and Sleep Disorders, IRB, NPU)"
+              ],
+              "extraProperties": [
+                {
+                  "category": "ConsentAbbrev",
+                  "value": "DS-HLBS-IRB-NPU"
+                },
+                {
+                  "value": "Yes",
+                  "category": "IrbRequired"
+                },
+                {
+                  "value": "Use of the data must be related to Heart, Lung, Blood, and Sleep Disorders. Requestor must provide documentation of local IRB approval. Use of the data is limited to not-for-profit organizations. Data use is limited to academic researchers conducting research in heart, lung, blood and sleep disorders, and their risk factors, and does not include the study of population origins and ancestry. CFS data may not be used to investigate individual pedigree structures, individual participant genotypes, phenotype-only analyses or issues such as non-maternity and non-paternity. All researchers requesting CFS data will be required to obtain approval from their IRB for their proposed project using CFS data.",
+                  "category": "UseLimitation"
+                }
+              ],
+              "identifier": "1"
+            }
+          },
+          {
+            "StudyGroup": {
+              "name": [
+                "Exchange Area (IRB, NPU)"
+              ],
+              "extraProperties": [
+                {
+                  "category": "ConsentAbbrev",
+                  "value": "EA-IRB-NPU"
+                },
+                {
+                  "value": "Yes",
+                  "category": "IrbRequired"
+                },
+                {
+                  "value": "Use by NHLBI WGS study investigators only. There is one consent group for this study: DS-HLBS-IRB-NPU (Disease-Specific Heart, Lung, Blood, and Sleep Disorders, IRB, NPU). Use of the data must be related to Heart, Lung, Blood, and Sleep Disorders. Requestor must provide documentation of local IRB approval. Use of the data is limited to not-for-profit organizations. Data use is limited to academic researchers conducting research in heart, lung, blood and sleep disorders, and their risk factors, and does not include the study of population origins and ancestry. CFS data may not be used to investigate individual pedigree structures, individual participant genotypes, phenotype-only analyses or issues such as non-maternity and non-paternity. All researchers requesting CFS data will be required to obtain approval from their IRB for their proposed project using CFS data.",
+                  "category": "UseLimitation"
+                }
+              ],
+              "identifier": "999"
+            }
+          }
+        ],
+        "input": {
+          "Material": {
+            "bearerOfDisease": [
+              {
+                "Disease": {
+                  "name": [
+                    "Sleep Apnea Syndromes"
+                  ],
+                  "extraProperties": [
+                    {
+                      "category": "vocab_source",
+                      "value": "MESH"
+                    }
+                  ]
+                }
+              },
+              {
+                "Disease": {
+                  "name": [
+                    "Obesity"
+                  ],
+                  "extraProperties": [
+                    {
+                      "category": "vocab_source",
+                      "value": "MESH"
+                    }
+                  ]
+                }
+              },
+              {
+                "Disease": {
+                  "name": [
+                    "Hypertension"
+                  ],
+                  "extraProperties": [
+                    {
+                      "category": "vocab_source",
+                      "value": "MESH"
+                    }
+                  ]
+                }
+              },
+              {
+                "Disease": {
+                  "name": [
+                    "Diabetes Mellitus"
+                  ],
+                  "extraProperties": [
+                    {
+                      "category": "vocab_source",
+                      "value": "MESH"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "schedulesActivity": [
+          {
+            "Activity": {
+              "description": "TOPMed Whole Genome Sequencing Project",
+              "extraProperties": [
+                {
+                  "category": "urlToHtml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000954.v1.p1&phd=6969"
+                },
+                {
+                  "category": "urlToXml",
+                  "value": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd006969.2"
+                },
+                {
+                  "value": "public",
+                  "category": "displayStatus"
+                },
+                {
+                  "value": "public",
+                  "category": "xmlStatus"
+                }
+              ],
+              "keywords": "protocol",
+              "startDate": "20170403",
+              "identifier": "phd006969.2",
+              "dates": {
+                "date": "20170918",
+                "type": "modified"
+              },
+              "relatedIdentifiers": "TOPMed_for_dbGaP_April2016_v5_final.docx",
+              "name": "TOPMed Whole Genome Sequencing Project"
+            }
+          }
+        ],
+        "selectionCriteria": "Inclusion Criteria: Cases were probands with laboratory-diagnosed obstructive sleep apnea (AHI &#62; 15 or treated with CPAP). All cases and their first degree and selective second degree relatives and spouses comprised the \"case family\" sample. Control probands were selected as a neighbor of the case proband. Their first degree relatives and spouses comprised the control family sample. Exclusion criteria: Inability to provide informed consent; no family relationship with cases or controls. Additional exclusion criteria for cases were known congenital disorder associated with sleep apnea.",
+        "schedulesDataAcquisition": {
+          "DataAcquisition": {
+            "uses": {
+              "Software": {
+                "isUsedBy": {
+                  "DataAnalysis": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "creators": {
+      "Organization": {
+        "extraProperties": [
+          {
+            "category": "DacEmail",
+            "value": "0"
+          },
+          {
+            "category": "DacPhone",
+            "value": "{}"
+          },
+          {
+            "category": "DacUrl",
+            "value": "{}"
+          }
+        ],
+        "identifier": "0",
+        "name": "National Heart, Lung, and Blood Institute DAC",
+        "relatedIdentifiers": "0",
+        "abbreviation": "NHLBI"
+      },
+      "Person": {
+        "affiliations": "Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA",
+        "fullName": "Susan Redline, MD, MPH"
+      }
+    },
+    "licenses": [
+      {
+        "License": {
+          "extraProperties": [
+            {
+              "category": "para",
+              "value": "http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000954.v1.p1"
+            },
+            {
+              "value": "yes",
+              "category": "Policy DisplayPublicSummary"
+            },
+            {
+              "value": "yes",
+              "category": "DisplayResearchStatement"
+            },
+            {
+              "category": "FileName",
+              "value": ""
+            },
+            {
+              "category": "FilePath",
+              "value": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000954.v1.p1"
+            },
+            {
+              "category": "EmbargoLength",
+              "value": "0"
+            },
+            {
+              "category": "PdfSupplementReqired",
+              "value": "yes"
+            },
+            {
+              "value": "8",
+              "category": "WeeksCancelRequest"
+            },
+            {
+              "category": "YearsUntilRenewal",
+              "value": "1"
+            },
+            {
+              "category": "Configuration DisplayPublicSummary",
+              "value": "yes"
+            }
+          ],
+          "identifier": "phs000954.v1.p1_policy",
+          "name": "Data Use Certificate"
+        }
+      }
+    ],
+    "acknowledges": [
+      {
+        "Grant": {}
+      }
+    ],
+    "primaryPublications": [
+      {
+        "Publication": {
+          "identifier": "pmid:7881656",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:8665046",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:9001310",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:9230740",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:11921084",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:15070816",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:12734134",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:15611783",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:16374834",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:17520798",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:17682664",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:18209735",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:18754839",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:18579548",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:19238807",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:19480228",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:20538960",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:20508215",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21207764",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21121029",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21347284",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21194676",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:20978265",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21347282",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21378095",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21422096",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21775986",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:21998595",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22479202",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22421340",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22629316",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22832964",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22893027",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23183192",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23155414",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23139255",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:22361517",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23166209",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23303523",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23583978",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23557128",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23972371",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:23969696",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:24166731",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:25011450",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:20400780",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      },
+      {
+        "Publication": {
+          "identifier": "pmid:18974833",
+          "extraProperties": {},
+          "publicationVenue": {}
+        }
+      }
+    ],
+    "extraProperties": [
+      {
+        "value": "NHLBI TOPMed: The Cleveland Family Study - Whole Genome Sequencing",
+        "category": "StudyNameReportPage"
+      }
+    ],
+    "dimensions": [
+      {
+        "Dimension": {
+          "identifier": [],
+          "relatedIdentifiers": [],
+          "partOf": []
+        }
+      }
+    ],
+    "distributions": [
+      {
+        "DatasetDistribution": {
+          "access": {
+            "Access": {
+              "accessURL": [
+                "https://sleepdata.org/datasets/cfs"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
