@@ -95,7 +95,7 @@
             }
         },
         "uses": {
-            "description": "The i./`;nstrument(s) or software(s) used to acquire the signal.",
+            "description": "The instrument(s) or software(s) used to acquire the signal.",
             "type": "array",
             "items": {
                 "anyOf": [
