@@ -32,7 +32,7 @@
     },
     "producedBy": {
         "@type": "Study",
-        "types": [ { "type": "Longitudinal" } ],
+        "types": [ { "value": "Longitudinal" } ],
         "name": "Cleveland Family Study (CFS)",
         "studyGroups": [
           {
@@ -78,14 +78,13 @@
               }
           }
         ],
-        "input": {
+        "input": [{
             "@type": "Material",
+            "name": "",
             "bearerOfDisease": [
               {
                   "@type": "Disease",
-                  "name": [
-                    "Sleep Apnea Syndromes"
-                  ],
+                  "name": "Sleep Apnea Syndromes",
                   "extraProperties": [
                     {
                       "category": "vocab_source",
@@ -95,9 +94,7 @@
               },
               {
                   "@type": "Disease",
-                  "name": [
-                    "Obesity"
-                  ],
+                  "name": "Obesity",
                   "extraProperties": [
                     {
                       "category": "vocab_source",
@@ -107,9 +104,7 @@
               },
               {
                   "@type": "Disease",
-                  "name": [
-                    "Hypertension"
-                  ],
+                  "name": "Hypertension",
                   "extraProperties": [
                     {
                       "category": "vocab_source",
@@ -119,9 +114,7 @@
               },
               {
                   "@type": "Disease",
-                  "name": [
-                    "Diabetes Mellitus"
-                  ],
+                  "name": "Diabetes Mellitus",
                   "extraProperties": [
                     {
                       "category": "vocab_source",
@@ -129,7 +122,9 @@
                     }
                   ]
               }
-            ],
+            ]
+          }
+        ],
         "schedulesActivity": [
           {
               "@type": "Activity",
@@ -152,22 +147,27 @@
                   "category": "xmlStatus"
                 }
               ],
-              "keywords": "protocol",
+               "keywords": [ { "value": "protocol"}  ],
               "startDate": {
-                "date": "20170403"
+                "date": "20170403",
+                "type": {
+                  "value": "start"
+                }
               },
               "identifier": {
                 "identifier": "phd006969.2"
               },
-              "dates": {
+              "dates": [ {
                 "date": "20170918",
                 "type": {
                   "value": "modified"
                 }
-              },
+              } ],
               "relatedIdentifiers": [
                 {
-                 "identifier": "TOPMed_for_dbGaP_April2016_v5_final.docx"
+                 "identifier": "TOPMed_for_dbGaP_April2016_v5_final.docx",
+                  "identifierSource": "",
+                  "relationType": ""
                 }
               ],
               "name": "TOPMed Whole Genome Sequencing Project"
@@ -179,38 +179,35 @@
         "schedulesDataAcquisition": [
           {
             "@type": "DataAcquisition",
-            "uses": {
+            "name": "",
+            "uses": [ {
                 "@type": "Software",
-                "isUsedBy": {
-                  "@type": "DataAnalysis"
-                }
-            }
+                "name": ""
+            } ]
         }
         ]
-      }
-    },
+      },
     "creators": [
        {
         "@type": "Organization",
         "extraProperties": [
           {
             "category": "DacEmail",
-            "values": []
+            "values": [ "" ]
           },
           {
             "category": "DacPhone",
-            "values": []
+            "values": [ "" ]
           },
           {
             "category": "DacUrl",
-            "values": []
+            "values": [ "" ]
           }
         ],
         "identifier": {
           "identifier": "0"
         },
         "name": "National Heart, Lung, and Blood Institute DAC",
-        "relatedIdentifiers": [],
         "abbreviation": "NHLBI"
       },
       {
@@ -662,14 +659,6 @@
         "category": "StudyNameReportPage"
       }
     ],
-    "dimensions": [
-      {
-          "@type": "Dimension",
-          "identifier": {},
-          "relatedIdentifiers": [],
-          "partOf": []
-      }
-    ],
     "distributions": [
       {
           "@type": "DatasetDistribution",
@@ -680,5 +669,5 @@
           }
       }
     ],
-    "types": []
+    "types": [ {} ]
 }
