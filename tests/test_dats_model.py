@@ -58,9 +58,9 @@ class DatasetValidation(TestCase):
     def test_validate_dataset_10(self):
         self.assertTrue(dats_model.validate_dataset(self.path, "BDbag-AGR-example.json", 1))
 
-
-   
-
+    def test_validate_dataset_11(self):
+        folder_path = os.path.join(self.path, "datacommons")
+        self.assertTrue(dats_model.validate_dataset(folder_path, "dats_phs000954.json", 1))
 
    
 
