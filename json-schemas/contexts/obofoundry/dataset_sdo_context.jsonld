@@ -14,14 +14,14 @@
       "@id": "sdo:distribution",
       "type": "sdo:DataDownload"
     },
-    "primaryPublications": "sdo:citation",
-    "citations": "sdo:citation",
+    "primaryPublications": "obo:IAO_0000301",
+    "citations": "obo:IAO_0000301",
     "producedBy": "sdo:producer",
     "creators": "sdo:creator",
-    "licenses": "sdo:license",
-    "isAbout": "sdo:about",
-    "hasPart": "sdo:hasPart",
-    "acknowledges": "sdo:funder",
-    "keywords": "sdo:keywords"
+    "licenses": "obo:SWO_0000002",
+    "isAbout": "obo:IAO_0000136",
+    "hasPart": "obo:BFO_0000051",
+    "acknowledges": "obo:IAO_0000324",
+    "keywords": "obo:IAO_0000629"
   }
 }
