@@ -2,7 +2,7 @@
   "@context": {
     "obo": "http://purl.obolibrary.org/obo/",
     "?" : "something that would resolve (not http://www.ebi.ac.uk/swo/)",
-    "DataRepository": "obo:NCIT_C114457",
+    "DataRepository": "obo:ERO_0001716",
     "name": {
       "@id": "obo:IAO_0000590",
       "@type": "obo:IAO_0000300"
