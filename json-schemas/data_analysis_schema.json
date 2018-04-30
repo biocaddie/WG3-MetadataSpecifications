@@ -97,19 +97,19 @@
       "minItems": 1
     },
     "uses": {
-            "description": "The instrument(s) or software(s) used to acquire the signal.",
-            "type": "array",
-            "items": {
-                "anyOf": [
-                    {
-                        "$ref": "instrument_schema.json#"
-                    },
-                    {
-                        "$ref": "software_schema.json#"
-                    }
-                ]
-            }
-     },
+      "description": "The instrument(s) or software(s) used to acquire the signal.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "instrument_schema.json#"
+          },
+          {
+            "$ref": "software_schema.json#"
+          }
+        ]
+      }
+    },
     "extraProperties": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
