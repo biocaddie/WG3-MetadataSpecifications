@@ -44,7 +44,10 @@
       "description": "A material from which this material originated.",
       "type" : "array",
       "items" : {
-        "$ref": "material_schema.json#"
+        "anyOf": [
+          { "$ref": "material_schema.json#"},
+          { "$ref": "anatomical_part_schema.json#" }
+        ]
       }
     },
     "spatialCoverage": {
