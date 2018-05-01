@@ -116,7 +116,11 @@
         },
         "producedBy" : {
             "description": "A study process which generated a given dataset, if any.",
-            "$ref" : "study_schema.json#"
+             "anyOf": [
+                 {"$ref" : "study_schema.json#"},
+                 {"$ref" : "data_acquisition_schema.json#"},
+                 {"$ref" : "data_analysis_schema.json#"}
+             ]
         },
         "creators" : {
             "description": "The person(s) or organization(s) which contributed to the creation of the dataset.",
