@@ -126,5 +126,5 @@
     }
   },
   "additionalProperties": false,
-  "required": [ "name", "input", "output" ]
+  "required": [ "name" ]
 }
