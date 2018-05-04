@@ -110,6 +110,13 @@
         ]
       }
     },
+    "measures": {
+      "description": "The dimension(s) being acquired as signal.",
+      "type": "array",
+      "items": {
+        "$ref": "dimension_schema.json#"
+      }
+    },
     "extraProperties": {
       "description": "Extra properties that do not fit in the previous specified attributes. ",
       "type": "array",
