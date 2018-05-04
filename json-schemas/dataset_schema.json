@@ -151,6 +151,8 @@
                     {"$ref" : "molecular_entity_schema.json#"},
                     {"$ref" : "anatomical_part_schema.json#"},
                     {"$ref" : "treatment_schema.json#"},
+                    {"$ref" : "material_schema.json#"},
+                    {"$ref" : "study_group_schema.json#"},
                     {"$ref" : "annotation_schema.json#"}
                 ]
             }
