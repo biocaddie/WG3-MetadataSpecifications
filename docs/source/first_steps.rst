@@ -65,7 +65,7 @@ Using the Dataset's "creators" property, DATS records the `Person <https://githu
 ----------------------------------------------
 
 DATS provides for a comprehensive description of the ways to access a Dataset. 
-This information can be reported in the *`Access <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/access_schema.json>`_* entity, that is part of *`DatasetDistribution <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dataset_distribution_schema.json>`_* as well as part of the description of a *`DataRepository <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/data_repository_schema.json>`_*.
+This information can be reported in the `Access <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/access_schema.json>`_ entity, that is part of `DatasetDistribution <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dataset_distribution_schema.json>`_ as well as part of the description of a `DataRepository <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/data_repository_schema.json>`_.
 It covers information such as the dataset landing page and/or access URL if available, a description of the type of access (such as download, remote access, remote service, enclave or not available) as well as any authorization or authentication needed to access the dataset. 
 
 
