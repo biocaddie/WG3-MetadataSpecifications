@@ -21,7 +21,7 @@ The nature of the information available in a dataset is recorded in the *DataTyp
 
 The DATS *DataType* covers four aspects of a dataset's nature: type of information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
 
-The DATS *`Dimension <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dimension_schema.json>`_.* entity is the object to use for reporting variables measured and for which data have been collected.
+The DATS `Dimension <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dimension_schema.json>`_. entity is the object to use for reporting variables measured and for which data have been collected.
 
 
 *Why* was the data produced?
