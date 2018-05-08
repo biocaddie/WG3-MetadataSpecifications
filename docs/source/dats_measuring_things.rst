@@ -23,6 +23,6 @@ DATS.Dimension should be typed (categorical, continuous)
 
 DATS.Dimension used from the following DATS objects:
 
-	DATS.`Material <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/material_schema.json>`_.characteristics.Dimension
+	DATS. `Material <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/material_schema.json>`_ .characteristics.Dimension
 
-	DATS.`DataAcquisition <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/data_acquisition_schema.json>`_.measures.Dimension
+	DATS. `DataAcquisition <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/data_acquisition_schema.json>`_ .measures.Dimension
