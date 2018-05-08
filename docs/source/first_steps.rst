@@ -17,11 +17,15 @@ The *Dataset* entity is also designed to declare which variables were measured a
 *What* is the dataset about?
 ----------------------------
 
-The nature of the information available in a dataset is recorded in the *DataType* entity.
+The nature of the information available in a dataset can be recorded via  the DATS `Dimension <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dimension_schema.json>`_ entity. It is the object to use for reporting variables measured and for which data have been collected.
 
-The DATS *DataType* covers four aspects of a dataset's nature: type of information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
+The DATS Dimension object can be qualitied using the DATS `DataType <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/data_type_schema.json>`_ entity.
 
-The DATS `Dimension <https://github.com/biocaddie/WG3-MetadataSpecifications/blob/master/json-schemas/dimension_schema.json>`_ entity is the object to use for reporting variables measured and for which data have been collected.
+The DATS *DataType* covers four aspects of a variable's nature: type of information (what the data is about), method (how the data was generated), platform (the instrumentation, software and reagents used to generate the data), and instrument (the specific device used to generate the data).
+
+Importantly, it is key to remember that Dataset may be constitutive parts of another Dataset. Each of these dataset parts can be used to describe a particular aspect of a dataset in greater details.
+For instance, a dataset describing a multi-omics experiment may contain several datasets, one focusing on transcriptomics, one focusing on metabolomics and so on.
+
 
 
 *Why* was the data produced?
