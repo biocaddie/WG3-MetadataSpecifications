@@ -26,7 +26,8 @@ Table of Contents:
 
    first_steps
    dats
-   dataset_material_counting_things
+   dats_material_counting_things
+   dats_measuring_things
    dataset_distribution
    dataset_creator
    dataset_about
