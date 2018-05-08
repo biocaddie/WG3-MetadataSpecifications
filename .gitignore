@@ -7,9 +7,13 @@ reated by https://www.gitignore.io
 
 /dats/docparser.py
 /dats/dats-core.rst
+/dats/__pycache__/
+/tests/__pycache__/__init__.cpython-34.pyc
+/tests/__pycache__/test_dats_model.cpython-34.pyc
 
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
 
 *.iml
 
