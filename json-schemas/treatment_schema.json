@@ -14,6 +14,7 @@
         }
       ]
     },
+    "@id": { "type": "string", "format": "uri" },
     "@type": { "type": "string", "enum": [ "Treatment" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"

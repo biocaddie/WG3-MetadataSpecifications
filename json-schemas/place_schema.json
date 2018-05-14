@@ -24,6 +24,7 @@
         }
       ]
     },
+    "@id": { "type": "string", "format": "uri" },
     "@type": { "type": "string", "enum": [ "Place" ]},
     "identifier": {
       "description": "Primary identifier for the place.",
