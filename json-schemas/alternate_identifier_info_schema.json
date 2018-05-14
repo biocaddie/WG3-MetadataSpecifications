@@ -14,6 +14,7 @@
         }
       ]
     },
+    "@id": { "type": "string", "format": "uri" },
     "@type": { "type": "string", "enum": [ "AlternateIdentifier" ]},
     "identifier": {
       "description": "An identifier or identifiers other than the primary Identifier applied to the resource being registered. (definition from DataCite)",

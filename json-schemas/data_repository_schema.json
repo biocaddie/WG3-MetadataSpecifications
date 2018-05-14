@@ -15,6 +15,7 @@
         }
       ]
     },
+    "@id": { "type": "string", "format": "uri" },
     "@type": { "type": "string", "enum": [ "DataRepository" ]},
     "identifier": {
       "$ref": "identifier_info_schema.json#"
