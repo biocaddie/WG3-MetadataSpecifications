@@ -8,6 +8,11 @@ The (work in progress) documentation about DATS can be found at [readthedocs](ht
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
+<span style="color:red">**Update**</span>
+
+Currently, DATS is being used and further refined under the new phase of the NIH Data Commons programme <a>https://commonfund.nih.gov/commons</a> and has its own <bold>[DATS GitHub organization](https://github.com/datatagsuite)</bold>. For the latest version refer to this new Github organization.
+
+
 ## Publications
 - Xiaoling Chen, Anupama E Gururaj, Burak Ozyurt, Ruiling Liu, Ergin Soysal, Trevor Cohen, Firat Tiryaki, Yueling Li, Nansu Zong, Min Jiang, Deevakar Rogith, Mandana Salimi, Hyeon-eui Kim, Philippe Rocca-Serra, Alejandra Gonzalez-Beltran, Claudiu Farcas, Todd Johnson, Ron Margolis, George Alter, Susanna-Assunta Sansone, Ian M Fore, Lucila Ohno-Machado, Jeffrey S Grethe, Hua Xu; DataMed – an open source discovery index for finding biomedical datasets, Journal of the American Medical Informatics Association, Volume 25, Issue 3, 1 March 2018, Pages 300–308, https://doi.org/10.1093/jamia/ocx121
 - Alejandra N Gonzalez-Beltran, John Campbell, Patrick Dunn, Diana Guijarro, Sanda Ionescu, Hyeoneui Kim, Jared Lyle, Jeffrey Wiser, Susanna-Assunta Sansone, Philippe Rocca-Serra; **Data discovery with DATS: exemplar adoptions and lessons learned**, *Journal of the American Medical Informatics Association*, Volume 25, Issue 1, 1 January 2018, Pages 13–16, [http://doi.org/10.1093/jamia/ocx119]( http://doi.org/10.1093/jamia/ocx119)
