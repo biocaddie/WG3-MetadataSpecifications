@@ -273,7 +273,7 @@
   "primaryPublications": [
     {
       "identifier": {
-        "identifier": "https://dx.doi.org/10.1186%2F1745-6215-13-126",
+        "identifier": "https://doi.org/10.1186%2F1745-6215-13-126",
         "identifierSource": "doi"
       },
       "alternateIdentifiers": [
