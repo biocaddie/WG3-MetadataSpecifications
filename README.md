@@ -8,9 +8,9 @@ The (work in progress) documentation about DATS can be found at [readthedocs](ht
 
 The material in this repository is distributed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
-<span style="color:red">**Update**</span>
+**Update**
 
-Currently, DATS is being used and further refined under the new phase of the NIH Data Commons programme <a>https://commonfund.nih.gov/commons</a> and has its own <bold>[DATS GitHub organization](https://github.com/datatagsuite)</bold>. For the latest version refer to this new Github organization.
+Currently, DATS is being used and further refined under the new phase of the [NIH Data Commons programme](https://commonfund.nih.gov/commons) and has its own **[DATS GitHub organization](https://github.com/datatagsuite)**. For the latest version refer to this new Github organization.
 
 
 ## Publications
