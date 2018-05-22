@@ -34,7 +34,7 @@
 					"value": "dualInstitution"
 				}
 			],
-			"landingPage": "http://doi.org/10.3886/ICPSR06849.v1",
+			"landingPage": "https://doi.org/10.3886/ICPSR06849.v1",
 			"types": [
 				{
 					"ontologyTermIRI": "",
