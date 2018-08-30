@@ -6,6 +6,8 @@
 Welcome to bioCADDIE DATS's documentation
 =========================================
 
+NOTE: this documentation has been replaced by the documentation at the `Data Tag Suite github organization <https://datatagsuite.github.io/docs/html/`_
+
 Introduction:
 -------------
 
